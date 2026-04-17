@@ -1,24 +1,24 @@
 {
   "date": "2026-04-17",
   "stats": {
-    "discovered": 42,
+    "discovered": 4,
     "fromPortals": 0,
-    "scraped": 42,
-    "scored": 42,
-    "highFit": 21,
+    "scraped": 4,
+    "scored": 4,
+    "highFit": 2,
     "scrapeFailures": 0,
     "scoreFailures": 0,
     "enriched": 0,
-    "addedToPipeline": 10
+    "addedToPipeline": 2
   },
   "jobs": [
     {
-      "title": "Business Data Analyst – Business process Lead/ Assistant Manager/Manager - Pune/Hyderabad - GO/JC/2485/2026",
-      "company": "Golden Opportunities",
-      "location": "Pune Division, Maharashtra, India",
-      "url": "https://in.linkedin.com/jobs/view/business-data-analyst-%E2%80%93-business-process-lead-assistant-manager-manager-pune-hyderabad-go-jc-2485-2026-at-golden-opportunities-4383132185",
+      "title": "Senior Analyst – Data Engineer With GCP",
+      "company": "Dreampath Services",
+      "location": "Chennai, Tamil Nadu, India",
+      "url": "https://in.linkedin.com/jobs/view/senior-analyst-%E2%80%93-data-engineer-with-gcp-at-dreampath-services-4401857710",
       "source": "linkedin",
-      "jobId": "2b362579c33c",
+      "jobId": "65f8292a219c",
       "score": 4.7,
       "grade": "A+",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -28,69 +28,15 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/business-data-analyst-%E2%80%93-business-process-lead-assistant-manager-manager-pune-hyderabad-go-jc-2485-2026-at-golden-opportunities-4383132185"
-    },
-    {
-      "title": "Adobe Experience Platform (AEP)    Data Engineer",
-      "company": "AIONOS",
-      "location": "Gurugram, Haryana, India",
-      "url": "https://in.linkedin.com/jobs/view/adobe-experience-platform-aep-data-engineer-at-aionos-4402932491",
-      "source": "linkedin",
-      "jobId": "e529010953fc",
-      "score": 4.7,
-      "grade": "A+",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/adobe-experience-platform-aep-data-engineer-at-aionos-4402932491"
-    },
-    {
-      "title": "Data Analyst-Senior II",
-      "company": "FedEx",
-      "location": "Pune Division, Maharashtra, India",
-      "url": "https://in.linkedin.com/jobs/view/data-analyst-senior-ii-at-fedex-4401742499",
-      "source": "linkedin",
-      "jobId": "c98a988ff9c4",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/data-analyst-senior-ii-at-fedex-4401742499"
-    },
-    {
-      "title": "Data Analyst-Senior II",
-      "company": "FedEx",
-      "location": "Pune Division, Maharashtra, India",
-      "url": "https://in.linkedin.com/jobs/view/data-analyst-senior-ii-at-fedex-4362466281",
-      "source": "linkedin",
-      "jobId": "59b6827c952a",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/data-analyst-senior-ii-at-fedex-4362466281"
+      "applyUrl": "https://in.linkedin.com/jobs/view/senior-analyst-%E2%80%93-data-engineer-with-gcp-at-dreampath-services-4401857710"
     },
     {
       "title": "Senior Data Analyst",
-      "company": "MongoDB",
-      "location": "Gurugram, Haryana, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-analyst-at-mongodb-4402996925",
+      "company": "Ramboll",
+      "location": "Chennai, Tamil Nadu, India",
+      "url": "https://in.linkedin.com/jobs/view/senior-data-analyst-at-ramboll-4402252285",
       "source": "linkedin",
-      "jobId": "04480cd8e441",
+      "jobId": "4a5cc2c23dc5",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -100,97 +46,7 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-analyst-at-mongodb-4402996925"
-    },
-    {
-      "title": "DQAA Senior Data Analyst",
-      "company": "EY",
-      "location": "Gurugram, Haryana, India",
-      "url": "https://in.linkedin.com/jobs/view/dqaa-senior-data-analyst-at-ey-4399766081",
-      "source": "linkedin",
-      "jobId": "9bb9648caafe",
-      "score": 4.1,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/dqaa-senior-data-analyst-at-ey-4399766081"
-    },
-    {
-      "title": "Data Engineering And Analytics - Business Analyst",
-      "company": "EY",
-      "location": "Gurugram, Haryana, India",
-      "url": "https://in.linkedin.com/jobs/view/data-engineering-and-analytics-business-analyst-at-ey-4399944488",
-      "source": "linkedin",
-      "jobId": "d37fc39a00ea",
-      "score": 4.1,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/data-engineering-and-analytics-business-analyst-at-ey-4399944488"
-    },
-    {
-      "title": "Lead Software Engineer - Platform Data Team",
-      "company": "HighLevel",
-      "location": "India",
-      "url": "https://in.linkedin.com/jobs/view/lead-software-engineer-platform-data-team-at-highlevel-4377370559",
-      "source": "linkedin",
-      "jobId": "e05314f460ad",
-      "score": 4.7,
-      "grade": "A+",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/lead-software-engineer-platform-data-team-at-highlevel-4377370559"
-    },
-    {
-      "title": "Senior Data Analyst",
-      "company": "Kamakhya Analytics Private Limited",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-analyst-at-kamakhya-analytics-private-limited-4401883284",
-      "source": "linkedin",
-      "jobId": "2d1a24da4f38",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-analyst-at-kamakhya-analytics-private-limited-4401883284"
-    },
-    {
-      "title": "Senior Data Analyst [T500-25085]",
-      "company": "Comply",
-      "location": "Kochi, Kerala, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-analyst-t500-25085-at-comply-4400563041",
-      "source": "linkedin",
-      "jobId": "390f40b7af90",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-analyst-t500-25085-at-comply-4400563041"
+      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-analyst-at-ramboll-4402252285"
     }
   ]
 }
