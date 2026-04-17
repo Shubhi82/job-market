@@ -46,7 +46,7 @@ const DRY_RUN       = process.env.DRY_RUN === 'true';
 const MAX_OUTPUT    = 10;
 const MIN_REMOTE    = 3;
 
-const PRIMARY_LOCS = ['pune', 'noida', 'gurugram', 'gurgaon', 'remote', 'work from home', 'wfh'];
+const PRIMARY_LOCS = ['hyderabad', 'pune', 'noida', 'gurugram', 'gurgaon', 'remote', 'work from home', 'wfh'];
 
 function locationTier(job) {
   const loc = (job.location || '').toLowerCase();
