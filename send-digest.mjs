@@ -23,7 +23,7 @@ function esc(str) {
     .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-const PRIMARY_LOCS = ['pune', 'noida', 'gurugram', 'gurgaon', 'remote', 'wfh', 'work from home'];
+const PRIMARY_LOCS = ['hyderabad', 'pune', 'noida', 'gurugram', 'gurgaon', 'remote', 'wfh', 'work from home'];
 function isPrimary(loc) {
   return PRIMARY_LOCS.some(l => (loc || '').toLowerCase().includes(l));
 }
