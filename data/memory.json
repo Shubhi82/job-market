@@ -1,0 +1,11 @@
+{
+  "seenJobs": [],
+  "appliedJobs": [],
+  "skippedJobs": [],
+  "skippedCompanies": [],
+  "preferenceSignals": { "strongFit": [], "weakFit": [] },
+  "lastRun": null,
+  "totalJobsDiscovered": 0,
+  "totalJobsScored": 0,
+  "totalHighFit": 0
+}
