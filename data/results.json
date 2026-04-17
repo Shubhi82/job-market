@@ -1,42 +1,24 @@
 {
   "date": "2026-04-17",
   "stats": {
-    "discovered": 4,
+    "discovered": 1,
     "fromPortals": 0,
-    "scraped": 4,
-    "scored": 4,
-    "highFit": 2,
+    "scraped": 1,
+    "scored": 1,
+    "highFit": 1,
     "scrapeFailures": 0,
     "scoreFailures": 0,
     "enriched": 0,
-    "addedToPipeline": 2
+    "addedToPipeline": 1
   },
   "jobs": [
     {
-      "title": "Senior Analyst – Data Engineer With GCP",
-      "company": "Dreampath Services",
+      "title": "Power BI Data Analyst / BI Developer",
+      "company": "Siemens",
       "location": "Chennai, Tamil Nadu, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-analyst-%E2%80%93-data-engineer-with-gcp-at-dreampath-services-4401857710",
+      "url": "https://in.linkedin.com/jobs/view/power-bi-data-analyst-bi-developer-at-siemens-4402720819",
       "source": "linkedin",
-      "jobId": "65f8292a219c",
-      "score": 4.7,
-      "grade": "A+",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-analyst-%E2%80%93-data-engineer-with-gcp-at-dreampath-services-4401857710"
-    },
-    {
-      "title": "Senior Data Analyst",
-      "company": "Ramboll",
-      "location": "Chennai, Tamil Nadu, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-analyst-at-ramboll-4402252285",
-      "source": "linkedin",
-      "jobId": "4a5cc2c23dc5",
+      "jobId": "cfa4727ebceb",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -46,7 +28,7 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-analyst-at-ramboll-4402252285"
+      "applyUrl": "https://in.linkedin.com/jobs/view/power-bi-data-analyst-bi-developer-at-siemens-4402720819"
     }
   ]
 }
