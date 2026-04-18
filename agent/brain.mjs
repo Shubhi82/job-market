@@ -33,7 +33,7 @@ function buildFallbackPlan(memory, goal, rationale) {
       'Data Governance Lead India work from home',
       'DataOps Engineer GCP India',
     ],
-    boards: ['linkedin', 'naukri', 'naukri_remote', 'iimjobs', 'foundit', 'indeed', 'timesjobs', 'google_jobs'],
+    boards: ['linkedin', 'naukri', 'naukri_remote', 'hirist', 'instahyre', 'iimjobs', 'foundit', 'indeed', 'timesjobs', 'google_jobs'],
     targetCount,
     avoidCompanies: memory.skippedCompanies || [],
     rationale,
@@ -126,7 +126,7 @@ Rules:
 - ALWAYS include at least 2 queries with "remote" or "work from home" to surface WFH roles
 - Include tech stack terms where useful: dbt, BigQuery, Collibra, AWS Glue, Redshift, Tableau
 - Include 1–2 broader fallback queries
-- boards: only ["linkedin","naukri","naukri_remote","iimjobs","foundit","indeed","timesjobs","google_jobs"]
+- boards: only ["linkedin","naukri","naukri_remote","hirist","instahyre","iimjobs","foundit","indeed","timesjobs","google_jobs"]
 - avoidCompanies = skippedCompanies from memory
 `.trim();
 
