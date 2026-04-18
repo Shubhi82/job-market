@@ -23,7 +23,7 @@ function esc(str) {
     .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-const PRIMARY_LOCS = ['pune', 'noida', 'gurugram', 'gurgaon', 'remote', 'wfh', 'work from home'];
+const PRIMARY_LOCS = ['hyderabad', 'pune', 'noida', 'gurugram', 'gurgaon', 'remote', 'wfh', 'work from home'];
 function isPrimary(loc) {
   return PRIMARY_LOCS.some(l => (loc || '').toLowerCase().includes(l));
 }
@@ -117,20 +117,53 @@ function deepDiveCard(job, index) {
 </div>`;
 }
 
+function jobSection(title, icon, headerColor, jobs, globalOffset) {
+  if (!jobs.length) return '';
+  const rows = jobs.map((job, i) => jobRow(job, globalOffset + i)).join('');
+  return `
+  <div style="padding:20px 28px 0;">
+    <div style="font-size:14px;font-weight:700;color:${headerColor};margin-bottom:10px;padding-bottom:6px;border-bottom:2px solid #d0d7de;">
+      ${icon} ${esc(title)} (${jobs.length})
+    </div>
+    <table style="width:100%;border-collapse:collapse;background:#fff;border:1px solid #d0d7de;border-radius:8px;overflow:hidden;">
+      <thead>
+        <tr style="background:#f6f8fa;border-bottom:2px solid #d0d7de;">
+          <th style="padding:10px 12px;text-align:left;font-size:11px;color:#57606a;text-transform:uppercase;letter-spacing:.5px;">#</th>
+          <th style="padding:10px 12px;text-align:left;font-size:11px;color:#57606a;text-transform:uppercase;letter-spacing:.5px;">Role</th>
+          <th style="padding:10px 12px;text-align:left;font-size:11px;color:#57606a;text-transform:uppercase;letter-spacing:.5px;">Location</th>
+          <th style="padding:10px 12px;text-align:left;font-size:11px;color:#57606a;text-transform:uppercase;letter-spacing:.5px;">Score</th>
+          <th style="padding:10px 12px;"></th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+}
+
 function buildHtml(data) {
-  const { date, jobs, stats = {} } = data;
-  const n = jobs.length;
+  const { date, stats = {} } = data;
+
+  // Support new 2-bucket format or fall back to splitting flat jobs array
+  const REMOTE_LOCS = ['remote', 'wfh', 'work from home'];
+  const isRemote = (j) => REMOTE_LOCS.some(r => (j.location || '').toLowerCase().includes(r));
+  const allJobs      = data.jobs || [];
+  const remoteJobs   = data.remoteJobs   || allJobs.filter(isRemote).slice(0, 5);
+  const locationJobs = data.locationJobs || allJobs.filter(j => !isRemote(j)).slice(0, 5);
+
   const displayDate = new Date(date + 'T00:00:00').toLocaleDateString('en-IN', {
     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
   });
-  const pipelineNote = stats.addedToPipeline > 0
-    ? `<p style="font-size:12px;color:#0969da;background:#ddf4ff;border:1px solid #b6e3ff;border-radius:6px;padding:8px 14px;margin:0 0 12px;">
-        ✅ ${stats.addedToPipeline} role(s) above queued in <strong>data/pipeline.md</strong> — run <code>/career-ops pipeline</code> for full A-G evaluation + PDF
-       </p>` : '';
 
-  const rows = jobs.map((job, i) => jobRow(job, i)).join('');
-  const enrichedJobs = jobs.filter(j => j.enrichment);
-  const deepDives = enrichedJobs.map((job) => deepDiveCard(job, jobs.indexOf(job))).join('');
+  const totalCount = remoteJobs.length + locationJobs.length;
+  const pipelineNote = stats.addedToPipeline > 0
+    ? `<div style="padding:16px 28px 0;">
+        <p style="font-size:12px;color:#0969da;background:#ddf4ff;border:1px solid #b6e3ff;border-radius:6px;padding:8px 14px;margin:0;">
+          ✅ ${stats.addedToPipeline} role(s) queued in <strong>data/pipeline.md</strong> — run <code>/career-ops pipeline</code> for full A-G evaluation + PDF
+        </p>
+       </div>` : '';
+
+  const enrichedJobs = [...remoteJobs, ...locationJobs].filter(j => j.enrichment);
+  const deepDives = enrichedJobs.map((job, i) => deepDiveCard(job, i)).join('');
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -143,30 +176,15 @@ function buildHtml(data) {
   </div>
 
   <div style="background:#0969da;padding:20px 28px 18px;">
-    <div style="font-size:22px;font-weight:700;color:#fff;">Top ${n} matched role${n !== 1 ? 's' : ''} today</div>
+    <div style="font-size:22px;font-weight:700;color:#fff;">Top ${totalCount} matched roles today</div>
     <div style="font-size:12px;color:#cae8ff;margin-top:3px;">
-      ★ = Pune / Noida / Gurugram / Remote &nbsp;·&nbsp;
-      <span style="background:rgba(255,255,255,0.15);padding:1px 7px;border-radius:8px;">direct</span> = company portal
+      🌐 ${remoteJobs.length} Remote &nbsp;·&nbsp; 📍 ${locationJobs.length} Pune / Noida / Hyderabad
     </div>
   </div>
 
-  <div style="padding:20px 28px 0;">
-    ${pipelineNote}
-    <table style="width:100%;border-collapse:collapse;background:#fff;border:1px solid #d0d7de;border-radius:8px;overflow:hidden;">
-      <thead>
-        <tr style="background:#f6f8fa;border-bottom:2px solid #d0d7de;">
-          <th style="padding:10px 12px;text-align:left;font-size:11px;color:#57606a;text-transform:uppercase;letter-spacing:.5px;">#</th>
-          <th style="padding:10px 12px;text-align:left;font-size:11px;color:#57606a;text-transform:uppercase;letter-spacing:.5px;">Role</th>
-          <th style="padding:10px 12px;text-align:left;font-size:11px;color:#57606a;text-transform:uppercase;letter-spacing:.5px;">Location</th>
-          <th style="padding:10px 12px;text-align:left;font-size:11px;color:#57606a;text-transform:uppercase;letter-spacing:.5px;">Score</th>
-          <th style="padding:10px 12px;"></th>
-        </tr>
-      </thead>
-      <tbody>
-        ${rows || '<tr><td colspan="5" style="padding:24px;text-align:center;color:#666;">No high-fit jobs found today.</td></tr>'}
-      </tbody>
-    </table>
-  </div>
+  ${pipelineNote}
+  ${jobSection('Remote — Work from Anywhere', '🌐', '#0969da', remoteJobs, 0)}
+  ${jobSection('Pune / Noida / Hyderabad', '📍', '#1a7f37', locationJobs, remoteJobs.length)}
 
   ${deepDives ? `
   <div style="padding:20px 28px 0;">
@@ -198,18 +216,24 @@ async function main() {
   catch (err) { console.error('[digest] Bad results.json:', err.message); process.exit(1); }
 
   const { jobs = [], date } = data;
-  if (jobs.length === 0) { console.log('[digest] No jobs — skipping email.'); return; }
+  const REMOTE_LOCS = ['remote', 'wfh', 'work from home'];
+  const isRemote = (j) => REMOTE_LOCS.some(r => (j.location || '').toLowerCase().includes(r));
+  const remoteJobs   = data.remoteJobs   || jobs.filter(isRemote).slice(0, 5);
+  const locationJobs = data.locationJobs || jobs.filter(j => !isRemote(j)).slice(0, 5);
+  const totalCount   = remoteJobs.length + locationJobs.length;
 
-  const enrichedCount = jobs.filter(j => j.enrichment).length;
-  const subject = `career-ops: ${jobs.length} matched roles — ${date}`;
+  if (totalCount === 0) { console.log('[digest] No jobs — skipping email.'); return; }
+
+  const enrichedCount = [...remoteJobs, ...locationJobs].filter(j => j.enrichment).length;
+  const subject = `career-ops: ${remoteJobs.length} remote + ${locationJobs.length} location roles — ${date}`;
   const html = buildHtml(data);
 
   if (DRY_RUN) {
     console.log(`\n[digest] DRY RUN · ${subject}`);
-    jobs.forEach((j, i) => {
-      const e = j.enrichment ? ' [enriched]' : '';
-      console.log(`  #${i+1} ${j.score}/5 · ${j.title} @ ${j.company} · ${j.location}${e}`);
-    });
+    console.log('  --- Remote ---');
+    remoteJobs.forEach((j, i) => console.log(`  R${i+1} ${j.score}/5 · ${j.title} @ ${j.company}`));
+    console.log('  --- Pune/Noida/Hyd ---');
+    locationJobs.forEach((j, i) => console.log(`  L${i+1} ${j.score}/5 · ${j.title} @ ${j.company} · ${j.location}`));
     return;
   }
 
@@ -227,7 +251,7 @@ async function main() {
   });
 
   if (error) { console.error('[digest] Resend error:', error); process.exit(1); }
-  console.log(`[digest] Sent · ID: ${sent?.id} · ${jobs.length} roles · ${enrichedCount} with deep dives`);
+  console.log(`[digest] Sent · ID: ${sent?.id} · ${remoteJobs.length} remote + ${locationJobs.length} location roles · ${enrichedCount} with deep dives`);
 }
 
 main().catch(err => { console.error('[digest] Fatal:', err); process.exit(1); });

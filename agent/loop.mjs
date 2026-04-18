@@ -41,12 +41,18 @@ import {
 const __dirname     = path.dirname(fileURLToPath(import.meta.url));
 const RESULTS_PATH  = path.join(__dirname, '../data/results.json');
 
-const MAX_PASSES    = 2;
-const DRY_RUN       = process.env.DRY_RUN === 'true';
-const MAX_OUTPUT    = 10;
-const MIN_REMOTE    = 3;
+const MAX_PASSES      = 2;
+const DRY_RUN         = process.env.DRY_RUN === 'true';
+const REMOTE_LIMIT    = 5;
+const LOCATION_LIMIT  = 5;
 
-const PRIMARY_LOCS = ['pune', 'noida', 'gurugram', 'gurgaon', 'remote', 'work from home', 'wfh'];
+const REMOTE_LOCS   = ['remote', 'wfh', 'work from home'];
+const PRIMARY_LOCS  = ['hyderabad', 'pune', 'noida', 'gurugram', 'gurgaon', 'remote', 'work from home', 'wfh'];
+
+function isRemoteJob(job) {
+  const loc = (job.location || '').toLowerCase();
+  return REMOTE_LOCS.some(r => loc.includes(r));
+}
 
 function locationTier(job) {
   const loc = (job.location || '').toLowerCase();
@@ -190,25 +196,22 @@ async function runLoop() {
   memory.totalHighFit += stats.highFit;
   saveMemory(memory);
 
-  // ── Sort + cap results ─────────────────────────────────────────────────────
-  const isRemote = (j) => ['remote', 'wfh', 'work from home'].some(r => (j.location || '').toLowerCase().includes(r));
-  const remoteJobs    = highFitJobs.filter(isRemote).sort((a, b) => b.score - a.score);
-  const nonRemoteJobs = highFitJobs.filter(j => !isRemote(j))
-    .sort((a, b) => locationTier(a) - locationTier(b) || b.score - a.score);
+  // ── Sort + cap results: 5 remote + 5 Pune/Noida ───────────────────────────
+  const remoteSection   = highFitJobs.filter(isRemoteJob)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, REMOTE_LIMIT);
 
-  const reservedRemote = remoteJobs.slice(0, MIN_REMOTE);
-  const remaining      = MAX_OUTPUT - reservedRemote.length;
-  const extraRemote    = remoteJobs.slice(MIN_REMOTE);
-  const competitive    = [...extraRemote, ...nonRemoteJobs]
+  const locationSection = highFitJobs.filter(j => !isRemoteJob(j))
     .sort((a, b) => locationTier(a) - locationTier(b) || b.score - a.score)
-    .slice(0, remaining);
-  const rankedJobs = [...reservedRemote, ...competitive];
+    .slice(0, LOCATION_LIMIT);
 
-  console.log(`\n[loop] Top ${rankedJobs.length} jobs after ranking:`);
-  rankedJobs.forEach((j, i) => {
-    const tier = locationTier(j) === 0 ? '★ primary' : '  secondary';
-    console.log(`  ${i + 1}. [${tier}] ${j.grade} ${j.score} — ${j.title} @ ${j.company} (${j.location || 'unknown'})`);
-  });
+  const rankedJobs = [...remoteSection, ...locationSection];
+
+  console.log(`\n[loop] ${remoteSection.length} remote + ${locationSection.length} Pune/Noida/Hyd jobs:`);
+  remoteSection.forEach((j, i) =>
+    console.log(`  R${i + 1}. [remote] ${j.grade} ${j.score} — ${j.title} @ ${j.company}`));
+  locationSection.forEach((j, i) =>
+    console.log(`  L${i + 1}. [${j.location || 'unknown'}] ${j.grade} ${j.score} — ${j.title} @ ${j.company}`));
 
   // ── Add high-fit jobs to career-ops pipeline.md ────────────────────────────
   if (!DRY_RUN) {
@@ -259,7 +262,14 @@ async function runLoop() {
   console.log('========================================\n');
 
   // ── Write results for send-digest.mjs ─────────────────────────────────────
-  const output = { date: today, stats, jobs: rankedJobs.map(({ description, ...rest }) => rest) };
+  const strip = ({ description, ...rest }) => rest;
+  const output = {
+    date: today,
+    stats,
+    jobs: rankedJobs.map(strip),
+    remoteJobs: remoteSection.map(strip),
+    locationJobs: locationSection.map(strip),
+  };
   writeFileSync(RESULTS_PATH, JSON.stringify(output, null, 2), 'utf8');
   console.log(`[loop] Results written to data/results.json`);
   if (stats.addedToPipeline > 0) {

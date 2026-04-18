@@ -26,14 +26,14 @@ function buildFallbackPlan(memory, goal, rationale) {
   const targetCount = targetMatch ? Number(targetMatch[1]) : 5;
   return {
     queries: [
-      'Data Governance Analyst 3-5 years India',
-      'Senior Data Analyst Data Governance India',
-      'Data Platform Engineer 4 years India remote',
-      'Analytics Engineer dbt BigQuery India',
-      'Data Governance Lead India remote',
-      'Senior Business Analyst Data Analytics India',
+      'Senior Data Engineer 3-5 years India',
+      'Data Platform Engineer BigQuery dbt India',
+      'Data Governance Manager Collibra India',
+      'Analytics Engineer dbt BigQuery India remote',
+      'Data Governance Lead India work from home',
+      'DataOps Engineer GCP India',
     ],
-    boards: ['linkedin', 'naukri', 'iimjobs', 'foundit', 'indeed', 'timesjobs', 'google_jobs'],
+    boards: ['linkedin', 'naukri', 'naukri_remote', 'iimjobs', 'foundit', 'indeed', 'timesjobs', 'google_jobs'],
     targetCount,
     avoidCompanies: memory.skippedCompanies || [],
     rationale,
@@ -120,9 +120,13 @@ Required shape:
 Rules:
 - CRITICAL: candidate has 4 years experience — queries MUST target 3–5 year roles
 - DO NOT generate queries for "Senior Manager", "Director", "VP", "Head of", "Principal"
-- Good titles: Data Analyst, Senior Data Analyst, Data Scientist, Analytics Lead, Data Governance Analyst/Lead, BI Lead, Analytics Engineer, Data Platform Engineer
+- Primary titles: Senior Data Engineer, Data Platform Engineer, Data Governance Manager, Data Governance Lead
+- Secondary titles: Analytics Engineer, DataOps Engineer, dbt Engineer, BI Engineer, Data Quality Lead, Data Catalog Engineer, ML Platform Engineer
+- Fallback titles: Data Engineer, Analytics Lead, Data Manager
+- ALWAYS include at least 2 queries with "remote" or "work from home" to surface WFH roles
+- Include tech stack terms where useful: dbt, BigQuery, Collibra, AWS Glue, Redshift, Tableau
 - Include 1–2 broader fallback queries
-- boards: only ["linkedin","naukri","iimjobs","foundit","indeed","timesjobs","google_jobs"]
+- boards: only ["linkedin","naukri","naukri_remote","iimjobs","foundit","indeed","timesjobs","google_jobs"]
 - avoidCompanies = skippedCompanies from memory
 `.trim();
 
