@@ -32,6 +32,10 @@ function buildFallbackPlan(memory, goal, rationale) {
       'Analytics Engineer dbt BigQuery India remote',
       'Data Governance Lead India work from home',
       'DataOps Engineer GCP India',
+      'Data Privacy Engineer GDPR India remote',
+      'GRC Data Analyst governance risk compliance India',
+      'Risk Intelligence Engineer AWS cybersecurity India',
+      'DLP Analyst Symantec data loss prevention India',
     ],
     boards: ['linkedin', 'naukri', 'naukri_remote', 'hirist', 'instahyre', 'iimjobs', 'foundit', 'indeed', 'timesjobs', 'google_jobs'],
     targetCount,
@@ -120,14 +124,17 @@ Required shape:
 Rules:
 - CRITICAL: candidate has 4 years experience — queries MUST target 3–5 year roles
 - DO NOT generate queries for "Senior Manager", "Director", "VP", "Head of", "Principal"
-- Primary titles: Senior Data Engineer, Data Platform Engineer, Data Governance Manager, Data Governance Lead
-- Secondary titles: Analytics Engineer, DataOps Engineer, dbt Engineer, BI Engineer, Data Quality Lead, Data Catalog Engineer, ML Platform Engineer
-- Fallback titles: Data Engineer, Analytics Lead, Data Manager
+- Primary titles: Senior Data Engineer, Data Platform Engineer, Data Governance Manager, Data Governance Lead, Data Privacy Engineer, GRC Data Analyst
+- Secondary titles: Analytics Engineer, DataOps Engineer, dbt Engineer, BI Engineer, Data Quality Lead, Data Catalog Engineer, ML Platform Engineer, Risk Intelligence Engineer, Privacy Program Manager, Information Security Data Analyst, Cyber Risk Data Engineer, Compliance Data Engineer
+- Fallback titles: Data Engineer, Analytics Lead, Data Manager, Data Steward
 - ALWAYS include at least 2 queries with "remote" or "work from home" to surface WFH roles
-- Include tech stack terms where useful: dbt, BigQuery, Collibra, AWS Glue, Redshift, Tableau
+- ALWAYS include at least 1 query targeting privacy/GRC: "Data Privacy Engineer", "GRC Data Analyst", "privacy governance", "DLP analyst"
+- ALWAYS include at least 1 query targeting risk/security data: "Risk Intelligence", "Cyber Risk Data", "vulnerability management data", "security analytics"
+- Include tech stack terms where useful: dbt, BigQuery, Collibra, AWS Glue, Redshift, Tableau, Symantec DLP, PBOR, fund administration
 - Include 1–2 broader fallback queries
 - boards: only ["linkedin","naukri","naukri_remote","hirist","instahyre","iimjobs","foundit","indeed","timesjobs","google_jobs"]
 - avoidCompanies = skippedCompanies from memory
+- Candidate background spans: fund data (PBOR, private markets, Collibra), privacy engineering (GDPR, launch governance, Buganizer/Culvert pipelines), risk intelligence (AWS ETL, vulnerability mgmt, IAM, SAST/DAST), ML governance (RAI, GenAI KPIs), DLP (Symantec, insider threat, PII classification)
 `.trim();
 
   console.log('[brain] Calling Gemini to build search plan...');
