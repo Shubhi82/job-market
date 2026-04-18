@@ -74,8 +74,7 @@ jobs:
           git config user.email "career-ops-agent@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
 
-          git add data/memory.json data/tracker.tsv data/scan-history.tsv data/results.json || true
-          git add data/pipeline.md || true
+          git add data/memory.json data/tracker.tsv data/results.json || true
           git add interview-prep/story-bank.md || true
 
           if git diff --cached --quiet; then
@@ -83,6 +82,8 @@ jobs:
           else
             DATE=$(date -u +"%Y-%m-%d")
             git commit -m "agent run ${DATE} — $(git diff --cached --stat | tail -1)"
-            git push origin HEAD
+            # Pull remote changes (rebase) before pushing to avoid rejection
+            git pull --rebase origin main
+            git push origin HEAD:main
             echo "Changes committed and pushed."
           fi
