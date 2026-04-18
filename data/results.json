@@ -1,34 +1,15 @@
 {
-  "date": "2026-04-17",
+  "date": "2026-04-18",
   "stats": {
     "discovered": 1,
     "fromPortals": 0,
     "scraped": 1,
     "scored": 1,
-    "highFit": 1,
+    "highFit": 0,
     "scrapeFailures": 0,
     "scoreFailures": 0,
     "enriched": 0,
-    "addedToPipeline": 1
+    "addedToPipeline": 0
   },
-  "jobs": [
-    {
-      "title": "Power BI Data Analyst / BI Developer",
-      "company": "Siemens",
-      "location": "Chennai, Tamil Nadu, India",
-      "url": "https://in.linkedin.com/jobs/view/power-bi-data-analyst-bi-developer-at-siemens-4402720819",
-      "source": "linkedin",
-      "jobId": "cfa4727ebceb",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/power-bi-data-analyst-bi-developer-at-siemens-4402720819"
-    }
-  ]
+  "jobs": []
 }
