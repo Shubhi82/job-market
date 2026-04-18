@@ -218,10 +218,19 @@ async function main() {
   const { jobs = [], date } = data;
   const REMOTE_LOCS = ['remote', 'wfh', 'work from home'];
   const isRemote = (j) => REMOTE_LOCS.some(r => (j.location || '').toLowerCase().includes(r));
-  const remoteJobs   = data.remoteJobs   || jobs.filter(isRemote).slice(0, 5);
-  const locationJobs = data.locationJobs || jobs.filter(j => !isRemote(j)).slice(0, 5);
-  const totalCount   = remoteJobs.length + locationJobs.length;
 
+  // Prefer pre-bucketed arrays; fall back to splitting flat jobs array
+  let remoteJobs   = data.remoteJobs   ?? jobs.filter(isRemote).slice(0, 5);
+  let locationJobs = data.locationJobs ?? jobs.filter(j => !isRemote(j)).slice(0, 5);
+
+  // If buckets are empty but there ARE jobs (location just says "India"),
+  // put them all in locationJobs so the email always sends
+  const allHighFit = [...remoteJobs, ...locationJobs];
+  if (allHighFit.length === 0 && jobs.length > 0) {
+    locationJobs = jobs.slice(0, 10);
+  }
+
+  const totalCount = remoteJobs.length + locationJobs.length;
   if (totalCount === 0) { console.log('[digest] No jobs — skipping email.'); return; }
 
   const enrichedCount = [...remoteJobs, ...locationJobs].filter(j => j.enrichment).length;
