@@ -1,7 +1,7 @@
 /**
  * agent/discover.mjs
- * Dynamic job discovery — searches LinkedIn, Naukri, Indeed, Google Jobs,
- * iimjobs, Foundit, and TimesJobs using Playwright.
+ * Dynamic job discovery — searches LinkedIn, Naukri (standard + WFH), Indeed,
+ * Google Jobs, iimjobs, Foundit, and TimesJobs using Playwright.
  * Returns raw job listings for scraping + scoring.
  */
 
@@ -9,24 +9,18 @@ import { chromium } from 'playwright';
 import { makeJobId } from './memory.mjs';
 
 // ── URL canonicalisation ──────────────────────────────────────────────────────
-// Strip tracking/session params so the same physical job always gets the same ID.
 
 const STRIP_PARAMS = new Set([
-  'refId', 'trackingId', 'position', 'pageNum',           // LinkedIn
-  'src', 'sid', 'sn', 'fr', 'ut',                         // Naukri
-  'from', 'vjk', 'jsa',                                   // Indeed
-  'utm_source', 'utm_medium', 'utm_campaign', 'utm_term',  // generic UTM
+  'refId', 'trackingId', 'position', 'pageNum',
+  'src', 'sid', 'sn', 'fr', 'ut',
+  'from', 'vjk', 'jsa',
+  'utm_source', 'utm_medium', 'utm_campaign', 'utm_term',
 ]);
 
 function canonicalUrl(raw) {
   try {
     const u = new URL(raw);
-    // For LinkedIn, the canonical ID is in the path — drop all query params
-    if (u.hostname.includes('linkedin.com')) {
-      u.search = '';
-      return u.toString();
-    }
-    // For others, strip known tracking params only
+    if (u.hostname.includes('linkedin.com')) { u.search = ''; return u.toString(); }
     for (const p of STRIP_PARAMS) u.searchParams.delete(p);
     return u.toString();
   } catch {
@@ -37,57 +31,58 @@ function canonicalUrl(raw) {
 // ── Board scrapers ─────────────────────────────────────────────────────────────
 
 /**
- * LinkedIn Jobs — searches with posted-in-last-7-days filter to widen results.
- * Uses canonical URLs (no tracking params) so dedup works correctly.
+ * LinkedIn Jobs — two passes per query: India-wide + Remote-only (f_WT=2).
+ * f_TPR=r604800 = last 7 days | f_E=3,4 = Associate + Mid-Senior level.
  */
-async function searchLinkedIn(page, query, maxResults = 15) {
+async function searchLinkedIn(page, query, maxResults = 20) {
   const results = [];
-  try {
-    // f_TPR=r604800 = last 7 days | f_E=3,4 = Associate + Mid-Senior (3-5 yrs exp)
-    const url = `https://www.linkedin.com/jobs/search/?keywords=${encodeURIComponent(query)}&location=India&f_TPR=r604800&f_E=3%2C4`;
-    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-    await page.waitForTimeout(3000);
+  const urls = [
+    `https://www.linkedin.com/jobs/search/?keywords=${encodeURIComponent(query)}&location=India&f_TPR=r604800&f_E=3%2C4`,
+    `https://www.linkedin.com/jobs/search/?keywords=${encodeURIComponent(query)}&location=India&f_TPR=r604800&f_E=3%2C4&f_WT=2`,
+  ];
 
-    const jobs = await page.$$eval(
-      'ul.jobs-search__results-list li',
-      (items) =>
-        items.slice(0, 20).map((el) => ({
-          title: el.querySelector('.base-search-card__title')?.textContent?.trim() || '',
-          company: el.querySelector('.base-search-card__subtitle')?.textContent?.trim() || '',
-          location: el.querySelector('.job-search-card__location')?.textContent?.trim() || '',
-          url: el.querySelector('a.base-card__full-link')?.href || '',
-        }))
-    );
+  for (const url of urls) {
+    try {
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+      await page.waitForTimeout(3000);
 
-    for (const j of jobs) {
-      if (j.title && j.url) {
-        const canon = canonicalUrl(j.url);
-        results.push({ ...j, url: canon, source: 'linkedin', jobId: makeJobId(canon, j.title, j.company) });
+      const jobs = await page.$$eval(
+        'ul.jobs-search__results-list li',
+        (items) =>
+          items.slice(0, 20).map((el) => ({
+            title:    el.querySelector('.base-search-card__title')?.textContent?.trim() || '',
+            company:  el.querySelector('.base-search-card__subtitle')?.textContent?.trim() || '',
+            location: el.querySelector('.job-search-card__location')?.textContent?.trim() || '',
+            url:      el.querySelector('a.base-card__full-link')?.href || '',
+          }))
+      );
+
+      for (const j of jobs) {
+        if (j.title && j.url) {
+          const canon = canonicalUrl(j.url);
+          results.push({ ...j, url: canon, source: 'linkedin', jobId: makeJobId(canon, j.title, j.company) });
+        }
       }
+    } catch (err) {
+      console.warn(`[discover] LinkedIn search failed for "${query}": ${err.message}`);
     }
-  } catch (err) {
-    console.warn(`[discover] LinkedIn search failed for "${query}": ${err.message}`);
   }
+
   return results.slice(0, maxResults);
 }
 
 /**
- * Naukri.com — uses search page with multiple selector fallbacks
- * (Naukri redesigned their HTML; we try current and legacy selectors).
+ * Naukri.com — standard search filtered to 3–5 years experience.
  */
 async function searchNaukri(page, query, maxResults = 15) {
   const results = [];
   try {
-    // experienceRange=3-5 filters to 3–5 years experience on Naukri
     const url = `https://www.naukri.com/jobs-in-india?k=${encodeURIComponent(query)}&experienceMin=3&experienceMax=5&nignbevent_src=jobsearchDesk`;
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 35000 });
     await page.waitForTimeout(4000);
 
-    // Try current Naukri structure first, then legacy selectors
     const jobs = await page.evaluate(() => {
       const found = [];
-
-      // Selector set A — post-2024 redesign
       const wrappers = document.querySelectorAll('.srp-jobtuple-wrapper, [data-job-id], .cust-job-tuple');
       if (wrappers.length > 0) {
         wrappers.forEach((el) => {
@@ -96,30 +91,27 @@ async function searchNaukri(page, query, maxResults = 15) {
           const locEl = el.querySelector('.loc, .location, [class*="loc"]');
           if (titleEl) {
             found.push({
-              title: titleEl.textContent?.trim() || titleEl.getAttribute('title') || '',
-              company: companyEl?.textContent?.trim() || '',
+              title:    titleEl.textContent?.trim() || titleEl.getAttribute('title') || '',
+              company:  companyEl?.textContent?.trim() || '',
               location: locEl?.textContent?.trim() || '',
-              url: titleEl.href || titleEl.getAttribute('href') || '',
+              url:      titleEl.href || titleEl.getAttribute('href') || '',
             });
           }
         });
       }
-
-      // Selector set B — legacy
       if (found.length === 0) {
         document.querySelectorAll('article.jobTuple').forEach((el) => {
           const titleEl = el.querySelector('a.title');
           if (titleEl) {
             found.push({
-              title: titleEl.textContent?.trim() || '',
-              company: el.querySelector('.subTitle')?.textContent?.trim() || '',
+              title:    titleEl.textContent?.trim() || '',
+              company:  el.querySelector('.subTitle')?.textContent?.trim() || '',
               location: el.querySelector('.location')?.textContent?.trim() || '',
-              url: titleEl.href || '',
+              url:      titleEl.href || '',
             });
           }
         });
       }
-
       return found.slice(0, 20);
     });
 
@@ -136,12 +128,60 @@ async function searchNaukri(page, query, maxResults = 15) {
 }
 
 /**
+ * Naukri Work-From-Home — dedicated WFH/remote search on Naukri.
+ * Uses Naukri's /remote-jobs and /work-from-home-jobs paths.
+ */
+async function searchNaukriRemote(page, query, maxResults = 15) {
+  const results = [];
+  const urls = [
+    `https://www.naukri.com/remote-jobs?k=${encodeURIComponent(query)}&experienceMin=3&experienceMax=5`,
+    `https://www.naukri.com/work-from-home-jobs?k=${encodeURIComponent(query)}&experienceMin=3&experienceMax=5`,
+  ];
+
+  for (const url of urls) {
+    try {
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 35000 });
+      await page.waitForTimeout(4000);
+
+      const jobs = await page.evaluate(() => {
+        const found = [];
+        const wrappers = document.querySelectorAll('.srp-jobtuple-wrapper, [data-job-id], .cust-job-tuple');
+        wrappers.forEach((el) => {
+          const titleEl = el.querySelector('a.title, .title a, a[title]');
+          const companyEl = el.querySelector('.comp-name, .company-name, [class*="comp"]');
+          const locEl = el.querySelector('.loc, .location, [class*="loc"]');
+          if (titleEl) {
+            found.push({
+              title:    titleEl.textContent?.trim() || titleEl.getAttribute('title') || '',
+              company:  companyEl?.textContent?.trim() || '',
+              location: locEl?.textContent?.trim() || 'Remote',
+              url:      titleEl.href || titleEl.getAttribute('href') || '',
+            });
+          }
+        });
+        return found.slice(0, 20);
+      });
+
+      for (const j of jobs) {
+        if (j.title && j.url) {
+          const canon = canonicalUrl(j.url);
+          results.push({ ...j, url: canon, source: 'naukri_remote', jobId: makeJobId(canon, j.title, j.company) });
+        }
+      }
+    } catch (err) {
+      console.warn(`[discover] Naukri remote search failed for "${query}": ${err.message}`);
+    }
+  }
+
+  return results.slice(0, maxResults);
+}
+
+/**
  * Indeed India
  */
 async function searchIndeed(page, query, maxResults = 15) {
   const results = [];
   try {
-    // explvl=mid_level targets ~3-5 years experience on Indeed
     const url = `https://in.indeed.com/jobs?q=${encodeURIComponent(query)}&l=India&fromage=7&explvl=mid_level`;
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
     await page.waitForTimeout(3000);
@@ -150,8 +190,8 @@ async function searchIndeed(page, query, maxResults = 15) {
       'div.job_seen_beacon',
       (items) =>
         items.slice(0, 20).map((el) => ({
-          title: el.querySelector('[data-testid="jobTitle"] span')?.textContent?.trim() || '',
-          company: el.querySelector('[data-testid="company-name"]')?.textContent?.trim() || '',
+          title:    el.querySelector('[data-testid="jobTitle"] span')?.textContent?.trim() || '',
+          company:  el.querySelector('[data-testid="company-name"]')?.textContent?.trim() || '',
           location: el.querySelector('[data-testid="text-location"]')?.textContent?.trim() || '',
           url: el.querySelector('a[data-jk]')
             ? 'https://in.indeed.com' + el.querySelector('a[data-jk]')?.getAttribute('href')
@@ -183,7 +223,6 @@ async function searchIimjobs(page, query, maxResults = 15) {
 
     const jobs = await page.evaluate(() => {
       const found = [];
-      // iimjobs job cards
       const cards = document.querySelectorAll(
         '.job-list-item, .job-item, .job-wrap, [class*="joblist"], li[id*="job"]'
       );
@@ -193,10 +232,10 @@ async function searchIimjobs(page, query, maxResults = 15) {
         const locEl = el.querySelector('.location, [class*="location"], .city');
         if (titleEl) {
           found.push({
-            title: titleEl.textContent?.trim() || '',
-            company: companyEl?.textContent?.trim() || '',
+            title:    titleEl.textContent?.trim() || '',
+            company:  companyEl?.textContent?.trim() || '',
             location: locEl?.textContent?.trim() || '',
-            url: titleEl.href || '',
+            url:      titleEl.href || '',
           });
         }
       });
@@ -216,12 +255,13 @@ async function searchIimjobs(page, query, maxResults = 15) {
 }
 
 /**
- * Foundit (foundit.in) — formerly Monster India
+ * Foundit (foundit.in) — formerly Monster India.
+ * No experience code filter — rely on query keywords and Gemini scoring.
  */
 async function searchFoundit(page, query, maxResults = 15) {
   const results = [];
   try {
-    const url = `https://www.foundit.in/srp/results?query=${encodeURIComponent(query)}&location=India&experience=8`;
+    const url = `https://www.foundit.in/srp/results?query=${encodeURIComponent(query)}&location=India`;
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 35000 });
     await page.waitForTimeout(4000);
 
@@ -236,10 +276,10 @@ async function searchFoundit(page, query, maxResults = 15) {
         const locEl = el.querySelector('.location, [class*="location"]');
         if (titleEl) {
           found.push({
-            title: titleEl.textContent?.trim() || '',
-            company: companyEl?.textContent?.trim() || '',
+            title:    titleEl.textContent?.trim() || '',
+            company:  companyEl?.textContent?.trim() || '',
             location: locEl?.textContent?.trim() || '',
-            url: titleEl.href || '',
+            url:      titleEl.href || '',
           });
         }
       });
@@ -277,10 +317,10 @@ async function searchTimesjobs(page, query, maxResults = 15) {
         const locEl = el.querySelector('ul.top-jd-dtl li:first-child, .location');
         if (titleEl) {
           found.push({
-            title: titleEl.textContent?.trim() || '',
-            company: companyEl?.textContent?.trim() || '',
+            title:    titleEl.textContent?.trim() || '',
+            company:  companyEl?.textContent?.trim() || '',
             location: locEl?.textContent?.trim() || '',
-            url: titleEl.href || '',
+            url:      titleEl.href || '',
           });
         }
       });
@@ -300,89 +340,98 @@ async function searchTimesjobs(page, query, maxResults = 15) {
 }
 
 /**
- * Google Jobs search — parses organic results linking to job boards
+ * Google Jobs — organic search linking to Naukri, LinkedIn, iimjobs,
+ * Hirist, Instahyre, Foundit, and company career pages.
+ * Two passes: India-wide + remote-only.
  */
-async function searchGoogleJobs(page, query, maxResults = 10) {
+async function searchGoogleJobs(page, query, maxResults = 15) {
   const results = [];
-  try {
-    const fullQuery = `${query} jobs India site:linkedin.com OR site:naukri.com OR site:indeed.com OR site:iimjobs.com OR site:foundit.in`;
-    const url = `https://www.google.com/search?q=${encodeURIComponent(fullQuery)}&tbs=qdr:w`;
-    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-    await page.waitForTimeout(2000);
+  const domainFilter = 'site:linkedin.com OR site:naukri.com OR site:indeed.com OR site:iimjobs.com OR site:foundit.in OR site:hirist.tech OR site:instahyre.com OR site:careers';
 
-    const links = await page.$$eval('div#search a[href]', (els) =>
-      els
-        .map((a) => ({ href: a.href, text: a.innerText?.trim() }))
-        .filter(
-          (l) =>
-            l.href &&
-            !l.href.includes('google.com') &&
-            l.text.length > 10 &&
-            (l.href.includes('linkedin.com/jobs') ||
-              l.href.includes('naukri.com') ||
-              l.href.includes('indeed.com') ||
-              l.href.includes('iimjobs.com') ||
-              l.href.includes('foundit.in') ||
-              l.href.includes('careers') ||
-              l.href.includes('/jobs/'))
-        )
-        .slice(0, 15)
-    );
+  const searches = [
+    `${query} jobs India ${domainFilter}`,
+    `${query} remote OR "work from home" India ${domainFilter}`,
+  ];
 
-    for (const link of links) {
-      const title = link.text.split('\n')[0].slice(0, 120);
-      const canon = canonicalUrl(link.href);
-      results.push({
-        title,
-        company: '',
-        location: 'India',
-        url: canon,
-        source: 'google_jobs',
-        jobId: makeJobId(canon, title, ''),
-      });
+  for (const fullQuery of searches) {
+    try {
+      const url = `https://www.google.com/search?q=${encodeURIComponent(fullQuery)}&tbs=qdr:w`;
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
+      await page.waitForTimeout(2000);
+
+      const links = await page.$$eval('div#search a[href]', (els) =>
+        els
+          .map((a) => ({ href: a.href, text: a.innerText?.trim() }))
+          .filter(
+            (l) =>
+              l.href &&
+              !l.href.includes('google.com') &&
+              l.text.length > 10 &&
+              (l.href.includes('linkedin.com/jobs') ||
+                l.href.includes('naukri.com') ||
+                l.href.includes('indeed.com') ||
+                l.href.includes('iimjobs.com') ||
+                l.href.includes('foundit.in') ||
+                l.href.includes('hirist.tech') ||
+                l.href.includes('instahyre.com') ||
+                l.href.includes('careers') ||
+                l.href.includes('/jobs/'))
+          )
+          .slice(0, 15)
+      );
+
+      for (const link of links) {
+        const title = link.text.split('\n')[0].slice(0, 120);
+        const canon = canonicalUrl(link.href);
+        results.push({
+          title,
+          company:  '',
+          location: fullQuery.includes('remote') ? 'Remote' : 'India',
+          url:      canon,
+          source:   'google_jobs',
+          jobId:    makeJobId(canon, title, ''),
+        });
+      }
+    } catch (err) {
+      console.warn(`[discover] Google Jobs search failed for "${query}": ${err.message}`);
     }
-  } catch (err) {
-    console.warn(`[discover] Google Jobs search failed for "${query}": ${err.message}`);
   }
+
   return results.slice(0, maxResults);
 }
 
 // ── Board dispatcher ──────────────────────────────────────────────────────────
 
 const BOARD_FNS = {
-  linkedin:    searchLinkedIn,
-  naukri:      searchNaukri,
-  indeed:      searchIndeed,
-  iimjobs:     searchIimjobs,
-  foundit:     searchFoundit,
-  timesjobs:   searchTimesjobs,
-  google_jobs: searchGoogleJobs,
+  linkedin:     searchLinkedIn,
+  naukri:       searchNaukri,
+  naukri_remote: searchNaukriRemote,
+  indeed:       searchIndeed,
+  iimjobs:      searchIimjobs,
+  foundit:      searchFoundit,
+  timesjobs:    searchTimesjobs,
+  google_jobs:  searchGoogleJobs,
 };
 
-// Default board order when brain doesn't specify
-const DEFAULT_BOARDS = ['linkedin', 'naukri', 'iimjobs', 'foundit', 'indeed', 'timesjobs', 'google_jobs'];
+// Run all boards every time — brain can add extras but we never drop defaults
+const DEFAULT_BOARDS = ['linkedin', 'naukri', 'naukri_remote', 'iimjobs', 'foundit', 'indeed', 'timesjobs', 'google_jobs'];
 
 // ── Main entry point ──────────────────────────────────────────────────────────
 
 /**
- * Run discovery for all query × board combinations.
- *
  * @param {SearchPlan} plan  - from brain.mjs
- * @param {Set<string>} seenIds - job IDs already in memory (skip these)
+ * @param {Set<string>} seenIds - already-processed job IDs
  * @returns {Promise<JobStub[]>}
  */
 export async function discoverJobs(plan, seenIds = new Set()) {
-  const { queries, boards = DEFAULT_BOARDS, targetCount } = plan;
-  const allResults = new Map(); // jobId → JobStub (dedup by ID)
+  const { queries, boards = DEFAULT_BOARDS } = plan;
+  const allResults = new Map();
 
-  // Use all known boards regardless of what brain returns
-  // (brain may not know about newer boards)
   const boardList = [...new Set([...boards, ...DEFAULT_BOARDS])];
 
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
-    userAgent:
-      'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    userAgent: 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     locale: 'en-IN',
     extraHTTPHeaders: { 'Accept-Language': 'en-IN,en;q=0.9' },
   });
@@ -390,19 +439,13 @@ export async function discoverJobs(plan, seenIds = new Set()) {
   try {
     for (const board of boardList) {
       const searchFn = BOARD_FNS[board];
-      if (!searchFn) {
-        console.warn(`[discover] Unknown board: ${board}`);
-        continue;
-      }
+      if (!searchFn) { console.warn(`[discover] Unknown board: ${board}`); continue; }
 
       const page = await context.newPage();
-      // Block images/fonts to speed up scraping (keep CSS for SPAs)
-      await page.route('**/*.{png,jpg,jpeg,gif,webp,svg,woff,woff2,ttf}', (route) =>
-        route.abort()
-      );
+      await page.route('**/*.{png,jpg,jpeg,gif,webp,svg,woff,woff2,ttf}', (r) => r.abort());
 
       for (const query of queries) {
-        console.log(`[discover] Searching ${board} for: "${query}"`);
+        console.log(`[discover] ${board}: "${query}"`);
         try {
           const jobs = await searchFn(page, query, 15);
           let added = 0;
