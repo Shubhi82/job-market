@@ -1,15 +1,106 @@
 {
   "date": "2026-04-18",
   "stats": {
-    "discovered": 1,
+    "discovered": 5,
     "fromPortals": 0,
-    "scraped": 1,
-    "scored": 1,
-    "highFit": 0,
+    "scraped": 5,
+    "scored": 5,
+    "highFit": 5,
     "scrapeFailures": 0,
     "scoreFailures": 0,
     "enriched": 0,
-    "addedToPipeline": 0
+    "addedToPipeline": 5
   },
-  "jobs": []
+  "jobs": [
+    {
+      "title": "Biotech Health Data Governance Lead",
+      "company": "Alignerr",
+      "location": "India",
+      "url": "https://in.linkedin.com/jobs/view/biotech-health-data-governance-lead-at-alignerr-4403589648",
+      "source": "linkedin",
+      "jobId": "64587f682474",
+      "score": 4.4,
+      "grade": "A",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/biotech-health-data-governance-lead-at-alignerr-4403589648"
+    },
+    {
+      "title": "Hospital Health Data Governance Lead",
+      "company": "Alignerr",
+      "location": "Delhi, Delhi, India",
+      "url": "https://in.linkedin.com/jobs/view/hospital-health-data-governance-lead-at-alignerr-4403598500",
+      "source": "linkedin",
+      "jobId": "b70f925777fd",
+      "score": 4.4,
+      "grade": "A",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/hospital-health-data-governance-lead-at-alignerr-4403598500"
+    },
+    {
+      "title": "Hospital Health Data Governance Lead",
+      "company": "Alignerr",
+      "location": "Mumbai, Maharashtra, India",
+      "url": "https://in.linkedin.com/jobs/view/hospital-health-data-governance-lead-at-alignerr-4403596459",
+      "source": "linkedin",
+      "jobId": "d74b73425976",
+      "score": 4.4,
+      "grade": "A",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/hospital-health-data-governance-lead-at-alignerr-4403596459"
+    },
+    {
+      "title": "Biotech Health Data Governance Lead",
+      "company": "Alignerr",
+      "location": "Delhi, Delhi, India",
+      "url": "https://in.linkedin.com/jobs/view/biotech-health-data-governance-lead-at-alignerr-4403802404",
+      "source": "linkedin",
+      "jobId": "ff64ed70efb0",
+      "score": 4.4,
+      "grade": "A",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/biotech-health-data-governance-lead-at-alignerr-4403802404"
+    },
+    {
+      "title": "Biotech Health Data Governance Lead",
+      "company": "Alignerr",
+      "location": "Mumbai, Maharashtra, India",
+      "url": "https://in.linkedin.com/jobs/view/biotech-health-data-governance-lead-at-alignerr-4403592661",
+      "source": "linkedin",
+      "jobId": "d12aa62f2000",
+      "score": 4.4,
+      "grade": "A",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/biotech-health-data-governance-lead-at-alignerr-4403592661"
+    }
+  ]
 }
