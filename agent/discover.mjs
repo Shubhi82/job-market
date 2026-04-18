@@ -71,6 +71,50 @@ async function searchLinkedIn(page, query, maxResults = 20) {
   return results.slice(0, maxResults);
 }
 
+/** Shared Naukri page extractor — handles both old and new Naukri HTML */
+async function extractNaukriJobs(page) {
+  // Scroll to trigger lazy loading
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight / 2));
+  await page.waitForTimeout(1500);
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+  await page.waitForTimeout(1500);
+
+  return page.evaluate(() => {
+    const found = [];
+    // New Naukri (2024+) selectors
+    const newCards = document.querySelectorAll('.srp-jobtuple-wrapper');
+    newCards.forEach((el) => {
+      const titleEl = el.querySelector('a.title, [class*="title"] a, a[title]');
+      const companyEl = el.querySelector('[class*="comp-name"], [class*="company-name"], [class*="companyName"]');
+      const locEl = el.querySelector('[class*="location"], [class*="loc-name"], .locWdth');
+      if (titleEl) {
+        found.push({
+          title:    (titleEl.textContent || titleEl.getAttribute('title') || '').trim(),
+          company:  (companyEl?.textContent || '').trim(),
+          location: (locEl?.textContent || '').trim(),
+          url:      titleEl.href || '',
+        });
+      }
+    });
+    // Fallback: any anchor with /job-listings- in href
+    if (found.length === 0) {
+      document.querySelectorAll('a[href*="/job-listings-"]').forEach((a) => {
+        const text = a.textContent.trim();
+        if (text.length > 5 && text.length < 120) {
+          const row = a.closest('article, li, [class*="tuple"], [class*="card"]');
+          found.push({
+            title:    text,
+            company:  row?.querySelector('[class*="comp"], [class*="company"]')?.textContent?.trim() || '',
+            location: row?.querySelector('[class*="loc"]')?.textContent?.trim() || '',
+            url:      a.href,
+          });
+        }
+      });
+    }
+    return found.slice(0, 20);
+  });
+}
+
 /**
  * Naukri.com — standard search filtered to 3–5 years experience.
  */
@@ -81,40 +125,7 @@ async function searchNaukri(page, query, maxResults = 15) {
     await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 35000 });
     await page.waitForTimeout(4000);
 
-    const jobs = await page.evaluate(() => {
-      const found = [];
-      const wrappers = document.querySelectorAll('.srp-jobtuple-wrapper, [data-job-id], .cust-job-tuple');
-      if (wrappers.length > 0) {
-        wrappers.forEach((el) => {
-          const titleEl = el.querySelector('a.title, .title a, a[title]');
-          const companyEl = el.querySelector('.comp-name, .company-name, [class*="comp"]');
-          const locEl = el.querySelector('.loc, .location, [class*="loc"]');
-          if (titleEl) {
-            found.push({
-              title:    titleEl.textContent?.trim() || titleEl.getAttribute('title') || '',
-              company:  companyEl?.textContent?.trim() || '',
-              location: locEl?.textContent?.trim() || '',
-              url:      titleEl.href || titleEl.getAttribute('href') || '',
-            });
-          }
-        });
-      }
-      if (found.length === 0) {
-        document.querySelectorAll('article.jobTuple').forEach((el) => {
-          const titleEl = el.querySelector('a.title');
-          if (titleEl) {
-            found.push({
-              title:    titleEl.textContent?.trim() || '',
-              company:  el.querySelector('.subTitle')?.textContent?.trim() || '',
-              location: el.querySelector('.location')?.textContent?.trim() || '',
-              url:      titleEl.href || '',
-            });
-          }
-        });
-      }
-      return found.slice(0, 20);
-    });
-
+    const jobs = await extractNaukriJobs(page);
     for (const j of jobs) {
       if (j.title && j.url) {
         const canon = canonicalUrl(j.url);
@@ -129,7 +140,6 @@ async function searchNaukri(page, query, maxResults = 15) {
 
 /**
  * Naukri Work-From-Home — dedicated WFH/remote search on Naukri.
- * Uses Naukri's /remote-jobs and /work-from-home-jobs paths.
  */
 async function searchNaukriRemote(page, query, maxResults = 15) {
   const results = [];
@@ -143,29 +153,17 @@ async function searchNaukriRemote(page, query, maxResults = 15) {
       await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 35000 });
       await page.waitForTimeout(4000);
 
-      const jobs = await page.evaluate(() => {
-        const found = [];
-        const wrappers = document.querySelectorAll('.srp-jobtuple-wrapper, [data-job-id], .cust-job-tuple');
-        wrappers.forEach((el) => {
-          const titleEl = el.querySelector('a.title, .title a, a[title]');
-          const companyEl = el.querySelector('.comp-name, .company-name, [class*="comp"]');
-          const locEl = el.querySelector('.loc, .location, [class*="loc"]');
-          if (titleEl) {
-            found.push({
-              title:    titleEl.textContent?.trim() || titleEl.getAttribute('title') || '',
-              company:  companyEl?.textContent?.trim() || '',
-              location: locEl?.textContent?.trim() || 'Remote',
-              url:      titleEl.href || titleEl.getAttribute('href') || '',
-            });
-          }
-        });
-        return found.slice(0, 20);
-      });
-
+      const jobs = await extractNaukriJobs(page);
       for (const j of jobs) {
         if (j.title && j.url) {
           const canon = canonicalUrl(j.url);
-          results.push({ ...j, url: canon, source: 'naukri_remote', jobId: makeJobId(canon, j.title, j.company) });
+          results.push({
+            ...j,
+            url: canon,
+            location: j.location || 'Remote',
+            source: 'naukri_remote',
+            jobId: makeJobId(canon, j.title, j.company),
+          });
         }
       }
     } catch (err) {
@@ -340,6 +338,97 @@ async function searchTimesjobs(page, query, maxResults = 15) {
 }
 
 /**
+ * Hirist.tech — India's best tech-only job board (Data/Engineering focus).
+ */
+async function searchHirist(page, query, maxResults = 15) {
+  const results = [];
+  try {
+    const url = `https://www.hirist.tech/j/${encodeURIComponent(query.toLowerCase().replace(/\s+/g, '-'))}-jobs?exp=3-5`;
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 35000 });
+    await page.waitForTimeout(3000);
+    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight / 2));
+    await page.waitForTimeout(1500);
+
+    const jobs = await page.evaluate(() => {
+      const found = [];
+      document.querySelectorAll('.job-listing-item, .job-card, [class*="jobCard"], li[class*="job"]').forEach((el) => {
+        const titleEl = el.querySelector('h2 a, h3 a, a[class*="title"], .job-title a');
+        const companyEl = el.querySelector('[class*="company"], .org, .employer');
+        const locEl = el.querySelector('[class*="location"], .city, .loc');
+        if (titleEl && titleEl.href) {
+          found.push({
+            title:    titleEl.textContent.trim(),
+            company:  companyEl?.textContent.trim() || '',
+            location: locEl?.textContent.trim() || 'India',
+            url:      titleEl.href,
+          });
+        }
+      });
+      // Fallback: any link containing /jobs in path
+      if (found.length === 0) {
+        document.querySelectorAll('a[href*="/j/"]').forEach((a) => {
+          const text = a.textContent.trim();
+          if (text.length > 5 && text.length < 120 && !a.href.includes('?')) {
+            found.push({ title: text, company: '', location: 'India', url: a.href });
+          }
+        });
+      }
+      return found.slice(0, 20);
+    });
+
+    for (const j of jobs) {
+      if (j.title && j.url) {
+        const canon = canonicalUrl(j.url);
+        results.push({ ...j, url: canon, source: 'hirist', jobId: makeJobId(canon, j.title, j.company) });
+      }
+    }
+  } catch (err) {
+    console.warn(`[discover] Hirist search failed for "${query}": ${err.message}`);
+  }
+  return results.slice(0, maxResults);
+}
+
+/**
+ * Instahyre — curated tech jobs, strong GCC/startup coverage in India.
+ */
+async function searchInstahyre(page, query, maxResults = 15) {
+  const results = [];
+  try {
+    const url = `https://www.instahyre.com/search-jobs/?q=${encodeURIComponent(query)}&l=India`;
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 35000 });
+    await page.waitForTimeout(3500);
+
+    const jobs = await page.evaluate(() => {
+      const found = [];
+      document.querySelectorAll('.opportunity-item, .job-card, [class*="job-list"] li, [class*="jobCard"]').forEach((el) => {
+        const titleEl = el.querySelector('h2 a, h3 a, .job-title a, a[class*="title"]');
+        const companyEl = el.querySelector('[class*="company"], .employer-name');
+        const locEl = el.querySelector('[class*="location"], .city');
+        if (titleEl && titleEl.href && titleEl.href.includes('instahyre.com')) {
+          found.push({
+            title:    titleEl.textContent.trim(),
+            company:  companyEl?.textContent.trim() || '',
+            location: locEl?.textContent.trim() || 'India',
+            url:      titleEl.href,
+          });
+        }
+      });
+      return found.slice(0, 20);
+    });
+
+    for (const j of jobs) {
+      if (j.title && j.url) {
+        const canon = canonicalUrl(j.url);
+        results.push({ ...j, url: canon, source: 'instahyre', jobId: makeJobId(canon, j.title, j.company) });
+      }
+    }
+  } catch (err) {
+    console.warn(`[discover] Instahyre search failed for "${query}": ${err.message}`);
+  }
+  return results.slice(0, maxResults);
+}
+
+/**
  * Google Jobs — organic search linking to Naukri, LinkedIn, iimjobs,
  * Hirist, Instahyre, Foundit, and company career pages.
  * Two passes: India-wide + remote-only.
@@ -403,18 +492,25 @@ async function searchGoogleJobs(page, query, maxResults = 15) {
 // ── Board dispatcher ──────────────────────────────────────────────────────────
 
 const BOARD_FNS = {
-  linkedin:     searchLinkedIn,
-  naukri:       searchNaukri,
+  linkedin:      searchLinkedIn,
+  naukri:        searchNaukri,
   naukri_remote: searchNaukriRemote,
-  indeed:       searchIndeed,
-  iimjobs:      searchIimjobs,
-  foundit:      searchFoundit,
-  timesjobs:    searchTimesjobs,
-  google_jobs:  searchGoogleJobs,
+  indeed:        searchIndeed,
+  iimjobs:       searchIimjobs,
+  foundit:       searchFoundit,
+  timesjobs:     searchTimesjobs,
+  hirist:        searchHirist,
+  instahyre:     searchInstahyre,
+  google_jobs:   searchGoogleJobs,
 };
 
 // Run all boards every time — brain can add extras but we never drop defaults
-const DEFAULT_BOARDS = ['linkedin', 'naukri', 'naukri_remote', 'iimjobs', 'foundit', 'indeed', 'timesjobs', 'google_jobs'];
+const DEFAULT_BOARDS = [
+  'linkedin', 'naukri', 'naukri_remote',
+  'hirist', 'instahyre',
+  'iimjobs', 'foundit', 'indeed', 'timesjobs',
+  'google_jobs',
+];
 
 // ── Main entry point ──────────────────────────────────────────────────────────
 
