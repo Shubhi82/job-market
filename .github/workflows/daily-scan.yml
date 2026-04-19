@@ -82,10 +82,9 @@ jobs:
           else
             DATE=$(date -u +"%Y-%m-%d")
             git commit -m "agent run ${DATE} — $(git diff --cached --stat | tail -1)"
-            # Stash leftover unstaged changes so rebase never aborts
-            git stash --include-untracked || true
-            git pull --rebase origin main
-            git stash pop || true
+            # Discard any remaining working-tree changes so rebase never aborts
+            git reset --hard HEAD
+            git pull --rebase --autostash origin main
             git push origin HEAD:main
             echo "Changes committed and pushed."
           fi
