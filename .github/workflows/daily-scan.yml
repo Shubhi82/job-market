@@ -82,8 +82,10 @@ jobs:
           else
             DATE=$(date -u +"%Y-%m-%d")
             git commit -m "agent run ${DATE} — $(git diff --cached --stat | tail -1)"
-            # Pull remote changes (rebase) before pushing to avoid rejection
+            # Stash any unstaged changes so rebase doesn't abort
+            git stash --include-untracked || true
             git pull --rebase origin main
+            git stash pop || true
             git push origin HEAD:main
             echo "Changes committed and pushed."
           fi
