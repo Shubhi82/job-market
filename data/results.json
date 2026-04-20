@@ -1,149 +1,55 @@
 {
-  "date": "2026-04-18",
+  "date": "2026-04-20",
   "stats": {
-    "discovered": 0,
+    "discovered": 2,
     "fromPortals": 0,
-    "scraped": 0,
-    "scored": 0,
-    "highFit": 10,
+    "scraped": 2,
+    "scored": 2,
+    "highFit": 1,
     "scrapeFailures": 0,
     "scoreFailures": 0,
     "enriched": 0,
-    "addedToPipeline": 0
+    "addedToPipeline": 1
   },
-  "remoteJobs": [
+  "jobs": [
     {
-      "title": "Data Engineer",
-      "company": "Atlassian",
-      "location": "Remote (India / APAC)",
-      "url": "https://careers-apac-atlassian.icims.com/jobs/18829/data-engineer/job",
-      "applyUrl": "https://careers-apac-atlassian.icims.com/jobs/18829/data-engineer/job",
-      "score": 4.8,
-      "grade": "A",
-      "summary": "Atlassian is remote-first with strong data platform culture — Python, SQL, Spark, BigQuery. Excellent fit for your Macquarie data platform experience.",
-      "highlights": ["Remote-first global company", "BigQuery + Spark stack", "Strong data culture"],
-      "gaps": [],
-      "source": "manual"
-    },
-    {
-      "title": "Senior Data Engineer — Big Data",
-      "company": "GitLab",
-      "location": "Remote (APAC)",
-      "url": "https://boards.greenhouse.io/gitlab/jobs/6046136002",
-      "applyUrl": "https://boards.greenhouse.io/gitlab/jobs/6046136002",
-      "score": 4.7,
-      "grade": "A",
-      "summary": "GitLab is all-remote with a world-class data team. Role covers BigQuery, dbt, Airflow — exactly your stack. Senior-level with 3–5 yr experience match.",
-      "highlights": ["All-remote", "dbt + BigQuery + Airflow", "Senior IC track"],
-      "gaps": [],
-      "source": "manual"
-    },
-    {
-      "title": "Data Engineer",
-      "company": "Zapier",
-      "location": "Remote (Global)",
-      "url": "https://jobs.ashbyhq.com/zapier/fa3ccba9-dacd-4f78-b615-99f85dc02acd",
-      "applyUrl": "https://jobs.ashbyhq.com/zapier/fa3ccba9-dacd-4f78-b615-99f85dc02acd",
-      "score": 4.6,
-      "grade": "A",
-      "summary": "Zapier is a fully distributed company (750+ employees) with strong data engineering needs. Python-first, cloud-native, product-analytics culture.",
-      "highlights": ["Fully distributed", "Python-first", "Product analytics focus"],
-      "gaps": [],
-      "source": "manual"
-    },
-    {
-      "title": "Senior Analytics Engineer",
-      "company": "Deel",
-      "location": "Remote (Global)",
-      "url": "https://jobs.ashbyhq.com/deel/b1dc9aad-80e4-43c3-b99e-11532f3232d9",
-      "applyUrl": "https://jobs.ashbyhq.com/deel/b1dc9aad-80e4-43c3-b99e-11532f3232d9",
-      "score": 4.6,
-      "grade": "A",
-      "summary": "Deel is one of the fastest-growing HR/payroll fintechs. Analytics Engineer role with dbt, Snowflake, Looker — strong match for your governance + analytics background.",
-      "highlights": ["High-growth fintech", "dbt + Snowflake stack", "Remote-first"],
-      "gaps": [],
-      "source": "manual"
-    },
-    {
-      "title": "Lead Data Engineer",
-      "company": "HackerRank",
-      "location": "Remote (India)",
-      "url": "https://boards.greenhouse.io/hackerrank/jobs/4264579",
-      "applyUrl": "https://boards.greenhouse.io/hackerrank/jobs/4264579",
-      "score": 4.5,
-      "grade": "A",
-      "summary": "HackerRank India remote — Lead Data Engineer building core data platform. Great step up from Senior DE. Python, Spark, BigQuery environment.",
-      "highlights": ["India remote", "Lead/Staff track", "Greenfield data platform build"],
-      "gaps": [],
-      "source": "manual"
-    }
-  ],
-  "locationJobs": [
-    {
-      "title": "Senior Data Engineer",
-      "company": "Remote.com",
-      "location": "Remote (Global) / India",
-      "url": "https://boards.greenhouse.io/remotecom/jobs/5953091003",
-      "applyUrl": "https://boards.greenhouse.io/remotecom/jobs/5953091003",
-      "score": 4.5,
-      "grade": "A",
-      "summary": "Remote.com helps companies hire globally — they eat their own dogfood. Strong data engineering culture, Postgres + Python + dbt stack.",
-      "highlights": ["Async-first culture", "dbt + Python", "HR-tech data domain"],
-      "gaps": [],
-      "source": "manual"
-    },
-    {
-      "title": "Staff Data Engineer",
-      "company": "Apollo.io",
-      "location": "Remote (India)",
-      "url": "https://boards.greenhouse.io/apolloio/jobs/4540079004",
-      "applyUrl": "https://boards.greenhouse.io/apolloio/jobs/4540079004",
+      "title": "SENIOR, DATA ENGINEER",
+      "company": "Walmart Global Tech India",
+      "location": "Chennai, Tamil Nadu, India",
+      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-walmart-global-tech-india-4378907651",
+      "source": "linkedin",
+      "jobId": "bae7331f28dd",
       "score": 4.4,
       "grade": "A",
-      "summary": "Apollo.io is a high-growth sales intelligence platform. Staff-level India remote role — strong ownership over data infrastructure.",
-      "highlights": ["India remote", "Staff-level ownership", "High-growth SaaS"],
-      "gaps": [],
-      "source": "manual"
-    },
-    {
-      "title": "Senior Consultant — Data Engineer",
-      "company": "Deloitte India",
-      "location": "Pune",
-      "url": "https://southasiacareers.deloitte.com/job/Pune-Senior-Consultant-Data-Engineer-Pune-Engineering/54549344/",
-      "applyUrl": "https://southasiacareers.deloitte.com/job/Pune-Senior-Consultant-Data-Engineer-Pune-Engineering/54549344/",
-      "score": 4.3,
-      "grade": "A",
-      "summary": "Deloitte Pune is one of the biggest GCC hubs. Senior Consultant Data Engineer — strong match for your Macquarie GCC experience and governance work.",
-      "highlights": ["GCC Pune", "Governance + data engineering blend", "Big 4 brand"],
-      "gaps": [],
-      "source": "manual"
-    },
-    {
-      "title": "Data Engineer",
-      "company": "Jobgether (Remote-first roles aggregator)",
-      "location": "Remote (India eligible)",
-      "url": "https://jobs.lever.co/jobgether/f0521d53-c072-49c9-9dad-67d60c55bfa0",
-      "applyUrl": "https://jobs.lever.co/jobgether/f0521d53-c072-49c9-9dad-67d60c55bfa0",
-      "score": 4.2,
-      "grade": "B+",
-      "summary": "Remote-first Data Engineer role open to India. Cloud-native stack. Good for parallel applications while pipeline jobs close.",
-      "highlights": ["India-eligible remote", "Cloud-native stack", "Flexible hours"],
-      "gaps": [],
-      "source": "manual"
-    },
-    {
-      "title": "Data Engineer",
-      "company": "Deel",
-      "location": "Remote (Global)",
-      "url": "https://jobs.ashbyhq.com/deel/6ebcc8da-bc05-4666-8897-0c712bd681d0",
-      "applyUrl": "https://jobs.ashbyhq.com/deel/6ebcc8da-bc05-4666-8897-0c712bd681d0",
-      "score": 4.2,
-      "grade": "B+",
-      "summary": "Second Deel opening — Data Engineer (IC) role on the same platform team. If Senior Analytics Engineer doesn't work out, this is a strong fallback.",
-      "highlights": ["Same Deel data team", "Remote", "Python + Airflow"],
-      "gaps": [],
-      "source": "manual"
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-walmart-global-tech-india-4378907651"
     }
   ],
-  "jobs": []
+  "remoteJobs": [],
+  "locationJobs": [
+    {
+      "title": "SENIOR, DATA ENGINEER",
+      "company": "Walmart Global Tech India",
+      "location": "Chennai, Tamil Nadu, India",
+      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-walmart-global-tech-india-4378907651",
+      "source": "linkedin",
+      "jobId": "bae7331f28dd",
+      "score": 4.4,
+      "grade": "A",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-walmart-global-tech-india-4378907651"
+    }
+  ]
 }

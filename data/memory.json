@@ -86,7 +86,9 @@
     "cdb409e351ec",
     "7c83911cac1d",
     "5e7169461eba",
-    "7db634072dd3"
+    "7db634072dd3",
+    "bae7331f28dd",
+    "2de597883871"
   ],
   "appliedJobs": [],
   "skippedJobs": [],
@@ -95,8 +97,8 @@
     "strongFit": [],
     "weakFit": []
   },
-  "lastRun": "2026-04-18",
-  "totalJobsDiscovered": 87,
-  "totalJobsScored": 86,
-  "totalHighFit": 44
+  "lastRun": "2026-04-20",
+  "totalJobsDiscovered": 89,
+  "totalJobsScored": 88,
+  "totalHighFit": 45
 }
