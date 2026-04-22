@@ -1,42 +1,24 @@
 {
-  "date": "2026-04-21",
+  "date": "2026-04-22",
   "stats": {
-    "discovered": 9,
+    "discovered": 3,
     "fromPortals": 0,
-    "scraped": 9,
-    "scored": 9,
-    "highFit": 5,
+    "scraped": 3,
+    "scored": 3,
+    "highFit": 1,
     "scrapeFailures": 0,
     "scoreFailures": 0,
     "enriched": 0,
-    "addedToPipeline": 5
+    "addedToPipeline": 1
   },
   "jobs": [
     {
-      "title": "Senior Data Engineer - Databricks",
-      "company": "Servify",
-      "location": "Mumbai, Maharashtra, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-databricks-at-servify-4402372642",
-      "source": "linkedin",
-      "jobId": "4e16cd98cfa0",
-      "score": 4.7,
-      "grade": "A+",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-databricks-at-servify-4402372642"
-    },
-    {
-      "title": "(IND) SENIOR, SOFTWARE ENGINEER (Big data)",
-      "company": "Walmart Global Tech India",
+      "title": "Data Security Analyst Engineer",
+      "company": "Takeda",
       "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/ind-senior-software-engineer-big-data-at-walmart-global-tech-india-4392265671",
+      "url": "https://in.linkedin.com/jobs/view/data-security-analyst-engineer-at-takeda-4395572373",
       "source": "linkedin",
-      "jobId": "f4c521b5676c",
+      "jobId": "a8a5dcc2ce88",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -46,90 +28,18 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/ind-senior-software-engineer-big-data-at-walmart-global-tech-india-4392265671"
-    },
-    {
-      "title": "Senior Data Analyst",
-      "company": "Okta for Developers",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-analyst-at-okta-for-developers-4404515657",
-      "source": "linkedin",
-      "jobId": "d3715752b8b0",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-analyst-at-okta-for-developers-4404515657"
-    },
-    {
-      "title": "Data Engineer - Senior Associate",
-      "company": "PwC Acceleration Center India",
-      "location": "Bengaluru East, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/data-engineer-senior-associate-at-pwc-acceleration-center-india-4399999307",
-      "source": "linkedin",
-      "jobId": "7d5e6f6dbafe",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/data-engineer-senior-associate-at-pwc-acceleration-center-india-4399999307"
-    },
-    {
-      "title": "Data Architect-Databricks / AWS",
-      "company": "CG-VAK Software & Exports Ltd.",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/data-architect-databricks-aws-at-cg-vak-software-exports-ltd-4403319552",
-      "source": "linkedin",
-      "jobId": "614b702251e8",
-      "score": 4.1,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/data-architect-databricks-aws-at-cg-vak-software-exports-ltd-4403319552"
+      "applyUrl": "https://in.linkedin.com/jobs/view/data-security-analyst-engineer-at-takeda-4395572373"
     }
   ],
   "remoteJobs": [],
   "locationJobs": [
     {
-      "title": "Senior Data Engineer - Databricks",
-      "company": "Servify",
-      "location": "Mumbai, Maharashtra, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-databricks-at-servify-4402372642",
-      "source": "linkedin",
-      "jobId": "4e16cd98cfa0",
-      "score": 4.7,
-      "grade": "A+",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-databricks-at-servify-4402372642"
-    },
-    {
-      "title": "(IND) SENIOR, SOFTWARE ENGINEER (Big data)",
-      "company": "Walmart Global Tech India",
+      "title": "Data Security Analyst Engineer",
+      "company": "Takeda",
       "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/ind-senior-software-engineer-big-data-at-walmart-global-tech-india-4392265671",
+      "url": "https://in.linkedin.com/jobs/view/data-security-analyst-engineer-at-takeda-4395572373",
       "source": "linkedin",
-      "jobId": "f4c521b5676c",
+      "jobId": "a8a5dcc2ce88",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -139,61 +49,7 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/ind-senior-software-engineer-big-data-at-walmart-global-tech-india-4392265671"
-    },
-    {
-      "title": "Senior Data Analyst",
-      "company": "Okta for Developers",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-analyst-at-okta-for-developers-4404515657",
-      "source": "linkedin",
-      "jobId": "d3715752b8b0",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-analyst-at-okta-for-developers-4404515657"
-    },
-    {
-      "title": "Data Engineer - Senior Associate",
-      "company": "PwC Acceleration Center India",
-      "location": "Bengaluru East, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/data-engineer-senior-associate-at-pwc-acceleration-center-india-4399999307",
-      "source": "linkedin",
-      "jobId": "7d5e6f6dbafe",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/data-engineer-senior-associate-at-pwc-acceleration-center-india-4399999307"
-    },
-    {
-      "title": "Data Architect-Databricks / AWS",
-      "company": "CG-VAK Software & Exports Ltd.",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/data-architect-databricks-aws-at-cg-vak-software-exports-ltd-4403319552",
-      "source": "linkedin",
-      "jobId": "614b702251e8",
-      "score": 4.1,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/data-architect-databricks-aws-at-cg-vak-software-exports-ltd-4403319552"
+      "applyUrl": "https://in.linkedin.com/jobs/view/data-security-analyst-engineer-at-takeda-4395572373"
     }
   ]
 }
