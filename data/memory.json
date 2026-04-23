@@ -100,7 +100,16 @@
     "a9908b4918f4",
     "53440ce97b45",
     "2184499701a0",
-    "a8a5dcc2ce88"
+    "a8a5dcc2ce88",
+    "d4aaf56eb774",
+    "ec6ac4016349",
+    "71bd0ee08d96",
+    "5a259a98acc2",
+    "61797080b575",
+    "d45509d8297d",
+    "49a0c3981aa6",
+    "f219f188f95d",
+    "4192d82ab4a2"
   ],
   "appliedJobs": [],
   "skippedJobs": [],
@@ -109,8 +118,8 @@
     "strongFit": [],
     "weakFit": []
   },
-  "lastRun": "2026-04-22",
-  "totalJobsDiscovered": 101,
-  "totalJobsScored": 100,
-  "totalHighFit": 51
+  "lastRun": "2026-04-23",
+  "totalJobsDiscovered": 110,
+  "totalJobsScored": 109,
+  "totalHighFit": 56
 }
