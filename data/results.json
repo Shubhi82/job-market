@@ -1,42 +1,24 @@
 {
-  "date": "2026-04-23",
+  "date": "2026-04-24",
   "stats": {
-    "discovered": 9,
+    "discovered": 7,
     "fromPortals": 0,
-    "scraped": 9,
-    "scored": 9,
-    "highFit": 5,
+    "scraped": 7,
+    "scored": 7,
+    "highFit": 2,
     "scrapeFailures": 0,
     "scoreFailures": 0,
     "enriched": 0,
-    "addedToPipeline": 5
+    "addedToPipeline": 2
   },
   "jobs": [
     {
-      "title": "Senior Data Engineer",
-      "company": "Crisil",
-      "location": "Hyderabad, Telangana, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-crisil-4402398128",
-      "source": "linkedin",
-      "jobId": "f219f188f95d",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-crisil-4402398128"
-    },
-    {
-      "title": "Senior Data Engineer",
-      "company": "Recro",
+      "title": "Data Lead - Customer",
+      "company": "DIAGEO India",
       "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-recro-4404717944",
+      "url": "https://in.linkedin.com/jobs/view/data-lead-customer-at-diageo-india-4405638659",
       "source": "linkedin",
-      "jobId": "61797080b575",
+      "jobId": "1b399fa611dd",
       "score": 4.7,
       "grade": "A+",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -46,33 +28,15 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-recro-4404717944"
+      "applyUrl": "https://in.linkedin.com/jobs/view/data-lead-customer-at-diageo-india-4405638659"
     },
     {
-      "title": "Sr Data Engineer - Analytics",
-      "company": "Shine.com",
-      "location": "Chennai, Tamil Nadu, India",
-      "url": "https://in.linkedin.com/jobs/view/sr-data-engineer-analytics-at-shine-com-4403367436",
+      "title": "SENIOR, DATA ENGINEER",
+      "company": "Walmart Global Tech India",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-walmart-global-tech-india-4402874547",
       "source": "linkedin",
-      "jobId": "d45509d8297d",
-      "score": 4.7,
-      "grade": "A+",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/sr-data-engineer-analytics-at-shine-com-4403367436"
-    },
-    {
-      "title": "Sr Data Engineer I Analytics",
-      "company": "eClinical Solutions",
-      "location": "Bangalore Urban, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/sr-data-engineer-i-analytics-at-eclinical-solutions-4194435132",
-      "source": "linkedin",
-      "jobId": "5a259a98acc2",
+      "jobId": "ce79430274c7",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -82,54 +46,18 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/sr-data-engineer-i-analytics-at-eclinical-solutions-4194435132"
-    },
-    {
-      "title": "Senior Data Engineer",
-      "company": "Crisil",
-      "location": "Kurla, Maharashtra, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-crisil-4402395129",
-      "source": "linkedin",
-      "jobId": "49a0c3981aa6",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-crisil-4402395129"
+      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-walmart-global-tech-india-4402874547"
     }
   ],
   "remoteJobs": [],
   "locationJobs": [
     {
-      "title": "Senior Data Engineer",
-      "company": "Crisil",
-      "location": "Hyderabad, Telangana, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-crisil-4402398128",
-      "source": "linkedin",
-      "jobId": "f219f188f95d",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-crisil-4402398128"
-    },
-    {
-      "title": "Senior Data Engineer",
-      "company": "Recro",
+      "title": "Data Lead - Customer",
+      "company": "DIAGEO India",
       "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-recro-4404717944",
+      "url": "https://in.linkedin.com/jobs/view/data-lead-customer-at-diageo-india-4405638659",
       "source": "linkedin",
-      "jobId": "61797080b575",
+      "jobId": "1b399fa611dd",
       "score": 4.7,
       "grade": "A+",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -139,33 +67,15 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-recro-4404717944"
+      "applyUrl": "https://in.linkedin.com/jobs/view/data-lead-customer-at-diageo-india-4405638659"
     },
     {
-      "title": "Sr Data Engineer - Analytics",
-      "company": "Shine.com",
-      "location": "Chennai, Tamil Nadu, India",
-      "url": "https://in.linkedin.com/jobs/view/sr-data-engineer-analytics-at-shine-com-4403367436",
+      "title": "SENIOR, DATA ENGINEER",
+      "company": "Walmart Global Tech India",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-walmart-global-tech-india-4402874547",
       "source": "linkedin",
-      "jobId": "d45509d8297d",
-      "score": 4.7,
-      "grade": "A+",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/sr-data-engineer-analytics-at-shine-com-4403367436"
-    },
-    {
-      "title": "Sr Data Engineer I Analytics",
-      "company": "eClinical Solutions",
-      "location": "Bangalore Urban, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/sr-data-engineer-i-analytics-at-eclinical-solutions-4194435132",
-      "source": "linkedin",
-      "jobId": "5a259a98acc2",
+      "jobId": "ce79430274c7",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -175,25 +85,7 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/sr-data-engineer-i-analytics-at-eclinical-solutions-4194435132"
-    },
-    {
-      "title": "Senior Data Engineer",
-      "company": "Crisil",
-      "location": "Kurla, Maharashtra, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-crisil-4402395129",
-      "source": "linkedin",
-      "jobId": "49a0c3981aa6",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-crisil-4402395129"
+      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-walmart-global-tech-india-4402874547"
     }
   ]
 }
