@@ -1,91 +1,17 @@
 {
-  "date": "2026-04-24",
+  "date": "2026-04-25",
   "stats": {
-    "discovered": 7,
+    "discovered": 4,
     "fromPortals": 0,
-    "scraped": 7,
-    "scored": 7,
-    "highFit": 2,
+    "scraped": 4,
+    "scored": 4,
+    "highFit": 0,
     "scrapeFailures": 0,
     "scoreFailures": 0,
     "enriched": 0,
-    "addedToPipeline": 2
+    "addedToPipeline": 0
   },
-  "jobs": [
-    {
-      "title": "Data Lead - Customer",
-      "company": "DIAGEO India",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/data-lead-customer-at-diageo-india-4405638659",
-      "source": "linkedin",
-      "jobId": "1b399fa611dd",
-      "score": 4.7,
-      "grade": "A+",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/data-lead-customer-at-diageo-india-4405638659"
-    },
-    {
-      "title": "SENIOR, DATA ENGINEER",
-      "company": "Walmart Global Tech India",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-walmart-global-tech-india-4402874547",
-      "source": "linkedin",
-      "jobId": "ce79430274c7",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-walmart-global-tech-india-4402874547"
-    }
-  ],
+  "jobs": [],
   "remoteJobs": [],
-  "locationJobs": [
-    {
-      "title": "Data Lead - Customer",
-      "company": "DIAGEO India",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/data-lead-customer-at-diageo-india-4405638659",
-      "source": "linkedin",
-      "jobId": "1b399fa611dd",
-      "score": 4.7,
-      "grade": "A+",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/data-lead-customer-at-diageo-india-4405638659"
-    },
-    {
-      "title": "SENIOR, DATA ENGINEER",
-      "company": "Walmart Global Tech India",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-walmart-global-tech-india-4402874547",
-      "source": "linkedin",
-      "jobId": "ce79430274c7",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-walmart-global-tech-india-4402874547"
-    }
-  ]
+  "locationJobs": []
 }
