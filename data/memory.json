@@ -120,7 +120,9 @@
     "7e382db2f163",
     "0bf51c45933e",
     "b7c63a81ab21",
-    "21f17346902e"
+    "21f17346902e",
+    "aa08b7162265",
+    "83faf3b689eb"
   ],
   "appliedJobs": [],
   "skippedJobs": [],
@@ -129,8 +131,8 @@
     "strongFit": [],
     "weakFit": []
   },
-  "lastRun": "2026-04-25",
-  "totalJobsDiscovered": 121,
-  "totalJobsScored": 120,
-  "totalHighFit": 58
+  "lastRun": "2026-04-26",
+  "totalJobsDiscovered": 123,
+  "totalJobsScored": 122,
+  "totalHighFit": 59
 }
