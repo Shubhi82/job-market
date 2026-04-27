@@ -1,55 +1,17 @@
 {
-  "date": "2026-04-26",
+  "date": "2026-04-27",
   "stats": {
     "discovered": 2,
     "fromPortals": 0,
     "scraped": 2,
     "scored": 2,
-    "highFit": 1,
+    "highFit": 0,
     "scrapeFailures": 0,
     "scoreFailures": 0,
     "enriched": 0,
-    "addedToPipeline": 1
+    "addedToPipeline": 0
   },
-  "jobs": [
-    {
-      "title": "Senior Data Engineer - R01555143",
-      "company": "Brillio",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-r01555143-at-brillio-4373122732",
-      "source": "linkedin",
-      "jobId": "aa08b7162265",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-r01555143-at-brillio-4373122732"
-    }
-  ],
+  "jobs": [],
   "remoteJobs": [],
-  "locationJobs": [
-    {
-      "title": "Senior Data Engineer - R01555143",
-      "company": "Brillio",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-r01555143-at-brillio-4373122732",
-      "source": "linkedin",
-      "jobId": "aa08b7162265",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-r01555143-at-brillio-4373122732"
-    }
-  ]
+  "locationJobs": []
 }
