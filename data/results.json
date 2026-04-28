@@ -1,17 +1,55 @@
 {
-  "date": "2026-04-27",
+  "date": "2026-04-28",
   "stats": {
-    "discovered": 2,
+    "discovered": 4,
     "fromPortals": 0,
-    "scraped": 2,
-    "scored": 2,
-    "highFit": 0,
+    "scraped": 4,
+    "scored": 4,
+    "highFit": 1,
     "scrapeFailures": 0,
     "scoreFailures": 0,
     "enriched": 0,
-    "addedToPipeline": 0
+    "addedToPipeline": 1
   },
-  "jobs": [],
+  "jobs": [
+    {
+      "title": "Senior Data Engineer",
+      "company": "Straive",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-straive-4404686773",
+      "source": "linkedin",
+      "jobId": "5f646c84f1df",
+      "score": 4.7,
+      "grade": "A+",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-straive-4404686773"
+    }
+  ],
   "remoteJobs": [],
-  "locationJobs": []
+  "locationJobs": [
+    {
+      "title": "Senior Data Engineer",
+      "company": "Straive",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-straive-4404686773",
+      "source": "linkedin",
+      "jobId": "5f646c84f1df",
+      "score": 4.7,
+      "grade": "A+",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/senior-data-engineer-at-straive-4404686773"
+    }
+  ]
 }
