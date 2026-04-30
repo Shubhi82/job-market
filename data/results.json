@@ -1,78 +1,24 @@
 {
-  "date": "2026-04-29",
+  "date": "2026-04-30",
   "stats": {
-    "discovered": 11,
+    "discovered": 8,
     "fromPortals": 0,
-    "scraped": 11,
-    "scored": 11,
-    "highFit": 7,
+    "scraped": 8,
+    "scored": 8,
+    "highFit": 2,
     "scrapeFailures": 0,
     "scoreFailures": 0,
     "enriched": 0,
-    "addedToPipeline": 5
+    "addedToPipeline": 2
   },
   "jobs": [
     {
-      "title": "FBS Analytics Engineer",
-      "company": "Capgemini",
-      "location": "Hyderabad, Telangana, India",
-      "url": "https://in.linkedin.com/jobs/view/fbs-analytics-engineer-at-capgemini-4398438781",
-      "source": "linkedin",
-      "jobId": "30844c001cf3",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/fbs-analytics-engineer-at-capgemini-4398438781"
-    },
-    {
-      "title": "FBS Analytics Engineer",
-      "company": "Capgemini",
-      "location": "Pune Division, Maharashtra, India",
-      "url": "https://in.linkedin.com/jobs/view/fbs-analytics-engineer-at-capgemini-4398434740",
-      "source": "linkedin",
-      "jobId": "cac7a5a2154c",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/fbs-analytics-engineer-at-capgemini-4398434740"
-    },
-    {
-      "title": "AVP, Analytics - Metadata Developer",
-      "company": "Synchrony",
-      "location": "Pune Division, Maharashtra, India",
-      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4407860711",
-      "source": "linkedin",
-      "jobId": "cb9a27f46e7b",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4407860711"
-    },
-    {
-      "title": "AVP, Analytics - Metadata Developer",
+      "title": "AVP, Analytics - Metadata Developer, Hyderabad",
       "company": "Synchrony",
       "location": "Hyderabad, Telangana, India",
-      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4407853822",
+      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-hyderabad-at-synchrony-4408576228",
       "source": "linkedin",
-      "jobId": "eda64371ef0c",
+      "jobId": "2c0575fef059",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -82,15 +28,15 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4407853822"
+      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-hyderabad-at-synchrony-4408576228"
     },
     {
-      "title": "AVP, Analytics - Metadata Developer",
-      "company": "Synchrony",
-      "location": "Delhi, Delhi, India",
-      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4407849865",
+      "title": "Senior GTM Data Engineer",
+      "company": "Multiplier",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/senior-gtm-data-engineer-at-multiplier-4407840090",
       "source": "linkedin",
-      "jobId": "fcf34c417421",
+      "jobId": "48b4ca95e86b",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -100,72 +46,18 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4407849865"
+      "applyUrl": "https://in.linkedin.com/jobs/view/senior-gtm-data-engineer-at-multiplier-4407840090"
     }
   ],
   "remoteJobs": [],
   "locationJobs": [
     {
-      "title": "FBS Analytics Engineer",
-      "company": "Capgemini",
-      "location": "Hyderabad, Telangana, India",
-      "url": "https://in.linkedin.com/jobs/view/fbs-analytics-engineer-at-capgemini-4398438781",
-      "source": "linkedin",
-      "jobId": "30844c001cf3",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/fbs-analytics-engineer-at-capgemini-4398438781"
-    },
-    {
-      "title": "FBS Analytics Engineer",
-      "company": "Capgemini",
-      "location": "Pune Division, Maharashtra, India",
-      "url": "https://in.linkedin.com/jobs/view/fbs-analytics-engineer-at-capgemini-4398434740",
-      "source": "linkedin",
-      "jobId": "cac7a5a2154c",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/fbs-analytics-engineer-at-capgemini-4398434740"
-    },
-    {
-      "title": "AVP, Analytics - Metadata Developer",
-      "company": "Synchrony",
-      "location": "Pune Division, Maharashtra, India",
-      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4407860711",
-      "source": "linkedin",
-      "jobId": "cb9a27f46e7b",
-      "score": 4.4,
-      "grade": "A",
-      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
-      "highlights": [
-        "Role keywords overlap with target profile."
-      ],
-      "gaps": [
-        "AI scoring unavailable — Gemini quota exhausted."
-      ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4407860711"
-    },
-    {
-      "title": "AVP, Analytics - Metadata Developer",
+      "title": "AVP, Analytics - Metadata Developer, Hyderabad",
       "company": "Synchrony",
       "location": "Hyderabad, Telangana, India",
-      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4407853822",
+      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-hyderabad-at-synchrony-4408576228",
       "source": "linkedin",
-      "jobId": "eda64371ef0c",
+      "jobId": "2c0575fef059",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -175,15 +67,15 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4407853822"
+      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-hyderabad-at-synchrony-4408576228"
     },
     {
-      "title": "AVP, Analytics - Metadata Developer",
-      "company": "Synchrony",
-      "location": "Delhi, Delhi, India",
-      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4407849865",
+      "title": "Senior GTM Data Engineer",
+      "company": "Multiplier",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/senior-gtm-data-engineer-at-multiplier-4407840090",
       "source": "linkedin",
-      "jobId": "fcf34c417421",
+      "jobId": "48b4ca95e86b",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -193,7 +85,7 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4407849865"
+      "applyUrl": "https://in.linkedin.com/jobs/view/senior-gtm-data-engineer-at-multiplier-4407840090"
     }
   ]
 }
