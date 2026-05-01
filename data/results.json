@@ -1,24 +1,24 @@
 {
-  "date": "2026-04-30",
+  "date": "2026-05-01",
   "stats": {
-    "discovered": 8,
+    "discovered": 10,
     "fromPortals": 0,
-    "scraped": 8,
-    "scored": 8,
-    "highFit": 2,
+    "scraped": 10,
+    "scored": 10,
+    "highFit": 6,
     "scrapeFailures": 0,
     "scoreFailures": 0,
     "enriched": 0,
-    "addedToPipeline": 2
+    "addedToPipeline": 5
   },
   "jobs": [
     {
-      "title": "AVP, Analytics - Metadata Developer, Hyderabad",
+      "title": "AVP, Analytics - Metadata Developer",
       "company": "Synchrony",
-      "location": "Hyderabad, Telangana, India",
-      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-hyderabad-at-synchrony-4408576228",
+      "location": "Pune Division, Maharashtra, India",
+      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409102418",
       "source": "linkedin",
-      "jobId": "2c0575fef059",
+      "jobId": "ddf9ccdb7d1c",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -28,15 +28,15 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-hyderabad-at-synchrony-4408576228"
+      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409102418"
     },
     {
-      "title": "Senior GTM Data Engineer",
-      "company": "Multiplier",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-gtm-data-engineer-at-multiplier-4407840090",
+      "title": "AVP, Analytics - Metadata Developer",
+      "company": "Synchrony",
+      "location": "Hyderabad, Telangana, India",
+      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409115019",
       "source": "linkedin",
-      "jobId": "48b4ca95e86b",
+      "jobId": "8f3ddf656ee1",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -46,18 +46,72 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-gtm-data-engineer-at-multiplier-4407840090"
+      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409115019"
+    },
+    {
+      "title": "COE - AI/Data - Sr Data Engineer",
+      "company": "Qualitest",
+      "location": "Chennai, Tamil Nadu, India",
+      "url": "https://in.linkedin.com/jobs/view/coe-ai-data-sr-data-engineer-at-qualitest-4406497066",
+      "source": "linkedin",
+      "jobId": "be6d4c8c2575",
+      "score": 4.7,
+      "grade": "A+",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/coe-ai-data-sr-data-engineer-at-qualitest-4406497066"
+    },
+    {
+      "title": "AVP, Analytics - Metadata Developer",
+      "company": "Synchrony",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409104386",
+      "source": "linkedin",
+      "jobId": "49fd3a57595a",
+      "score": 4.4,
+      "grade": "A",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409104386"
+    },
+    {
+      "title": "AVP, Analytics - Metadata Developer",
+      "company": "Synchrony",
+      "location": "Delhi, Delhi, India",
+      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409106314",
+      "source": "linkedin",
+      "jobId": "6b7c0792410f",
+      "score": 4.4,
+      "grade": "A",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409106314"
     }
   ],
   "remoteJobs": [],
   "locationJobs": [
     {
-      "title": "AVP, Analytics - Metadata Developer, Hyderabad",
+      "title": "AVP, Analytics - Metadata Developer",
       "company": "Synchrony",
-      "location": "Hyderabad, Telangana, India",
-      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-hyderabad-at-synchrony-4408576228",
+      "location": "Pune Division, Maharashtra, India",
+      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409102418",
       "source": "linkedin",
-      "jobId": "2c0575fef059",
+      "jobId": "ddf9ccdb7d1c",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -67,15 +121,15 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-hyderabad-at-synchrony-4408576228"
+      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409102418"
     },
     {
-      "title": "Senior GTM Data Engineer",
-      "company": "Multiplier",
-      "location": "Bengaluru, Karnataka, India",
-      "url": "https://in.linkedin.com/jobs/view/senior-gtm-data-engineer-at-multiplier-4407840090",
+      "title": "AVP, Analytics - Metadata Developer",
+      "company": "Synchrony",
+      "location": "Hyderabad, Telangana, India",
+      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409115019",
       "source": "linkedin",
-      "jobId": "48b4ca95e86b",
+      "jobId": "8f3ddf656ee1",
       "score": 4.4,
       "grade": "A",
       "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
@@ -85,7 +139,61 @@
       "gaps": [
         "AI scoring unavailable — Gemini quota exhausted."
       ],
-      "applyUrl": "https://in.linkedin.com/jobs/view/senior-gtm-data-engineer-at-multiplier-4407840090"
+      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409115019"
+    },
+    {
+      "title": "COE - AI/Data - Sr Data Engineer",
+      "company": "Qualitest",
+      "location": "Chennai, Tamil Nadu, India",
+      "url": "https://in.linkedin.com/jobs/view/coe-ai-data-sr-data-engineer-at-qualitest-4406497066",
+      "source": "linkedin",
+      "jobId": "be6d4c8c2575",
+      "score": 4.7,
+      "grade": "A+",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/coe-ai-data-sr-data-engineer-at-qualitest-4406497066"
+    },
+    {
+      "title": "AVP, Analytics - Metadata Developer",
+      "company": "Synchrony",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409104386",
+      "source": "linkedin",
+      "jobId": "49fd3a57595a",
+      "score": 4.4,
+      "grade": "A",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409104386"
+    },
+    {
+      "title": "AVP, Analytics - Metadata Developer",
+      "company": "Synchrony",
+      "location": "Delhi, Delhi, India",
+      "url": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409106314",
+      "source": "linkedin",
+      "jobId": "6b7c0792410f",
+      "score": 4.4,
+      "grade": "A",
+      "summary": "Heuristic score — Gemini quota exhausted. Review manually.",
+      "highlights": [
+        "Role keywords overlap with target profile."
+      ],
+      "gaps": [
+        "AI scoring unavailable — Gemini quota exhausted."
+      ],
+      "applyUrl": "https://in.linkedin.com/jobs/view/avp-analytics-metadata-developer-at-synchrony-4409106314"
     }
   ]
 }
