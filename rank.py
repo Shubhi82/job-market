@@ -20,6 +20,8 @@ def _job_text(job):
 def score_job(job, config):
     text = _job_text(job)
     weights = config.get("weights", {})
+    preferred_location_bonus = int(config.get("preferred_location_bonus", 0))
+    location_keywords = [keyword.lower() for keyword in config.get("location_keywords", [])]
 
     score = 0
     matched_keywords = []
@@ -30,6 +32,9 @@ def score_job(job, config):
 
     if job.get("is_remote", False):
         score += int(config.get("remote_bonus", 0))
+
+    if location_keywords and any(_matches_keyword(text, keyword) for keyword in location_keywords):
+        score += preferred_location_bonus
 
     return score, matched_keywords
 

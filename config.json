@@ -14,6 +14,17 @@
     "intern",
     "unpaid"
   ],
+  "location_keywords": [
+    "delhi",
+    "new delhi",
+    "delhi ncr",
+    "ncr",
+    "noida",
+    "gurgaon",
+    "gurugram",
+    "faridabad",
+    "ghaziabad"
+  ],
   "weights": {
     "python": 2,
     "ai": 3,
@@ -21,10 +32,12 @@
     "software": 1,
     "remote": 2
   },
+  "include_remote_jobs": true,
   "remote_bonus": 1,
+  "preferred_location_bonus": 2,
   "min_score": 2,
   "top_n": 20,
-  "remote_only": true,
+  "remote_only": false,
   "source_timeout_seconds": 20,
   "email_subject": "Daily Job Matches"
 }
