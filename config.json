@@ -1,0 +1,30 @@
+{
+  "sources": [
+    "remotive",
+    "remoteok",
+    "arbeitnow"
+  ],
+  "keywords": [
+    "python",
+    "ai",
+    "backend",
+    "software"
+  ],
+  "exclude_keywords": [
+    "intern",
+    "unpaid"
+  ],
+  "weights": {
+    "python": 2,
+    "ai": 3,
+    "backend": 2,
+    "software": 1,
+    "remote": 2
+  },
+  "remote_bonus": 1,
+  "min_score": 2,
+  "top_n": 20,
+  "remote_only": true,
+  "source_timeout_seconds": 20,
+  "email_subject": "Daily Job Matches"
+}
