@@ -4,6 +4,7 @@ import re
 from datetime import datetime, timezone
 from pathlib import Path
 
+from company_portals import build_company_portals
 from dedup import remove_duplicates
 from filter import filter_jobs
 from rank import rank_jobs
@@ -15,6 +16,7 @@ HISTORY_FILE = Path(os.getenv("JOB_HISTORY_FILE", BASE_DIR / "data/history.json"
 LATEST_JOBS_FILE = Path(os.getenv("JOB_LATEST_JOBS_FILE", BASE_DIR / "data/latest_jobs.json"))
 APPLICATIONS_FILE = Path(os.getenv("JOB_APPLICATIONS_FILE", BASE_DIR / "data/applications.json"))
 RECRUITER_CONTACTS_FILE = Path(os.getenv("JOB_RECRUITER_CONTACTS_FILE", BASE_DIR / "data/recruiter_contacts.json"))
+COMPANY_PORTALS_FILE = Path(os.getenv("JOB_COMPANY_PORTALS_FILE", BASE_DIR / "data/company_portals.json"))
 
 
 def utc_now_iso():
@@ -105,6 +107,20 @@ def load_recruiter_contacts():
 
 def save_recruiter_contacts(contacts):
     _write_json(RECRUITER_CONTACTS_FILE, contacts)
+
+
+def load_company_portal_notes():
+    payload = _read_json(COMPANY_PORTALS_FILE, {})
+    return payload if isinstance(payload, dict) else {}
+
+
+def save_company_portal_notes(notes):
+    _write_json(COMPANY_PORTALS_FILE, notes)
+
+
+def get_company_portals(config=None):
+    config = config or load_config()
+    return build_company_portals(config)
 
 
 def _location_fit_points(job, config):

@@ -13,6 +13,87 @@
     "analytics engineer"
   ],
   "himalayas_max_terms": 4,
+  "company_portal_search_keywords": [
+    "data governance",
+    "master data",
+    "data quality",
+    "privacy",
+    "risk",
+    "analytics engineer"
+  ],
+  "company_portal_locations": [
+    "Remote",
+    "Delhi NCR",
+    "Gurugram",
+    "Noida",
+    "Bengaluru",
+    "Hyderabad"
+  ],
+  "company_portals": [
+    {
+      "company": "Google",
+      "portal_url": "https://www.google.com/about/careers/applications/jobs/results/",
+      "search_url": "https://www.google.com/about/careers/applications/jobs/results/",
+      "career_area": "Privacy, Risk, Trust & Safety, Analytics, Governance",
+      "notes": "Public careers search is available, but the embedded client state is not a simple daily scrape target. Best used as an official portal watchlist."
+    },
+    {
+      "company": "JPMorganChase",
+      "portal_url": "https://careers.jpmorganchase.com/us/en/search-jobs",
+      "search_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions",
+      "career_area": "Risk, Compliance, Data Management, Operations Analytics",
+      "notes": "Oracle Candidate Experience portal is public, but requisition APIs are not trivial to consume safely without a dedicated parser."
+    },
+    {
+      "company": "McKinsey",
+      "portal_url": "https://www.mckinsey.com/careers/search-jobs",
+      "search_url": "https://www.mckinsey.com/careers/search-jobs",
+      "career_area": "Data Operations, Risk, Privacy, Analytics",
+      "notes": "Use portal search for privacy, risk, data operations, analytics engineer, and governance-adjacent roles."
+    },
+    {
+      "company": "Bain & Company",
+      "portal_url": "https://www.bain.com/careers/find-a-role/",
+      "search_url": "https://www.bain.com/careers/find-a-role/",
+      "career_area": "Analytics, data, digital, operations",
+      "notes": "Bain exposes a frontend search endpoint, but direct API calls are blocked. Treat as an official portal watchlist."
+    },
+    {
+      "company": "Deloitte",
+      "portal_url": "https://www2.deloitte.com/us/en/careers/careers.html",
+      "search_url": "https://www2.deloitte.com/us/en/careers/search-jobs.html",
+      "career_area": "Risk & Financial Advisory, AI & Analytics, Data Governance",
+      "notes": "Good target for governance, privacy, cyber risk, and analytics roles."
+    },
+    {
+      "company": "EY",
+      "portal_url": "https://careers.ey.com/?locale=en",
+      "search_url": "https://careers.ey.com/job/?locale=en_US",
+      "career_area": "Risk, Data, Privacy, Compliance, Analytics",
+      "notes": "Official EY careers portal with searchable jobs."
+    },
+    {
+      "company": "KPMG",
+      "portal_url": "https://www.kpmguscareers.com/job-search",
+      "search_url": "https://www.kpmguscareers.com/job-search",
+      "career_area": "Risk, cyber, governance, data, compliance",
+      "notes": "Useful for experienced risk and data roles."
+    },
+    {
+      "company": "PwC",
+      "portal_url": "https://careers.pwc.com/job-search",
+      "search_url": "https://www.pwc.com/us/en/careers/search-jobs.html",
+      "career_area": "Risk, advisory, governance, analytics",
+      "notes": "Official search pages are public, though role relevance varies by geography."
+    },
+    {
+      "company": "Accenture",
+      "portal_url": "https://www.accenture.com/us-en/careers/jobsearch",
+      "search_url": "https://www.accenture.com/us-en/careers/jobsearch",
+      "career_area": "Data governance, cloud, analytics, security",
+      "notes": "Good large-volume portal for governance and analytics-adjacent roles."
+    }
+  ],
   "keywords": [
     "data governance",
     "master data",

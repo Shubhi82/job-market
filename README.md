@@ -95,6 +95,7 @@ What it does:
 - Lets you track application status and notes
 - Stores recruiter emails when you add them
 - Drafts outreach emails for high-match roles
+- Includes an official company-portal watchlist for target firms such as Google, JPMorganChase, McKinsey, Bain, Big 4, and Accenture
 
 Important note:
 
@@ -108,6 +109,30 @@ The source layer currently prioritizes public, stable integrations:
 - Public feeds/pages: RemoteOK, We Work Remotely RSS
 
 This is deliberate. Some portals such as LinkedIn, Naukri, Indeed, and Foundit are either login-heavy, session-based, robots-restricted, or brittle to scrape unattended. Those are better handled in a second phase with browser-assisted workflows or official partner access.
+
+## Company Portal Layer
+
+The app also includes a company-portal layer focused on priority employers:
+
+- Google
+- JPMorganChase
+- McKinsey
+- Bain & Company
+- Deloitte
+- EY
+- KPMG
+- PwC
+- Accenture
+
+These entries give you:
+
+- Official careers portal links
+- Official search-page links
+- Suggested search keywords
+- Suggested locations
+- Saved review notes and status inside the app
+
+This layer is intentionally separate from the generic pulled feed. For many large-company portals, a stable unattended scrape is either blocked or not reliable enough without browser/session support.
 
 ## First Run Checklist
 

@@ -5,16 +5,20 @@ import streamlit as st
 from pipeline import (
     build_outreach_email,
     contact_for_job,
+    get_company_portals,
     load_applications,
+    load_company_portal_notes,
     load_config,
     load_latest_jobs,
     load_recruiter_contacts,
     refresh_jobs,
     save_applications,
+    save_company_portal_notes,
     save_recruiter_contacts,
 )
 
 STATUSES = ["Not started", "Saved", "Applied", "Interviewing", "Offer", "Rejected", "Closed"]
+PORTAL_REVIEW_STATUSES = ["Not reviewed", "Watching", "Applied via portal", "No relevant roles", "Check later"]
 
 
 def parse_iso(value):
@@ -68,6 +72,16 @@ def save_tracker_record(job_id, current_record, recruiter_contacts):
             "updated_at": datetime.now(timezone.utc).isoformat(),
         }
         save_recruiter_contacts(recruiter_contacts)
+
+
+def save_portal_review(company_name):
+    notes = load_company_portal_notes()
+    notes[company_name] = {
+        "status": st.session_state.get(f"portal_status_{company_name}", "Not reviewed"),
+        "notes": st.session_state.get(f"portal_notes_{company_name}", "").strip(),
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+    }
+    save_company_portal_notes(notes)
 
 
 def render_job_card(job, applications, contacts, config):
@@ -162,6 +176,8 @@ config = load_config()
 applications = load_applications()
 contacts = load_recruiter_contacts()
 snapshot = load_latest_jobs()
+portal_notes = load_company_portal_notes()
+company_portals = get_company_portals(config)
 
 if "auto_refresh_attempted" not in st.session_state:
     st.session_state.auto_refresh_attempted = False
@@ -178,7 +194,7 @@ st.write("Daily-updated job radar for governance, MDM, privacy, risk, and analyt
 
 with st.sidebar:
     st.header("Controls")
-    if st.button("Refresh jobs now", use_container_width=True):
+    if st.button("Refresh jobs now", width="stretch"):
         with st.spinner("Refreshing job feed..."):
             snapshot = refresh_jobs(config=config, exclude_history=False, persist_history=False)
         st.success("Job feed refreshed.")
@@ -220,7 +236,7 @@ metric3.metric("95%+ matches", len(high_match_jobs))
 metric4.metric("Tracked as applied", len(applied_jobs))
 st.caption(f"Latest refresh: {refreshed_at}")
 
-tab1, tab2, tab3 = st.tabs(["Live Matches", "Application Tracker", "95%+ Outreach"])
+tab1, tab2, tab3, tab4 = st.tabs(["Live Matches", "Application Tracker", "95%+ Outreach", "Company Portals"])
 
 with tab1:
     if not filtered_jobs:
@@ -269,5 +285,43 @@ with tab3:
             value=draft["body"],
             height=220,
             key=f"highmatch_{job['id']}",
+        )
+        st.divider()
+
+with tab4:
+    st.write("Official company career portals to review daily for priority employers where a stable unattended scrape is fragile or restricted.")
+    for portal in company_portals:
+        review = portal_notes.get(portal["company"], {})
+        st.markdown(f"### {portal['company']}")
+        if portal.get("career_area"):
+            st.caption(portal["career_area"])
+        col1, col2 = st.columns(2)
+        with col1:
+            st.link_button("Open careers portal", portal["portal_url"], width="stretch")
+        with col2:
+            st.link_button("Open search page", portal["search_url"], width="stretch")
+        st.write(f"Suggested titles: {portal['target_role_text']}")
+        st.write(f"Suggested keywords: {', '.join(portal['suggested_keywords'])}")
+        st.write(f"Suggested locations: {', '.join(portal['suggested_locations'])}")
+        if portal.get("notes"):
+            st.write(portal["notes"])
+        st.selectbox(
+            "Portal review status",
+            PORTAL_REVIEW_STATUSES,
+            index=PORTAL_REVIEW_STATUSES.index(review.get("status", "Not reviewed")),
+            key=f"portal_status_{portal['company']}",
+        )
+        st.text_area(
+            "Portal review notes",
+            value=review.get("notes", ""),
+            key=f"portal_notes_{portal['company']}",
+            placeholder="Relevant roles found, role IDs, recruiter names, apply dates, or reasons to revisit later.",
+        )
+        st.button(
+            "Save portal notes",
+            key=f"save_portal_{portal['company']}",
+            on_click=save_portal_review,
+            args=(portal["company"],),
+            width="stretch",
         )
         st.divider()
