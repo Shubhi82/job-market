@@ -31,6 +31,8 @@ A daily job search agent that:
 - Remotive
 - RemoteOK
 - Arbeitnow
+- Himalayas
+- We Work Remotely
 
 ## Configuration
 
@@ -97,6 +99,15 @@ What it does:
 Important note:
 
 - Public job feeds usually do not provide recruiter email addresses, so the app does not fabricate them. Add recruiter emails manually when you find them on LinkedIn or the company careers page, and the app will reuse them for future outreach drafts.
+
+## Source Strategy
+
+The source layer currently prioritizes public, stable integrations:
+
+- JSON APIs: Remotive, Arbeitnow, Himalayas
+- Public feeds/pages: RemoteOK, We Work Remotely RSS
+
+This is deliberate. Some portals such as LinkedIn, Naukri, Indeed, and Foundit are either login-heavy, session-based, robots-restricted, or brittle to scrape unattended. Those are better handled in a second phase with browser-assisted workflows or official partner access.
 
 ## First Run Checklist
 

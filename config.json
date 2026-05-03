@@ -2,8 +2,17 @@
   "sources": [
     "remotive",
     "remoteok",
-    "arbeitnow"
+    "arbeitnow",
+    "himalayas",
+    "weworkremotely"
   ],
+  "himalayas_search_terms": [
+    "data governance",
+    "master data",
+    "privacy compliance",
+    "analytics engineer"
+  ],
+  "himalayas_max_terms": 4,
   "keywords": [
     "data governance",
     "master data",
