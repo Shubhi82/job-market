@@ -77,6 +77,27 @@ The workflow is in `.github/workflows/agent.yml`.
 
 The workflow also commits `data/history.json` back to the repository so seen-job history survives across scheduled runs.
 
+## Dashboard App
+
+The repo also includes a Streamlit dashboard for live job review and application tracking:
+
+```bash
+streamlit run app.py
+```
+
+What it does:
+
+- Refreshes and stores the latest relevant jobs
+- Shows job link and apply link
+- Scores each role against your profile with a match percentage
+- Lets you track application status and notes
+- Stores recruiter emails when you add them
+- Drafts outreach emails for high-match roles
+
+Important note:
+
+- Public job feeds usually do not provide recruiter email addresses, so the app does not fabricate them. Add recruiter emails manually when you find them on LinkedIn or the company careers page, and the app will reuse them for future outreach drafts.
+
 ## First Run Checklist
 
 1. Push this repository to GitHub.

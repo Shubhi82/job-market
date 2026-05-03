@@ -1,0 +1,296 @@
+{
+  "refreshed_at": "2026-05-03T03:21:00Z",
+  "stats": {
+    "raw_jobs": 219,
+    "filtered_jobs": 10,
+    "deduplicated_jobs": 10,
+    "ranked_jobs": 10,
+    "returned_jobs": 10,
+    "exclude_history": false
+  },
+  "jobs": [
+    {
+      "id": "remoteok:1131410",
+      "source": "remoteok",
+      "title": "Data Success Manager",
+      "company": "Murmuration",
+      "url": "https://remoteOK.com/remote-jobs/remote-data-success-manager-murmuration-1131410",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-data-success-manager-murmuration-1131410",
+      "description": "Who We Are At Murmuration, we believe that America\u00e2\u0080\u0099s promise is shaped and reshaped by the best ideas and ideals of its communities, and the dreams of the people who believe in a better life for themselves, their families, and each other.\u00c2 We help organizations build power in their communities in four key ways: we organize a network of values-aligned partners; we provide deep, data-driven insights into people, places, and perspectives; we develop tools that make organizing and engagement easy and more effective; and we offer services that strengthen our partners\u00e2\u0080\u0099 capacity to lead change in their communities. We envision an America where every community has what it needs to help people lead healthy, free, and dignified lives. We work to redesign the systems and structures we all depend on \u00e2\u0080\u0094 how we learn, live, govern, and solve problems \u00e2\u0080\u0094 so that they are just, equitable, resilient, and rooted in shared responsibility. By strengthening the ties that hold communities together, we aim for civic life defined by collective action and care, with effective leadership that truly represents everyone.\u00c2 We are a collaborative, curious, and creative team of organizers, scientists, teachers, technologists, campaign veterans, and more who share the unwavering belief that we can use our gifts in service of transforming America \u00e2\u0080\u0094 together. We\u00e2\u0080\u0099ve built our team guided by the belief that the whole is greater than the sum of its parts. And so we support each other relentlessly \u00e2\u0080\u0094 rallying together to face challenges the same way we celebrate each other\u00e2\u0080\u0099s wins. About the Position The Data Success Manager (Data Acquisition) is one of the people primarily responsible for the sourcing and collection of data utilized by our partners through our products and services. The members of the Data Success Team are expert problem solvers, familiar with modern databases, proficient in SQL and Python, and are able to deal with escalated issues involving data discrepancies and other data mysteries. Working with other Data Success Managers and Partnership Success Managers, you will serve as a key resource for our growing set of partners who are looking to our data-driven capabilities to support their electoral and organizing & advocacy efforts. You will become familiar with the data individual partners are utilizing to support their mission and provide input on how Murmuration\u00e2\u0080\u0099s capabilities can further drive their activity. The day-to-day work in this role will be supporting the range of data needs our partners have\u00e2\u0080\u0093including helping to source,\u00c2 load, and validate data in a variety of formats\u00e2\u0080\u0093while also contributing to improvements in our data management practices and pipelines.\u00c2 You will lead the effort to establish, manage, and improve the processes involved in data collection from both operational and technical angles. You will work with other members of the Success Team to help determine the prioritization of new data collection opportunities we use to support our partners and their data.\u00c2 \u00c2 In addition, as our team continues to grow, there will be increasing opportunities for this role to lean into other support activities we provide to our partners when capacity is available. Job Level: P3 What You\u00e2\u0080\u0099ll Do Establish and manage the operational processes to identify, evaluate, and source datasets that support Murmuration\u00e2\u0080\u0099s civic engagement partners across organizing, advocacy, and electoral campaigns; Create and perform validation and quality checks on newly acquired datasets, including schema review, field-level analysis, completeness checks, and anomaly detection; Clean, standardize, and prepare external datasets for integration into Murmuration systems using SQL and scripting tools; Collaborate with internal teams (i.e., Data Success, Partner Success, and Research) to understand data gaps and recommend appropriate sourcing strategies; Monitor ongoing data quality for sourced datasets and proactively flag degradation, inconsistencies, or compliance concerns; Establish, implement, and share internal processes for dataset evaluation, vendor onboarding, and quality assurance; As new datasets are collected, develop and maintain the necessary documentation and training for internal teams on how to use and understand these datasets; and When responsibilities allow, taking an active role in partners' data success by supporting their campaign activities and work in the Organizer platform. Strong problem-solving skills, as well as the ability to manage several tasks/projects concurrently and prioritize work effectively; Strong operational management skills to build and own processes with stakeholder expectations around timeliness and quality; Strong communication skills to interact effectively with various internal and external stakeholders to develop data strategy and collaborative partnerships; An unquenchable desire to identify and fix data issues in a large, complex data environment (we\u00e2\u0080\u0099ll rely on you to constantly be hunting for issues and not waiting to be reactive); Moderate knowledge of SQL, including creating complex queries and manipulating large data sets; and Moderate experience in scripting languages (Python, etc.) Nice to Haves Experience with voter file, election data, or other datasets containing personally identifiable information (PII) is a large plus; Experience implementing data quality control best practices with both internal and external stakeholders; Experience training stakeholders with varying levels of data literacy on how to understand and utilize different types of data; Experience with business intelligence tools such as Sigma or Tableau; and/or Experience with workplace productivity and collaboration tools, especially complex or integration-based workflows (i.e., Asana, Slack, Jira, Monday, etc.) Talented candidates come from all walks of life and careers. If you are passionate about civic engagement and technology, please apply, even if you do not check every box! Location and Compensation The Data Success Manager (Data Acquisition) is a full-time, salaried position with a comprehensive benefits package (details below), open to candidates anywhere in the United States. The starting salary for this position is $106,645. We set compensation using market data and apply it consistently across the organization to ensure fairness and transparency for everyone in similar roles. Our Culture of Care We work hard to create a culture of care to ensure that our staff are best equipped to lead happy, healthy, and balanced lives. To that end, we offer a comprehensive benefits package which includes: Health, vision, and dental insurance with 100% of premiums covered for you and qualifying family members; Retirement benefits with a 5% employer match; A flexible, unlimited PTO plan; Generous paid parental leave; Pre-tax commuter benefits; A company laptop; A flexible remote work environment; A home office setup stipend for all new employees; Monthly reimbursement for remote work expenses; A yearly professional development fund; Mental health and wellness benefits through Calm and Better Help;\u00c2 Yearly in-person staff retreats; and A welcoming culture that celebrates diversity, equity, inclusion, and belonging. At Murmuration, we believe a vibrant, representative democracy depends on the inclusion of diverse voices, lived experiences, and perspectives. The best ideas don\u00e2\u0080\u0099t come from a single person or ideology \u00e2\u0080\u0094 they emerge at the intersection of different backgrounds, identities, and viewpoints. We are proud of our commitment to building an organization and culture shaped by respect, empathy, and collaboration, where our team\u00e2\u0080\u0099s diversity fuels innovation, civic engagement, and meaningful change. We welcome new colleagues who will help us nurture this collective effort. Join us. An Equal-Opportunity Employer with a Commitment to Diversity Murmuration is proud to be an equal opportunity employer, and as an organization committed to diversity and the perspective of all voices, we consider applicants equally of race, gender, color, sexual orientation, religion, marital status, disability, political affiliation and national origin. We reasonably accommodate staff members and/or applicants with disabilities, provided they are otherwise able to perform the essential functions of the job. Note: Murmuration is two organizations working together to pursue our mission of amplifying the power of civic engagement: Murmuration Research Institute, a 501(c)(3) that conducts research to identify, design, and create the data, tools, and insights that build healthier and more equitable communities; and Murmuration, Inc., a 501(c)(4) that supports organizations working across the country on the nation\u00e2\u0080\u0099s most challenging issues with access to data, tools, and research that build healthier and more equitable communities. Please mention the word **PINNACLE** and tag RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "",
+      "tags": [
+        "manager",
+        "training",
+        "technical",
+        "support",
+        "strategy",
+        "management",
+        "lead",
+        "operational",
+        "health"
+      ],
+      "published_at": "2026-05-01T00:00:50+00:00",
+      "is_remote": true,
+      "score": 17,
+      "matched_keywords": [
+        "data quality",
+        "compliance",
+        "tableau",
+        "sql",
+        "remote"
+      ],
+      "match_percentage": 21
+    },
+    {
+      "id": "remoteok:1131423",
+      "source": "remoteok",
+      "title": "Lead Analytics Engineer Borrowing",
+      "company": "Monzo",
+      "url": "https://remoteOK.com/remote-jobs/remote-lead-analytics-engineer-borrowing-monzo-1131423",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-lead-analytics-engineer-borrowing-monzo-1131423",
+      "description": "\u00f0\u009f\u0093\u008dLondon, Cardiff or Remote in the UK | \u00f0\u009f\u0092\u00b0 \u00c2\u00a397,800 -125,000 + Benefits | Hear from the team \u00e2\u009c\u00a8\u00c2 \u00e2\u00ad\u0090Our Borrowing Analytics Engineering Team: Our Mission in Borrowing is to enable people's financial goals through better borrowing. Our customers look to borrow money to enable them to achieve something in their lives - whether that\u00e2\u0080\u0099s making a big life event affordable, buying something they need now without affecting their monthly budget, or getting by until payday. And we\u00e2\u0080\u0099re looking to shape this mission by building products that our customers love, whilst scaling those top revenue lines across the business safely.\u00c2 We're looking for a Lead Analytics Engineer within our borrowing team to help build world class service for the bank of the future. You will play a critical role in overseeing our foundational data platforms, identifying and driving opportunities to enhance our current capabilities. Your expertise will be pivotal in allowing us to scale into new global markets, build new products and shape the future of how we serve our customers.\u00c2 We have a strong culture of data-driven decision making across the whole company. And we're great believers in powerful, real-time analytics and empowerment of the wider business.\u00c2 \u00f0\u009f\u0094\u0091You\u00e2\u0080\u0099ll play a key role by... - Serving as a data architect for Monzo\u00e2\u0080\u0099s Borrowing data, contributing to the design and scalability of data models that measure the performance of our product suite. - Develop robust data models downstream of backend services, primarily in BigQuery, to support internal reporting, machine learning, large language models, as well as financial and regulatory use cases. - Be a key voice in shaping and maintaining best practices for our Data Warehouse, including source data payload design, logical data modelling, implementation, metadata, and testing standards. Please mention the word **ANGELIC** and tag RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "Cardiff, London",
+      "tags": [
+        "design",
+        "architect",
+        "support",
+        "testing",
+        "voice",
+        "financial",
+        "bank",
+        "lead",
+        "analytics",
+        "engineer",
+        "engineering",
+        "backend",
+        "digital nomad"
+      ],
+      "published_at": "2026-05-01T16:01:01+00:00",
+      "is_remote": true,
+      "score": 13,
+      "matched_keywords": [
+        "metadata",
+        "analytics engineer",
+        "bigquery",
+        "remote"
+      ],
+      "match_percentage": 54
+    },
+    {
+      "id": "remoteok:1131432",
+      "source": "remoteok",
+      "title": "Director of Supply Chain",
+      "company": "STR",
+      "url": "https://remoteOK.com/remote-jobs/remote-director-of-supply-chain-str-1131432",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-director-of-supply-chain-str-1131432",
+      "description": "About the Role: STR is seeking an experienced and highly motivated Director of Supply Chain to lead our procurement function within a dynamic and growing Contracts and Supply Chain team. This is a strategic leadership role, responsible for overseeing supplier sourcing and the full procurement lifecycle, ensuring compliance with Federal Acquisition Regulations (FAR/DFARS), and driving process improvements to support STR's mission. The ideal candidate will bring deep expertise in supply chain, strategic sourcing, Federal procurement, exceptional leadership skills, and a commitment to operational excellence. What you will do: Provide strategic leadership and oversight for all direct and indirect procurement activities, from planning through closeout, in accordance with company policies, FAR, DFARS, and agency-specific regulations Work closely with the business, technical and functional stakeholders to successfully ensure execution of company needs and requirements Develop and negotiate strategic agreements that leverage STR's purchasing power, secure quantity discounts, and support long\u00e2\u0080\u0091term sourcing strategies that drive a competitive advantage Lead, mentor, and develop a high-performing procurement team, fostering a culture of collaboration, accountability, and continuous improvement Oversee a secure supply chain including due diligence, supplier qualification, market research, and source selection processes to ensure best value and compliance with regulatory requirements and minimize risk Direct complex negotiations with vendors, suppliers and subcontractors, ensuring favorable terms and risk mitigation for STR Proactively identify, manage and mitigate sourcing and supply chain risks to ensure business continuity and support the customer Oversee supplier sourcing for new opportunities including supplier/teaming strategy, customer proposal support, potential sources, evaluating supplier proposals and quotes for price/cost reasonableness and compliance with co Please mention the word **BOUNTIFUL** and tag RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "Remote",
+      "tags": [
+        "director",
+        "technical",
+        "support",
+        "lead",
+        "operational"
+      ],
+      "published_at": "2026-05-02T00:01:12+00:00",
+      "is_remote": true,
+      "score": 11,
+      "matched_keywords": [
+        "risk",
+        "compliance",
+        "remote"
+      ],
+      "match_percentage": 20
+    },
+    {
+      "id": "remoteok:1131321",
+      "source": "remoteok",
+      "title": "Medical Director for Health Plan",
+      "company": "Evry Health",
+      "url": "https://remoteOK.com/remote-jobs/remote-medical-director-for-health-plan-evry-health-1131321",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-medical-director-for-health-plan-evry-health-1131321",
+      "description": "Evry Health is hiring a tech-savvy Medical Director to lead medical policy and utilization management for a growing, technology-enabled health plan. In this role, you will work closely with teams across actuarial, technology, care coordination, and medical quality management to shape how care is delivered, managed, and improved for our members. You will report directly to the Chief Medical Officer. While this is a remote role, you must reside in the United States and in the Eastern or Central time zone. We are also open to this role being full-time or part-time. About Evry Health and Globe Life We are on a mission to bring humanity to health insurance. Our high-technology health plans expand benefits, increase access and transparency, and feature a personalized, human approach. We strive to ensure members live happier, healthier lives. Evry Health is the major medical division of Globe Life (NYSE:GL). Globe Life has 16.8 million policies in force, and more than 3,000 corporate employees and 15,000 agents. For more than 45 consecutive years, Globe Life has earned an A (Excellent) rating or higher from A.M. Best Company. \\n Roles and Responsibilities Lead utilization management strategy, including oversight of medical necessity determinations and review processes Own medical policy development, incorporating regulatory updates and care guideline changes Lead and Partner with the Utilization Management Review Committee Provide medical oversight, expertise, and leadership to ensure the delivery of cost effective, quality healthcare services to health plan members Promote positive relations with the local medical community, including periodic consultation with providers, facilities, caregivers, etc. Review case management data to identify trends, gaps in care, and recommend corrective actions Provide oversight and direction for staff and provider training and education Integrate clinical quality and best clinical practices into medical management program development Evaluate the development of new programs and the continuation of existing programs Investigate future care management and patient engagement technologies and evaluate their impact on providers\u00e2\u0080\u0099 practices, patient safety, and patient experience Experience and Skills Desired Active, unrestricted Texas (TX) medical license without limitations or sanctions Doctor of Medicine (MD) with 8+ years of clinical experience; management experience preferred Board certification in a specialty recognized by the American Board of Medical Specialties Experience working within a health insurance plan, with an emphasis on population health Experience in managed care and utilization management, including performing utilization reviews within a health plan Strong knowledge of managed care systems, quality improvement, and clinical best practices Experience with MCG or other clinical guidelines Telecommuting Requirements This is a remote position. Our whole company works remotely. Company headquarters are in Dallas, Texas. Company business hours are weekdays 9-5 CST. We will only consider candidates in the United States who reside in the CST or EST time zones. This position requires work during the stated business hours. Required to have a dedicated work area established that is separate from other living areas and provides information privacy. Ability to keep all company sensitive documents secure. Must live in a location that receives an existing high-speed internet connection/service. Benefits Package Competitive salary Comprehensive health, dental, and vision insurance as well as life and disability Retirement savings plan with company match Generous time off/vacation Professional development opportunities Flexible and remote work environment \\n Evry Health is an EEO employer - Read More Here Please mention the word **HOT** and tag RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "Remote",
+      "tags": [
+        "director",
+        "training",
+        "management",
+        "lead",
+        "medical",
+        "health",
+        "healthcare",
+        "full-time",
+        "non tech"
+      ],
+      "published_at": "2026-04-25T00:00:42+00:00",
+      "is_remote": true,
+      "score": 8,
+      "matched_keywords": [
+        "privacy",
+        "remote"
+      ],
+      "match_percentage": 20
+    },
+    {
+      "id": "arbeitnow:ma-research-analyst-berlin-498635",
+      "source": "arbeitnow",
+      "title": "M&A Research Analyst",
+      "company": "EquiMatch GmbH",
+      "url": "https://www.arbeitnow.com/jobs/companies/equimatch-gmbh/ma-research-analyst-berlin-498635",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/equimatch-gmbh/ma-research-analyst-berlin-498635",
+      "description": "EquiMatch is a Berlin-based AI-assisted deal target generation platform serving private equity firms. We turn high-level investment criteria into curated longlists of acquisition targets \u2014 combining structured data, web scraping pipelines, and LLM-assisted enrichment to surface companies that traditional databases miss. We work directly with PE deal teams across Europe, and we're scaling the team that turns mandates into pipeline. Tasks You'll own the workflow that takes a client's investment thesis and turns it into a high-quality longlist of target companies. Day-to-day, this means: Translating buy-side mandates, CIMs, and acquirer profiles into structured search scopes \u2014 value chain positioning, keywords, inclusion and exclusion criteria Building longlists by querying our backend, running pipelines, and combining results from multiple data sources (our internal database, third-party providers, web-scraped data) Running QA on pipelines before they go to clients \u2014 checking data quality, leadership coverage, country mapping, and clause logic Requirements Fluent in English 1\u20133 years in an analytical role any prioir experience in the financial industry - a plus prior experience in M&A - a plus experience working with company databases Benefits Real ownership A toolchain built for leverage: reusable Claude-powered skills, internal APIs, and data infrastructure that you'll help shape A front-row seat to how AI is reshaping a slow-moving corner of finance \u2014 and the chance to build the playbook we're looking for remote support and prioritize candidates based on prior relevant experience and timezone proximity Find Jobs in Germany on Arbeitnow",
+      "location": "Berlin",
+      "tags": [
+        "Remote",
+        "Mergers & Acquisitions",
+        "remote"
+      ],
+      "published_at": "1777626025",
+      "is_remote": true,
+      "score": 8,
+      "matched_keywords": [
+        "data quality",
+        "remote"
+      ],
+      "match_percentage": 17
+    },
+    {
+      "id": "remoteok:1131429",
+      "source": "remoteok",
+      "title": "Intelligence Collections Specialist UK",
+      "company": "Concentric",
+      "url": "https://remoteOK.com/remote-jobs/remote-intelligence-collections-specialist-uk-concentric-1131429",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-intelligence-collections-specialist-uk-concentric-1131429",
+      "description": "Are you interested in joining an organization with a global reach? In a world of shifting threats, Concentric is your trusted ally. Powered by elite professionals from military, government, and intelligence backgrounds. If you are passionate about intelligence, risk analysis, threat management, executive protection, security operations, or business resiliency, Concentric may be the organization you've been searching for! Concentric is a risk consultancy specializing in delivering strategic security and intelligence services. We provide holistic, intelligent security solutions for private clients and corporations globally. Concentric offers strategic advisory services, risk assessments, physical protection, threat intelligence, open-source monitoring, program audits, secure embedded staffing, and training for security teams and intelligence analysts. Our ultimate goal is to be recognized as the most innovative, capable, and trusted Risk Management partner in the world, and we do this by following these core values: Integrity \u00e2\u0080\u0093 Collaboration - Relationships \u00e2\u0080\u0093 Excellence \u00e2\u0080\u0093 Creativity - Results Join Us, Concentric - \"Your World Secured\" We are currently looking to hire an Intelligence Collection Specialist to join our Corporate Team in Hereford, England, United Kingdom. *This position allows for remote work arrangements from the United Kingdom only. *Thi Please mention the word **UPGRADEABLE** and tag RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "Hereford",
+      "tags": [
+        "embedded",
+        "security",
+        "training",
+        "consultancy",
+        "management",
+        "executive"
+      ],
+      "published_at": "2026-05-02T00:00:43+00:00",
+      "is_remote": true,
+      "score": 7,
+      "matched_keywords": [
+        "risk",
+        "remote"
+      ],
+      "match_percentage": 17
+    },
+    {
+      "id": "remoteok:1131411",
+      "source": "remoteok",
+      "title": "Vice President of Global Customer Success &amp; Support",
+      "company": "JumpCloud",
+      "url": "https://remoteOK.com/remote-jobs/remote-vice-president-of-global-customer-success-amp-support-jumpcloud-1131411",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-vice-president-of-global-customer-success-amp-support-jumpcloud-1131411",
+      "description": "All roles at JumpCloud\u00c2\u00ae are Remote unless otherwise specified in the Job Description. About JumpCloud\u00c2\u00ae JumpCloud\u00c2\u00ae is the AI-powered unified IT management platform designed to secure the modern workforce. By consolidating identity, device, and access management, JumpCloud provides intelligent, secure IT that scales from human users to autonomous AI agents. We help organizations around the globe eliminate complexity and turn AI risk into an optimized advantage, ensuring the right people and agents have secure access to the right resources at all times. JumpCloud is Intelligent, Secure IT. About the Role JumpCloud is looking for a VP of Global Customer Success & Support who functions like a scientist and leads like a world-class coach. We don\u00e2\u0080\u0099t just want an administrator; we need a deeply curious, data-obsessed leader to own the post-sale journey for our global technical support, professional services, and success teams. The Core Mission You will lead a global team of 100+ across the US, UK, Mexico, and India. Your mandate is to transform customer interactions into a rigorous, data-driven engine that eliminates churn and delivers an uncompromising standard of excellence. You will be expected to move the organization toward an AI-foundational approach, utilizing automation and machine learning to streamline operations and enhance team efficiency. \\n Who You Are: Deeply Curious: You are a \"data explorer\" who isn't satisfied with surface-level answers.. You dig in to understand the \u00e2\u0080\u009cwhy\u00e2\u0080\u009d behind a technical friction point or a churn trend until the logic is clear. You\u00e2\u0080\u0099re in front of the customer with your teams, asking questions, gathering insights and identifying opportunities. Scientifically Minded: You view the customer journey through a lens of granular data. Your decisions are backed by health scores, capacity modeling, and usage patterns rather than \"gut feel\". A Standard-Bearer & Coach: You hold yourself to a high bar and expect the same from your team. You believe that \"good enough\" is the enemy of world-class. You mentor your team to achieve excellence, blending high empathy with high accountability. A Product Aficionado: You have a passion for the product's capabilities. You act as a bridge between the customer and Engineering/Product, translating complex pain points into an indispensable roadmap. AI-Forward: You look for ways to augment human talent with technology. You prioritize building a foundation where AI handles the routine so your team can focus on the complex. Key Responsibilities Architect the Customer Engine for Trust-driven Strategic Revenue Growth Refine the Customer Success, Global Technical Support, and Account Management team for scale. Transition the department to an AI-first operational model , identifying opportunities to automate workflows, streamline ticket resolution, and personalize customer engagement at scale. Refine operational frameworks (people, process, and tech) to ensure the organization scales efficiently without inflating headcount. Customize our onboarding motion for every segment (SMG, Commercial & Enterprise), ensuring implementation is a technical \"win\" from day one with every single customer. Lead our revenue-oriented expansion teams by focusing on customer trust and experience. Enhance operational frameworks (people, process, and tech) to ensure the organization can handle massive growth across segments without losing service quality. Define the responsibilities for AMs, TAMs, and CSMs to ensure the model is efficient and best for the customer. Drive Data-Centered Retention Own the end-to-end post-sale motion experience and Net Retention Rate (NRR), using predictive data & tools to identify and mitigate churn risks before they manifest. Accountable for global NPS and CSAT metrics, treating these as scientific benchmarks for improvement. Improve overall onboarding experience and long term retention Product & Technical Advocacy Act as the bridge between the Customer and Engineering/Product by implementing timely and nimble feedback loops that provide Product teams with critical customer insights. Translate complex customer pain points into actionable feedback that drives a \"sticky\" and indispensable product roadmap. High-Performance Leadership Manage five direct reports and a 100+ person global footprint. Present operational updates to the Executive Team and Board of Directors, defending strategies with clear metrics and logical depth. Requirements: Proven Scale: Significant experience leading both Technical Support, Account Management and Customer Success teams across SMB, Commercial and Enterprise segments in a fast-growing SaaS environment. Global Expertise: Experience managing distributed teams across multiple time zones (specifically India, NAM, LATAM, and EMEA). Analytical Rigor: Proficiency in using data to drive capacity planning, health scoring, and operational efficiency. Data Excellence: History of strengthening data trails and building a comprehensive understanding of churn and CSAT indicators as well as refining individual KPIs for the entire global team and upleveling operational frameworks. Ability to Travel: This role travels approx 30% of the time to customer sites as well as to leadership and team meetings. Travel is both domestic and international. \\n #LI-KF1 Where you\u00e2\u0080\u0099ll be working/Location: JumpCloud \u00c2\u00ae is committed to being Remote First, meaning that you are able to work remotely within the country noted in the Job Description. You must be located in and authorized to work in the country noted in the job description to be considered for this role. Please note: There is an expectation that our engineers participate in on-call shifts. You will be expected commit to being ready and able to respond during your assigned shift, so that alerts don't go unaddressed. Language: JumpCloud\u00c2\u00ae has teams in 15+ countries around the world and conducts our internal business in English. The interview and any additional screening process will take place primarily in English. To be considered for a role at JumpCloud\u00c2\u00ae, you will be required to speak and write in English fluently. Any additional language requirements will be included in the details of the job description. Why JumpCloud \u00c2\u00ae ? If you thrive working in a fast, SaaS-based environment and you are passionate about solving challenging technical problems, we look forward to hearing from you! JumpCloud\u00c2\u00ae is an incredible place to share and grow your expertise! You\u00e2\u0080\u0099ll work with amazing talent across each department who are passionate about our mission. We\u00e2\u0080\u0099re out of the box thinkers, so your unique ideas and approaches for conceiving a product and/or feature will be welcome. You\u00e2\u0080\u0099ll have a voice in the organization as you work with a seasoned executive team, a supportive board and in a proven market that our customers are excited about. One of JumpCloud\u00c2\u00ae's three core values is to \u00e2\u0080\u009cBuild Connections.\u00e2\u0080\u009d To us that means creating \" human connection with each other regardless of our backgrounds, orientations, geographies, religions, languages, gender, race, etc. We care deeply about the people that we work with and want to see everyone succeed.\" - Rajat Bhargava, CEO Please submit your r\u00c3\u00a9sum\u00c3\u00a9 and brief explanation about yourself and why you would be a good fit for JumpCloud\u00c2\u00ae. Please note JumpCloud\u00c2\u00ae is not accepting third party resumes at this time. JumpCloud\u00c2\u00ae is an equal opportunity employer. All applicants will be considered for employment without attention to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status. Scam Notice: Please be aware that there are individuals and organizations that may attempt to scam job seekers by offering fraudulent employment opportunities in the name of JumpCloud. These scams may involve fake job postings, unsolicited emails, or messages claiming to be from our recruiters or hiring managers. Please note that JumpCloud will never ask for any personal account information, such as credit card details or bank account numbers, during the recruitment process. Additionally, JumpCloud will never send you a check for any equipment prior to employment. All communication related to interviews and offers from our recruiters and hiring managers will come from official company email addresses (@jumpcloud.com) and will never ask for any payment, fee to be paid or purchases to be made by the job seeker. If you are contacted by anyone claiming to represent JumpCloud and you are unsure of their authenticity, please do not provide any personal/financial information and contact us immediately at recruiting@jumpcloud.com with the subject line \"Scam Notice\" #LI-Remote #BI-Remote Please mention the word **ADVANTAGE** and tag RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "",
+      "tags": [
+        "saas",
+        "technical",
+        "support",
+        "growth",
+        "travel",
+        "voice",
+        "bank",
+        "leader",
+        "management",
+        "lead",
+        "operations",
+        "operational",
+        "go",
+        "health",
+        "recruitment",
+        "executive"
+      ],
+      "published_at": "2026-05-01T00:00:56+00:00",
+      "is_remote": true,
+      "score": 7,
+      "matched_keywords": [
+        "risk",
+        "remote"
+      ],
+      "match_percentage": 17
+    },
+    {
+      "id": "remoteok:1131385",
+      "source": "remoteok",
+      "title": "Lite Controller Pathfinder Hospitality",
+      "company": "Pathfinder Hospitality",
+      "url": "https://remoteOK.com/remote-jobs/remote-lite-controller-pathfinder-hospitality-pathfinder-hospitality-1131385",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-lite-controller-pathfinder-hospitality-pathfinder-hospitality-1131385",
+      "description": "About Us What is Platinum Service? It's our promise to do unto others better than they could have ever imagined. At Pathfinder Hospitality, hospitality is not just in our name, it is in our DNA. We live, breathe, and even dream Platinum Service. We have an infinite mindset. We want to have such a strong culture and deep sense of purpose that Pathfinder far outlasts its founders and processes, decades after we are gone. Our core values are our guiding principles. Accountability \u00c2\u00b7 Collaboration \u00c2\u00b7 Empowerment \u00c2\u00b7 Engagement \u00c2\u00b7 Innovation \u00c2\u00b7 Integrity \u00c2\u00b7 Passion \u00c2\u00b7 Transparency Culture and Values We continuously break the mold, always going above and beyond to create memorable experiences for our employees and guests through our commitment to our purpose \u00e2\u0080\u0094 providing platinum service to our guests. Skills can be learned, but passion can't be taught. If you believe in platinum service and thrive on exceeding expectations, we want to talk to you. About the Role The Lite Controller is the financial backbone of Pathfinder Hospitality's multi-property portfolio. This is not a traditional controller role. You will function as a strategic finance partner \u00e2\u0080\u0094 producing accurate, timely reporting while actively teaching property leaders how to interpret financials, identify waste, and make better business decisions. You think in ROI, operate with a Zero-Based Budget mindset every day of the year, and hold yourself and others to a standard of business value creation, not just compliance. You will oversee one Junior Accountant and work in close partnership with General Managers across all properties and the CFO. Top Responsibilities 1. Financial Reporting Excellence \u00c2 Deliver detailed, accurate Profit and Loss Statements for all properties and business units by the 15th of each month. All major financial reports are reviewed by at least two people before distribution, with a target accuracy of \u00c2\u00b11%. Consolidate financial data across all hotels for company-wide reporting and ensure full compliance with accounting standards and company policies. 2. GM Financial Partnership & Teaching \u00c2 Serve as the primary financial resource for General Managers across all properties. Teach GMs how to interpret financial statements, identify operational waste in both dollars and time, and take ownership of their property's financial performance. You don't just report the numbers \u00e2\u0080\u0094 you make sure the right people understand them and act on them. 3. Zero-Based Budget Mindset & ROI Analysis \u00c2 Lead budgeting and forecasting with a continuous zero-based mindset \u00e2\u0080\u0094 evaluating whether every service and expenditure is still relevant, negotiating for better value, and recommending alternatives. Provide clear ROI analysis to support operating decisions throughout the year, not just during budget season. Monitor actual performance against budget and deliver variance analysis that drives action. 4. Full-Cycle Accounting Oversight \u00c2 Own the full accounting cycle across all properties, including AP/AR, payroll, cash flow management, and internal controls. Build and maintain balance sheets and cash flow statements from the ground up. Oversee and develop the Junior Accountant, reviewing their work and ensuring accuracy before submission. 5. Compliance, Controls & Audit Readiness \u00c2 Implement and maintain internal controls that safeguard assets and ensure accurate financial reporting. Ensure compliance with local, state, and federal tax regulations. Coordinate with external CPA partners on income tax filings and depreciation schedules. Conduct periodic audits of financial processes. 6. Asset Management Support \u00c2 Support CFO on asset management functions including property insurance policy evaluation and negotiation, property tax strategy and protests, pro forma creation for existing and prospective properties, and lender relationship oversight when applicable. Leverage ROI analytics and market data to inform recommendations. Minimum Qualifications Minimum 3\u00e2\u0080\u00935 years of full-cycle accounting experience, including demonstrated ability to build and reconcile balance sheets and cash flow statements from scratch Experience in hospitality, multi-property, or similarly complex operating environments strongly preferred Strong knowledge of US GAAP accounting principles; familiarity with IFRS a plus Proficiency in financial management software and accounting systems Demonstrated ability to teach or communicate financial concepts to non-finance leaders Strong attention to detail with a track record of meeting tight deadlines consistently High emotional intelligence and the ability to hold GMs and other stakeholders accountable with professionalism Proactive, self-directed mindset with the ability to operate independently in a remote environment Desire to grow, regardless of the phase of your career What We're Not Looking For Someone who waits to be told what to look at. Someone who sends a report without knowing what it means for the business. Someone who treats budgeting as an annual event. If that's your style, this role will frustrate you \u00e2\u0080\u0094 and you'll frustrate us. Compensation $3,500 \u00e2\u0080\u0093 $3,700 per month | Remote | Full-Time Please mention the word **EFFORTLESS** and tag RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "",
+      "tags": [
+        "other",
+        "accounting"
+      ],
+      "published_at": "2026-04-29T16:42:41+00:00",
+      "is_remote": true,
+      "score": 7,
+      "matched_keywords": [
+        "compliance",
+        "remote"
+      ],
+      "match_percentage": 17
+    },
+    {
+      "id": "arbeitnow:consultant-datenschutz-informationssicherheit-teilzeit-remote-augsburg-175849",
+      "source": "arbeitnow",
+      "title": "Consultant (m/w/d) Datenschutz & Informationssicherheit (Teilzeit, Remote)",
+      "company": "DSEV Consulting & Akademie GmbH",
+      "url": "https://www.arbeitnow.com/jobs/companies/dsev-consulting-akademie-gmbh/consultant-datenschutz-informationssicherheit-teilzeit-remote-augsburg-175849",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/dsev-consulting-akademie-gmbh/consultant-datenschutz-informationssicherheit-teilzeit-remote-augsburg-175849",
+      "description": "DSEV ist ein innovatives Beratungsunternehmen mit Fokus auf Datenschutz, Informationssicherheit und Compliance. Wir unterst\u00fctzen unsere Kunden bei der Umsetzung gesetzlicher Anforderungen sowie beim Aufbau sicherer und nachhaltiger Compliance-Strukturen. Aufgaben Beratung von Kunden zu Datenschutzanforderungen (z. B. nach der Datenschutz-Grundverordnung (DSGVO) Unterst\u00fctzung bei der Einf\u00fchrung und Weiterentwicklung von Informationssicherheits-Managementsystemen (ISMS), z. B. nach ISO/IEC 27001 Durchf\u00fchrung von Datenschutz-Folgenabsch\u00e4tzungen (DSFA) Erstellung und Pflege von Verarbeitungsverzeichnissen und Richtlinien Durchf\u00fchrung von Audits und Gap-Analysen Mitwirkung in unserer Akademie: Unterst\u00fctzung bei der Erstellung von Schulungsunterlagen, Weiterentwicklung von Lerninhalten im Bereich Datenschutz und Informationssicherheit sowie KI Unterst\u00fctzung bei der Bearbeitung von Datenschutzvorf\u00e4llen Qualifikation Fachkunde zum Datenschutzbeauftragten, ISB oder KI-Beauftragter von Vorteil Erfahrung im Datenschutz, Informationssicherheit und KI Strukturierte und eigenverantwortliche Arbeitsweise Kommunikationsst\u00e4rke und didaktisches Geschick Sehr gute Deutschkenntnisse Benefits 100 % Remote-Arbeit Flexible Arbeitszeiten Kombination aus Beratung und aktiver Mitgestaltung unserer Akademie Spannende Projekte und abwechslungsreiche Aufgaben Weiterbildungsm\u00f6glichkeiten (fachlich & didaktisch) Flache Hierarchien und kurze Entscheidungswege Werden Sie Teil unseres Teams und gestalten Sie mit uns die Zukunft von Datenschutz, Informationssicherheit und praxisnaher Weiterbildung. Find more English Speaking Jobs in Germany on Arbeitnow",
+      "location": "Augsburg",
+      "tags": [
+        "Remote",
+        "Consulting",
+        "remote"
+      ],
+      "published_at": "1777629629",
+      "is_remote": true,
+      "score": 7,
+      "matched_keywords": [
+        "compliance",
+        "remote"
+      ],
+      "match_percentage": 17
+    },
+    {
+      "id": "remoteok:1131433",
+      "source": "remoteok",
+      "title": "Data Conversion Developer",
+      "company": "Grant Street Group",
+      "url": "https://remoteOK.com/remote-jobs/remote-data-conversion-developer-grant-street-group-1131433",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-data-conversion-developer-grant-street-group-1131433",
+      "description": "Grant Street Group is looking for data conversion developers with strong programming and database skills. If the following describes you, we want to hear from you! You enjoy writing great code. At Grant Street, you will write data conversion code to migrate clients to our TaxSys software. You\u00e2\u0080\u0099ll use modern Perl and SQL on a Linux / MySQL platform and our proprietary parallel-computing framework. You love debugging data. 90% of data conversion is about fixing problems with the last 10% of the data. You\u00e2\u0080\u0099ll combine technical skills with domain knowledge to track down elusive errors in the clients\u00e2\u0080\u0099 data. You love working in a team. On each conversion you\u00e2\u0080\u0099ll be paired with a data analyst who will give you specs, validate the converted data, and gather feedback from clients. You\u00e2\u0080\u0099ll be part of an agile team who are all dedicated to giving the client a trouble-free go-live. Qualifications: At least 1 year of experience in each of the following: Experience writing production-quality code (Perl experience preferred). Thorough knowledge of relational databases and SQL (MySQL experience a bonus). Experience in any of these areas is also a plus: Linux BASH shell scripting Makefiles Docker or alternatives for container management There is occasional travel for on-site meetings (2-4 weeks per year). We reward teamwork, professional excellence, and individual responsibility. Using the best collaboration tools available, we offer a technology-rich work environment that makes it possible for us to support on-site and telecommuting positions tailored to the needs of our employees. If you are passionate about your work, you have entrepreneurial spirit and you want to be on a team of exceptional professionals, then maybe Grant Street is for you! Expected Salary Range: $75,000 - $165,000/year \\n \\n Please mention the word **DELIGHT** and tag RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOjFjYjQ6ZTdjNDo5Yzk0OjE0YTI6ODM4Mjo4MjA5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "United States (Remote)",
+      "tags": [
+        "developer",
+        "technical",
+        "support",
+        "code",
+        "analyst",
+        "travel",
+        "telecommuting",
+        "perl",
+        "mysql",
+        "linux",
+        "digital nomad"
+      ],
+      "published_at": "2026-05-02T00:01:19+00:00",
+      "is_remote": true,
+      "score": 5,
+      "matched_keywords": [
+        "sql",
+        "remote"
+      ],
+      "match_percentage": 16
+    }
+  ]
+}

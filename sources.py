@@ -46,6 +46,7 @@ def _normalize_job(
     title,
     company,
     url,
+    apply_url="",
     description="",
     location="",
     tags=None,
@@ -56,6 +57,7 @@ def _normalize_job(
     clean_title = str(title or "").strip()
     clean_company = str(company or "").strip() or "Unknown"
     clean_url = str(url or "").strip()
+    clean_apply_url = str(apply_url or clean_url).strip() or clean_url
     clean_location = str(location or "").strip()
     clean_published_at = str(published_at or "").strip()
     remote_text = " ".join([clean_title, clean_description, clean_location, " ".join(clean_tags)]).lower()
@@ -66,6 +68,7 @@ def _normalize_job(
         "title": clean_title,
         "company": clean_company,
         "url": clean_url,
+        "apply_url": clean_apply_url,
         "description": clean_description,
         "location": clean_location,
         "tags": clean_tags,
@@ -86,6 +89,7 @@ def get_remotive(timeout_seconds):
                 title=item.get("title"),
                 company=item.get("company_name"),
                 url=item.get("url"),
+                apply_url=item.get("url"),
                 description=item.get("description", ""),
                 location=item.get("candidate_required_location", ""),
                 tags=[item.get("category"), *(item.get("tags") or [])],
@@ -111,6 +115,7 @@ def get_remoteok(timeout_seconds):
                 title=item.get("position"),
                 company=item.get("company"),
                 url=item.get("url") or item.get("apply_url", ""),
+                apply_url=item.get("apply_url") or item.get("url", ""),
                 description=item.get("description", ""),
                 location=item.get("location", ""),
                 tags=item.get("tags") or [],
@@ -141,6 +146,7 @@ def get_arbeitnow(timeout_seconds):
                 title=item.get("title"),
                 company=item.get("company_name"),
                 url=url,
+                apply_url=url,
                 description=item.get("description", ""),
                 location=item.get("location", ""),
                 tags=tags,

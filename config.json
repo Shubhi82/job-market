@@ -103,5 +103,75 @@
   "top_n": 20,
   "remote_only": false,
   "source_timeout_seconds": 20,
-  "email_subject": "Daily Job Matches - Data Governance / MDM / Risk"
+  "email_subject": "Daily Job Matches - Data Governance / MDM / Risk",
+  "profile": {
+    "name": "Shubhi Vashistha",
+    "email": "shubhivashistha08@gmail.com",
+    "years_experience": "4+ years",
+    "headline": "data governance, MDM, privacy, risk intelligence, and governed analytics delivery",
+    "target_roles": [
+      "data governance manager",
+      "data governance analyst",
+      "master data manager",
+      "master data analyst",
+      "mdm analyst",
+      "data quality analyst",
+      "metadata analyst",
+      "data steward",
+      "privacy analyst",
+      "risk analyst",
+      "governance analyst",
+      "analytics engineer"
+    ],
+    "title_signals": [
+      "data governance",
+      "master data",
+      "mdm",
+      "data quality",
+      "metadata",
+      "privacy",
+      "risk",
+      "compliance",
+      "analytics",
+      "steward"
+    ],
+    "primary_keywords": [
+      "data governance",
+      "master data",
+      "mdm",
+      "data quality",
+      "collibra",
+      "metadata",
+      "business glossary",
+      "data lineage",
+      "privacy",
+      "gdpr",
+      "data protection",
+      "compliance",
+      "risk",
+      "cybersecurity",
+      "iam"
+    ],
+    "tool_keywords": [
+      "sql",
+      "bigquery",
+      "redshift",
+      "aws glue",
+      "pyspark",
+      "tableau",
+      "power bi",
+      "looker",
+      "looker studio",
+      "streamlit"
+    ],
+    "domain_keywords": [
+      "financial services",
+      "private markets",
+      "fund management",
+      "regulatory",
+      "privacy",
+      "cyber risk",
+      "governance"
+    ]
+  }
 }
