@@ -1,45 +1,240 @@
 {
-  "refreshed_at": "2026-05-03T11:44:44Z",
+  "refreshed_at": "2026-05-04T05:02:56Z",
   "stats": {
-    "raw_jobs": 319,
-    "filtered_jobs": 26,
-    "deduplicated_jobs": 26,
-    "ranked_jobs": 26,
-    "returned_jobs": 25,
-    "exclude_history": false
+    "raw_jobs": 385,
+    "filtered_jobs": 37,
+    "deduplicated_jobs": 35,
+    "ranked_jobs": 27,
+    "returned_jobs": 27,
+    "exclude_history": true
   },
   "jobs": [
     {
-      "id": "remoteok:1131410",
-      "source": "remoteok",
-      "title": "Data Success Manager",
-      "company": "Murmuration",
-      "url": "https://remoteOK.com/remote-jobs/remote-data-success-manager-murmuration-1131410",
-      "apply_url": "https://remoteOK.com/remote-jobs/remote-data-success-manager-murmuration-1131410",
-      "description": "Who We Are At Murmuration, we believe that America\u00e2\u0080\u0099s promise is shaped and reshaped by the best ideas and ideals of its communities, and the dreams of the people who believe in a better life for themselves, their families, and each other.\u00c2 We help organizations build power in their communities in four key ways: we organize a network of values-aligned partners; we provide deep, data-driven insights into people, places, and perspectives; we develop tools that make organizing and engagement easy and more effective; and we offer services that strengthen our partners\u00e2\u0080\u0099 capacity to lead change in their communities. We envision an America where every community has what it needs to help people lead healthy, free, and dignified lives. We work to redesign the systems and structures we all depend on \u00e2\u0080\u0094 how we learn, live, govern, and solve problems \u00e2\u0080\u0094 so that they are just, equitable, resilient, and rooted in shared responsibility. By strengthening the ties that hold communities together, we aim for civic life defined by collective action and care, with effective leadership that truly represents everyone.\u00c2 We are a collaborative, curious, and creative team of organizers, scientists, teachers, technologists, campaign veterans, and more who share the unwavering belief that we can use our gifts in service of transforming America \u00e2\u0080\u0094 together. We\u00e2\u0080\u0099ve built our team guided by the belief that the whole is greater than the sum of its parts. And so we support each other relentlessly \u00e2\u0080\u0094 rallying together to face challenges the same way we celebrate each other\u00e2\u0080\u0099s wins. About the Position The Data Success Manager (Data Acquisition) is one of the people primarily responsible for the sourcing and collection of data utilized by our partners through our products and services. The members of the Data Success Team are expert problem solvers, familiar with modern databases, proficient in SQL and Python, and are able to deal with escalated issues involving data discrepancies and other data mysteries. Working with other Data Success Managers and Partnership Success Managers, you will serve as a key resource for our growing set of partners who are looking to our data-driven capabilities to support their electoral and organizing & advocacy efforts. You will become familiar with the data individual partners are utilizing to support their mission and provide input on how Murmuration\u00e2\u0080\u0099s capabilities can further drive their activity. The day-to-day work in this role will be supporting the range of data needs our partners have\u00e2\u0080\u0093including helping to source,\u00c2 load, and validate data in a variety of formats\u00e2\u0080\u0093while also contributing to improvements in our data management practices and pipelines.\u00c2 You will lead the effort to establish, manage, and improve the processes involved in data collection from both operational and technical angles. You will work with other members of the Success Team to help determine the prioritization of new data collection opportunities we use to support our partners and their data.\u00c2 \u00c2 In addition, as our team continues to grow, there will be increasing opportunities for this role to lean into other support activities we provide to our partners when capacity is available. Job Level: P3 What You\u00e2\u0080\u0099ll Do Establish and manage the operational processes to identify, evaluate, and source datasets that support Murmuration\u00e2\u0080\u0099s civic engagement partners across organizing, advocacy, and electoral campaigns; Create and perform validation and quality checks on newly acquired datasets, including schema review, field-level analysis, completeness checks, and anomaly detection; Clean, standardize, and prepare external datasets for integration into Murmuration systems using SQL and scripting tools; Collaborate with internal teams (i.e., Data Success, Partner Success, and Research) to understand data gaps and recommend appropriate sourcing strategies; Monitor ongoing data quality for sourced datasets and proactively flag degradation, inconsistencies, or compliance concerns; Establish, implement, and share internal processes for dataset evaluation, vendor onboarding, and quality assurance; As new datasets are collected, develop and maintain the necessary documentation and training for internal teams on how to use and understand these datasets; and When responsibilities allow, taking an active role in partners' data success by supporting their campaign activities and work in the Organizer platform. Strong problem-solving skills, as well as the ability to manage several tasks/projects concurrently and prioritize work effectively; Strong operational management skills to build and own processes with stakeholder expectations around timeliness and quality; Strong communication skills to interact effectively with various internal and external stakeholders to develop data strategy and collaborative partnerships; An unquenchable desire to identify and fix data issues in a large, complex data environment (we\u00e2\u0080\u0099ll rely on you to constantly be hunting for issues and not waiting to be reactive); Moderate knowledge of SQL, including creating complex queries and manipulating large data sets; and Moderate experience in scripting languages (Python, etc.) Nice to Haves Experience with voter file, election data, or other datasets containing personally identifiable information (PII) is a large plus; Experience implementing data quality control best practices with both internal and external stakeholders; Experience training stakeholders with varying levels of data literacy on how to understand and utilize different types of data; Experience with business intelligence tools such as Sigma or Tableau; and/or Experience with workplace productivity and collaboration tools, especially complex or integration-based workflows (i.e., Asana, Slack, Jira, Monday, etc.) Talented candidates come from all walks of life and careers. If you are passionate about civic engagement and technology, please apply, even if you do not check every box! Location and Compensation The Data Success Manager (Data Acquisition) is a full-time, salaried position with a comprehensive benefits package (details below), open to candidates anywhere in the United States. The starting salary for this position is $106,645. We set compensation using market data and apply it consistently across the organization to ensure fairness and transparency for everyone in similar roles. Our Culture of Care We work hard to create a culture of care to ensure that our staff are best equipped to lead happy, healthy, and balanced lives. To that end, we offer a comprehensive benefits package which includes: Health, vision, and dental insurance with 100% of premiums covered for you and qualifying family members; Retirement benefits with a 5% employer match; A flexible, unlimited PTO plan; Generous paid parental leave; Pre-tax commuter benefits; A company laptop; A flexible remote work environment; A home office setup stipend for all new employees; Monthly reimbursement for remote work expenses; A yearly professional development fund; Mental health and wellness benefits through Calm and Better Help;\u00c2 Yearly in-person staff retreats; and A welcoming culture that celebrates diversity, equity, inclusion, and belonging. At Murmuration, we believe a vibrant, representative democracy depends on the inclusion of diverse voices, lived experiences, and perspectives. The best ideas don\u00e2\u0080\u0099t come from a single person or ideology \u00e2\u0080\u0094 they emerge at the intersection of different backgrounds, identities, and viewpoints. We are proud of our commitment to building an organization and culture shaped by respect, empathy, and collaboration, where our team\u00e2\u0080\u0099s diversity fuels innovation, civic engagement, and meaningful change. We welcome new colleagues who will help us nurture this collective effort. Join us. An Equal-Opportunity Employer with a Commitment to Diversity Murmuration is proud to be an equal opportunity employer, and as an organization committed to diversity and the perspective of all voices, we consider applicants equally of race, gender, color, sexual orientation, religion, marital status, disability, political affiliation and national origin. We reasonably accommodate staff members and/or applicants with disabilities, provided they are otherwise able to perform the essential functions of the job. Note: Murmuration is two organizations working together to pursue our mission of amplifying the power of civic engagement: Murmuration Research Institute, a 501(c)(3) that conducts research to identify, design, and create the data, tools, and insights that build healthier and more equitable communities; and Murmuration, Inc., a 501(c)(4) that supports organizations working across the country on the nation\u00e2\u0080\u0099s most challenging issues with access to data, tools, and research that build healthier and more equitable communities. Please mention the word **PINNACLE** and tag RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "location": "",
+      "id": "himalayas:https://himalayas.app/companies/logistics-management-institute/jobs/data-governance-specialist-clearance-required",
+      "source": "himalayas",
+      "title": "Data Governance Specialist - Clearance Required",
+      "company": "Logistics Management Institute",
+      "url": "https://himalayas.app/companies/logistics-management-institute/jobs/data-governance-specialist-clearance-required",
+      "apply_url": "https://himalayas.app/companies/logistics-management-institute/jobs/data-governance-specialist-clearance-required",
+      "description": "Overview LMI seeks an experienced Data Governance Specialist to support the U.S. Army\u2019s Holistic Health & Fitness (H2F) initiative as a member of the Data Management functional team within the H2F Program Support Team. The Data Governance Specialist is responsible for supporting the definition, implementation, and enforcement of data governance practices for data used within the Holistic Health and Fitness Management System (H2FMS). This role ensures that data supporting scientific analysis, analytics, and user engagement activities are well-defined, properly managed, compliant, and fit for purpose. The Data Governance Specialist works closely with the Technical Project Manager, data engineers, data scientists, epidemiologists, research psychologists, and software teams to ensure data assets are consistently defined, governed, and documented in accordance with Government direction. This role focuses on governance enablement and coordination, not independent policy-setting or system ownership. LMI is a new breed of digital solutions provider dedicated to accelerating government impact with innovation and speed. Investing in technology and prototypes ahead of need, LMI brings commercial-grade platforms and mission-ready AI to federal agencies at commercial speed. Leveraging our mission-ready technology and solutions, proven expertise in federal deployment, and strategic relationships, we enhance outcomes for the government, efficiently and effectively. With a focus on agility and collaboration, LMI serves the defense, space, healthcare, and energy sectors\u2014helping agencies navigate complexity and outpace change. Headquartered in Tysons, Virginia, LMI is committed to delivering impactful results that strengthen missions and drive lasting value. Responsibilities Support development and implementation of data governance practices for data used across H2FMS analytics, research, and reporting. Assist in defining data ownership, stewardship roles, and governance workflows under Government direction. Ensure governance practices align with H2F objectives and support cross-functional use of data. Support creation and maintenance of data definitions, data dictionaries, metadata, and reference standards. Ensure consistent use of data definitions across scientific, analytic, and software teams. Coordinate with data engineers and analysts to ensure metadata and documentation remain current and accurate. Assist in identifying and addressing data quality issues, including completeness, consistency, and usability. Support definition of data lifecycle practices, including data onboarding, updates, retention, and archival under Government guidance. Help ensure data used for analytics and decision support is traceable and well-documented. Coordinate with analytics, research, and software teams to ensure governance requirements are understood and implemented. Support translation of scientific and analytic data needs into governance artifacts and documentation. Assist the TPM in tracking governance-related tasks, dependencies, and deliverables. Contribute to governance documentation, standard operating procedures, and reference materials. Support adherence to applicable Government data governance, privacy, and usage requirements. Assist with preparation of briefings and materials that communicate data governance practices to stakeholders. Qualifications Required Qualifications Bachelor\u2019s degree in Data Management, Information Systems, Data Science, Information Technology, or a related field. Demonstrated experience supporting data governance, data management, or data stewardship activities. Familiarity with data standards, metadata management, and data quality concepts. Experience working with multidisciplinary teams spanning data, analytics, and software development. Strong organizational, documentation, and communication skills. Ability to obtain and maintain a Secret security clearance. Desired Qualifications Experience supporting data governance efforts in government or large-scale organizational environments. Familiarity with analytics platforms, data pipelines, or data cataloging tools. Experience working with scientific or research-driven data sets. Prior experience supporting DoW or federal customers. Location & Travel Duty Location: This position may be performed in a remote or hybrid capacity. Travel: Limited travel to Fort Eustis, Virginia or LMI Headquarters may be required to support planning, integration, or stakeholder engagement. Target salary range: $85,986 - $145,154 The salary range displayed represents the typical salary range for this position and is not a guarantee of compensation. Individual salaries are determined by various factors including, but not limited to location, internal equity, business considerations, client contract requirements, and candidate qualifications, such as education, experience, skills, and security clearances. Applicants must meet eligibility requirements for a U.S. Government security clearance. Only US Citizens are eligible for a security clearance. For this position, LMI will only consider applicants with security clearances or applicants who are eligible for security clearances, due to the nature of the work. Originally posted on Himalayas",
+      "location": "United States",
       "tags": [
-        "manager",
-        "training",
-        "technical",
-        "support",
-        "strategy",
-        "management",
-        "lead",
-        "operational",
-        "health"
+        "Data-Governance",
+        "Data-Management",
+        "Data-Quality",
+        "Data-&-Analytics",
+        "Data-Specialist"
       ],
-      "published_at": "2026-05-01T00:00:50+00:00",
+      "published_at": "",
       "is_remote": true,
-      "score": 17,
+      "score": 27,
+      "matched_keywords": [
+        "data governance",
+        "data quality",
+        "metadata",
+        "data stewardship",
+        "privacy",
+        "remote"
+      ],
+      "match_percentage": 33
+    },
+    {
+      "id": "himalayas:https://himalayas.app/companies/look4it/jobs/sap-mdg-senior-consultant",
+      "source": "himalayas",
+      "title": "SAP MDG Senior Consultant",
+      "company": "Look4IT",
+      "url": "https://himalayas.app/companies/look4it/jobs/sap-mdg-senior-consultant",
+      "apply_url": "https://himalayas.app/companies/look4it/jobs/sap-mdg-senior-consultant",
+      "description": "This is a remote position. On behalf of our Client - a growing, UK-based global consulting firm currently building its SAP practice in Poland - we are looking for an experienced SAP MDG Senior Consultant. This is a key role within a rapidly expanding SAP unit, offering the opportunity to shape data governance capabilities for global clients while working in a fully remote, international environment. Responsibilities: Lead end-to-end SAP MDG implementations on S/4HANA, covering domains such as Business Partner, Material, Supplier, and Finance; Act as a trusted advisor to business stakeholders, translating data governance requirements into scalable and efficient MDG solutions; Design and configure: MDG data models; Governance processes and workflows; Change requests, validation rules, and UI adaptations; Define and implement enterprise data governance frameworks, including data quality KPIs, ownership models, and approval structures; Drive integration between SAP MDG, S/4HANA, and other systems (e.g., ECC, Ariba, BW, CRM, non-SAP); Lead functional testing, UAT, and go-live readiness, ensuring high data quality and solution stability; Contribute to and lead business development activities, including proposal creation and client presentations; Mentor junior consultants and contribute to best practices, accelerators, and solution standards. Requirements 10+ years of experience in SAP, including strong exposure to SAP MDG (functional with technical understanding); Proven track record of 2\u20133+ end-to-end SAP MDG implementations in S/4HANA environments; Strong knowledge of master data governance processes and frameworks; Experience in stakeholder management and working in client-facing roles; Understanding of MDG technical components (e.g., workflows, BRF+, UI, data models); University degree (BSc or equivalent). Nice to Have: SAP MDG Certification; Experience with data migration and broader MDM tools; Exposure to: SAP Information Steward; SAP Data Services; SAP PI / Integration tools. Benefits REMOTE work in European implementation and transformation projects; Limited traveling, only when really needed; Industry-leading compensation and benefits; Working with latest SAP technologies; Exposure to strategic projects, where you\u2019ll be able to see your own ideas transform into breakthrough results; Being an important part of a diverse and talented consulting team; Work in an innovation-driven practice and a high-performance culture; Top training and development opportunities; True possibility to grow your career and achieve your personal ambitions. Originally posted on Himalayas",
+      "location": "United States",
+      "tags": [
+        "SAP-MDG-Consultant",
+        "SAP-Consulting",
+        "Master-Data-Governance",
+        "Data-Management",
+        "SAP-S-4HANA"
+      ],
+      "published_at": "",
+      "is_remote": true,
+      "score": 26,
+      "matched_keywords": [
+        "data governance",
+        "master data",
+        "mdm",
+        "data quality",
+        "remote"
+      ],
+      "match_percentage": 24
+    },
+    {
+      "id": "himalayas:https://himalayas.app/companies/malleum/jobs/executive-advisor-governance-risk-and-compliance",
+      "source": "himalayas",
+      "title": "Executive Advisor - Governance, Risk and Compliance",
+      "company": "Malleum",
+      "url": "https://himalayas.app/companies/malleum/jobs/executive-advisor-governance-risk-and-compliance",
+      "apply_url": "https://himalayas.app/companies/malleum/jobs/executive-advisor-governance-risk-and-compliance",
+      "description": "About Malleum Malleum is at the forefront of next-generation cyber defense, partnering with marquee clients across space, aerospace, defense, government, financial services, and critical infrastructure. We're experiencing exceptional growth as demand accelerates for trusted advisors capable of delivering at the intersection of national security, allied intelligence cooperation, and enterprise resilience. Our advisors shape the governance, risk, and compliance programs that underpin cutting-edge defensive technologies, sovereign space capabilities, and allied programs with national security impact \u2013 from satellite and launch operations to next-generation defense platforms. If you take pride in shaping how the most consequential organizations govern cyber risk and want your counsel to influence sovereign and allied missions, Malleum is where your leadership meets purpose. The Opportunity We're seeking an Executive Advisor, Governance, Risk and Compliance to lead Malleum 's most strategic GRC engagements and to help scale our advisory practice across the space, aerospace, and defense sectors. You'll serve as a trusted counsel to CISOs, CIOs, CROs, and boards \u2013 translating regulatory complexity into pragmatic, mission-aligned programs. This is a remote position, with travel to client sites \u2013 typically Ontario-based \u2013 as required. This is a senior leadership role for a recognized GRC practitioner who has stood up enterprise-grade cyber resilience programs, navigated the most demanding compliance regimes, and can mentor the next generation of Malleum advisors. What You'll Do Lead executive-level GRC advisory engagements for clients across space, aerospace, defense, government, and critical infrastructure Stand up and mature Cyber Resilience Programs at large enterprises, integrating governance, risk management, business continuity, third-party risk, and incident readiness into a cohesive operating model Advise C-suite and board stakeholders on cyber risk posture, regulatory exposure, and strategic investment priorities Lead client journeys to CMMC (Cybersecurity Maturity Model Certification) readiness and certification, including scoping, gap assessments, SSP/POAM development, and assessor coordination Lead client adoption of the Canadian Program for Cyber Security Certification (CPCSC) for organizations supporting the Government of Canada defense supply chain Develop, operationalize, and audit programs aligned with NIST CSF 2.0, NIST 800-53/171, ISO 27001/27005, ITSG-33, SOC 2, and sector-specific frameworks Advise space-sector clients on emerging requirements such as Space ISAC guidance, NIST IR 8401 (Satellite Ground Segment), and allied space defense expectations Define and implement enterprise risk management frameworks, KRIs/KPIs, risk appetite statements, and board reporting cadences Lead third-party / supply-chain risk programs aligned with defense industrial base (DIB) and allied requirements Shape Malleum 's GRC service offerings, methodologies, accelerators, and intellectual property Mentor and develop senior managers, managers, and consultants \u2014 building bench strength and a strong delivery culture Drive business development: trusted-advisor relationships, account growth, proposals, and thought leadership across the space, aerospace, and defense ecosystem Represent Malleum in industry forums, regulator engagements, client briefings, and executive roundtables What You Bring 15+ years of progressive cybersecurity and GRC experience, including senior leadership roles in consulting, industry, or government Demonstrated track record standing up and scaling Cyber Resilience Programs for large, complex enterprises \u2014 including governance structures, risk frameworks, control libraries, metrics, and operating cadences Deep expertise across CMMC (Levels 1\u20133) and emerging CPCSC requirements, including how each maps to NIST 800-171 / 800-172 and supplier obligations Hands-on experience advising clients in space, aerospace, and defense \u2014 familiarity with ITAR, CGP, controlled goods, export controls, and allied compliance regimes Strong command of NIST CSF 2.0, NIST 800-53/171/172, ISO 27001/27005, ITSG-33, SOC 2, PCI DSS, and relevant privacy regimes (PIPEDA, Quebec Law 25, GDPR) Executive presence \u2014 proven ability to advise CISOs, CIOs, CFOs, GCs, audit committees, and boards Strong commercial acumen \u2014 practice building, account growth, proposal leadership, and revenue accountability Demonstrated leadership in mentoring, coaching, and developing high-performing GRC teams Certifications such as CISSP, CISM, CRISC, CGEIT, CISA, ISO 27001 Lead Auditor/Implementer, or CMMC Registered Practitioner (RP) strongly preferred Eligibility for Government of Canada security clearance (Secret or higher); existing clearance highly valued Bilingualism (English/French) considered a strong asset Bachelor's degree required; advanced degree (MBA, MS in Cybersecurity) preferred Why Malleum Lead GRC programs with genuine national and allied security impact across space, aerospace, and defense Shape the strategy and growth of a rapidly scaling advisory practice with direct partner-level visibility Work alongside seasoned IR, offensive security, engineering, and program leaders on the most consequential client missions Highly competitive executive compensation, performance incentives, and equity-style participation in practice growth Continuous learning budget, certification sponsorship, and a platform to publish, speak, and shape industry dialogue A flat, high-trust culture that rewards judgment, ownership, and mission focus Malleum is an equal opportunity employer. We welcome applications from all qualified candidates and are committed to building a team that reflects the communities and missions we serve. Originally posted on Himalayas",
+      "location": "Canada",
+      "tags": [
+        "Governance-Risk-And-Compliance",
+        "Cybersecurity-Advisory",
+        "Security-Consulting",
+        "Executive-Leadership",
+        "Compliance-Management"
+      ],
+      "published_at": "",
+      "is_remote": true,
+      "score": 25,
+      "matched_keywords": [
+        "privacy",
+        "gdpr",
+        "risk",
+        "compliance",
+        "cybersecurity",
+        "remote"
+      ],
+      "match_percentage": 46
+    },
+    {
+      "id": "himalayas:https://himalayas.app/companies/nrb-group/jobs/data-governance-consultant-90-remote-eu-part-time-eu-institution",
+      "source": "himalayas",
+      "title": "Data Governance Consultant (90% remote - EU, part-time) - EU Institution",
+      "company": "NRB Group",
+      "url": "https://himalayas.app/companies/nrb-group/jobs/data-governance-consultant-90-remote-eu-part-time-eu-institution",
+      "apply_url": "https://himalayas.app/companies/nrb-group/jobs/data-governance-consultant-90-remote-eu-part-time-eu-institution",
+      "description": "Who are we? KEYES is a dynamic global organization that takes pride in being the trusted partner of EU Institutions. With strong commitment to excellence and a 30-years track record of delivering high-quality solutions, we are dedicated to supporting the growth and success of our clients. Our Mission is to help our clients keep up with the challenges of digital transformation by providing the right talent at the right time for the right job. To this end, we are constantly looking for talented professionals who are interested in working on challenging international projects and able to deliver high-quality results within multicultural environments. Our services include (but are not limited to) modernization of solutions, digital workspaces, cloud technologies and IT security . Our Headquarters are in Brussels and we have active accounts and offices across Europe (i.e. Luxembourg, Amsterdam, Athens, Stockholm, Geneva). Is this YOU? For one of our clients based in Luxembourg - an European Institution, we are looking for a Senior Data Governance Consultant with strong expertise in AI governance approaches and EU Institutions best practices to join our team. You will play a crucial role in supporting the innovation, research, and enabling the successful implementation of the client's corporate governance & internal policies. The client\u2019s Data Governance (DG) Framework defines six DG focus areas: (1) principles and policies, (2) leadership and communication, (3) quality management, (4) metadata management, (5) master data management and (6) privacy and security. All six areas together make the House of Data Governance. In order to increase the maturity, you will focus on fundamental constructs of Data Governance and their upgrade. The expected start of the mission is beginning of June 2026 with a long-term engagement, part-time with 3 working days per week . You will be expected to work 90% remotely from any EU country (on a freelance/B2B contract), and travel up to 2 working days per month at the client\u2019s premises in Luxembourg according to the business needs/ad-hoc requests. More specifically, you will be responsible for\u2026 Review and update the Data Governance Framework, including governance principles, roles, decision rights and supporting artefacts. Review and update the Data Management Strategy, including target operating model, roadmap and prioritised initiatives (short to medium term). Maintain, update and enhance the Data Catalogue, including metadata quality improvements and coordination with business stakeholders and data owners. Support the definition and communication of modern best practices in data governance and data management, including AI governance practices, and contribute to adoption through guidance and enablement materials. Support the definition and communication of modern best practices in data governance and data management, including AI governance practices, and contribute to adoption through guidance and enablement materials. Perform additional ad-hoc data governance tasks as requested by the client, within the scope of the Contract. Requirements Are you the perfect match? University degree (BSc/MSc); Minimum 7 years of hands-on experience in data governance as Subject Matter Expert (SME); Practical experience with Data Governance methods, tools, and techniques ; Experience in developing Data Governance Framework, Strategy, Data Governance policies and processes ; Experience in developing and improving the data catalogue ; Solid understanding of AI application and governance in the modern data landscape; Experience in project management and coordination tasks; Excellent knowledge and use of Microsoft Office and SharePoint ; Knowledge of internationally recognized best practices in data governance (e.g. DAMA-DMBOK); Knowledge of commonly used Data Governance software tools and applications; Knowledge of MS purview would be an advantage; Previous work experience with EU institutions or international organizations. Originally posted on Himalayas",
+      "location": "Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom",
+      "tags": [
+        "Data-Governance-Consultant",
+        "Data-Governance-Specialist",
+        "AI-Governance",
+        "Data-Management-Professional",
+        "IT-Governance-Consulting"
+      ],
+      "published_at": "",
+      "is_remote": true,
+      "score": 24,
+      "matched_keywords": [
+        "data governance",
+        "master data",
+        "metadata",
+        "privacy",
+        "remote"
+      ],
+      "match_percentage": 33
+    },
+    {
+      "id": "himalayas:https://himalayas.app/companies/affirm/jobs/staff-analytics-engineer-subledger-platform",
+      "source": "himalayas",
+      "title": "Staff Analytics Engineer, Subledger Platform",
+      "company": "Affirm",
+      "url": "https://himalayas.app/companies/affirm/jobs/staff-analytics-engineer-subledger-platform",
+      "apply_url": "https://himalayas.app/companies/affirm/jobs/staff-analytics-engineer-subledger-platform",
+      "description": "Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. About the Finance team The Finance team ensures Affirm remains financially sound and strategically positioned for growth. Our team manages financial planning, accounting, pricing, vendor management, tax, investor relations, and corporate development. We deliver timely insights, accurate reporting, and careful analysis to support decision-making. From day-to-day financial operations to major investments, we enable sustainable, informed growth by maintaining strong fiscal discipline. About the team Financial Systems owns the data and reporting foundation for Accounting, and the operational reliability of the pipelines that power reporting, reconciliations, and automation. We are building and scaling a single source of truth for financial information using dbt and Snowflake to enable scalable BI, close workflows, controls, and automation across the org. We\u2019re looking for a Staff Analytics Engineer to build and own our Financial Subledger Data Platform \u2014the canonical set of dbt models, governed datasets, and control frameworks that transform operational/ledger events into trusted, explainable, accounting-ready outputs. This is a senior hands-on role: you will write and ship production dbt code yourself (models, tests, docs), set standards for the platform, and directly manage and mentor one Analytics Engineer as a player/coach. This role operates with high autonomy and significant cross-functional partnership across Accounting, Financial Reporting, Financial Systems, and upstream product engineering teams. We want someone who can maintain and harden today\u2019s platform while also giving us flexibility to adopt new technologies (e.g., evolving warehouse patterns, new table formats, catalog/governance tooling, orchestration approaches) as our subledger and control needs scale. What you\u2019ll do Build and own dbt models for the financial subledger platform (staging \u2192 intermediate \u2192 canonical facts/balances/marts \u2192 semantic), including naming conventions, macros, and reusable patterns. Implement strong data quality and controls in dbt: tests (unit/relationship/assertions), freshness, anomaly checks, and automated reconciliations that support close and audit readiness. Embed AI-assisted reconciliation capabilities into the platform (within appropriate security/controls guardrails): automate variance triage, suggest likely root causes, and generate human-reviewable reconciliation narratives and evidence artifacts. Own end-to-end subledger data products (e.g., event/fact layers, balance rollforwards, reconciliation outputs) with traceability from source events through transformations to reporting outputs. Partner with Accounting/Financial Reporting to translate requirements into clear model specifications (definitions, posting logic assumptions, tie-out rules) and ship them as durable dbt assets. Drive production operational ownership : monitoring/alerting, incident response, root-cause fixes, and release hygiene for the pipelines and models you own. Collaborate with upstream engineering teams to define inputs and improve source data quality via contracts and change management. Coach and develop one Analytics Engineer (Poland) via code review, pairing, scoped ownership, and clear technical direction. What we look for Deep, hands-on analytics engineering experience: you have built and maintained production dbt projects (models, tests, macros, documentation, CI) and can own them end-to-end. Strong SQL and data modeling skills; experience building canonical datasets that support finance reporting, reconciliations, or other correctness-critical outcomes. Experience operating data pipelines in a warehouse environment (Snowflake preferred): performance tuning, cost awareness, and reliability practices. Strong programming skills (Python preferred) for building data tooling and automation (e.g., control checks, reconciliation workflows, utilities, CLIs, and integrations). Deep Snowflake technical expertise: architecture patterns (micro-partitioning/clustering, query optimization), security/governance (RBAC, masking policies), and operational excellence (monitoring, cost management, reliability). Strong ownership mindset and ability to lead ambiguous work through influence across Finance, Accounting, and Engineering stakeholders. Nice to have: Experience with accounting concepts (subledgers, journal entries/posting logic, balance rollforwards, tie-outs, close processes). Experience designing SOX-friendly controls and producing repeatable evidence from data pipelines. Experience applying AI/LLMs to data quality or reconciliation workflows (e.g., anomaly explanation, automated investigation summaries), with strong governance and human-in-the-loop review. AWS experience (nice to have): S3/IAM, data platform primitives, and cloud architecture concepts that support secure, reliable data products. Base Pay Grade - O Equity Grade - 6 Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. Base pay is part of a total compensation package that may include monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents). In addition, the employees may be eligible for equity rewards offered by Affirm Holdings, Inc. (parent company). CAN base pay range per year: $170,000 - $220,000 Affirm is proud to be a remote-first company! The majority of our roles are remote and you can work almost anywhere within the country of employment. Affirm ers in proximal roles have the flexibility to work remotely, but will occasionally be required to work out of their assigned Affirm office. A limited number of roles remain office-based due to the nature of their job responsibilities. We\u2019re extremely proud to offer competitive benefits that are anchored to our core value of people come first. Some key highlights of our benefits package include: Health care coverage - Affirm covers all premiums for all levels of coverage for you and your dependents Flexible Spending Wallets - generous stipends for spending on Technology, Food, various Lifestyle needs, and family forming expenses Time off - competitive vacation and holiday schedules allowing you to take time off to rest and recharge ESPP - An employee stock purchase plan enabling you to buy shares of Affirm at a discount We believe It\u2019s On Us to provide an inclusive interview experience for all, including people with disabilities. We are happy to provide reasonable accommodations to candidates in need of individualized support during the hiring process. [For U.S. positions that could be performed in Los Angeles or San Francisco] Pursuant to the San Francisco Fair Chance Ordinance and Los Angeles Fair Chance Initiative for Hiring Ordinance, Affirm will consider for employment qualified applicants with arrest and conviction records. By clicking \"Submit Application,\" you acknowledge that you have read Affirm 's Global Candidate Privacy Notice and hereby freely and unambiguously give informed consent to the collection, processing, use, and storage of your personal information as described therein. Originally posted on Himalayas",
+      "location": "Canada",
+      "tags": [
+        "Analytics-Engineering",
+        "Financial-Data-Engineering",
+        "Data-Engineering",
+        "Accounting",
+        "Finance-Technology"
+      ],
+      "published_at": "",
+      "is_remote": true,
+      "score": 21,
       "matched_keywords": [
         "data quality",
-        "compliance",
-        "tableau",
+        "privacy",
+        "iam",
+        "analytics engineer",
         "sql",
         "remote"
       ],
-      "match_percentage": 21
+      "match_percentage": 60
+    },
+    {
+      "id": "himalayas:https://himalayas.app/companies/ge-vernova/jobs/global-industrial-data-standards-leader",
+      "source": "himalayas",
+      "title": "Global Industrial Data Standards Leader",
+      "company": "GE Vernova",
+      "url": "https://himalayas.app/companies/ge-vernova/jobs/global-industrial-data-standards-leader",
+      "apply_url": "https://himalayas.app/companies/ge-vernova/jobs/global-industrial-data-standards-leader",
+      "description": "Job Description Summary Define and own the global standard for how industrial data moves from manufacturing operations to business decision across Gas Power Global Supply Chain. Positioned as a neutral peer to the Global Process Engineering Authority and Global Process Digital Authorities, this role defines the Integration Contract at the OT/IT boundary, governs how operational signals become business data elements, and ensures every site connects to a single global standard rather than building its own integration. Serves as primary voice in the MIDA engagement and any industrial data architecture decision that affects how manufacturing data reaches the business. Job Description Key Responsibilities You will lead the global standard for how manufacturing and operational data moves from the shop floor into enterprise systems across Gas Power. In this role, you will shape how industrial data is structured, governed, and used to support business processes, digital solutions, and AI-enabled decision-making. As the Global Industrial Data Standards Leader you will: Own the Integration Contract, the global standard that defines how OT data is structured, named, and handed off to IT and enterprise systems. Lead change control governance for the Integration Contract, assessing cross-system impacts and approving updates before they scale across sites. Define data product acceptance criteria for MIDA-connected sites, including validation requirements and business-readiness standards. Maintain the target-state industrial data architecture, ensuring new technologies align with the broader Gas Power digital ecosystem. Serve as a key voice in MIDA engagements and industrial data architecture forums where manufacturing data standards are defined. Cross-Functional Alignment and Standards Deployment You will collaborate across engineering, digital, and business teams to ensure industrial data standards are practical, aligned, and adopted globally. This includes: Partnering with the Global Process Engineering Authority (GPEA) to define how operational data is structured and handed off at the OT/IT boundary. Partnering with Global Process Digital Authorities (GPDAs) to ensure downstream data consumption needs are met without disruption. Working with the New Technology Introduction team to ensure digital and AI solutions meet Integration Contract standards before pilot and scale-up. Providing AI readiness guidance, assessing whether data products are complete, structured, and reliable enough to support AI-driven decisions. Collaborating with Master Data Governance to align operational data standards with enterprise data definitions across SAP and Oracle. Site Network and Adoption Build and coordinate a cross-functional network of site-level representatives spanning GPEA, GPDA, and Digital Technology disciplines who implement and sustain the Integration Contract locally across Gas Power manufacturing sites. Establish and chair a cross-functional industrial data standards forum bringing together GPEA, GPDA, and Digital Technology representatives across sites. This forum is the ratification body for changes to the Integration Contract and data product acceptance criteria, decisions made here govern how data flows across the entire Gas Power manufacturing network. Monitor Integration Contract compliance across sites, identify deviations, and drive corrective action. Feed lessons learned from each site implementation back into the global standard so every subsequent deployment is faster and more consistent than the last. Required Qualifications Bachelor's degree in Engineering, Manufacturing, Computer Science, or a related technical field. 8+ years in manufacturing, industrial data, or process engineering with direct experience working on both sides of the OT/IT boundary. Preferred Qualifications Demonstrated experience defining and governing data standards in a manufacturing environment, not just implementing them. Has held a standards-setting or formal governance role with measurable outcomes. Working knowledge of manufacturing execution systems, ERP (SAP and/or Oracle), and how enterprise systems consume operational data from the shop floor. Proven ability to build cross-functional credibility with process engineers, supply chain planners, and technology teams simultaneously. Multi-site or global manufacturing scope experience; comfortable driving alignment across teams with different priorities and technical backgrounds. What Will Make You Stand Out Familiarity with industrial data architecture frameworks in discrete manufacturing Experience influencing across technical, functional, and enterprise governance communities A background in standards governance and adoption, not just documentation Working knowledge of how machine data is generated and collected on the shop floor The ability to operate as a neutral, cross-functional leader in complex environments Experience with industrial data platforms, vendor partnerships, or cross-company data architecture standards Additional Information GE Vernova offers a great work environment, professional development, challenging careers, and competitive compensation. GE Vernova is an Equal Opportunity Employer . Employment decisions are made without regard to race, color, religion, national or ethnic origin, sex, sexual orientation, gender identity or expression, age, disability, protected veteran status or other characteristics protected by law. GE Vernova will only employ those who are legally authorized to work in the United States for this opening. Any offer of employment is conditioned upon the successful completion of a drug screen (as applicable). Relocation Assistance Provided: No - This is a remote positionApplication Deadline: May 07, 2026For candidates applying to a U.S. based position, the pay range for this position is between $144,000.00 and $240,000.00. The Company pays a geographic differential of 110%, 120% or 130% of salary in certain areas. The specific pay offered may be influenced by a variety of factors, including the candidate\u2019s experience, education, and skill set.Bonus eligibility: discretionary annual bonus.This posting is expected to remain open for at least seven days after it was posted on April 23, 2026.Available benefits include medical, dental, vision, and prescription drug coverage; access to Health Coach from GE Vernova , a 24/7 nurse-based resource; and access to the Employee Assistance Program, providing 24/7 confidential assessment, counseling and referral services. Retirement benefits include the GE Vernova Retirement Savings Plan, a tax-advantaged 401(k) savings opportunity with company matching contributions and company retirement contributions, as well as access to Fidelity resources and financial planning consultants. Other benefits include tuition assistance, adoption assistance, paid parental leave, disability benefits, life insurance, 12 paid holidays, and permissive time off. GE Vernova Inc. or its affiliates (collectively or individually, \u201c GE Vernova \u201d) sponsor certain employee benefit plans or programs GE Vernova reserves the right to terminate, amend, suspend, replace, or modify its benefit plans and programs at any time and for any reason, in its sole discretion. No individual has a vested right to any benefit under a GE Vernova welfare benefit plan or program. This document does not create a contract of employment with any individual. Originally posted on Himalayas",
+      "location": "United States",
+      "tags": [
+        "Data-Standards-Governance",
+        "Industrial-Data-Architecture",
+        "Manufacturing-Data-Management",
+        "OT-IT-Integration-Leadership",
+        "Data-Governance"
+      ],
+      "published_at": "",
+      "is_remote": true,
+      "score": 19,
+      "matched_keywords": [
+        "data governance",
+        "master data",
+        "compliance",
+        "remote"
+      ],
+      "match_percentage": 22
+    },
+    {
+      "id": "himalayas:https://himalayas.app/companies/wonderl/jobs/consultant-m-w-d-datenschutz-informationssicherheit-teilzeit-remote",
+      "source": "himalayas",
+      "title": "Consultant (m/w/d) Datenschutz & Informationssicherheit (Teilzeit, Remote)",
+      "company": "Bertelsmann",
+      "url": "https://himalayas.app/companies/wonderl/jobs/consultant-m-w-d-datenschutz-informationssicherheit-teilzeit-remote",
+      "apply_url": "https://himalayas.app/companies/wonderl/jobs/consultant-m-w-d-datenschutz-informationssicherheit-teilzeit-remote",
+      "description": "We are looking for a consultant to support our customers in implementing statutory requirements and building secure and sustainable compliance structures, with a focus on data protection, information security, and compliance. Requirements Consulting customers on data protection requirements Supporting the introduction and development of information security management systems (ISMS) Conducting data protection impact assessments (DPIA) Creating and maintaining processing records and guidelines Conducting audits and gap analyses Participating in our academy to support the creation of training materials and developing learning content Supporting the processing of data protection incidents Benefits Flexible working hours Combination of consulting and active participation in our academy Exciting projects and varied tasks Opportunities for further training Flat hierarchies and short decision-making processes 100% remote work Originally posted on Himalayas",
+      "location": "Germany",
+      "tags": [
+        "Consultant-Junior-En-Anonymisation-De-Donn\u00e9es",
+        "Data-Privacy-Engineer",
+        "Junior-Data-Protection-Consultant",
+        "Junior-Information-Security-Consultant"
+      ],
+      "published_at": "",
+      "is_remote": true,
+      "score": 17,
+      "matched_keywords": [
+        "privacy",
+        "data protection",
+        "compliance",
+        "remote"
+      ],
+      "match_percentage": 22
+    },
+    {
+      "id": "himalayas:https://himalayas.app/companies/veolia/jobs/supply-chain-master-data-project-manager-628124952",
+      "source": "himalayas",
+      "title": "Supply Chain Master Data Project Manager",
+      "company": "Veolia",
+      "url": "https://himalayas.app/companies/veolia/jobs/supply-chain-master-data-project-manager-628124952",
+      "apply_url": "https://himalayas.app/companies/veolia/jobs/supply-chain-master-data-project-manager-628124952",
+      "description": "Veolia Group is a global leader in environmental services, operating across all five continents with nearly 218,000 employees. The company specializes in water, energy, and waste management, designing and implementing innovative solutions for decarbonization, depollution, and resource regeneration, supporting communities and industries in their ecological transformation. Requirements Degree in Supply Chain, Operations, Engineering, Business Administration, or related field \u2014 Master's degree preferred Fluency in English is a must; additional languages are a strong advantage Certifications preferred: Master Data Management, Project Management, Lean Six Sigma Fluent in Business English Strong project management track record in complex, multi-site, global environments Hands-on experience with supply chain master data in SAP and/or Oracle JDE \u2014 material master, BOMs, routings, planning parameters, logistics data Proven experience defining data standards, leading cleansing programs, or implementing governance frameworks Experience in process analysis, process mapping, and process improvement \u2014 ideally applied to data management or supply chain operations Experience in a global matrixed organization, leading through influence Exposure to data catalogue tools such as Alation or equivalent is an advantage Exposure to digital transformation programs (MDM platforms, planning tools, ERP rollouts) is a strong advantage Benefits Full-time position Remote work option Competitive salary Opportunities for professional growth and development Originally posted on Himalayas",
+      "location": "France",
+      "tags": [
+        "Supply-Chain-Project-Manager",
+        "Master-Data-Management-Jobs",
+        "Supply-Chain-IT-Analyst",
+        "Master-Data-Management-Analyst",
+        "Master-Data-Management-Specialist",
+        "SAP-Master-Data-Management-Analyst",
+        "Information-Technology-Project-Manager",
+        "Supply-Chain-Management-Jobs",
+        "Supply-Chain-Systems-Analyst",
+        "Project-Manager"
+      ],
+      "published_at": "",
+      "is_remote": true,
+      "score": 15,
+      "matched_keywords": [
+        "master data",
+        "mdm",
+        "remote"
+      ],
+      "match_percentage": 27
     },
     {
       "id": "weworkremotely:https://weworkremotely.com/remote-jobs/zayzoon-senior-devops-engineer",
@@ -86,41 +281,6 @@
         "remote"
       ],
       "match_percentage": 21
-    },
-    {
-      "id": "remoteok:1131423",
-      "source": "remoteok",
-      "title": "Lead Analytics Engineer Borrowing",
-      "company": "Monzo",
-      "url": "https://remoteOK.com/remote-jobs/remote-lead-analytics-engineer-borrowing-monzo-1131423",
-      "apply_url": "https://remoteOK.com/remote-jobs/remote-lead-analytics-engineer-borrowing-monzo-1131423",
-      "description": "\u00f0\u009f\u0093\u008dLondon, Cardiff or Remote in the UK | \u00f0\u009f\u0092\u00b0 \u00c2\u00a397,800 -125,000 + Benefits | Hear from the team \u00e2\u009c\u00a8\u00c2 \u00e2\u00ad\u0090Our Borrowing Analytics Engineering Team: Our Mission in Borrowing is to enable people's financial goals through better borrowing. Our customers look to borrow money to enable them to achieve something in their lives - whether that\u00e2\u0080\u0099s making a big life event affordable, buying something they need now without affecting their monthly budget, or getting by until payday. And we\u00e2\u0080\u0099re looking to shape this mission by building products that our customers love, whilst scaling those top revenue lines across the business safely.\u00c2 We're looking for a Lead Analytics Engineer within our borrowing team to help build world class service for the bank of the future. You will play a critical role in overseeing our foundational data platforms, identifying and driving opportunities to enhance our current capabilities. Your expertise will be pivotal in allowing us to scale into new global markets, build new products and shape the future of how we serve our customers.\u00c2 We have a strong culture of data-driven decision making across the whole company. And we're great believers in powerful, real-time analytics and empowerment of the wider business.\u00c2 \u00f0\u009f\u0094\u0091You\u00e2\u0080\u0099ll play a key role by... - Serving as a data architect for Monzo\u00e2\u0080\u0099s Borrowing data, contributing to the design and scalability of data models that measure the performance of our product suite. - Develop robust data models downstream of backend services, primarily in BigQuery, to support internal reporting, machine learning, large language models, as well as financial and regulatory use cases. - Be a key voice in shaping and maintaining best practices for our Data Warehouse, including source data payload design, logical data modelling, implementation, metadata, and testing standards. Please mention the word **ANGELIC** and tag RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "location": "Cardiff, London",
-      "tags": [
-        "design",
-        "architect",
-        "support",
-        "testing",
-        "voice",
-        "financial",
-        "bank",
-        "lead",
-        "analytics",
-        "engineer",
-        "engineering",
-        "backend",
-        "digital nomad"
-      ],
-      "published_at": "2026-05-01T16:01:01+00:00",
-      "is_remote": true,
-      "score": 13,
-      "matched_keywords": [
-        "metadata",
-        "analytics engineer",
-        "bigquery",
-        "remote"
-      ],
-      "match_percentage": 54
     },
     {
       "id": "weworkremotely:https://weworkremotely.com/remote-jobs/unqork-principal-product-designer",
@@ -233,30 +393,31 @@
       "match_percentage": 19
     },
     {
-      "id": "remoteok:1131432",
-      "source": "remoteok",
-      "title": "Director of Supply Chain",
-      "company": "STR",
-      "url": "https://remoteOK.com/remote-jobs/remote-director-of-supply-chain-str-1131432",
-      "apply_url": "https://remoteOK.com/remote-jobs/remote-director-of-supply-chain-str-1131432",
-      "description": "About the Role: STR is seeking an experienced and highly motivated Director of Supply Chain to lead our procurement function within a dynamic and growing Contracts and Supply Chain team. This is a strategic leadership role, responsible for overseeing supplier sourcing and the full procurement lifecycle, ensuring compliance with Federal Acquisition Regulations (FAR/DFARS), and driving process improvements to support STR's mission. The ideal candidate will bring deep expertise in supply chain, strategic sourcing, Federal procurement, exceptional leadership skills, and a commitment to operational excellence. What you will do: Provide strategic leadership and oversight for all direct and indirect procurement activities, from planning through closeout, in accordance with company policies, FAR, DFARS, and agency-specific regulations Work closely with the business, technical and functional stakeholders to successfully ensure execution of company needs and requirements Develop and negotiate strategic agreements that leverage STR's purchasing power, secure quantity discounts, and support long\u00e2\u0080\u0091term sourcing strategies that drive a competitive advantage Lead, mentor, and develop a high-performing procurement team, fostering a culture of collaboration, accountability, and continuous improvement Oversee a secure supply chain including due diligence, supplier qualification, market research, and source selection processes to ensure best value and compliance with regulatory requirements and minimize risk Direct complex negotiations with vendors, suppliers and subcontractors, ensuring favorable terms and risk mitigation for STR Proactively identify, manage and mitigate sourcing and supply chain risks to ensure business continuity and support the customer Oversee supplier sourcing for new opportunities including supplier/teaming strategy, customer proposal support, potential sources, evaluating supplier proposals and quotes for price/cost reasonableness and compliance with co Please mention the word **BOUNTIFUL** and tag RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "location": "Remote",
+      "id": "himalayas:https://himalayas.app/companies/emcd/jobs/product-data-analyst",
+      "source": "himalayas",
+      "title": "Product Data Analyst",
+      "company": "EMCD",
+      "url": "https://himalayas.app/companies/emcd/jobs/product-data-analyst",
+      "apply_url": "https://himalayas.app/companies/emcd/jobs/product-data-analyst",
+      "description": "EMCD is a global crypto infrastructure company powering millions of users worldwide. Our ecosystem combines a top-7 global mining pool, a secure multi-currency wallet, high-yield crypto savings, and an instant P2P exchange - all in one seamless app. https://emcd.io/ Join us at the intersection of business, strategy, and opportunity. We are seeking a proactive Product Data Analyst to lead analytics for our Trading Solutions area. You\u2019ll drive data-informed decisions, identify growth opportunities, and build dashboards and experimentation frameworks. The ideal candidate has strong SQL and Python skills and a passion for turning data into impact. What you will do: Owning and leading analytics for the Trading Solutions product area. Continuously identifying new business growth opportunities and generating hypotheses to improve key metrics. Analyzing product changes and evaluating product initiatives. Helping the team approach problems structurally and make data-driven decisions. Building a dashboard system and alerting framework to monitor deviations in key metrics. Creating analytical tools and setting up analytical processes such as A/B testing, data logging, and more. Developing a culture of experimentation and hypothesis validation across the company. What we are looking for: 4+ years of experience as a data/product analyst. Excellent knowledge of SQL. Proficiency in Python, including areas beyond the standard analytics stack. Experience with one of the major BI tools: Tableau, Power BI, Superset. Hands-on experience with experiments and A/B testing is a plus. Strong understanding of statistics. A passion for systematization, organization, and maintaining order. Familiarity with ETL principles is a plus. Experience with GitLab and Airflow is an advantage. Experience in tech companies (VK, Yandex, Avito, etc.) is a plus. Personal attributes: Professional demeanor with high emotional intelligence Flexible, adaptable, and resourceful \u2014 thrives in fast-changing environments Strong interpersonal skills with the ability to build trust quickly Proactive mindset with a focus on solutions Composed and resilient under stress, capable of learning from mistakes and turning challenges into growth opportunities What we offer: Fully remote work from anywhere in the world with a flexible work schedule 100% paid sick leave and vacation Corporate pricing for company products and the opportunity to set up your own mining farm using EMCD 's infrastructure Work in a leading mining pool with in-depth industry training Originally posted on Himalayas",
+      "location": "Armenia",
       "tags": [
-        "director",
-        "technical",
-        "support",
-        "lead",
-        "operational"
+        "Product-Data-Analysis",
+        "Data-Analysis",
+        "Product-Analytics",
+        "Business-Intelligence",
+        "Analytics-Engineering"
       ],
-      "published_at": "2026-05-02T00:01:12+00:00",
+      "published_at": "",
       "is_remote": true,
       "score": 11,
       "matched_keywords": [
-        "risk",
-        "compliance",
+        "tableau",
+        "power bi",
+        "sql",
         "remote"
       ],
-      "match_percentage": 20
+      "match_percentage": 18
     },
     {
       "id": "weworkremotely:https://weworkremotely.com/remote-jobs/airalo-staff-data-analyst-product",
@@ -279,6 +440,29 @@
         "remote"
       ],
       "match_percentage": 19
+    },
+    {
+      "id": "himalayas:https://himalayas.app/companies/inova-health/jobs/data-governance-lead",
+      "source": "himalayas",
+      "title": "Data Governance Lead",
+      "company": "Inova Health",
+      "url": "https://himalayas.app/companies/inova-health/jobs/data-governance-lead",
+      "apply_url": "https://himalayas.app/companies/inova-health/jobs/data-governance-lead",
+      "description": "Inova Data and AI Development is looking for a dedicated Data Governance Lead to join the Team. This remote role will be full-time working day-shift Monday \u2013 Friday. The Data Governance Lead is an integral part Inova\u2019s Analytics department and will enforce the policies and procedures that enable Inova to manage its data as an asset. Requirements Bachelor's degree 4 years' experience in leading a data governance program or progressive responsibility in the development of a data governance program Epic certified within 6 months of hire Benefits Medical, dental and vision coverage Robust team member wellness program Retirement plan with employer matching Tuition and student loan assistance Mental health support Paid time off Paid parental leave Flexible work schedules Remote and hybrid career opportunities Originally posted on Himalayas",
+      "location": "United States",
+      "tags": [
+        "Data-Governance-Jobs",
+        "Data-Management-Jobs",
+        "Data-Quality-Jobs"
+      ],
+      "published_at": "",
+      "is_remote": true,
+      "score": 9,
+      "matched_keywords": [
+        "data governance",
+        "remote"
+      ],
+      "match_percentage": 25
     },
     {
       "id": "weworkremotely:https://weworkremotely.com/remote-jobs/alvys-senior-product-designer",
@@ -323,33 +507,25 @@
       "match_percentage": 18
     },
     {
-      "id": "remoteok:1131321",
-      "source": "remoteok",
-      "title": "Medical Director for Health Plan",
-      "company": "Evry Health",
-      "url": "https://remoteOK.com/remote-jobs/remote-medical-director-for-health-plan-evry-health-1131321",
-      "apply_url": "https://remoteOK.com/remote-jobs/remote-medical-director-for-health-plan-evry-health-1131321",
-      "description": "Evry Health is hiring a tech-savvy Medical Director to lead medical policy and utilization management for a growing, technology-enabled health plan. In this role, you will work closely with teams across actuarial, technology, care coordination, and medical quality management to shape how care is delivered, managed, and improved for our members. You will report directly to the Chief Medical Officer. While this is a remote role, you must reside in the United States and in the Eastern or Central time zone. We are also open to this role being full-time or part-time. About Evry Health and Globe Life We are on a mission to bring humanity to health insurance. Our high-technology health plans expand benefits, increase access and transparency, and feature a personalized, human approach. We strive to ensure members live happier, healthier lives. Evry Health is the major medical division of Globe Life (NYSE:GL). Globe Life has 16.8 million policies in force, and more than 3,000 corporate employees and 15,000 agents. For more than 45 consecutive years, Globe Life has earned an A (Excellent) rating or higher from A.M. Best Company. \\n Roles and Responsibilities Lead utilization management strategy, including oversight of medical necessity determinations and review processes Own medical policy development, incorporating regulatory updates and care guideline changes Lead and Partner with the Utilization Management Review Committee Provide medical oversight, expertise, and leadership to ensure the delivery of cost effective, quality healthcare services to health plan members Promote positive relations with the local medical community, including periodic consultation with providers, facilities, caregivers, etc. Review case management data to identify trends, gaps in care, and recommend corrective actions Provide oversight and direction for staff and provider training and education Integrate clinical quality and best clinical practices into medical management program development Evaluate the development of new programs and the continuation of existing programs Investigate future care management and patient engagement technologies and evaluate their impact on providers\u00e2\u0080\u0099 practices, patient safety, and patient experience Experience and Skills Desired Active, unrestricted Texas (TX) medical license without limitations or sanctions Doctor of Medicine (MD) with 8+ years of clinical experience; management experience preferred Board certification in a specialty recognized by the American Board of Medical Specialties Experience working within a health insurance plan, with an emphasis on population health Experience in managed care and utilization management, including performing utilization reviews within a health plan Strong knowledge of managed care systems, quality improvement, and clinical best practices Experience with MCG or other clinical guidelines Telecommuting Requirements This is a remote position. Our whole company works remotely. Company headquarters are in Dallas, Texas. Company business hours are weekdays 9-5 CST. We will only consider candidates in the United States who reside in the CST or EST time zones. This position requires work during the stated business hours. Required to have a dedicated work area established that is separate from other living areas and provides information privacy. Ability to keep all company sensitive documents secure. Must live in a location that receives an existing high-speed internet connection/service. Benefits Package Competitive salary Comprehensive health, dental, and vision insurance as well as life and disability Retirement savings plan with company match Generous time off/vacation Professional development opportunities Flexible and remote work environment \\n Evry Health is an EEO employer - Read More Here Please mention the word **HOT** and tag RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "id": "weworkremotely:https://weworkremotely.com/remote-jobs/accelerate-change-development-operations-support-contractor-freelance-remote",
+      "source": "weworkremotely",
+      "title": "Accelerate Change: Development Operations Support Contractor (Freelance, Remote)",
+      "company": "Unknown",
+      "url": "https://weworkremotely.com/remote-jobs/accelerate-change-development-operations-support-contractor-freelance-remote",
+      "apply_url": "https://weworkremotely.com/remote-jobs/accelerate-change-development-operations-support-contractor-freelance-remote",
+      "description": "Headquarters: Boston, MA URL: https://acceleratechange.org/ Position: Development Operations Support Contractor (Freelance, Remote) Organization: Accelerate Change Reports to: Development Department Managers Direct Reports: N/A Location: 100% remote freelance opportunity in the United States (from home or co-working space) About Accelerate Change Founded in 2012, Accelerate Change is a nonprofit (c3/c4) digital media lab. We work to increase civic engagement with BIPOC and low-income communities through digital media. Our programs include: Scaling emerging cultural media properties Investing in established cultural media properties Building influencer networks Leading a digital media lab Driving civic engagement campaigns Learn more about our theory of change, approach, and impact at https://acceleratechange.org/about/ Our team is made up of digital media innovators and operators who bring a mix of tech, business, civic engagement, and media backgrounds. Meet our team and learn more about our culture at https://acceleratechange.org/values-team/ About the Position Accelerate Change is seeking to hire four (4) Development Operations Support Contractors, with 3+ years of proven expertise in data entry and database management, specifically with Salesforce, to support the efficient and compliant processing of incoming funds and donor records. Here\u2019s what you could expect to do as a Development Operations Support Contractor (key responsibilities): Data Entry and Records Support: Maintain the comprehensive accuracy of the Salesforce CRM. This includes creating, updating, and merging donor records (contacts, emails, organizations, households), updating General Accounting Units (GAUs), and ensuring donor profiles (contact details, giving history, and preferences) are current and complete. Gift and Financial Processing: Execute the accurate and timely end-to-end processing of incoming funds, including donations received via multiple giving websites, checks, wires, Donor Advised Funds (DAFs), and pledge payments. This involves ensuring correct application of campaigns and funds in Salesforce. Operational Support and Quality Control: Monitor and manage data quality by identifying missing fields and flagging inconsistencies with the team. Provide essential operational support, including assisting with sending donor acknowledgment letters as needed. What We\u2019re Looking For Commitment to social change. Accelerate Change is a mission-driven workplace focused on civic engagement with BIPOC and low-income communities. You have a demonstrated commitment to this work and you\u2019d like to be part of a team of people who do, too. 3+ years experience with key responsibilities. We\u2019re looking for someone who has at least 3 years of experience working with the Salesforce platform, with a strong focus on the Nonprofit Success Pack (NPSP). Demonstrated experience in Salesforce data entry and database management, preferably gained while working with or for a nonprofit development, fundraising, or grants team. Compensation This is a 6 - month freelance opportunity with the potential to extend. The compensation range is $45 - $55 per hour, depending on experience. This opportunity contributes to a contractor pool for future project-based work. Hours are not guaranteed; however, when projects are available, engagements typically range from 5\u201330 hours per week depending on scope and availability Apply To apply, please upload your resume and tell us more about your experience on the application on our website. Accelerate Change is an equal opportunity employer. We believe that people of color, people from working class backgrounds, women, and LGBTQIA+ people must be centered in the work we do. Hence, we strongly encourage applications from people with these identities or who are members of other marginalized communities. To apply: https://weworkremotely.com/remote-jobs/accelerate-change-development-operations-support-contractor-freelance-remote",
       "location": "Remote",
       "tags": [
-        "director",
-        "training",
-        "management",
-        "lead",
-        "medical",
-        "health",
-        "healthcare",
-        "full-time",
-        "non tech"
+        "Management and Finance"
       ],
-      "published_at": "2026-04-25T00:00:42+00:00",
+      "published_at": "Fri, 03 Apr 2026 14:15:00 +0000",
       "is_remote": true,
       "score": 8,
       "matched_keywords": [
-        "privacy",
+        "data quality",
         "remote"
       ],
-      "match_percentage": 20
+      "match_percentage": 17
     },
     {
       "id": "weworkremotely:https://weworkremotely.com/remote-jobs/trt-solutions-limited-global-support-services-engineer",
@@ -373,27 +549,6 @@
       "match_percentage": 17
     },
     {
-      "id": "weworkremotely:https://weworkremotely.com/remote-jobs/deblock-senior-fincrime-product-owner",
-      "source": "weworkremotely",
-      "title": "Deblock: Senior FinCrime Product Owner",
-      "company": "Unknown",
-      "url": "https://weworkremotely.com/remote-jobs/deblock-senior-fincrime-product-owner",
-      "apply_url": "https://weworkremotely.com/remote-jobs/deblock-senior-fincrime-product-owner",
-      "description": "Headquarters: Poland We want to revolutionise how money moves between fiat and crypto to unlock the numerous possibilities that Web3 offers. We need a creative and innovative Senior FinCrime Product Owner to design and implement a robust and innovative financial crime and fraud product to protect our users, eliminate bad actors, and propel forward the ecosystem. In this role, you\u2019ll be expected to build out Deblock\u2019s FinCrime platform by setting out the product strategy, owning the roadmap for delivery, and hiring the team to deliver it. We\u2019re looking for someone who can see what\u2019s broken in the financial crime industry, someone who has a burning itch to fix it, and someone who can build a better solution from the ground up. If financial crime seems like an eminently fixable problem to you, this is the role for you. We want to revolutionise the FinTech industry. Create a new paradigm. And we need the best minds to do it What we are looking for: Experience building products to prevent and detect financial crime and fraud Experience working in a high-growth start-up or fintech 2+ years of experience working on technical products (such as platforms, distributed systems, data science, machine learning, computer vision, embedded systems, robotics etc.) Experience developing product(s) from zero to first release and beyond What will make you stand out: Professional qualification from an internationally recognised body (e.g. ICA, ACAMS) Deep knowledge of the UK and EU regulatory environment and key financial crime regimes Experience working with crypto compliance tools (e.g. Chainalysis, Elliptic) Strong data analytics capability to extract insights from large datasets and translate them into product strategy and decision-making Competitive salary + stock options Private dental + health insurance The best tech for your job 30 days of paid holidays (excl. bank holidays) Option to work 100% remotely or come to the office - your choice! Ability to work abroad for 4 months a year To apply: https://weworkremotely.com/remote-jobs/deblock-senior-fincrime-product-owner",
-      "location": "Remote",
-      "tags": [
-        "Management and Finance"
-      ],
-      "published_at": "Fri, 10 Apr 2026 20:31:28 +0000",
-      "is_remote": true,
-      "score": 7,
-      "matched_keywords": [
-        "compliance",
-        "remote"
-      ],
-      "match_percentage": 18
-    },
-    {
       "id": "weworkremotely:https://weworkremotely.com/remote-jobs/octus-product-specialist",
       "source": "weworkremotely",
       "title": "Octus: Product Specialist",
@@ -406,113 +561,6 @@
         "Management and Finance"
       ],
       "published_at": "Fri, 01 May 2026 20:30:51 +0000",
-      "is_remote": true,
-      "score": 7,
-      "matched_keywords": [
-        "compliance",
-        "remote"
-      ],
-      "match_percentage": 17
-    },
-    {
-      "id": "remoteok:1131429",
-      "source": "remoteok",
-      "title": "Intelligence Collections Specialist UK",
-      "company": "Concentric",
-      "url": "https://remoteOK.com/remote-jobs/remote-intelligence-collections-specialist-uk-concentric-1131429",
-      "apply_url": "https://remoteOK.com/remote-jobs/remote-intelligence-collections-specialist-uk-concentric-1131429",
-      "description": "Are you interested in joining an organization with a global reach? In a world of shifting threats, Concentric is your trusted ally. Powered by elite professionals from military, government, and intelligence backgrounds. If you are passionate about intelligence, risk analysis, threat management, executive protection, security operations, or business resiliency, Concentric may be the organization you've been searching for! Concentric is a risk consultancy specializing in delivering strategic security and intelligence services. We provide holistic, intelligent security solutions for private clients and corporations globally. Concentric offers strategic advisory services, risk assessments, physical protection, threat intelligence, open-source monitoring, program audits, secure embedded staffing, and training for security teams and intelligence analysts. Our ultimate goal is to be recognized as the most innovative, capable, and trusted Risk Management partner in the world, and we do this by following these core values: Integrity \u00e2\u0080\u0093 Collaboration - Relationships \u00e2\u0080\u0093 Excellence \u00e2\u0080\u0093 Creativity - Results Join Us, Concentric - \"Your World Secured\" We are currently looking to hire an Intelligence Collection Specialist to join our Corporate Team in Hereford, England, United Kingdom. *This position allows for remote work arrangements from the United Kingdom only. *Thi Please mention the word **UPGRADEABLE** and tag RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "location": "Hereford",
-      "tags": [
-        "embedded",
-        "security",
-        "training",
-        "consultancy",
-        "management",
-        "executive"
-      ],
-      "published_at": "2026-05-02T00:00:43+00:00",
-      "is_remote": true,
-      "score": 7,
-      "matched_keywords": [
-        "risk",
-        "remote"
-      ],
-      "match_percentage": 17
-    },
-    {
-      "id": "remoteok:1131411",
-      "source": "remoteok",
-      "title": "Vice President of Global Customer Success &amp; Support",
-      "company": "JumpCloud",
-      "url": "https://remoteOK.com/remote-jobs/remote-vice-president-of-global-customer-success-amp-support-jumpcloud-1131411",
-      "apply_url": "https://remoteOK.com/remote-jobs/remote-vice-president-of-global-customer-success-amp-support-jumpcloud-1131411",
-      "description": "All roles at JumpCloud\u00c2\u00ae are Remote unless otherwise specified in the Job Description. About JumpCloud\u00c2\u00ae JumpCloud\u00c2\u00ae is the AI-powered unified IT management platform designed to secure the modern workforce. By consolidating identity, device, and access management, JumpCloud provides intelligent, secure IT that scales from human users to autonomous AI agents. We help organizations around the globe eliminate complexity and turn AI risk into an optimized advantage, ensuring the right people and agents have secure access to the right resources at all times. JumpCloud is Intelligent, Secure IT. About the Role JumpCloud is looking for a VP of Global Customer Success & Support who functions like a scientist and leads like a world-class coach. We don\u00e2\u0080\u0099t just want an administrator; we need a deeply curious, data-obsessed leader to own the post-sale journey for our global technical support, professional services, and success teams. The Core Mission You will lead a global team of 100+ across the US, UK, Mexico, and India. Your mandate is to transform customer interactions into a rigorous, data-driven engine that eliminates churn and delivers an uncompromising standard of excellence. You will be expected to move the organization toward an AI-foundational approach, utilizing automation and machine learning to streamline operations and enhance team efficiency. \\n Who You Are: Deeply Curious: You are a \"data explorer\" who isn't satisfied with surface-level answers.. You dig in to understand the \u00e2\u0080\u009cwhy\u00e2\u0080\u009d behind a technical friction point or a churn trend until the logic is clear. You\u00e2\u0080\u0099re in front of the customer with your teams, asking questions, gathering insights and identifying opportunities. Scientifically Minded: You view the customer journey through a lens of granular data. Your decisions are backed by health scores, capacity modeling, and usage patterns rather than \"gut feel\". A Standard-Bearer & Coach: You hold yourself to a high bar and expect the same from your team. You believe that \"good enough\" is the enemy of world-class. You mentor your team to achieve excellence, blending high empathy with high accountability. A Product Aficionado: You have a passion for the product's capabilities. You act as a bridge between the customer and Engineering/Product, translating complex pain points into an indispensable roadmap. AI-Forward: You look for ways to augment human talent with technology. You prioritize building a foundation where AI handles the routine so your team can focus on the complex. Key Responsibilities Architect the Customer Engine for Trust-driven Strategic Revenue Growth Refine the Customer Success, Global Technical Support, and Account Management team for scale. Transition the department to an AI-first operational model , identifying opportunities to automate workflows, streamline ticket resolution, and personalize customer engagement at scale. Refine operational frameworks (people, process, and tech) to ensure the organization scales efficiently without inflating headcount. Customize our onboarding motion for every segment (SMG, Commercial & Enterprise), ensuring implementation is a technical \"win\" from day one with every single customer. Lead our revenue-oriented expansion teams by focusing on customer trust and experience. Enhance operational frameworks (people, process, and tech) to ensure the organization can handle massive growth across segments without losing service quality. Define the responsibilities for AMs, TAMs, and CSMs to ensure the model is efficient and best for the customer. Drive Data-Centered Retention Own the end-to-end post-sale motion experience and Net Retention Rate (NRR), using predictive data & tools to identify and mitigate churn risks before they manifest. Accountable for global NPS and CSAT metrics, treating these as scientific benchmarks for improvement. Improve overall onboarding experience and long term retention Product & Technical Advocacy Act as the bridge between the Customer and Engineering/Product by implementing timely and nimble feedback loops that provide Product teams with critical customer insights. Translate complex customer pain points into actionable feedback that drives a \"sticky\" and indispensable product roadmap. High-Performance Leadership Manage five direct reports and a 100+ person global footprint. Present operational updates to the Executive Team and Board of Directors, defending strategies with clear metrics and logical depth. Requirements: Proven Scale: Significant experience leading both Technical Support, Account Management and Customer Success teams across SMB, Commercial and Enterprise segments in a fast-growing SaaS environment. Global Expertise: Experience managing distributed teams across multiple time zones (specifically India, NAM, LATAM, and EMEA). Analytical Rigor: Proficiency in using data to drive capacity planning, health scoring, and operational efficiency. Data Excellence: History of strengthening data trails and building a comprehensive understanding of churn and CSAT indicators as well as refining individual KPIs for the entire global team and upleveling operational frameworks. Ability to Travel: This role travels approx 30% of the time to customer sites as well as to leadership and team meetings. Travel is both domestic and international. \\n #LI-KF1 Where you\u00e2\u0080\u0099ll be working/Location: JumpCloud \u00c2\u00ae is committed to being Remote First, meaning that you are able to work remotely within the country noted in the Job Description. You must be located in and authorized to work in the country noted in the job description to be considered for this role. Please note: There is an expectation that our engineers participate in on-call shifts. You will be expected commit to being ready and able to respond during your assigned shift, so that alerts don't go unaddressed. Language: JumpCloud\u00c2\u00ae has teams in 15+ countries around the world and conducts our internal business in English. The interview and any additional screening process will take place primarily in English. To be considered for a role at JumpCloud\u00c2\u00ae, you will be required to speak and write in English fluently. Any additional language requirements will be included in the details of the job description. Why JumpCloud \u00c2\u00ae ? If you thrive working in a fast, SaaS-based environment and you are passionate about solving challenging technical problems, we look forward to hearing from you! JumpCloud\u00c2\u00ae is an incredible place to share and grow your expertise! You\u00e2\u0080\u0099ll work with amazing talent across each department who are passionate about our mission. We\u00e2\u0080\u0099re out of the box thinkers, so your unique ideas and approaches for conceiving a product and/or feature will be welcome. You\u00e2\u0080\u0099ll have a voice in the organization as you work with a seasoned executive team, a supportive board and in a proven market that our customers are excited about. One of JumpCloud\u00c2\u00ae's three core values is to \u00e2\u0080\u009cBuild Connections.\u00e2\u0080\u009d To us that means creating \" human connection with each other regardless of our backgrounds, orientations, geographies, religions, languages, gender, race, etc. We care deeply about the people that we work with and want to see everyone succeed.\" - Rajat Bhargava, CEO Please submit your r\u00c3\u00a9sum\u00c3\u00a9 and brief explanation about yourself and why you would be a good fit for JumpCloud\u00c2\u00ae. Please note JumpCloud\u00c2\u00ae is not accepting third party resumes at this time. JumpCloud\u00c2\u00ae is an equal opportunity employer. All applicants will be considered for employment without attention to race, color, religion, sex, sexual orientation, gender identity, national origin, veteran or disability status. Scam Notice: Please be aware that there are individuals and organizations that may attempt to scam job seekers by offering fraudulent employment opportunities in the name of JumpCloud. These scams may involve fake job postings, unsolicited emails, or messages claiming to be from our recruiters or hiring managers. Please note that JumpCloud will never ask for any personal account information, such as credit card details or bank account numbers, during the recruitment process. Additionally, JumpCloud will never send you a check for any equipment prior to employment. All communication related to interviews and offers from our recruiters and hiring managers will come from official company email addresses (@jumpcloud.com) and will never ask for any payment, fee to be paid or purchases to be made by the job seeker. If you are contacted by anyone claiming to represent JumpCloud and you are unsure of their authenticity, please do not provide any personal/financial information and contact us immediately at recruiting@jumpcloud.com with the subject line \"Scam Notice\" #LI-Remote #BI-Remote Please mention the word **ADVANTAGE** and tag RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "location": "",
-      "tags": [
-        "saas",
-        "technical",
-        "support",
-        "growth",
-        "travel",
-        "voice",
-        "bank",
-        "leader",
-        "management",
-        "lead",
-        "operations",
-        "operational",
-        "go",
-        "health",
-        "recruitment",
-        "executive"
-      ],
-      "published_at": "2026-05-01T00:00:56+00:00",
-      "is_remote": true,
-      "score": 7,
-      "matched_keywords": [
-        "risk",
-        "remote"
-      ],
-      "match_percentage": 17
-    },
-    {
-      "id": "remoteok:1131385",
-      "source": "remoteok",
-      "title": "Lite Controller Pathfinder Hospitality",
-      "company": "Pathfinder Hospitality",
-      "url": "https://remoteOK.com/remote-jobs/remote-lite-controller-pathfinder-hospitality-pathfinder-hospitality-1131385",
-      "apply_url": "https://remoteOK.com/remote-jobs/remote-lite-controller-pathfinder-hospitality-pathfinder-hospitality-1131385",
-      "description": "About Us What is Platinum Service? It's our promise to do unto others better than they could have ever imagined. At Pathfinder Hospitality, hospitality is not just in our name, it is in our DNA. We live, breathe, and even dream Platinum Service. We have an infinite mindset. We want to have such a strong culture and deep sense of purpose that Pathfinder far outlasts its founders and processes, decades after we are gone. Our core values are our guiding principles. Accountability \u00c2\u00b7 Collaboration \u00c2\u00b7 Empowerment \u00c2\u00b7 Engagement \u00c2\u00b7 Innovation \u00c2\u00b7 Integrity \u00c2\u00b7 Passion \u00c2\u00b7 Transparency Culture and Values We continuously break the mold, always going above and beyond to create memorable experiences for our employees and guests through our commitment to our purpose \u00e2\u0080\u0094 providing platinum service to our guests. Skills can be learned, but passion can't be taught. If you believe in platinum service and thrive on exceeding expectations, we want to talk to you. About the Role The Lite Controller is the financial backbone of Pathfinder Hospitality's multi-property portfolio. This is not a traditional controller role. You will function as a strategic finance partner \u00e2\u0080\u0094 producing accurate, timely reporting while actively teaching property leaders how to interpret financials, identify waste, and make better business decisions. You think in ROI, operate with a Zero-Based Budget mindset every day of the year, and hold yourself and others to a standard of business value creation, not just compliance. You will oversee one Junior Accountant and work in close partnership with General Managers across all properties and the CFO. Top Responsibilities 1. Financial Reporting Excellence \u00c2 Deliver detailed, accurate Profit and Loss Statements for all properties and business units by the 15th of each month. All major financial reports are reviewed by at least two people before distribution, with a target accuracy of \u00c2\u00b11%. Consolidate financial data across all hotels for company-wide reporting and ensure full compliance with accounting standards and company policies. 2. GM Financial Partnership & Teaching \u00c2 Serve as the primary financial resource for General Managers across all properties. Teach GMs how to interpret financial statements, identify operational waste in both dollars and time, and take ownership of their property's financial performance. You don't just report the numbers \u00e2\u0080\u0094 you make sure the right people understand them and act on them. 3. Zero-Based Budget Mindset & ROI Analysis \u00c2 Lead budgeting and forecasting with a continuous zero-based mindset \u00e2\u0080\u0094 evaluating whether every service and expenditure is still relevant, negotiating for better value, and recommending alternatives. Provide clear ROI analysis to support operating decisions throughout the year, not just during budget season. Monitor actual performance against budget and deliver variance analysis that drives action. 4. Full-Cycle Accounting Oversight \u00c2 Own the full accounting cycle across all properties, including AP/AR, payroll, cash flow management, and internal controls. Build and maintain balance sheets and cash flow statements from the ground up. Oversee and develop the Junior Accountant, reviewing their work and ensuring accuracy before submission. 5. Compliance, Controls & Audit Readiness \u00c2 Implement and maintain internal controls that safeguard assets and ensure accurate financial reporting. Ensure compliance with local, state, and federal tax regulations. Coordinate with external CPA partners on income tax filings and depreciation schedules. Conduct periodic audits of financial processes. 6. Asset Management Support \u00c2 Support CFO on asset management functions including property insurance policy evaluation and negotiation, property tax strategy and protests, pro forma creation for existing and prospective properties, and lender relationship oversight when applicable. Leverage ROI analytics and market data to inform recommendations. Minimum Qualifications Minimum 3\u00e2\u0080\u00935 years of full-cycle accounting experience, including demonstrated ability to build and reconcile balance sheets and cash flow statements from scratch Experience in hospitality, multi-property, or similarly complex operating environments strongly preferred Strong knowledge of US GAAP accounting principles; familiarity with IFRS a plus Proficiency in financial management software and accounting systems Demonstrated ability to teach or communicate financial concepts to non-finance leaders Strong attention to detail with a track record of meeting tight deadlines consistently High emotional intelligence and the ability to hold GMs and other stakeholders accountable with professionalism Proactive, self-directed mindset with the ability to operate independently in a remote environment Desire to grow, regardless of the phase of your career What We're Not Looking For Someone who waits to be told what to look at. Someone who sends a report without knowing what it means for the business. Someone who treats budgeting as an annual event. If that's your style, this role will frustrate you \u00e2\u0080\u0094 and you'll frustrate us. Compensation $3,500 \u00e2\u0080\u0093 $3,700 per month | Remote | Full-Time Please mention the word **EFFORTLESS** and tag RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5 when applying to show you read the job post completely (#RMjQwMTo0OTAwOmFhMzc6ODE3MzozNTNmOjUzN2Y6ZGM0Zjo2OTI5). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "location": "",
-      "tags": [
-        "other",
-        "accounting"
-      ],
-      "published_at": "2026-04-29T16:42:41+00:00",
-      "is_remote": true,
-      "score": 7,
-      "matched_keywords": [
-        "compliance",
-        "remote"
-      ],
-      "match_percentage": 17
-    },
-    {
-      "id": "arbeitnow:consultant-datenschutz-informationssicherheit-teilzeit-remote-augsburg-175849",
-      "source": "arbeitnow",
-      "title": "Consultant (m/w/d) Datenschutz & Informationssicherheit (Teilzeit, Remote)",
-      "company": "DSEV Consulting & Akademie GmbH",
-      "url": "https://www.arbeitnow.com/jobs/companies/dsev-consulting-akademie-gmbh/consultant-datenschutz-informationssicherheit-teilzeit-remote-augsburg-175849",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/dsev-consulting-akademie-gmbh/consultant-datenschutz-informationssicherheit-teilzeit-remote-augsburg-175849",
-      "description": "DSEV ist ein innovatives Beratungsunternehmen mit Fokus auf Datenschutz, Informationssicherheit und Compliance. Wir unterst\u00fctzen unsere Kunden bei der Umsetzung gesetzlicher Anforderungen sowie beim Aufbau sicherer und nachhaltiger Compliance-Strukturen. Aufgaben Beratung von Kunden zu Datenschutzanforderungen (z. B. nach der Datenschutz-Grundverordnung (DSGVO) Unterst\u00fctzung bei der Einf\u00fchrung und Weiterentwicklung von Informationssicherheits-Managementsystemen (ISMS), z. B. nach ISO/IEC 27001 Durchf\u00fchrung von Datenschutz-Folgenabsch\u00e4tzungen (DSFA) Erstellung und Pflege von Verarbeitungsverzeichnissen und Richtlinien Durchf\u00fchrung von Audits und Gap-Analysen Mitwirkung in unserer Akademie: Unterst\u00fctzung bei der Erstellung von Schulungsunterlagen, Weiterentwicklung von Lerninhalten im Bereich Datenschutz und Informationssicherheit sowie KI Unterst\u00fctzung bei der Bearbeitung von Datenschutzvorf\u00e4llen Qualifikation Fachkunde zum Datenschutzbeauftragten, ISB oder KI-Beauftragter von Vorteil Erfahrung im Datenschutz, Informationssicherheit und KI Strukturierte und eigenverantwortliche Arbeitsweise Kommunikationsst\u00e4rke und didaktisches Geschick Sehr gute Deutschkenntnisse Benefits 100 % Remote-Arbeit Flexible Arbeitszeiten Kombination aus Beratung und aktiver Mitgestaltung unserer Akademie Spannende Projekte und abwechslungsreiche Aufgaben Weiterbildungsm\u00f6glichkeiten (fachlich & didaktisch) Flache Hierarchien und kurze Entscheidungswege Werden Sie Teil unseres Teams und gestalten Sie mit uns die Zukunft von Datenschutz, Informationssicherheit und praxisnaher Weiterbildung. Find Jobs in Germany on Arbeitnow",
-      "location": "Augsburg",
-      "tags": [
-        "Remote",
-        "Consulting",
-        "remote"
-      ],
-      "published_at": "1777629629",
       "is_remote": true,
       "score": 7,
       "matched_keywords": [
