@@ -1,15 +1,25 @@
 {
   "seen_job_ids": [
     "arbeitnow:consultant-datenschutz-informationssicherheit-teilzeit-remote-augsburg-175849",
+    "arbeitnow:it-architekt-karlsruhe-108529",
     "arbeitnow:ma-research-analyst-berlin-498635",
     "himalayas:https://himalayas.app/companies/affirm/jobs/staff-analytics-engineer-subledger-platform",
+    "himalayas:https://himalayas.app/companies/aledade/jobs/full-stack-analytics-engineer-ii",
+    "himalayas:https://himalayas.app/companies/coconut-software/jobs/senior-analytics-engineer-12-month-contract",
+    "himalayas:https://himalayas.app/companies/data-ideology/jobs/senior-data-governance-consultant-2246030240",
+    "himalayas:https://himalayas.app/companies/data-ideology/jobs/senior-data-governance-specialist-2591285594",
     "himalayas:https://himalayas.app/companies/emcd/jobs/product-data-analyst",
+    "himalayas:https://himalayas.app/companies/ensemble-health-partners/jobs/engineer-ii-business-intelligence-5026831407",
     "himalayas:https://himalayas.app/companies/ge-vernova/jobs/global-industrial-data-standards-leader",
+    "himalayas:https://himalayas.app/companies/genesis-consulting-partners-llc/jobs/data-governance-lead",
+    "himalayas:https://himalayas.app/companies/givebutter/jobs/analytics-engineer",
     "himalayas:https://himalayas.app/companies/inova-health/jobs/data-governance-lead",
+    "himalayas:https://himalayas.app/companies/kin-insurance/jobs/analytics-engineering-manager",
     "himalayas:https://himalayas.app/companies/logistics-management-institute/jobs/data-governance-specialist-clearance-required",
     "himalayas:https://himalayas.app/companies/look4it/jobs/sap-mdg-senior-consultant",
     "himalayas:https://himalayas.app/companies/malleum/jobs/executive-advisor-governance-risk-and-compliance",
     "himalayas:https://himalayas.app/companies/nrb-group/jobs/data-governance-consultant-90-remote-eu-part-time-eu-institution",
+    "himalayas:https://himalayas.app/companies/veolia/jobs/supply-chain-master-data-project-manager-5230585499",
     "himalayas:https://himalayas.app/companies/veolia/jobs/supply-chain-master-data-project-manager-628124952",
     "himalayas:https://himalayas.app/companies/wonderl/jobs/consultant-m-w-d-datenschutz-informationssicherheit-teilzeit-remote",
     "remoteok:1131305",
@@ -27,6 +37,8 @@
     "weworkremotely:https://weworkremotely.com/remote-jobs/bjak-senior-qa-automation-engineer",
     "weworkremotely:https://weworkremotely.com/remote-jobs/clover-health-staff-product-manager-member-experience",
     "weworkremotely:https://weworkremotely.com/remote-jobs/comparis-ch-backend-engineer-80-100-f-m-x",
+    "weworkremotely:https://weworkremotely.com/remote-jobs/deblock-senior-fincrime-product-owner",
+    "weworkremotely:https://weworkremotely.com/remote-jobs/dimovtax-tax-accountant-cpa-ea-required-us-remote",
     "weworkremotely:https://weworkremotely.com/remote-jobs/indiewalls-director-of-finance",
     "weworkremotely:https://weworkremotely.com/remote-jobs/mutt-data-devops",
     "weworkremotely:https://weworkremotely.com/remote-jobs/octus-product-specialist",
@@ -39,5 +51,5 @@
     "weworkremotely:https://weworkremotely.com/remote-jobs/wave-hq-senior-product-manager",
     "weworkremotely:https://weworkremotely.com/remote-jobs/zayzoon-senior-devops-engineer"
   ],
-  "updated_at": "2026-05-04T05:02:56Z"
+  "updated_at": "2026-05-05T04:46:22Z"
 }
