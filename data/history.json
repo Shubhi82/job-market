@@ -1,8 +1,12 @@
 {
   "seen_job_ids": [
+    "arbeitnow:ai-product-owner-mwd-frankfurt-am-main-167330",
     "arbeitnow:consultant-datenschutz-informationssicherheit-teilzeit-remote-augsburg-175849",
     "arbeitnow:it-architekt-karlsruhe-108529",
+    "arbeitnow:junior-technical-writer-junior-technischer-redakteur-nuremberg-2793",
     "arbeitnow:ma-research-analyst-berlin-498635",
+    "arbeitnow:senior-ai-data-platform-engineer-berlin-499504",
+    "arbeitnow:senior-security-engineer-all-genders-berlin-482192",
     "himalayas:https://himalayas.app/companies/affirm/jobs/staff-analytics-engineer-subledger-platform",
     "himalayas:https://himalayas.app/companies/aledade/jobs/full-stack-analytics-engineer-ii",
     "himalayas:https://himalayas.app/companies/coconut-software/jobs/senior-analytics-engineer-12-month-contract",
@@ -19,6 +23,7 @@
     "himalayas:https://himalayas.app/companies/look4it/jobs/sap-mdg-senior-consultant",
     "himalayas:https://himalayas.app/companies/malleum/jobs/executive-advisor-governance-risk-and-compliance",
     "himalayas:https://himalayas.app/companies/nrb-group/jobs/data-governance-consultant-90-remote-eu-part-time-eu-institution",
+    "himalayas:https://himalayas.app/companies/sosafe/jobs/senior-analytics-engineer",
     "himalayas:https://himalayas.app/companies/veolia/jobs/supply-chain-master-data-project-manager-5230585499",
     "himalayas:https://himalayas.app/companies/veolia/jobs/supply-chain-master-data-project-manager-628124952",
     "himalayas:https://himalayas.app/companies/wonderl/jobs/consultant-m-w-d-datenschutz-informationssicherheit-teilzeit-remote",
@@ -51,5 +56,5 @@
     "weworkremotely:https://weworkremotely.com/remote-jobs/wave-hq-senior-product-manager",
     "weworkremotely:https://weworkremotely.com/remote-jobs/zayzoon-senior-devops-engineer"
   ],
-  "updated_at": "2026-05-05T04:46:22Z"
+  "updated_at": "2026-05-06T04:59:21Z"
 }
