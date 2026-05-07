@@ -2,8 +2,10 @@
   "seen_job_ids": [
     "arbeitnow:ai-product-owner-mwd-frankfurt-am-main-167330",
     "arbeitnow:consultant-datenschutz-informationssicherheit-teilzeit-remote-augsburg-175849",
+    "arbeitnow:head-of-supply-chain-purchasing-all-genders-berlin-339960",
     "arbeitnow:it-architekt-karlsruhe-108529",
     "arbeitnow:junior-technical-writer-junior-technischer-redakteur-nuremberg-2793",
+    "arbeitnow:karrierestart-in-data-ai-ihk-data-analyst-100-online-berlin-138911",
     "arbeitnow:ma-research-analyst-berlin-498635",
     "arbeitnow:senior-ai-data-platform-engineer-berlin-499504",
     "arbeitnow:senior-security-engineer-all-genders-berlin-482192",
@@ -14,6 +16,7 @@
     "himalayas:https://himalayas.app/companies/data-ideology/jobs/senior-data-governance-specialist-2591285594",
     "himalayas:https://himalayas.app/companies/emcd/jobs/product-data-analyst",
     "himalayas:https://himalayas.app/companies/ensemble-health-partners/jobs/engineer-ii-business-intelligence-5026831407",
+    "himalayas:https://himalayas.app/companies/fractl-consulting/jobs/senior-analytics-engineer",
     "himalayas:https://himalayas.app/companies/ge-vernova/jobs/global-industrial-data-standards-leader",
     "himalayas:https://himalayas.app/companies/genesis-consulting-partners-llc/jobs/data-governance-lead",
     "himalayas:https://himalayas.app/companies/givebutter/jobs/analytics-engineer",
@@ -36,6 +39,8 @@
     "remoteok:1131429",
     "remoteok:1131432",
     "remoteok:1131433",
+    "remoteok:1131480",
+    "remoteok:1131482",
     "weworkremotely:https://weworkremotely.com/remote-jobs/accelerate-change-development-operations-support-contractor-freelance-remote",
     "weworkremotely:https://weworkremotely.com/remote-jobs/airalo-staff-data-analyst-product",
     "weworkremotely:https://weworkremotely.com/remote-jobs/alvys-senior-product-designer",
@@ -56,5 +61,5 @@
     "weworkremotely:https://weworkremotely.com/remote-jobs/wave-hq-senior-product-manager",
     "weworkremotely:https://weworkremotely.com/remote-jobs/zayzoon-senior-devops-engineer"
   ],
-  "updated_at": "2026-05-06T04:59:21Z"
+  "updated_at": "2026-05-07T05:01:17Z"
 }

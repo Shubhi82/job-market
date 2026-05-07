@@ -1,102 +1,129 @@
 {
-  "refreshed_at": "2026-05-06T04:59:21Z",
+  "refreshed_at": "2026-05-07T05:01:17Z",
   "stats": {
-    "raw_jobs": 389,
-    "filtered_jobs": 43,
-    "deduplicated_jobs": 43,
+    "raw_jobs": 395,
+    "filtered_jobs": 44,
+    "deduplicated_jobs": 44,
     "ranked_jobs": 5,
     "returned_jobs": 5,
     "exclude_history": true
   },
   "jobs": [
     {
-      "id": "himalayas:https://himalayas.app/companies/sosafe/jobs/senior-analytics-engineer",
-      "source": "himalayas",
-      "title": "Senior Analytics Engineer",
-      "company": "SoSafe",
-      "url": "https://himalayas.app/companies/sosafe/jobs/senior-analytics-engineer",
-      "apply_url": "https://himalayas.app/companies/sosafe/jobs/senior-analytics-engineer",
-      "description": "SoSafe has the ambition to become the leading human risk management provider in Europe. Our award-winning awareness platform triggers behavioural change by providing effective and engaging training and simulations on cybersecurity and data protection. Cybercrime is costing the world >$10 trillion annually and growing by 15% p.a. - we invite you to be part of the solution!\" Location: UK, Ireland, or Portugal (remote). Candidates must have work authorization in one of these countries. Office access available in London, Dublin, and Lisbon. Here's how you'll make a difference: Own the transformation layer in dbt - design, build, and maintain modular, well-tested data models that define how data is structured and consumed across the company. Define and implement core business metrics (e.g. activation, engagement, retention) as reusable, versioned data assets- ensuring consistent definitions across analytics, product, and AI use cases. Model complex SaaS data by integrating product events, CRM (Salesforce), and support data into clean, well-defined fact and dimension models. Build and evolve our semantic layer - creating a reliable abstraction over our data that enables consistent KPI definitions and supports downstream consumers, including LLM-based analytics agents. Collaborate with Data Engineers on upstream data contracts and event schemas - ensuring raw data is structured in a way that supports scalable, reliable analytics. Establish and enforce best practices in testing, documentation, and data quality- making these part of the standard development lifecycle. Document models, metrics, and lineage clearly - enabling self-service and reducing ambiguity across teams. What you bring: 5+ years in analytics engineering or data engineering with a strong focus on data modeling Strong proficiency in dbt and SQL- building modular, well-tested models Solid understanding of dimensional modeling and metric design Experience working with cloud data warehouses (BigQuery, Snowflake, or Redshift) Experience with metrics / semantic layers (e.g. dbt metrics, MetricFlow, Cube) Strong data quality mindset (testing, validation, monitoring) Comfortable working with event-based data and cross-functional teams Able to turn ambiguous business questions into clear data models Strong business acumen with the ability to challenge metric definitions and ensure they reflect real business outcomes Fluent in English. Nice to have: Familiarity with how LLMs consume structured data- e.g. semantic layers, metrics registries, YAML-based context- and an interest in building data infrastructure that serves AI agents, not just BI tools. Experience modeling product usage data (event-based or session-based). What we offer* Work/Life balance: Flexible hours, 33 vacation days Wellbeing and financial support: Access to Open Up, corporate discounts Connection & community: Virtual events, collaborative team activities, and opportunities for local meet-ups And the list goes on: Tech equipment, referral bonuses, dog-friendly HQ *Perks and benefits listed above are for full-time employees and may vary slightly by office location. These are just a sample- you'll learn more during the interview process. About Us At SoSafe , we\u2019re on a mission to make the digital world safer by addressing the human factor in cybersecurity. As one of the fastest-growing security awareness scale-ups worldwide, we leverage behavioural science and data-driven learning to empower people against cyber threats. Our Human Risk Management approach helps organisations turn their employees into their strongest line of defence. Backed by leading VCs like Highland Europe and Global Founders Capital, we\u2019re rapidly expanding across the globe. We\u2019re looking for team players who want to drive meaningful change in cybersecurity, take ownership of their work, and grow with us. If you thrive in a vibrant, purpose-driven environment that values innovation, diversity, and collaboration, then this is the place for you! Originally posted on Himalayas",
-      "location": "Ireland, United Kingdom",
+      "id": "remoteok:1131482",
+      "source": "remoteok",
+      "title": "Senior Software Engineer",
+      "company": "Prove",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-prove-1131482",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-prove-1131482",
+      "description": "About Prove As the world moves to a mobile-first economy, businesses need to modernize how they acquire, engage with and enable consumers. Prove's phone-centric identity tokenization and passive cryptographic authentication solutions reduce friction, enhance security and privacy across all digital channels, and accelerate revenues while reducing operating expenses and fraud losses. Over 1,000 enterprise customers use Prove's platform to process 20 billion customer requests annually across industries, including banking, lending, healthcare, gaming, crypto, e-commerce, marketplaces, and payments. For the latest updates from Prove, follow us on LinkedIn. Prove is driving the future of digital identity. We are looking for Provers who know how to make an impact. We're talking self-starting professionals who thrive in a fast-paced environment, process information quickly, and make intelligent decisions. The work is challenging and requires not only smart but natural curiosity and tenacity. Teamwork is also important to us \u00e2\u0080\u0093 we work together and play together. Prove has big plans, and we're excited about the future. If this sounds like the place for you \u00e2\u0080\u0093 come join our team! Title: Senior Software Engineer Department: Engineering Reports To: Manager, Software Engineering FLSA Status: Exempt Location: US Remote Job Summary We are looking for a talented and experienced Senior Software Engineer to join our Engineering team, focusing on the co Please mention the word **MAGIC** and tag RNTIuMTYxLjQ1LjIyOA== when applying to show you read the job post completely (#RNTIuMTYxLjQ1LjIyOA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "United States",
       "tags": [
-        "Senior-Analytics-Engineer",
-        "Senior-Data-Analytics-Engineer",
-        "Senior-AI-Analytics-Engineer",
-        "Senior-Analytics-Engineering-Manager",
-        "Lead-Analytics-Engineer"
+        "software",
+        "security",
+        "senior",
+        "engineer",
+        "engineering"
       ],
-      "published_at": "",
+      "published_at": "2026-05-06T00:02:04+00:00",
       "is_remote": true,
-      "score": 32,
+      "score": 8,
       "matched_keywords": [
-        "data quality",
-        "data protection",
-        "risk",
-        "cybersecurity",
-        "analytics engineer",
-        "bigquery",
-        "redshift",
-        "sql",
-        "remote"
-      ],
-      "match_percentage": 61
-    },
-    {
-      "id": "arbeitnow:senior-security-engineer-all-genders-berlin-482192",
-      "source": "arbeitnow",
-      "title": "Senior Security Engineer (all genders)",
-      "company": "Urban Sports Club",
-      "url": "https://www.arbeitnow.com/jobs/companies/urban-sports-club/senior-security-engineer-all-genders-berlin-482192",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/urban-sports-club/senior-security-engineer-all-genders-berlin-482192",
-      "description": "Meet Urban Sports Club We are among the leading platforms for sports and wellness in Europe, dedicated to inspiring people to live active, healthy lives. With just one membership we offer access to thousands of fitness and wellness experiences across the continent. But what truly sets us apart? We believe our people are at the heart of everything we do. If you're curious about how we work, what we value and how you might grow with us, explore our Culture Hub & Career Opportunities . *Big news: Wellhub and Urban Sports Club unite!* Urban Sports Club is now a proud part of Wellhub, creating a global wellbeing ecosystem. Together, we connect 39,000 corporate clients and 97,000 wellness partners across 18 countries, offering millions of people even more ways to stay active and take care of their health. The opportunity Urban Sports Club is building a security function that moves with heart and mind. As a Security Engineer you will work across the full security landscape \u2013 from application security to cloud runtime to development pipelines and of course AI \u2013 bringing genuine breadth alongside real depth in your domain specialisations. You will work side-by-side with IT analysts, developers, product managers, and leadership alike to embed security into how we build and operate. You will report to the Director of Cyber Security, with the empowerment and autonomy to shape how security is done across the company. This role suits those with a builder's mindset who gets restless without a hard problem to solve, who is excited about the intersection of AI and security, and who communicates as comfortably in a board update as in a pull request review. What you will do You partner with engineering, product, and infrastructure teams to identify and mitigate security risks across our cloud, application, and AI/ML environments You lead security initiatives in your specialist area \u2013 whether that is AI/ML Security, DevSecOps, Application/Product Security, or Cloud Security \u2013 while staying curious and contributing across different domains You design, build, and operate security controls, automation, and tooling that scale with a fast-growing platform You drive threat modelling, secure design reviews, and risk assessments for new features, services, and infrastructure changes You detect, respond to, and investigate security incidents; own root cause analysis and drive post-incident improvements You translate complex security topics into clear, actionable language for technical and non-technical audiences, including C-level leadership You track the evolving threat landscape, with particular attention to AI/ML attack surfaces and AI-assisted security tooling, bringing those insights back into the business What you will need to succeed You bring 5+ years of hands-on security engineering (or equivalent) in fast-paced, high-growth environments You have a deep expertise in at least one domain: AI/ML Security, DevSecOps, Application/Product Security, or Cloud Security You bring a strong builder mindset: able to script, automate, write detections, and review architectures/designs You understand modern threats (e.g., AI/ML risks, software supply chain, API and cloud security) You are are an excellent communicator across technical and executive audiences (e.g., engineers to CISO level) You are able to work autonomously, set direction, and thrive in ambiguous, collaborative environments Nice to have: Experience with platform/marketplace products, Kubernetes security in AWS/GCP, EU regulations (GDPR, NIS2, DORA), and scripting (Python, Go) What's in it for you Free Urban Sports Club L Pro Membership + Friends and Family Discount: Stay active with free membership, plus discounts for friends and family. Flexible Work Model: Enjoy a hybrid work setup, balancing on-site and remote work options to fit your lifestyle. Extended Remote Work Options: Work up to 120 days remotely within the EU, the UK, and Switzerland, including 30 days outside the EU. You'll also have the option to desk-swap at our other European offices. WorkOUT Life Balance: Take advantage of 30 days of paid vacation annually, plus two additional days for volunteering, flexible working hours, and complimentary access to our mental health provider Open Up. Personal Development: Receive an annual budget of \u20ac1,000 for professional growth, with regular internal training sessions and weekly German and English language classes. Engaging Team Culture: Participate in regular team and company events along with wellness initiatives that help you stay productive, healthy, and engaged in a hybrid work environment. Urban Sports Club is committed to providing a friendly, safe, and welcoming environment for everyone who applies for a position or already works with us, regardless of their sports preferences, gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, or religion (or lack thereof). Find more English Speaking Jobs in Germany on Arbeitnow",
-      "location": "Berlin, Germany",
-      "tags": [],
-      "published_at": "1778013923",
-      "is_remote": true,
-      "score": 12,
-      "matched_keywords": [
-        "gdpr",
-        "risk",
-        "remote"
-      ],
-      "match_percentage": 19
-    },
-    {
-      "id": "arbeitnow:senior-ai-data-platform-engineer-berlin-499504",
-      "source": "arbeitnow",
-      "title": "Senior AI Data Platform Engineer (m/w/d)",
-      "company": "Recare Deutschland GmbH",
-      "url": "https://www.arbeitnow.com/jobs/companies/recare-deutschland-gmbh/senior-ai-data-platform-engineer-berlin-499504",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/recare-deutschland-gmbh/senior-ai-data-platform-engineer-berlin-499504",
-      "description": "About Recare As one of the leading German HealthTech companies, we are reshaping discharge management \u2013 technology-driven, patient-centered, and free from bureaucracy. In addition to our market-leading SaaS platform, we develop AI solutions that radically simplify processes in hospitals and for aftercare providers, relieve healthcare professionals, and refocus attention on patients. Today, we already connect two-thirds of all German hospitals with over 650 rehabilitation clinics and 25,000 nursing and homecare providers. With currently around 100 employees, we continue to grow \u2013 and we are looking for people with character who want to help us improve the healthcare system and solve administrative complexity across care journeys in Europe. What to expect as our Senior AI Data Platform Engineer (m/w/d): Purposeful work \u2013 your role will have a positive impact on patients, their families, and healthcare professionals. Company culture \u2013 we believe in flat hierarchies that promote high performance and strong team dynamics. We foster an environment characterized by mutual respect, loyalty, and recognition. Together, we strive for our goals \u2013 and expect the same from you. Flexibility \u2013 want to pick up your child from daycare? Like to exercise during lunch? We\u2019ll support you. We are a remote-friendly company offering flexible working hours. Workations are also possible by arrangement. Edenred card \u2013 which you can use according to your needs. Extra vacation day \u2013 so you can celebrate your birthday with your loved ones, you\u2019ll have the day off. In this role, you can make an impact and grow with us as Senior AI Data Platform Engineer (m/w/d): You will own and evolve the data backbone that powers Recare\u2019s AI products (Voice, Extract & Docs, Agent) and the shared platform primitives that agentic systems depend on. Your work ensures that data ingestion, processing, and serving are reliable, secure, and production-ready - forming the foundation for scalable AI systems in healthcare. You own and evolve the ingestion and processing backbone , including batch and streaming pipelines for structured and unstructured data - designed with idempotency, retries, backpressure, and failure isolation from the start. You design and operate asynchronous processing systems for heavy AI workloads , including queue/worker patterns, independent scaling, retry semantics, and poison-message handling. You define and maintain API contracts and data schemas across producers and consumers , owning identity keys, versioning, and compatibility guarantees. You own data lifecycle primitives , including secure storage (encryption at rest), sensitive data handling, retention and deletion semantics, right-to-erasure flows, and provenance/lineage for audit and debugging. You design secure service-to-service authentication for cross-boundary synchronization , including short-lived credentials, rotation, least privilege, and auditability. You build platform primitives that make AI features productizable , such as status tracking for long-running operations, feature gating, rollout controls, environment separation, multi-tenant isolation, and data minimization. You build and maintain serving layers for ML/AI workloads - for example, unified data models that reconcile multiple sources into consistent, versioned views with cross-system identity resolution. You make the system production-grade by driving observability (metrics, logs, traces, alerting), defining runbooks, and establishing cost and performance guardrails (throughput, latency, load testing). You partner closely with BI and Product Data teams to expose clean, trustworthy datasets and align on KPI definitions - ensuring instrumentation is built into the backbone, not added later. Here\u2019s how we picture you as our Senior AI Data Platform Engineer (m/w/d): You bring strong software engineering fundamentals and a high bar for design, testing, code quality, and operability. You are very familiar with the current state of AI-native engineering . You stay close to the frontier and adjust accordingly. You have deep experience building production-grade data and ingestion systems under real reliability constraints. You are hands-on with asynchronous processing systems (queues, workers) and understand how they behave under load. You are comfortable owning service APIs and data contracts across teams, treating schema evolution as a core engineering discipline. You have strong experience with AWS and cloud-native architectures , including IAM, encryption, and event-driven systems. You think in systems and trade-offs and proactively design for observability, reliability, and performance. You take ownership of ambiguous problems and drive them to resolution , aligning stakeholders and delivering outcomes. You are comfortable working adjacent to AI/ML systems , understanding data, evaluation, and performance trade-offs without needing to be a model expert. You communicate confidently in English and are comfortable operating in an international environment. Nice to haves: Experience with Go or similar backend-oriented languages. Experience working with regulated or sensitive data environments (e.g. healthcare, fintech). Familiarity with healthcare data standards and modeling (e.g. HL7, FHIR, coded terminologies, cross-system identity resolution). Experience with modern BI and data tooling (e.g. Snowflake, dbt, Looker). Find Jobs in Germany on Arbeitnow",
-      "location": "Berlin",
-      "tags": [
-        "Healthcare",
-        "bachelor's degree"
-      ],
-      "published_at": "1777994414",
-      "is_remote": true,
-      "score": 9,
-      "matched_keywords": [
-        "iam",
-        "looker",
+        "privacy",
         "remote"
       ],
       "match_percentage": 18
     },
     {
-      "id": "arbeitnow:ai-product-owner-mwd-frankfurt-am-main-167330",
+      "id": "arbeitnow:karrierestart-in-data-ai-ihk-data-analyst-100-online-berlin-138911",
       "source": "arbeitnow",
-      "title": "AI Product Owner (m,w,d)",
-      "company": "FlexIT Consulting GmbH",
-      "url": "https://www.arbeitnow.com/jobs/companies/flexit-consulting-gmbh/ai-product-owner-mwd-frankfurt-am-main-167330",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/flexit-consulting-gmbh/ai-product-owner-mwd-frankfurt-am-main-167330",
-      "description": "KI wirksam einsetzen \u2013 als Enabler f\u00fcr modernes Software Engineering K\u00fcnstliche Intelligenz ver\u00e4ndert die Softwareentwicklung grundlegend. In dieser Rolle unterst\u00fctzt du Organisationen aus sicherheits- und gesch\u00e4ftskritischen Bereichen dabei, KI gezielt, verantwortungsvoll und mit messbarem Mehrwert einzusetzen. Der Fokus liegt auf tragf\u00e4higen L\u00f6sungen, die sich in bestehende Entwicklungsprozesse, Toolchains und regulierte Umgebungen integrieren lassen. Der Arbeitgeber ist im Finanzumfeld t\u00e4tig und bietet ein technologisch anspruchsvolles Umfeld mit viel Gestaltungsspielraum. Im Zentrum steht der Aufbau eines modernen AI-gest\u00fctzten Engineering-Ansatzes , insbesondere im Bereich Coding Enablement durch KI unter Einsatz von Claude AI. Dabei geht es nicht nur um punktuelle Automatisierung, sondern um die systematische Integration von KI in Entwicklungs-, DevOps- und Gesch\u00e4ftsprozesse. Bereits heute wird Claude u. a. f\u00fcr DevOps-, GitOps- und Workflow-Optimierung eingesetzt. Die Rolle ist bewusst hybrid angelegt: eine Kombination aus Softwarearchitektur und KI-Development mit starkem Fokus auf praktische Umsetzung, Skalierbarkeit, Orchestrierung und nachhaltige Integration. Aufgaben KI im Engineering etablieren Weiterentwicklung von KI entlang der gesamten Software mit starkem Fokus auf Innovation, praktische Umsetzung, Skalierbarkeit und nachhaltige Integration. Agentenbasierte Systeme orchestrieren Konzeption, Aufbau und Steuerung von AI-Agenten sowie deren Zusammenspiel innerhalb komplexer Systemlandschaften Use Cases und Architekturen gestalten Identifikation sinnvoller Einsatzfelder und Entwicklung skalierbarer Architekturans\u00e4tze Prototypen in die Praxis \u00fcberf\u00fchren \u00dcberf\u00fchrung von Ideen und PoCs in produktive, stabile L\u00f6sungen DevOps & Workflows optimieren Einsatz von KI zur Verbesserung von Entwicklungsprozessen, CI/CD, GitOps und operativen Abl\u00e4ufen Technisch gestalten Entwicklung und Integration moderner KI-L\u00f6sungen (LLMs, RAG-Systeme, agentische Architekturen) Eigenes Framework weiterentwickeln Arbeit mit und Ausbau eines bestehenden internen Frameworks f\u00fcr KI-gest\u00fctzte Entwicklung und Automatisierung Qualit\u00e4t und Compliance sicherstellen Ber\u00fccksichtigung regulatorischer Anforderungen, Nachvollziehbarkeit und Sicherheit, Testing Qualifikation Starker Architektur- und Engineering-Hintergrund Mehrj\u00e4hrige Erfahrung in Softwarearchitektur, komplexen Systemlandschaften (DevOps) und modernen Entwicklungsprozessen Erfahrung mit KI-Development Praktische Erfahrung im Aufbau und Einsatz von KI-Systemen, insbesondere LLMs und agentenbasierten Ans\u00e4tzen Know-how in Agent-Orchestrierung Verst\u00e4ndnis f\u00fcr Multi-Agenten-Systeme, Workflows und deren Integration in bestehende Systeme Erfahrung mit modernen DevOps-Praktiken Kenntnisse in CI/CD, GitOps und automatisierten Entwicklungsprozessen Hands-on-Mentalit\u00e4t F\u00e4higkeit, Konzepte selbst umzusetzen und produktiv zu bringen Analytisches und strukturiertes Denken Bewertung von Technologien hinsichtlich Nutzen, Risiken und Skalierbarkeit Kommunikationsst\u00e4rke Souver\u00e4ne Zusammenarbeit mit technischen und fachlichen Stakeholdern Erfahrung im regulierten Umfeld (von Vorteil) Verst\u00e4ndnis f\u00fcr Anforderungen im Finanz- oder sicherheitskritischen Kontext Erfahrung mit Scrum von Vorteil Sprachkenntnisse Sehr gute Deutsch- und sehr gute Englischkenntnisse Benefits Eine echte Spielwiese innerhalb eines etablierten, starken Finanzunternehmens, welcher ein First Mover seiner Branche im Bereich Technology war bzw. auch weiterhin ist. (Brokerage etc.) Moderner, innovativer CTO als Sparringspartner 2 Tage remote work pro Woche sehr gutes Gehalt Find more English Speaking Jobs in Germany on Arbeitnow",
-      "location": "Frankfurt am Main",
+      "title": "Karrierestart in Data & AI - IHK Data Analyst (m/w/d) - 100 % Online",
+      "company": "DataSmart Point GmbH",
+      "url": "https://www.arbeitnow.com/jobs/companies/datasmart-point-gmbh/karrierestart-in-data-ai-ihk-data-analyst-100-online-berlin-138911",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/datasmart-point-gmbh/karrierestart-in-data-ai-ihk-data-analyst-100-online-berlin-138911",
+      "description": "Werde Teil der digitalen Zukunft mit der DataSmart Point Academy Die DataSmart Point Academy (DSP Academy) ist ein AZAV-zertifizierter Bildungstr\u00e4ger, spezialisiert auf praxisnahe IT- und Data-Weiterbildungen mit klarer Zukunftsperspektive. Unsere Programme richten sich an motivierte Quereinsteiger:innen, die den Einstieg in datengetriebene Berufe suchen sowie an Fachkr\u00e4fte mit IT-Erfahrung, die ihr Wissen vertiefen m\u00f6chten, Unser erfahrenes Dozent:innen-Team aus Professor:innen, Fachexpert:innen und Praktiker:innen begleitet jede Teilnehmerin und jeden Teilnehmer pers\u00f6nlich und praxisorientiert. Wir haben bereits viele erfolgreiche Karrieren unterst\u00fctzt und freuen uns, dich auf deinem Weg zum Data Analyst zu begleiten. Inhalte der Weiterbildung In unserer zw\u00f6lfmonatigen Weiterbildung lernst du praxisnah und anwendungsorientiert in folgenden Themenfeldern: Aufgaben Das erwartet dich bei uns: Praxisnahe Inhalte: Datenanalyse mit SQL, Python und Power BI, Erstellung interaktiver Dashboards, Grundlagen der KI und agiles Projektmanagement. Live-Unterricht: Online-Training im virtuellen Klassenzimmer mit erfahrenen Professor:innen, Data Analysts und KI-Expert:innen. Zertifizierte Abschl\u00fcsse: IHK-Zertifikat und offizielle Power BI-Zertifizierung nach erfolgreichem Abschluss. Individuelle Unterst\u00fctzung: Pers\u00f6nliches Karriere-Coaching, Bewerbungstraining und aktive Jobvermittlung. Qualifikation Was bringst du mit? Begeisterung f\u00fcr datengetriebenes Arbeiten und innovative Technologien Motivation und Lernbereitschaft \u2013 kein IT-Abschluss notwendig! Deutschkenntnisse mindestens auf B2-Niveau Bildungsgutschein (Agentur f\u00fcr Arbeit oder Jobcenter) Benefits \ud83d\udcca **Werde Experte f\u00fcr Data & AI \u2013 Jetzt durchstarten! **Starte jetzt deine digitale Zukunft \u2013 mit der DataSmart Point Academy! Jetzt Karriere starten: Starte jetzt in eine zukunftssichere Karriere und werde Teil der digitalen Revolution mit DataSmart Point Academy. DataSmart Point Academy \u2013 Dein Sprungbrett in die Welt der KI und Datenanalyse! Find more English Speaking Jobs in Germany on Arbeitnow",
+      "location": "Berlin",
       "tags": [
-        "Software Development"
+        "Remote",
+        "Data Scientist",
+        "remote"
       ],
-      "published_at": "1777987887",
+      "published_at": "1778078220",
+      "is_remote": true,
+      "score": 8,
+      "matched_keywords": [
+        "power bi",
+        "sql",
+        "remote"
+      ],
+      "match_percentage": 17
+    },
+    {
+      "id": "himalayas:https://himalayas.app/companies/fractl-consulting/jobs/senior-analytics-engineer",
+      "source": "himalayas",
+      "title": "Senior Analytics Engineer",
+      "company": "Fractl Consulting",
+      "url": "https://himalayas.app/companies/fractl-consulting/jobs/senior-analytics-engineer",
+      "apply_url": "https://himalayas.app/companies/fractl-consulting/jobs/senior-analytics-engineer",
+      "description": "Senior Analytics Engineer Fractl is partnering with a fast-growing, mission-driven company thats transforming health and human services with cutting-edge analytics tools. They're looking for a Senior Analytics Engineer to design and deliver data products that turn complex healthcare data into clean, intuitive, and actionable insights. In this role, you'll bridge technical implementation and user experience developing everything from data models and pipelines to dashboards that tell the full story. You'll collaborate across teams, own analysis workflows end-to-end, and help shape the future of data access within the public sector. Location: 100% Remote in the USA Salary: $145k - $165k Tech Stack: SQL and Python Visa Status: US Citizen or Green Card Holder Who Are You? \ufeff A data storyteller who brings clarity to chaos through clean models and smart visualizations. Fluent in SQL and comfortable shaping large, messy healthcare data into trusted sources of truth. A builder at heart, you love developing scalable tools that make it easier for people to access insights. You've worked closely with product managers, analysts, or end users to understand the why behind the work. What Will You Do? Design and build scalable, self-service data products that turn messy healthcare data into actionable insight. Partner with product, engineering, and business teams to understand user needs and create solutions that meet them. Build and maintain robust analysis pipelines and high-quality visualizations. Optimize SQL workflows for performance and scalability. Conduct advanced analysis, troubleshoot issues, and ensure data integrity across platforms. Recommend product improvements based on insights from existing data. Why Join? Work at a mission-driven company thats redefining how data can improve public health outcomes. Fully remote flexibility with a collaborative, forward-thinking team. Competitive salary and benefits, including subsidized healthcare, 401(k) match, generous PTO, and company-paid holidays. Opportunity to make a visible, lasting impact from day one. Apply to the role to learn more! Fractl Consulting is an equal opportunity employer and recruitment agency. We consider applicants for all positions without regard to race, color, religion, gender, national origin, age, disability, or any other legally protected status. We work to ensure a fair and inclusive hiring process. \ufeff Originally posted on Himalayas",
+      "location": "United States",
+      "tags": [
+        "Analytics-Engineering",
+        "Healthcare-Analytics",
+        "Data-Engineering",
+        "Business-Intelligence",
+        "Data-Analysis"
+      ],
+      "published_at": "",
+      "is_remote": true,
+      "score": 8,
+      "matched_keywords": [
+        "analytics engineer",
+        "sql",
+        "remote"
+      ],
+      "match_percentage": 51
+    },
+    {
+      "id": "remoteok:1131480",
+      "source": "remoteok",
+      "title": "Lead Instructor Aerospace Technician",
+      "company": "Correlation One",
+      "url": "https://remoteOK.com/remote-jobs/remote-lead-instructor-aerospace-technician-correlation-one-1131480",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-lead-instructor-aerospace-technician-correlation-one-1131480",
+      "description": "Correlation One is the largest provider of AI and data workforce development programs globally, having trained over 500,000 professionals across 11 countries. As the largest training provider for Amazon Career Choice, and a growing partner to state governments building registered apprenticeship programs, Correlation One sits at the intersection of employer talent needs and scalable workforce training. We work with Fortune 500 enterprises, federal and state government agencies, and leading employers to close skills gaps in AI, data analytics, cybersecurity, and operations leadership. Our programs produce job-ready graduates who are prepared to contribute from day one. **Job Summary:** Lead Instructors at Correlation One are responsible for delivering high-quality, live, virtual instruction and partnering with company personnel to drive exceptional learning outcomes. Their main focus as educators is to conduct large synchronous online lectures on technical content, training anywhere from 100 to 8,000+ diverse Fellows at a time, depending on the program. This role involves preparing and leading virtual classroom sessions, collaborating with operations personnel, and contributing to the overall success of the program. **Program Specific Information:** * The exact dates and times for this program and currently TBD, with an anticipated launch for mid July of 2026. We are proactively identifying instructors for this program and will provident updates when exact dates/times are confirmed.\u00c2 **Virtual Classroom Leadership:** * Prepare and lead virtual classroom sessions for a range of Fellows, which may vary in size from 200 to 8,000+. * Deliver instruction on skills tailored to Learners' needs, including math, verbal reasoning, and technical problem-solving. * Oversee the management of class time Q&A and monitor chat flow, and overall class energy and engagement dynamics **Collaboration:** * Collaborate closely with Correlation One operations personnel to ensure smooth program delivery and adherence to schedules. * Be flexible in contributing to classes during weekdays and/or weekends, as program schedules vary. * Assist in lesson design, development, and improvement which may include tracking edits, suggestions, or changes to curriculum as neede Please mention the word **ENJOYING** and tag RNTIuMTYxLjQ1LjIyOA== when applying to show you read the job post completely (#RNTIuMTYxLjQ1LjIyOA==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "Remote",
+      "tags": [
+        "instructor",
+        "amazon",
+        "training",
+        "technical",
+        "management",
+        "lead",
+        "operations"
+      ],
+      "published_at": "2026-05-06T00:01:29+00:00",
+      "is_remote": true,
+      "score": 7,
+      "matched_keywords": [
+        "cybersecurity",
+        "remote"
+      ],
+      "match_percentage": 17
+    },
+    {
+      "id": "arbeitnow:head-of-supply-chain-purchasing-all-genders-berlin-339960",
+      "source": "arbeitnow",
+      "title": "Head of Supply Chain & Purchasing (all genders)",
+      "company": "Glow25 (by Primal State Performance GmbH)",
+      "url": "https://www.arbeitnow.com/jobs/companies/glow25-by-primal-state-performance-gmbh/head-of-supply-chain-purchasing-all-genders-berlin-339960",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/glow25-by-primal-state-performance-gmbh/head-of-supply-chain-purchasing-all-genders-berlin-339960",
+      "description": "Willkommen bei Glow25! Wir sind ein dynamisches, schnell wachsendes Beauty- & Pro-Aging-Unternehmen aus Berlin. Unsere Herzensmission: Glow-Momente, die bleiben \u2013 f\u00fcr unsere Community und f\u00fcr uns als Team. Arbeit darf bei uns inspirieren, begeistern und Spa\u00df machen. Daf\u00fcr suchen wir smarte, empathische Menschen, die Verantwortung \u00fcbernehmen und mit uns wachsen. Werde Teil von Glow25 und hilf uns, Sch\u00f6nheit neu zu definieren. Wir freuen uns auf dich! Das sind unsere aktuellen Herausforderungen und perspektivischen Ziele: Glow25 w\u00e4chst rasant und mit diesem Wachstum steigen die Anforderungen an unsere Supply Chain, unseren Einkauf und unsere operative Exzellenz deutlich. Wir suchen eine erfahrene, unternehmerisch denkende F\u00fchrungspers\u00f6nlichkeit, die unsere End-to-End Supply Chain strategisch weiterentwickelt, operativ stabilisiert und skalierbar f\u00fcr die n\u00e4chste Wachstumsphase aufstellt. Als Head of Supply Chain Management / Purchasing (all genders) \u00fcbernimmst Du eine Schl\u00fcsselrolle f\u00fcr unser weiteres Wachstum: Du sorgst daf\u00fcr, dass unsere Produkte zuverl\u00e4ssig verf\u00fcgbar sind, unsere Kostenstruktur wettbewerbsf\u00e4hig bleibt, unsere Partnerlandschaft professionell gesteuert wird und unsere Prozesse mit dem Tempo von Glow25 Schritt halten. Du baust gemeinsam mit Deinem Team eine Supply Chain, die nicht nur funktioniert, sondern ein echter Wachstumstreiber f\u00fcr Glow25 wird. In diesem Bereich brauchen wir Deine Unterst\u00fctzung: Du verantwortest die strategische Planung, End-to-End-Steuerung und kontinuierliche Optimierung unserer gesamten Supply Chain: von Forecasting, S&OP, Einkauf, Disposition und Produktionsplanung \u00fcber Bestandsmanagement, Logistik und Fulfillment bis hin zur Performance-Steuerung entlang relevanter KPIs. Du etablierst robuste, skalierbare Prozesse, die Wachstum erm\u00f6glichen und gleichzeitig Produktverf\u00fcgbarkeit, Service Level, Kosten, Cashflow und Working Capital optimal ausbalancieren und ein optimales Kundenerlebnis schaffen. Du stellst den optimalen Einsatz unseres ERP-Systems sicher und entwickelst gemeinsam mit dem Team Datenqualit\u00e4t, Prozessdisziplin und Systemnutzung kontinuierlich weiter, damit Entscheidungen verl\u00e4sslich, transparent und skalierbar getroffen werden k\u00f6nnen. Du entwickelst unseren Einkauf von einer operativen Beschaffungsfunktion hin zu einem strategischen Werthebel: mit klarer Lieferantenstrategie, professionellem Verhandlungsmanagement, Rahmenvertr\u00e4gen, Multi-Source-Konzepten und messbaren Effizienzgewinnen. Du treibst die Digitalisierung, Automatisierung und datenbasierte Steuerung unserer Supply Chain aktiv voran und nutzt moderne Tools sowie KI-gest\u00fctzte Ans\u00e4tze, um Forecasting, Disposition, Reporting und Entscheidungsprozesse effizienter und belastbarer zu machen. Du betreibst aktives Risikomanagement zur Absicherung unserer Lieferf\u00e4higkeit, minimierst Engp\u00e4sse, st\u00e4rkst unsere Resilienz und stellst Compliance mit gesetzlichen Vorgaben, Qualit\u00e4tsanforderungen und internen Richtlinien sicher. Du f\u00fchrst, entwickelst und motivierst Dein Team von aktuell 5 Mitarbeitenden fachlich und disziplinarisch: mit klarer Priorisierung, hoher Umsetzungsst\u00e4rke und einer Kultur aus Verantwortung, Transparenz und gegenseitiger Unterst\u00fctzung. Du bringst folgende Erfahrungen mit: Du hast ein erfolgreich abgeschlossenes Studium in BWL, Wirtschaftsingenieurwesen, Supply Chain Management oder einer vergleichbaren Fachrichtung. Du verf\u00fcgst \u00fcber mindestens 10 Jahre relevante Berufserfahrung, idealerweise in einem dynamischen Wachstumsumfeld und einem f\u00fchrenden Unternehmen. Du hast bereits eine Supply Chain in einer skalierenden Organisation professionalisiert und bringst ein sehr gutes Verst\u00e4ndnis f\u00fcr End-to-End-Prozesse, S&OP, Forecasting, Bestandssteuerung, Lieferantenmanagement und operative Exzellenz mit. Du bringst zwingend fundierte Erfahrung mit ERP-Systemen mit und hast ein tiefes Verst\u00e4ndnis daf\u00fcr, wie End-to-End-Prozesse in Supply Chain, Einkauf, Bestandsmanagement, Produktionsplanung und Reporting systemseitig abgebildet, gesteuert und optimiert werden. Du hast relevante Expertise im strategischen Einkauf und kannst nachweisbar Lieferantenportfolios strukturieren, Verhandlungen f\u00fchren und Einsparpotenziale realisieren. Du hast Erfahrung in der F\u00fchrung und Entwicklung von Teams, idealerweise in hybriden oder remote gepr\u00e4gten Arbeitsumgebungen. Du beherrschst Deutsch und Englisch sicher auf mindestens C1-Niveau. Branchenkenntnisse in Consumer Goods, Food, Beauty, Supplements, Pharma, FMCG oder E-Commerce sind ein Plus. Das sind Charakterz\u00fcge, die Dich beschreiben: Du denkst unternehmerisch, handelst pragmatisch und \u00fcbernimmst Verantwortung, auch wenn nicht alle Informationen perfekt vorliegen. Du bist belastbar, priorisierungsstark und beh\u00e4ltst auch in anspruchsvollen Phasen den \u00dcberblick. Du verbindest strategisches Denken mit operativer Hands-on-Mentalit\u00e4t und hast Freude daran, Strukturen aufzubauen, die wirklich funktionieren. Du bist kommunikationsstark und bewegst Dich souver\u00e4n auf allen Ebenen: vom operativen Team bis zur Gesch\u00e4ftsf\u00fchrung. Du schaffst Klarheit, gibst Orientierung und f\u00fchrst Dein Team mit Anspruch, Empathie und Konsequenz. Du arbeitest analytisch, datenbasiert und l\u00f6sungsorientiert und \u00fcbersetzt komplexe Zusammenh\u00e4nge in klare Entscheidungen. Du bist ein:e Teamplayer:in mit hoher Ownership, Gestaltungswillen und Freude daran, ein wachsendes Unternehmen aktiv mitzupr\u00e4gen. Darauf kannst du dich freuen: Deutschlandticket? Klar, \u00fcbernehmen wir. Du kommst easy, g\u00fcnstig und umweltfreundlich zur Arbeit. Glow Card \u2013 jeden Monat ein Bonus. 50 \u20ac Guthaben monatlich f\u00fcr lokale Anbieter \u2013 macht 600 \u20ac im Jahr extra f\u00fcr dich. Weiterkommen leicht gemacht. Mit unserer Glowcademy und Lernzeit pro Woche bleibst du immer am Ball. 40 % Mitarbeiterrabatt. Auf das komplette Sortiment \u2013 das lohnt sich wirklich. Urlaub, der dir guttut. 30 Tage frei + 1 pers\u00f6nlicher Feiertag + bis zu 10 unbezahlte Tage extra, wenn du mal l\u00e4nger abschalten willst. Gesundheit im Fokus. Wir \u00fcbernehmen bis zu 600 \u20ac im Jahr f\u00fcr Zusatzleistungen \u2013 von Brille bis Zahnreinigung. F\u00fcr sp\u00e4ter gut abgesichert. Nach der Probezeit gibt\u2019s 600 \u20ac Zuschuss zur Altersvorsorge \u2013 und wenn du selbst mit einzahlst, legen wir nochmal 20 % drauf. Corporate Benefits & FutureBens. Hol dir exklusive Rabatte und Vorteile bei vielen Partnern. Glow25 Merch. Unser Teamlook, dein Statement. Move your way. Vom Workout bis zur Wellness-Auszeit - du entscheidest, wie du dich fit h\u00e4ltst. Mit Urban Sports Club oder Wellpass hast du die Wahl. Kultur, die wirklich strahlt. Seit f\u00fcnf Jahren in Folge sind wir als Top Company bei Kununu ausgezeichnet - ein echtes Zeichen f\u00fcr unsere starke, positive und gelebte Kultur. Yay! Du hast es bis hierher geschafft! Wenn du jetzt immer noch liest, ist die Wahrscheinlichkeit gro\u00df, dass wir ein Match sind. Eine Sache liegt uns aber noch auf dem Herzen: Trau dich! Vor allem als Frau, oder als jemand einer unterrepr\u00e4sentierten Bev\u00f6lkerungsgruppe. Auch wenn du nicht \u00fcberall einen Haken setzen kannst, m\u00f6chten wir dich ermutigen, dich trotzdem zu bewerben. Wir glauben, dass eine bunte Vielfalt von Perspektiven und Erfahrungen ein Team st\u00e4rker macht - und je st\u00e4rker unser Team ist, desto besser erreichen wir unsere Mission, Menschen zu mehr Energie im Alltag zu verhelfen. Find Jobs in Germany on Arbeitnow",
+      "location": "Berlin",
+      "tags": [
+        "Business Operations"
+      ],
+      "published_at": "1778081480",
       "is_remote": true,
       "score": 7,
       "matched_keywords": [
@@ -104,29 +131,6 @@
         "remote"
       ],
       "match_percentage": 17
-    },
-    {
-      "id": "arbeitnow:junior-technical-writer-junior-technischer-redakteur-nuremberg-2793",
-      "source": "arbeitnow",
-      "title": "(Junior) Technical Writer / (Junior) Technischer Redakteur (m/w/d)",
-      "company": "noris network AG",
-      "url": "https://www.arbeitnow.com/jobs/companies/noris-network-ag/junior-technical-writer-junior-technischer-redakteur-nuremberg-2793",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/noris-network-ag/junior-technical-writer-junior-technischer-redakteur-nuremberg-2793",
-      "description": "Die noris network AG bietet Unternehmen L\u00f6sungen in den Bereichen IT-Outsourcing, Cloud Services, Network & Security und Datacenter. Technologische Basis dieser Services ist eine leistungsf\u00e4hige IT-Infrastruktur mit einem eigenen Hochleistungs-Backbone und mehreren Hochsicherheitsrechenzentren. Seit 1993 haben wir uns zu einem der IT-Spezialisten mit mehr als 500 Mitarbeitenden entwickelt. Das alles w\u00e4re aber nicht m\u00f6glich ohne ein starkes Team. Deswegen legen wir Wert auf die permanente Weiterentwicklung und F\u00f6rderung aller Mitarbeitender und sind auf der Suche nach Verst\u00e4rkung an den Standorten N\u00fcrnberg, Aschheim, Berlin und remote (innerhalb Deutschlands) \u2013 durch Dich? Du liebst es, komplexe IT-Themen in klare, verst\u00e4ndliche Sprache zu \u00fcbersetzen? Dann unterst\u00fctze uns dabei, unsere technische Dokumentation auf das n\u00e4chste Level zu heben! Als Teil unseres neu wachsenden Redaktionsteams arbeitest Du in einer modernen Tool-Landschaft (DITA, XML, Markdown) und sorgst daf\u00fcr, dass unsere Kunden und Kollegen immer die passenden Antworten finden. Aufgaben Erstellung, Pflege und Weiterentwicklung technischer Dokumentation (z. B. Kundenhandb\u00fccher, Betriebshandb\u00fccher, Prozess- und Servicedokumente) in enger Zusammenarbeit mit Fachabteilungen auf Basis von XML oder Markdown Anwendung von Styleguides, Templates und Prozessen f\u00fcr Content-Governance und Versionierung Support und Troubleshooting automatisierter Publikationspipelines mit Tools wie GitLab, DITA Open Toolkit und REST-APIs Sicherstellung konsistenter, auditierbarer und compliance-konformer Dokumentation Kontinuierliche Optimierung der Dokumentationsprozesse und Mitgestaltung der KI-gest\u00fctzten Redaktion der Zukunft Qualifikation Abgeschlossenes Studium im Bereich Technische Redaktion, Informatik, Kommunikation, Ingenieurwesen oder vergleichbare Qualifikation Berufserfahrung als technischer Redakteur, idealerweise in einem IT- oder Infrastrukturumfeld Idealerweise Kenntnisse in XML, Markdown, GitLab, CI/CD-Pipelines und Dokumenten-Workflows Erfahrung mit KI-gest\u00fctzten Content-Workflows sowie ein gro\u00dfes Interesse an deren aktiver Weiterentwicklung Strukturierte, pr\u00e4zise und eigenverantwortliche Arbeitsweise sowie eine ausgepr\u00e4gte Hands-on-Mentalit\u00e4t Starke Kommunikationsf\u00e4higkeit und Kooperationsbereitschaft, insbesondere bei der Vermittlung technischer Sachverhalte zwischen IT, Fachabteilungen und Management Sehr gute Deutsch- und Englischkenntnisse in Wort und Schrift Benefits Unbefristeter Arbeitsvertrag und flexible Arbeitszeiten Arbeiten an verschiedenen Standorten m\u00f6glich (z.B. N\u00fcrnberg, Aschheim, Berlin) oder auch zu 100% remote Hochwertiges Equipment: Laptop und Firmenhandy auch zur privaten Nutzung Individuelle F\u00f6rderung und Weiterentwicklung durch Inhouse-Trainings und externe Schulungen Kinderbetreuungskostenzuschuss (pro Monat/Kind) und Corporate Benefits Attraktive Firmenevents, kollegiales und wertsch\u00e4tzendes Arbeitsumfeld sowie Duz-Kultur ab dem ersten Tag Gesundheitsmanagement (z.B. kostenlose Massage), Jobrad Leasing und attraktiver Zuschuss zum Deutschlandticket Welcome Day, direkter Ansprechpartner (m/w/d) und strukturierte Einarbeitungsphase Getr\u00e4nke for free (auch Softdrinks) und frisches Obst an den Standorten Wir haben Dein Interesse geweckt? Dann freuen wir uns \u00fcber Deine aussagekr\u00e4ftige Bewerbung mit Angabe Deiner Gehaltsvorstellung und dem fr\u00fchesten Eintrittsdatum auf unserem Jobportal. F\u00fcr Deine Fragen zu uns oder der Stelle stehen wir Dir gerne zur Verf\u00fcgung. Find more English Speaking Jobs in Germany on Arbeitnow",
-      "location": "Nuremberg",
-      "tags": [
-        "Remote",
-        "Product Management",
-        "remote"
-      ],
-      "published_at": "1777984396",
-      "is_remote": true,
-      "score": 7,
-      "matched_keywords": [
-        "compliance",
-        "remote"
-      ],
-      "match_percentage": 18
     }
   ]
 }
