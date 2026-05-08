@@ -2,16 +2,22 @@
   "seen_job_ids": [
     "arbeitnow:ai-product-owner-mwd-frankfurt-am-main-167330",
     "arbeitnow:consultant-datenschutz-informationssicherheit-teilzeit-remote-augsburg-175849",
+    "arbeitnow:head-of-platform-infrastructure-ai-saas-berlin-183603",
     "arbeitnow:head-of-supply-chain-purchasing-all-genders-berlin-339960",
     "arbeitnow:it-architekt-karlsruhe-108529",
+    "arbeitnow:it-security-manager-munich-376913",
     "arbeitnow:junior-technical-writer-junior-technischer-redakteur-nuremberg-2793",
     "arbeitnow:karrierestart-in-data-ai-ihk-data-analyst-100-online-berlin-138911",
     "arbeitnow:ma-research-analyst-berlin-498635",
     "arbeitnow:senior-ai-data-platform-engineer-berlin-499504",
     "arbeitnow:senior-security-engineer-all-genders-berlin-482192",
+    "arbeitnow:senior-system-administrator-support-engineer-munich-462549",
+    "arbeitnow:softwareentwickler-c-blazor-refnr-46700-munich-491606",
     "himalayas:https://himalayas.app/companies/affirm/jobs/staff-analytics-engineer-subledger-platform",
     "himalayas:https://himalayas.app/companies/aledade/jobs/full-stack-analytics-engineer-ii",
+    "himalayas:https://himalayas.app/companies/cardinal-health/jobs/senior-advisor-data-governance-platform-enablement",
     "himalayas:https://himalayas.app/companies/coconut-software/jobs/senior-analytics-engineer-12-month-contract",
+    "himalayas:https://himalayas.app/companies/damia-group/jobs/data-governance-tech-lead",
     "himalayas:https://himalayas.app/companies/data-ideology/jobs/senior-data-governance-consultant-2246030240",
     "himalayas:https://himalayas.app/companies/data-ideology/jobs/senior-data-governance-specialist-2591285594",
     "himalayas:https://himalayas.app/companies/emcd/jobs/product-data-analyst",
@@ -20,6 +26,7 @@
     "himalayas:https://himalayas.app/companies/ge-vernova/jobs/global-industrial-data-standards-leader",
     "himalayas:https://himalayas.app/companies/genesis-consulting-partners-llc/jobs/data-governance-lead",
     "himalayas:https://himalayas.app/companies/givebutter/jobs/analytics-engineer",
+    "himalayas:https://himalayas.app/companies/humana-international-group/jobs/principal-business-information-architect",
     "himalayas:https://himalayas.app/companies/inova-health/jobs/data-governance-lead",
     "himalayas:https://himalayas.app/companies/kin-insurance/jobs/analytics-engineering-manager",
     "himalayas:https://himalayas.app/companies/logistics-management-institute/jobs/data-governance-specialist-clearance-required",
@@ -41,6 +48,9 @@
     "remoteok:1131433",
     "remoteok:1131480",
     "remoteok:1131482",
+    "remoteok:1131488",
+    "remoteok:1131490",
+    "remoteok:1131500",
     "weworkremotely:https://weworkremotely.com/remote-jobs/accelerate-change-development-operations-support-contractor-freelance-remote",
     "weworkremotely:https://weworkremotely.com/remote-jobs/airalo-staff-data-analyst-product",
     "weworkremotely:https://weworkremotely.com/remote-jobs/alvys-senior-product-designer",
@@ -61,5 +71,5 @@
     "weworkremotely:https://weworkremotely.com/remote-jobs/wave-hq-senior-product-manager",
     "weworkremotely:https://weworkremotely.com/remote-jobs/zayzoon-senior-devops-engineer"
   ],
-  "updated_at": "2026-05-07T05:01:17Z"
+  "updated_at": "2026-05-08T04:40:49Z"
 }
