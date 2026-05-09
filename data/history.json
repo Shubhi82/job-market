@@ -1,5 +1,6 @@
 {
   "seen_job_ids": [
+    "arbeitnow:account-manager-managed-services-kritis-leipzig-312884",
     "arbeitnow:ai-product-owner-mwd-frankfurt-am-main-167330",
     "arbeitnow:consultant-datenschutz-informationssicherheit-teilzeit-remote-augsburg-175849",
     "arbeitnow:head-of-platform-infrastructure-ai-saas-berlin-183603",
@@ -9,10 +10,12 @@
     "arbeitnow:junior-technical-writer-junior-technischer-redakteur-nuremberg-2793",
     "arbeitnow:karrierestart-in-data-ai-ihk-data-analyst-100-online-berlin-138911",
     "arbeitnow:ma-research-analyst-berlin-498635",
+    "arbeitnow:platform-data-engineer-full-time-100-remote-karlsruhe-472053",
     "arbeitnow:senior-ai-data-platform-engineer-berlin-499504",
     "arbeitnow:senior-security-engineer-all-genders-berlin-482192",
     "arbeitnow:senior-system-administrator-support-engineer-munich-462549",
     "arbeitnow:softwareentwickler-c-blazor-refnr-46700-munich-491606",
+    "arbeitnow:staff-backend-engineer-net-munchen-118155",
     "himalayas:https://himalayas.app/companies/affirm/jobs/staff-analytics-engineer-subledger-platform",
     "himalayas:https://himalayas.app/companies/aledade/jobs/full-stack-analytics-engineer-ii",
     "himalayas:https://himalayas.app/companies/cardinal-health/jobs/senior-advisor-data-governance-platform-enablement",
@@ -51,6 +54,7 @@
     "remoteok:1131488",
     "remoteok:1131490",
     "remoteok:1131500",
+    "remoteok:1131512",
     "weworkremotely:https://weworkremotely.com/remote-jobs/accelerate-change-development-operations-support-contractor-freelance-remote",
     "weworkremotely:https://weworkremotely.com/remote-jobs/airalo-staff-data-analyst-product",
     "weworkremotely:https://weworkremotely.com/remote-jobs/alvys-senior-product-designer",
@@ -71,5 +75,5 @@
     "weworkremotely:https://weworkremotely.com/remote-jobs/wave-hq-senior-product-manager",
     "weworkremotely:https://weworkremotely.com/remote-jobs/zayzoon-senior-devops-engineer"
   ],
-  "updated_at": "2026-05-08T04:40:49Z"
+  "updated_at": "2026-05-09T04:53:14Z"
 }

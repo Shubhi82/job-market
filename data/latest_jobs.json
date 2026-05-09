@@ -1,277 +1,113 @@
 {
-  "refreshed_at": "2026-05-08T04:40:49Z",
+  "refreshed_at": "2026-05-09T04:53:14Z",
   "stats": {
-    "raw_jobs": 391,
-    "filtered_jobs": 48,
-    "deduplicated_jobs": 47,
-    "ranked_jobs": 10,
-    "returned_jobs": 10,
+    "raw_jobs": 385,
+    "filtered_jobs": 46,
+    "deduplicated_jobs": 44,
+    "ranked_jobs": 4,
+    "returned_jobs": 4,
     "exclude_history": true
   },
   "jobs": [
     {
-      "id": "himalayas:https://himalayas.app/companies/humana-international-group/jobs/principal-business-information-architect",
-      "source": "himalayas",
-      "title": "Principal, Business Information Architect",
-      "company": "Humana International Group",
-      "url": "https://himalayas.app/companies/humana-international-group/jobs/principal-business-information-architect",
-      "apply_url": "https://himalayas.app/companies/humana-international-group/jobs/principal-business-information-architect",
-      "description": "Become a part of our caring community The Principal Business Information Architect is an expert and strategic leader responsible for establishing, advancing, and maintaining the enterprise\u2019s information landscape. This role ensures that business concepts, data definitions, and metadata are consistently modeled, governed, and understood across the organization, driving enterprise-wide alignment and reuse. The Principal Architect provides visionary leadership in the design and stewardship of enterprise ontologies, information models, and data standards, enabling high-quality analytics, regulatory compliance, data interoperability, and scalable data governance practices. The incumbent operates as a trusted advisor and thought leader, influencing senior stakeholders and mentoring the information architecture community. Key Responsibilities 1. Strategic Enterprise Information Architecture & Ontology Leadership Set the vision and direction for enterprise ontologies, business glossaries, and semantic models to unify understanding of core business concepts across all business units and platforms. Lead the development and evolution of canonical data models, conceptual information models, and domain models at scale, ensuring strategic alignment and reusability. Drive alignment of ontologies and information models with enterprise strategy, regulatory requirements, and operational imperatives. Work closely with Enterprise Architecture and Data Platform delivery teams to enable and scale usability across the enterprise. 2. Metadata Management & Data Governance Enablement Serve as the principal authority for metadata and business glossary standards, collaborating with Data Stewards, and Data Owners to ensure standardized business terms, definitions, relationships, and lineage. Oversee the enhancement of metadata quality through governance processes, stewardship workflows, and continuous improvement initiatives. Direct the adoption, integration, and optimization of metadata management tools to ensure consistency with enterprise information architecture standards. 3. Enterprise Collaboration & Influence Partner with senior solution architects, engineering leaders, enterprise architecture leaders, platform delivery leaders, analytics executives, and business stakeholders to embed business information architecture into strategic data products, integration patterns, and analytics platforms. Champion the definition and adoption of semantic layers, shared business definitions, and reusable information patterns across cross-functional teams. Translate complex business strategies and concepts into structured, enterprise-scale information models, providing thought leadership and mentorship. 4. Standards, Policies, and Framework Stewardship Establish and govern enterprise standards for ontology modeling, naming conventions, metadata taxonomy, and semantic alignment. Lead the evolution of enterprise data governance frameworks, stewardship models, and domain governance structures in partnership with senior stakeholders. Ensure adherence to industry best practices in information architecture, FAIR data principles, and semantic data governance, and proactively monitor emerging trends and technologies. 5. Information Quality, Risk, and Compliance Leadership Identify, assess, and resolve complex inconsistencies in data definitions, business rules, and semantic structures, driving enterprise-wide remediation and best practices. Oversee support for regulatory, risk, and audit requirements by ensuring data meaning, provenance, and lineage are traceable, documented, and defensible. Provide deep subject-matter expertise and guidance on data meaning, business context, and strategic data initiatives at the enterprise level. Use your skills to make an impact Required Qualifications Bachelor\u2019s degree in Information Systems, Data Management, Business, Computer Science, or a related field. 10+ years of progressive experience in information architecture, data governance, semantic modeling, or related disciplines, with significant experience in a leadership or principal capacity. Demonstrated mastery of enterprise metadata management and business glossary tools (e.g., Collibra, Alation, Informatica, Atlan). Proven experience in designing and governing ontologies, taxonomies, conceptual models, and semantic frameworks at enterprise scale. Expert understanding of data governance principles, data lifecycle management, data quality, and stewardship. Advanced ability to translate complex business concepts into clear, structured enterprise information models. Preferred Qualifications Experience leading information architecture initiatives within modern data ecosystems (e.g., lakehouse architectures, data mesh, semantic layers). Familiarity with advanced knowledge graph technologies (e.g., RDF, OWL, SHACL, SPARQL). Significant background in regulated industries (e.g., financial services, healthcare, life sciences, energy). Advanced certifications (e.g., CDMP, DGSP, TOGAF). Additional Information Core Competencies Strategic Vision and Enterprise Architecture Leadership Advanced Conceptual and Analytical Thinking Executive Collaboration and Influence Data Literacy and Communication Governance and Stewardship Expertise Thought Leadership and Mentorship Attention to Detail and Information Quality Travel: While this is a remote position, occasional travel to Humana's offices for training or meetings may be required. Scheduled Weekly Hours 40 Pay Range The compensation range below reflects a good faith estimate of starting base pay for full time (40 hours per week) employment at the time of posting. The pay range may be higher or lower based on geographic location and individual pay will vary based on demonstrated job related skills, knowledge, experience, education, certifications, etc.$142,300 - $195,700 per yearThis job is eligible for a bonus incentive plan. This incentive opportunity is based upon company and/or individual performance. Description of Benefits Humana, Inc. and its affiliated subsidiaries (collectively, \u201cHumana\u201d) offers competitive benefits that support whole-person well-being. Associate benefits are designed to encourage personal wellness and smart healthcare decisions for you and your family while also knowing your life extends outside of work. Among our benefits, Humana provides medical, dental and vision benefits, 401(k) retirement savings plan, time off (including paid time off, company and personal holidays, volunteer time off, paid parental and caregiver leave), short-term and long-term disability, life insurance and many other opportunities.Application Deadline: 05-09-2026 About us About Humana: Humana Inc. (NYSE: HUM) is a leading U.S. healthcare company. Through our Humana insurance services and our CenterWell healthcare services, we make it easier for the millions of people we serve to achieve their best health \u2013 delivering the care and service they need, when they need it. These efforts are leading to a better quality of life for people with Medicare and Medicaid, families, individuals, military service personnel, and communities at large. Learn more about what we offer at Humana.com and at CenterWell.com. \u200b Equal Opportunity Employer It is the policy of Humana not to discriminate against any employee or applicant for employment because of race, color, religion, sex, sexual orientation, gender identity, national origin, age, marital status, genetic information, disability or protected veteran status. It is also the policy of Humana to take affirmative action, in compliance with Section 503 of the Rehabilitation Act and VEVRAA, to employ and to advance in employment individuals with disability or protected veteran status, and to base all employment decisions only on valid job requirements. This policy shall apply to all employment actions, including but not limited to recruitment, hiring, upgrading, promotion, transfer, demotion, layoff, recall, termination, rates of pay or other forms of compensation and selection for training, including apprenticeship, at all levels of employment. Originally posted on Himalayas",
-      "location": "United States",
-      "tags": [
-        "Data-Architecture",
-        "Enterprise-Architecture",
-        "Data-Governance",
-        "Information-Management",
-        "Data-Management"
-      ],
-      "published_at": "",
-      "is_remote": true,
-      "score": 36,
-      "matched_keywords": [
-        "data governance",
-        "data quality",
-        "collibra",
-        "metadata",
-        "business glossary",
-        "risk",
-        "compliance",
-        "remote"
-      ],
-      "match_percentage": 33
-    },
-    {
-      "id": "himalayas:https://himalayas.app/companies/cardinal-health/jobs/senior-advisor-data-governance-platform-enablement",
-      "source": "himalayas",
-      "title": "Senior Advisor, Data Governance & Platform Enablement",
-      "company": "Cardinal Health",
-      "url": "https://himalayas.app/companies/cardinal-health/jobs/senior-advisor-data-governance-platform-enablement",
-      "apply_url": "https://himalayas.app/companies/cardinal-health/jobs/senior-advisor-data-governance-platform-enablement",
-      "description": "Cardinal Health Sonexus\u2122 Access and Patient Support helps specialty pharmaceutical manufacturers remove barriers to care so that patients can access, afford and remain on the therapy they need for a better quality of life. Our diverse expertise in pharma, payer and hub services allows us to deliver best-in-class solutions\u2014driving brand and patient markers of success. We\u2019re continuously integrating advanced and emerging technologies to streamline patient onboarding, qualification and adherence. Our non-commercial specialty pharmacy is centralized at our custom-designed facility outside of Dallas, Texas, empowering manufacturers to rethink the reach and impact of their products. Together, we can get life-changing therapies to patients who need them\u2014faster. What Data Management and Governance contributes to Cardinal Health The Data & Analytics Function oversees the analytics life-cycle in order to identify, analyze and present relevant insights that drive business decisions and anticipate opportunities to achieve a competitive advantage. This function manages analytic data platforms, the access, design and implementation of reporting/business intelligence solutions, and the application of advanced quantitative modeling. Data Management and Governance provides direction of data assets and is responsible for data strategy, quality, standards and service levels. Data management acquires, validates, standardizes, enriches, protects and publishes structured, third party and unstructured data for use by the business. Governance defines and implements policies, standards and metrics that ensure the effective and efficient use of trusted data and statistical models to support regulatory and business goals. Responsibilities The Senior Advisor, Data Governance & Platform Enablement plays a critical role in advancing data governance capabilities across Sonexus, with a primary focus on establishing trust in data assets that support analytics, AI, and emerging agentic systems. This role operates as a hands\u2011on consultant while partnering closely with business, analytics, and engineering stakeholders. Key responsibilities include: Serve as a hands\u2011on data governance consultant within Sonexus, enabling and operationalizing governance capabilities across the analytics platform (Databricks). Establish and evolve a data governance strategy that supports trusted, well\u2011understood data assets for business functions, analytics, AI, and advanced use cases. Define and maintain governance standards that promote data discoverability, appropriate use, and confidence in data, in partnership with Information Security and compliance teams and aligned with enterprise/regulatory expectations and tools. Partner with Data Owners, Business Stakeholders, and Technical Leads to identify and prioritize critical data elements that impact reporting, decisions, and AI outcomes. Capture and govern business data definitions and essential dataset context to ensure consistent interpretation and use. Apply governance within a central\u2011to\u2011federated operating model, enabling distributed ownership while maintaining alignment to enterprise standards. Identify opportunities to improve data quality, reliability, and consistency through analysis, partnership, and governance controls. Act as a trusted advisor and change agent, communicating governance progress, risks, and outcomes in clear, business\u2011focused terms. Qualifications 6-12 years of experience in data governance, data management, analytics enablement, or related data roles, preferably within complex or regulated environment preferred Demonstrated experience working with modern cloud data platforms, with strong preference for GCP and Databricks. Proven ability to apply governance concepts in practice, balancing business needs, speed, and risk. Strong communication and facilitation skills, with the ability to translate technical and governance concepts into business\u2011relevant language. Proven ability to influence without authority and operate effectively in environments with evolving requirements. Self\u2011driven, adaptable, and comfortable operating in ambiguity. Strong understanding of: Data definitions and semantics Critical data elements and prioritization Metadata management and data classification Data quality concepts and impacts Experience partnering effectively with: Business and functional stakeholders Analytics and BI teams Data engineering and platform teams What is expected of you and others at this level Applies advanced knowledge and understanding of concepts, principles, and technical capabilities to manage a wide variety of projects Participates in the development of policies and procedures to achieve specific goals Recommends new practices, processes, metrics, or models Works on or may lead complex projects of large scope Projects may have significant and long-term impact Provides solutions which may set precedent Independently determines method for completion of new projects Receives guidance on overall project objectives Acts as a mentor to less experienced colleagues TRAINING AND WORK SCHEDULES: Your new hire training will take place 8:00am-5:00pm CST, mandatory attendance is required. This position is full-time (40 hours/week). Employees are required to have ability to work the scheduled shift of Monday-Friday, 8:00am- 5:00pm CT. REMOTE DETAILS: You will work remotely, full-time. It will require a dedicated, quiet, private, distraction free environment with access to high-speed internet. We will provide you with the computer, technology and equipment needed to successfully perform your job. You will be responsible for providing high-speed internet. Internet requirements include the following: Maintain a secure, high-speed, broadband internet connection (DSL, Cable, or Fiber) at the remote location. Dial-up, satellite, WIFI, Cellular connections are NOT acceptable . Download speed of 15Mbps (megabyte per second) Upload speed of 5Mbps (megabyte per second) Ping Rate Maximum of 30ms (milliseconds) Hardwired to the router Surge protector with Network Line Protection for CAH issued equipment Anticipated salary range: $105,100-$150,100 annually Bonus eligible: Yes Benefits: Cardinal Health offers a wide variety of benefits and programs to support health and well-being. Medical, dental and vision coverage Paid time off plan Health savings account (HSA) 401k savings plan Access to wages before pay day with myFlexPay Flexible spending accounts (FSAs) Short- and long-term disability coverage Work-Life resources Paid parental leave Healthy lifestyle programs Application window anticipated to close: 7/1/2026 *if interested in opportunity, please submit application as soon as possible. The hourly range listed is an estimate. Pay at Cardinal Health is determined by multiple factors including, but not limited to, a candidate\u2019s geographical location, relevant education, experience and skills and an evaluation of internal pay equity. Candidates who are back-to-work, people with disabilities, without a college degree, and Veterans are encouraged to apply. Cardinal Health supports an inclusive workplace that values diversity of thought, experience and background. We celebrate the power of our differences to create better solutions for our customers by ensuring employees can be their authentic selves each day. Cardinal Health is an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to race, religion, color, national origin, ancestry, age, physical or mental disability, sex, sexual orientation, gender identity/expression, pregnancy, veteran status, marital status, creed, status with regard to public assistance, genetic status or any other status protected by federal, state or local law. To read and review this privacy notice click here Originally posted on Himalayas",
-      "location": "United States",
-      "tags": [
-        "Data-Governance",
-        "Data-Management",
-        "Analytics-Enablement",
-        "Data-Strategy",
-        "Platform-Engineering"
-      ],
-      "published_at": "",
-      "is_remote": true,
-      "score": 31,
-      "matched_keywords": [
-        "data governance",
-        "data quality",
-        "metadata",
-        "privacy",
-        "risk",
-        "compliance",
-        "remote"
-      ],
-      "match_percentage": 38
-    },
-    {
-      "id": "himalayas:https://himalayas.app/companies/damia-group/jobs/data-governance-tech-lead",
-      "source": "himalayas",
-      "title": "Data Governance Tech Lead",
-      "company": "Damia Group",
-      "url": "https://himalayas.app/companies/damia-group/jobs/data-governance-tech-lead",
-      "apply_url": "https://himalayas.app/companies/damia-group/jobs/data-governance-tech-lead",
-      "description": "Seeking a Data Governance Tech Lead for a remote contractor position. Must have 5+ years of experience in a similar role, with experience in data governance, management, or compliance and proficiency with tools such as Confluence or Notion. English language proficiency of B2 or higher required. Requirements 5+ years of experience in a similar role Experience in a previous data governance, management, or compliance role 1-2 years of experience documenting enterprise-level data policies or classification schemas Experience working with registry tools such as Airtable or equivalent spreadsheet-based systems Familiarity with standards and frameworks such as GDPR, NIST, ISO 42001, or the EU AI Act English level of B2 or higher Availability for a remote work model based in Portugal Portuguese or other EU citizenship, or a valid Portuguese work permit Benefits Expand your network Enjoy our perks Get your perfect match Personalized support Originally posted on Himalayas",
-      "location": "Portugal",
-      "tags": [
-        "Data-Governance-Lead",
-        "Senior-Data-Governance-Manager",
-        "Data-Governance-Manager",
-        "Data-Governance-Jobs"
-      ],
-      "published_at": "",
-      "is_remote": true,
-      "score": 18,
-      "matched_keywords": [
-        "data governance",
-        "gdpr",
-        "compliance",
-        "remote"
-      ],
-      "match_percentage": 29
-    },
-    {
-      "id": "remoteok:1131500",
+      "id": "remoteok:1131512",
       "source": "remoteok",
-      "title": "Data Entry Coordinator",
-      "company": "Profound Research",
-      "url": "https://remoteOK.com/remote-jobs/remote-data-entry-coordinator-profound-research-1131500",
-      "apply_url": "https://remoteOK.com/remote-jobs/remote-data-entry-coordinator-profound-research-1131500",
-      "description": "About Profound Research Profound Research partners with community physicians to offer clinical trials as a therapeutic option for their patients. We handle all infrastructure, regulatory compliance, and administrative operations so physicians can focus on patient care. Our model gives patients access to the newest therapies while maintaining the trusted patient-physician relationship. Our Mission: Improving lives by providing advanced therapeutic options Our Vision: Creating the absolute best patient-physician experience in clinical research Our Values: Compassion: We prioritize the patient-physician relationship, ensuring every interaction is service-oriented and patient-centered Urgency: We work hard and practice selflessness, acting swiftly and decisively to meet the needs of our patients, partners, and colleagues Solution Orientation: We embrace challenges with a positive mindset, communicate directly, and identify and implement effective solutions with efficiency Excellence: We insist on excellence, holding ourselves accountable and empowering each other to deliver best-in-class service while maintaining the highest ethical and scientific standards Why This Role Exists Clinical trials generate enormous volumes of data \u00e2\u0080\u0093 and the integrity of that data is what makes research meaningful. Every data point entered accurately and on time moves a study closer to the answers that matter: for sponsors, for science, and ultimately for patients. The Data Entry Coordinator exists to ensure that data integrity never becomes a bottleneck. Working remotely and in close partnership with on-site clinical research staff, this role is the behind-the-scenes engine that keeps data flowing cleanly across studies. From entering source documents into Electronic Data Capture (EDC) systems to resolving queries and supporting database lock activities, the Data Entry Coordinator holds a critical thread in Profound\u00e2\u0080\u0099s research operations \u00e2\u0080\u0093 one that directly enables high-quality, audit-ready trial data across our growing network of sites. What You\u00e2\u0080\u0099ll Do Enter clinical trial data into EDC systems accurately and on time, in accordance with study protocols and sponsor requirements \u00e2\u0080\u0093 turnaround time and accuracy are the benchmarks that matter most in this role Review source documents for completeness and accuracy prior to entry Perform routine data quality checks; identify and resolve discrepancies and data queries promptly to keep studies on track Partner with Clinical Research Coordinators (CRCs) and investigators to clarify missing or inconsistent data, and assist with query resolution from sponsors, monitors, and data management teams Track data entry timelines across multiple concurrent studies and sites Support database lock activities, ensuring all data is complete and clean ahead of deadlines Maintain organized, audit-ready documentation in compliance with GCP, FDA, and HIPAA standards Generate basic reports on data status, query metrics, and site performance as needed Participate in study start-up activities, including EDC system training and User Acceptance Testing (UAT) where applicable What We\u00e2\u0080\u0099re Looking For You have a sharp eye for detail and a low tolerance for errors. You\u00e2\u0080\u0099re organized, self-directed, and comfortable managing multiple priorities without losing track of what matters. You understand that in clinical research, accurate data isn\u00e2\u0080\u0099t just a deliverable \u00e2\u0080\u0093 it\u00e2\u0080\u0099s the foundation everything else is built on, and you take that seriously. High attention to detail and a commitment to data accuracy Strong organizational skills and ability to manage multiple studies and deadlines simultaneously Familiarity with clinical research processes, terminology, and Good Clinical Practice (GCP) guidelines Effective written and verbal communication skills; comfortable working cross-functionally in a remote environment Proficiency in Microsoft Office (Outlook, Teams, Word, Excel) Preferred: Associate\u00e2\u0080\u0099s or Bachelor's degree in life sciences, healthcare administration, or a related field Experience with EDC systems such as Medidata Rave, REDCap, or Oracle InForm Prior experience in a multi-site research network or site management organization (SMO) Exposure to regulatory requirements, audit processes, and data cleaning workflows 1-3 years of experience in data entry, clinical research, or healthcare data management \\n \\n Physical Requirements & Work Environment This role is primarily performed in a remote/office environment and requires prolonged periods of sitting or standing at a desk, working on a computer, and participating in virtual meetings Requires the ability to communicate clearly in verbal and written forms and to read and interpret detailed materials Minimal travel to company sites, meetings, or partner locations may be required, including the ability to navigate office/clinical environments and transport typical work materials Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions of the role Why Join Profound Research? Meaningful Impact: Every role at Profound contributes to advancing medical knowledge and expanding therapeutic options for patients \u00e2\u0080\u0093 the work we do here matters. Professional Growth: We invest in our people through comprehensive training, certification support, and ongoing education to help you grow in your role and your career. Leadership & Advancement: Profound is a place where initiative is recognized. We actively support internal growth and create pathways for people to take on greater responsibility over time. Collaborative Culture: You\u00e2\u0080\u0099ll work alongside a team of dedicated professionals who are passionate about clinical research and committed to doing it well. Full Benefits Package: Competitive compensation, health insurance, PTO, retirement plan, and professional development support. Please mention the word **ECENOMICAL** and tag RMjMuODQuODkuMjAw when applying to show you read the job post completely (#RMjMuODQuODkuMjAw). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "location": "Remote",
+      "title": "Analytics Engineer",
+      "company": "Civitech",
+      "url": "https://remoteOK.com/remote-jobs/remote-analytics-engineer-civitech-1131512",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-analytics-engineer-civitech-1131512",
+      "description": "Civitech is a public benefit corporation dedicated to creating a fairer and more equitable democracy by building the tools and infrastructure needed to increase civic participation, empower Democratic candidates to win, and support the success of progressive causes. Since its founding in 2019, over 500 partners -- a range of nonprofit organizations, national political committees, and individual campaigns -- have utilized Civitech\u00e2\u0080\u0099s tools to reach tens of millions of voters to help create a more equitable and progressive democracy. Civitech is a remote-first company hiring within our current footprint of 27 states (AL, AK, CA, CO, DC, DE, FL, GA, HI, IL, MA, MD, MN, NC, ND, NH, NJ, NV, NY, OH, SD, TN, TX, VA, WA, WI, WY); Civitech does have an office in Austin, TX. It is important that our team reflects the diversity of the organizations we seek to serve. We strongly encourage women, people of color, LGBTQIA+ people, and others otherwise underrepresented in the technology sector to apply. \\n This is a temporary role expected to run through November 15, 2026 . While there may be the potential for extension or conversion to a full-time role depending on business needs, candidates should apply with the understanding that the position is currently scoped as a fixed-term role, non-eligible for benefits. The Analytics Engineer will turn raw voter, district shape, and product data into clean, well-modeled, trustworthy datasets that power dashboards, pipelines, and the tools our partners rely on every day. This role ensures that decision-makers across Civitech and our partner organizations are working from clean data they can trust, ultimately contributing to our mission of increasing civic participation and supporting progressive causes. Civitech's Values We act with Integrity \u00e2\u0080\u0093 At Civitech, we hold ourselves to the highest standards and value open and transparent communications with all of our stakeholders. Our rigorous approach to product design, testing, and data science leads to accurate assessments of our outcomes and challenges us to constantly improve our tools. We are Changemakers \u00e2\u0080\u0093 As a team, Civitech seeks to make transformational change in our democracy by eliminating obstacles meant to hamper contribution from every member of the community. We are Collaborators - Buoyed by our mission, we look for opportunities to partner with everyone committed to making democracy easier to participate in. We seek to understand the challenges our partners face and use our skills and creativity to help them solve them. We are Bold \u00e2\u0080\u0093 We recognize that disruptive change won't come with doing business as usual. Civitech seeks to revolutionize civic participation by bringing innovation and creativity to politics. What You Will Do Build and maintain dbt models that transform raw data from multiple sources into clean, tested, well-documented datasets. Partner with data scientists, engineers, and product teams to translate ambiguous questions into durable data models rather than one-off queries. Improve data quality across the stack by writing tests, defining expectations for critical models, and triaging issues when something looks wrong. Document models, metrics, and lineage so engineers, analysts, and partner organizations can self-serve with confidence. Use Python where it's the right tool \u00e2\u0080\u0094 for orchestration, ad-hoc work, or transformations that don't belong in dbt. Raise the bar on analytics engineering practices, including code review, modeling conventions, CI for data, and documentation standards. Perform additional engineering and data duties as needed to support the broader team. About You 3+ years of experience in analytics engineering, data engineering, or a closely related role where modeling data was central to the job. Strong SQL skills and production experience with dbt, including tests, documentation, and a sensible approach to project structure. Comfortable in Python for data work, including pandas, scripting, and lightweight automation. Experience with a cloud data warehouse (Snowflake, BigQuery, Redshift, or similar) and an instinct for writing SQL that performs well at scale. A bias toward clarity \u00e2\u0080\u0094 you write models, tests, and documentation that other people can actually use. Comfort with ambiguity. Political and civic data is messy and timelines are real; you can move quickly without leaving a mess behind you. Familiarity with voter file data, VAN/EveryAction, or other political/civic data sources is a plus. Experience with orchestration tools (Airflow, Dagster, Prefect) or modern data ingestion (Fivetran, Airbyte) is an advantage. Committed to leveraging technology and data products to help Democratic candidates run for office and win, empower progressive causes, and increase civic participation. \\n $85,000 - $95,000 a year \\n In lieu of a cover letter, please answer the application questions enclosed (we\u00e2\u0080\u0099d like to hear from YOU, not ChatGPT\u00e2\u0080\u0094yes, we can tell!). Civitech is not able to provide visa sponsorship at this time. Civitech provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, gender, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, marital status, amnesty, or status as a covered veteran in accordance with applicable federal, state and local laws. Please be aware that Civitech utilizes E-Verify to verify an employee's eligibility to work in the United States. This step occurs after an offer has been extended and accepted, and after the employee has completed their Form I-9. Please find more information about our participation in this program here . No recruiters or agencies, please! Please mention the word **LUXURIOUS** and tag RMzQuMzAuODAuMjI2 when applying to show you read the job post completely (#RMzQuMzAuODAuMjI2). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "Austin, TX or Remote",
       "tags": [
-        "system",
-        "training",
-        "coordinator",
+        "python",
         "support",
-        "testing",
-        "growth",
-        "travel",
-        "education",
-        "microsoft",
-        "management",
-        "operations",
-        "health",
-        "healthcare"
+        "code",
+        "cloud",
+        "analytics",
+        "engineer",
+        "engineering",
+        "full-time"
       ],
-      "published_at": "2026-05-07T00:01:09+00:00",
+      "published_at": "2026-05-08T00:01:48+00:00",
       "is_remote": true,
-      "score": 12,
+      "score": 19,
       "matched_keywords": [
         "data quality",
-        "compliance",
-        "remote"
-      ],
-      "match_percentage": 20
-    },
-    {
-      "id": "remoteok:1131490",
-      "source": "remoteok",
-      "title": "Curriculum Developer Aerospace Technician",
-      "company": "Correlation One",
-      "url": "https://remoteOK.com/remote-jobs/remote-curriculum-developer-aerospace-technician-correlation-one-1131490",
-      "apply_url": "https://remoteOK.com/remote-jobs/remote-curriculum-developer-aerospace-technician-correlation-one-1131490",
-      "description": "Correlation One is the largest provider of AI and data workforce development programs globally, having trained over 500,000 professionals across 11 countries. As the largest training provider for Amazon Career Choice, and a growing partner to state governments building registered apprenticeship programs, Correlation One sits at the intersection of employer talent needs and scalable workforce training. We work with Fortune 500 enterprises, federal and state government agencies, and leading employers to close skills gaps in AI, data analytics, cybersecurity, and operations leadership. Our programs produce job-ready graduates who are prepared to contribute from day one. About the Role The Curriculum Developer will play a key role in building the content for Correlation One's new Aerospace Technician program, which prepares working adults for skilled technician roles in commercial aerospace manufacturing. This person will be responsible for designing and writing lessons, demonstrations, and hands-on exercises \u00e2\u0080\u0094 delivered virtually and supplemented by shipped practice kits \u00e2\u0080\u0094 that build foundational aerospace manufacturing skills including engineering drawing interpretation, precision measurement, materials handling, introductory soldering, and aerospace safety standards. A successful curriculum developer will have hands-on aerospace or advanced manufacturing technician experience and will work closely with Correlation One's Learning Experience Design team and employer subject-matter experts to ensure curriculum aligns with validated skill requirements. The ideal candidate is an excellent educator with experience training adult learners of varied (including beginner) backgrounds. Key Responsibilities Review and advise on proposed curriculum for course to ensure the correct concepts are included Develop lessons, demonstrations, and hands-on exercises (including kit-based virtual labs) that cover foundational skills for aerospace technicians. Iterate on curriculum based on feedback from employer SMEs, ensuring content stays aligned with current aerospace industry standards, tooling, and certification pathways (e.g., OSHA 10, GD&T, IPC J-STD-001 prep) Collaborate with other curriculum developers and Peer Review lessons, le Please mention the word **ROOMY** and tag RMjMuODQuODkuMjAw when applying to show you read the job post completely (#RMjMuODQuODkuMjAw). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "location": "Remote",
-      "tags": [
-        "developer",
-        "design",
-        "amazon",
-        "training",
-        "adult",
-        "content",
-        "operations",
-        "engineering",
-        "digital nomad"
-      ],
-      "published_at": "2026-05-06T16:01:52+00:00",
-      "is_remote": true,
-      "score": 7,
-      "matched_keywords": [
-        "cybersecurity",
-        "remote"
-      ],
-      "match_percentage": 17
-    },
-    {
-      "id": "remoteok:1131488",
-      "source": "remoteok",
-      "title": "Cloud Enablement Engineer US",
-      "company": "Quanata",
-      "url": "https://remoteOK.com/remote-jobs/remote-cloud-enablement-engineer-us-quanata-1131488",
-      "apply_url": "https://remoteOK.com/remote-jobs/remote-cloud-enablement-engineer-us-quanata-1131488",
-      "description": "To help keep everyone safe, we encourage all applicants to pay close attention to protect themselves during their job search. When applying for a position online you are at risk of being targeted by malicious actors looking for personal data. Please be aware we will only reach out via email using the domain quanata.com. Anything that does not match those domains should be ignored and considered a security risk. About Us Quanata is on a mission to help ensure a better world through context-based insurance solutions. We are an exceptional, customer centered team with a passion for creating innovative technologies, digital products, and brands. We blend some of the best Silicon Valley talent and cutting-edge thinking with the long-term backing of leading insurer, State Farm. Learn more about us and our work at quanata.com Our Team From data scientists and actuaries to engineers, designers and marketers, we\u00e2\u0080\u0099re a world class team of tech-minded professionals from some of the best companies in Silicon Valley, and around the world. We\u00e2\u0080\u0099ve come together to create the context-based insurance solutions and experiences of the future. We know that the key to our success isn't just about nailing the technology\u00e2\u0080\u0094it\u00e2\u0080\u0099s hiring the talented people who will help us continue to make a quantifiable impact. The role Quanata is seeking a Cloud Enablement Engineer to join us in providing a suite of solutions centered by AWS services that enable our product development and engineering organization to create, and deliver Quanata\u00e2\u0080\u0099s technical offerings. Our team focuses on enabling software engineers to reliably and rapidly deliver software, and manage the company\u00e2\u0080\u0099s cloud infrastructure standards, while empowering developers to build for their needs. Your day-to-day Implement AWS cloud standards for infrastructure, networking, and s Please mention the word **APPROPRIATE** and tag RMjMuODQuODkuMjAw when applying to show you read the job post completely (#RMjMuODQuODkuMjAw). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "location": "Remote-US",
-      "tags": [
-        "security",
-        "technical",
-        "software",
-        "cloud",
-        "engineer",
-        "engineering"
-      ],
-      "published_at": "2026-05-06T16:00:29+00:00",
-      "is_remote": true,
-      "score": 7,
-      "matched_keywords": [
-        "risk",
-        "remote"
-      ],
-      "match_percentage": 17
-    },
-    {
-      "id": "arbeitnow:it-security-manager-munich-376913",
-      "source": "arbeitnow",
-      "title": "IT & Security Manager",
-      "company": "24Industries",
-      "url": "https://www.arbeitnow.com/jobs/companies/24industries/it-security-manager-munich-376913",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/24industries/it-security-manager-munich-376913",
-      "description": "What we\u2019re looking for We are looking for a driven and hands-on IT-System Administrator to build, secure, and operate our mission-critical infrastructure. You will own our Microsoft ecosystem, design and harden network architecture, and establish robust security standards across the organization. Operating across strategy and execution, you provide reliable First- to Third-Level Support while shaping our security foundation as we scale. The day-to-day Own the Network: Design, deploy, and maintain our infrastructure VLANs, VPNs, RADIUS, firewalls, and load balancers, across cloud and on-prem environments. Lock It Down: Harden Windows/Linux systems, manage SIEM/EDR tooling, and operate IDS/IPS to detect and contain threats before they land. Control the Stack: Own Microsoft 365, Entra ID, Intune, and Autopilot, keeping the entire device fleet compliant and audit-ready (NIS2, ISO 27001). Set the Standard: Define and enforce access control, patching, backup, and incident response policies across the organization. Enable Every Team: Be the go-to for First- to Third-Level Support from onboarding and device setup to rapid troubleshooting under operational pressure. Build for Scale: Conduct capacity planning, security assessments, and pen test coordination as we grow our infrastructure and mission footprint. You should apply if you Experience: 3+ years in IT, network & security engineering, owning infrastructure end-to-end. Certifications: CCNA required; CCNP, CISSP, or equivalent a strong plus. Microsoft Stack: Deep expertise in Microsoft 365, Intune, Autopilot, and Entra ID. Network & Security Skills: Hands-on with firewalls, IDS/IPS, VPNs, RADIUS, and hybrid network environments; strong skills securing Windows/Linux systems. Compliance Know-How: Familiar with NIS2, ISO 27001, or NIST frameworks. Language: Fluent English required; German is a strong plus (Munich-based environment). Nice to haves Background in defense, aerospace, or other security-critical sectors. Scripting & automation skills (PowerShell, Bash, Python). Experience with intrusion detection/prevention systems and advanced threat analysis. What we offer Real impact & ownership: Shape high-tech defense systems and take responsibility from day one. Mission-driven environment: Work on technologies that matter for European security and sovereignty. Competitive package: Competitive salary, EGYM Wellpass, corporate benefits, and equity options aligned with role and level. Deep tech environment: Get hands-on experience with cutting-edge drone technology and real operational use cases. Grow fast: Steep learning curve for juniors, strategic influence and leadership opportunities for seniors. Startup mindset meets defence innovation: flat hierarchies, fast decisions, and space for your ideas. Flexibility: Flexible hours, remote options, and relocation support. Strong team: International, driven colleagues and a culture built on exchange, trust, and shared success. Find more English Speaking Jobs in Germany on Arbeitnow",
-      "location": "Munich",
-      "tags": [
-        "Software Development"
-      ],
-      "published_at": "1778175027",
-      "is_remote": true,
-      "score": 7,
-      "matched_keywords": [
-        "compliance",
-        "remote"
-      ],
-      "match_percentage": 17
-    },
-    {
-      "id": "arbeitnow:senior-system-administrator-support-engineer-munich-462549",
-      "source": "arbeitnow",
-      "title": "Senior System Administrator & Support Engineer (m/f/d)",
-      "company": "eigenblue GmbH",
-      "url": "https://www.arbeitnow.com/jobs/companies/eigenblue-gmbh/senior-system-administrator-support-engineer-munich-462549",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/eigenblue-gmbh/senior-system-administrator-support-engineer-munich-462549",
-      "description": "eigenblue - We build systems that build physical systems: Our AI systems design and deliver custom-built, multidisciplinary systems to solve real-world R&D challenges. As today\u2019s R&D demand can no longer be met with off-the-shelf tools, our approach crosses traditional boundaries, uniting software, electronics, mechanics, and applied physics. Our proprietary AI models generate system architectures and orchestrate fabs, human teams, and third-party tools to bring them to life. Our deployment teams integrate these systems directly into our customers\u2019 environments, turning complex ideas into working physical solutions. As Senior System Administrator & Support Engineer (m/f/d), you'll be at the heart of our technical operations, ensuring our office network, on-site infrastructure, and cloud environments run smoothly while empowering our R&D teams with excellent support and modern deployment solutions. Beyond day-to-day operations, you'll have the exciting opportunity to grow beyond traditional sysadmin work by getting involved in cutting-edge R&D projects and expanding your expertise into emerging areas like SRE, DevOps, and MLOps. Tasks As a Senior System Administrator & Support Engineer (m/f/d), you'll be at the heart of our technical operations, ensuring our office network, on-site infrastructure, and cloud environments run smoothly while empowering our R&D teams with excellent support and modern deployment solutions. Beyond day-to-day operations, you'll have the exciting opportunity to grow beyond traditional sysadmin work by getting involved in cutting-edge R&D projects and expanding your expertise into emerging areas like SRE, DevOps, and MLOps. Operate and maintain our office network, on-site infrastructure, and cloud infrastructure on Azure, including Unifi network gear, GPU workstations, and work laptops Improve our internal support process by helping prioritize and analyze requests, implementing short-term fixes, solving underlying problems and enhancing tooling around support requests using a mix of Slack and Jira Service Desk Support project teams in deploying and operating software projects on modern cloud infrastructure (Azure, AWS, Terraform) Expand your expertise by getting involved in R&D projects, developing your skills from pure sysadmin and support into new areas such as SRE, DevOps, and MLOps You take over the responsibility for our IT security standards including SLA, ISO, and TISAX compliance Requirements Completed training in the IT field (e.g. system integration, application development, etc. ) or a university degree in Computer Science, Software Engineering or in similar disciplines At least 3 years of experience in a relevant field such as support/site reliability engineering (SRE), DevOps or IT administration with strong troubleshooting and analytical skills Solid know-how in networks, on-site infrastructure, cloud and container technologies, automation and monitoring tools, Linux, CI/CD, and a curiosity to dive deeper into various topics Interest and basic knowledge in the field of information security preferred Solution-oriented approach with excellent communication skills and the ability to work effectively with different teams and a strong command of English language (both verbal and written), German is a plus Benefits We enable: The chance to use newest technologies, an individual learning & development budget and a defined Talent Journey for your further growth We create : Huge impact on future products and insights from a broad range of industries, in an environment with flexible working hours and up to 50% remote work We explore : Regular Tech Discovery and Discovery Conference to stay close to new tech We are community-driven : Vibrant and interdisciplinary tech community as well as regular team buildings and company events eigenblue is colorful - We embrace and value equal opportunities, inclusion, and diversity. Therefore, we welcome every application with pleasure! Does that make you curious? Marina is your contact person for further questions and looks forward to hearing from you! Find Jobs in Germany on Arbeitnow",
-      "location": "Munich",
-      "tags": [
-        "System and Network Administration"
-      ],
-      "published_at": "1778164241",
-      "is_remote": true,
-      "score": 7,
-      "matched_keywords": [
-        "compliance",
-        "remote"
-      ],
-      "match_percentage": 17
-    },
-    {
-      "id": "arbeitnow:head-of-platform-infrastructure-ai-saas-berlin-183603",
-      "source": "arbeitnow",
-      "title": "Head of Platform & Infrastructure (AI SaaS) (m/w/d)",
-      "company": "LDB Gruppe",
-      "url": "https://www.arbeitnow.com/jobs/companies/ldb-gruppe/head-of-platform-infrastructure-ai-saas-berlin-183603",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/ldb-gruppe/head-of-platform-infrastructure-ai-saas-berlin-183603",
-      "description": "Standort: Remote (deutschlandweit) Start: Ab 01.07.2026 oder zum n\u00e4chstm\u00f6glichen Zeitpunkt Gestalte die technologische Grundlage einer skalierenden AI-SaaS-Plattform aktiv mit. Wir suchen eine erfahrene Pers\u00f6nlichkeit mit strategischem Blick auf Plattformarchitektur, Infrastruktur und technische Skalierung. In dieser Rolle verantwortest du die Weiterentwicklung unserer technischen Plattform- und Infrastrukturstrategie und stellst sicher, dass unsere Systeme den Anforderungen eines wachsenden AI-SaaS-Unternehmens nachhaltig gerecht werden. Du verbindest technologisches Verst\u00e4ndnis mit wirtschaftlichem Denken und sorgst daf\u00fcr, dass Skalierbarkeit, Stabilit\u00e4t, Security und Effizienz in einer modernen Plattformarchitektur zusammengef\u00fchrt werden. Dabei arbeitest du eng mit Gesch\u00e4ftsf\u00fchrung, Produktmanagement und Engineering zusammen und gestaltest zentrale Infrastrukturentscheidungen aktiv mit. Aufgaben Entwicklung und Weiterentwicklung der Zielarchitektur unserer AI- und Voice-basierten SaaS-Plattform Definition und Umsetzung einer skalierbaren, stabilen und wirtschaftlich effizienten Infrastrukturstrategie Sicherstellung der Skalierbarkeit bei steigender Nutzung und wachsender Systemlast Verantwortung f\u00fcr Cloud-, Hosting- und Infrastrukturkonzepte auf Basis moderner Plattformtechnologien Weiterentwicklung von Security-, Governance- und Compliance-Strukturen Einf\u00fchrung und Optimierung von Observability-, Monitoring- und Performance-Standards Optimierung der Infrastrukturkosten mit Blick auf Skalierung, Stabilit\u00e4t und Wirtschaftlichkeit Aufbau klarer Infrastruktur-Roadmaps sowie Priorisierung technischer Initiativen Steuerung externer Technologie- und Infrastrukturpartner Enge Zusammenarbeit mit Engineering, Produktmanagement und Gesch\u00e4ftsf\u00fchrung bei Architektur- und Plattformentscheidungen Sicherstellung klarer Entscheidungs- und Priorisierungsprozesse zur Vermeidung von Verz\u00f6gerungen in Infrastruktur- und Plattforminitiativen Qualifikation Mehrj\u00e4hrige Erfahrung in technischen Architektur-, Plattform- oder Infrastrukturrollen Erfahrung im Aufbau oder in der Weiterentwicklung skalierbarer SaaS-Plattformen Sehr gutes Verst\u00e4ndnis moderner Cloud-Infrastrukturen, idealerweise Azure, AWS oder GCP Sehr gutes Verst\u00e4ndnis von Linux-basierten Systemen und deren Betrieb in produktiven Cloud-Umgebungen Erfahrung mit AI-/LLM-basierten Systemen oder datenintensiven Plattformumgebungen Fundierte Kenntnisse in Infrastruktur-Architektur, Plattformdesign und DevOps-nahen Strukturen Erfahrung mit Security-, Governance- und Compliance-Anforderungen in modernen Cloud-Umgebungen F\u00e4higkeit, technische Architekturentscheidungen unter Ber\u00fccksichtigung von Skalierbarkeit, Kosten und Umsetzbarkeit unter Zeitdruck und mit klarer Priorisierung zu treffen Erfahrung in der Zusammenarbeit mit Engineering-Teams sowie in der Abstimmung mit Business-Stakeholdern F\u00e4higkeit, komplexe technische Themen verst\u00e4ndlich und adressatengerecht zu kommunizieren Strukturierte, analytische und l\u00f6sungsorientierte Arbeitsweise Hohes Ma\u00df an Eigenverantwortung, Entscheidungsst\u00e4rke und Umsetzungsorientierung Benefits Eine strategisch wichtige Rolle mit direktem Einfluss auf die Weiterentwicklung unserer Plattform Gestaltungsspielraum in einem dynamischen, technologiegetriebenen Umfeld Direkte Zusammenarbeit mit der Gesch\u00e4ftsf\u00fchrung und kurzen Entscheidungswegen M\u00f6glichkeit, zentrale Infrastruktur- und Architekturthemen nachhaltig mitzugestalten Moderne AI- und SaaS-Technologien in einem wachstumsorientierten Umfeld Hoher Impact auf Skalierbarkeit, Stabilit\u00e4t und Zukunftsf\u00e4higkeit unserer Plattform Flexible und hybride Arbeitsweise mit deutschlandweitem Remote-Setup Zusammenarbeit mit erfahrenen Produkt-, Engineering- und Technologie-Teams \u00dcber uns Die LDB Gruppe ist seit \u00fcber 50 Jahren ein etablierter Partner f\u00fcr digitale Kundenkommunikation und intelligente Vertriebsprozesse, insbesondere in der Automobilbranche. Mit unseren cloudbasierten Plattformen und AI-gest\u00fctzten L\u00f6sungen unterst\u00fctzen wir Unternehmen bei der effizienten, skalierbaren und pers\u00f6nlichen Kommunikation \u00fcber verschiedene digitale Kan\u00e4le. Unsere Technologie verarbeitet j\u00e4hrlich Millionen von Kundeninteraktionen und wird kontinuierlich weiterentwickelt. Dabei setzen wir auf moderne Plattformarchitekturen, AI-Technologien und skalierbare Cloud-Infrastrukturen als Grundlage f\u00fcr weiteres Wachstum und Innovation. Interesse geweckt? Dann freuen wir uns auf deine Bewerbung unter Angabe deines fr\u00fchestm\u00f6glichen Eintrittstermins und deiner Gehaltsvorstellung. Die Bewerbung erfolgt ausschlie\u00dflich \u00fcber unser Bewerbermanagementsystem Join. Bei Fragen zur Position oder zum Bewerbungsprozess steht dir Jovana Marquardt aus dem Recruiting gern \u00fcber Join zur Verf\u00fcgung. Find Jobs in Germany on Arbeitnow",
-      "location": "Berlin",
-      "tags": [
-        "Remote",
-        "IT",
-        "remote"
-      ],
-      "published_at": "1778164241",
-      "is_remote": true,
-      "score": 7,
-      "matched_keywords": [
-        "compliance",
-        "remote"
-      ],
-      "match_percentage": 18
-    },
-    {
-      "id": "arbeitnow:softwareentwickler-c-blazor-refnr-46700-munich-491606",
-      "source": "arbeitnow",
-      "title": "Softwareentwickler (C#/Blazor) (m/w/d) (Ref.Nr.: 46700)",
-      "company": "Wavestone Germany AG",
-      "url": "https://www.arbeitnow.com/jobs/companies/wavestone-germany-ag/softwareentwickler-c-blazor-refnr-46700-munich-491606",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/wavestone-germany-ag/softwareentwickler-c-blazor-refnr-46700-munich-491606",
-      "description": "Wir suchen einen Softwareentwickler (C#/Blazor) (m/w/d) f\u00fcr die Administration, Konfiguration, Wartung und Entwicklung von IT-Anwendungen im Bereich der Kostentr\u00e4gerrechnung zur Unterst\u00fctzung der Wirtschaftlichkeitsanalyse. Key Facts Start: 25.05.2026 Dauer: Nicht bekannt Auslastung: 100 % Einsatzart: Einsatzort: Remote Einsatzland: Deutschland Ihre Aufgaben \u2022 Administration, Konfiguration, Wartung und Entwicklung der IT-Anwendungen zur Kostentr\u00e4gerrechnung \u2022 Aufbereitung und Zuscheidung der Herstellkosten zur Analyse der Wirtschaftlichkeit der Verkehre und Kunden \u2022 Sicherstellung der Korrektheit der Daten sowie der Verf\u00fcgbarkeit und Performance der Anwendungen \u2022 Zeitnahe und zuverl\u00e4ssige Umsetzung von Wartungs-, Betriebsf\u00fchrungs- und IT-Security Themen Muss-Anforderungen \u2022 Sehr gute Kenntnisse von C#/Blazor, wobei mindestens 2 Jahre praktische Erfahrung im Lebenslauf nachvollziehbar sein m\u00fcssen \u2022 Sehr gute Kenntnisse von Entity Framework-Core, nachgewiesen durch mindestens 2 Jahre praktische Erfahrung, die im Lebenslauf nachvollziehbar ist Kann-Anforderungen \u2022 Sehr gute Kenntnisse von CI/CD-Tools zur Bereitstellung von containerisierten Anwendungen, mit mindestens 2 Jahren praktischer Erfahrung, die im Lebenslauf nachvollziehbar ist \u2022 Gute Kenntnisse von SQL Server mit einer Erfahrung von mindestens 3 Jahren \u2022 Gute Kenntnisse in Git/GitLab mit mindestens 3 Jahren Erfahrung \u2022 Kenntnisse in Visual Studio 2022/2026 mit einer Erfahrung von mindestens 3 Jahren Weitere Informationen Die Leistung kann 100% remote erfolgen. Let\u2019s power the future together Vom Business Case bis hin zur Umsetzung: Als f\u00fchrendes Beratungsunternehmen f\u00fcr strategische Transformationen sind wir vertrauensw\u00fcrdiger Partner f\u00fcr unsere Kunden - und f\u00fcr unsere Mitarbeitenden. Verantwortungsvoll, leistungsstark und immer mit dem Menschen im Fokus. #WeAreWavestone Mit unserem 360\u00b0-Portfolio an Beratungsleistungen verbinden wir erstklassige Branchenexpertise mit einem breiten Spektrum an branchen\u00fcbergreifenden Kompetenzen, arbeiten interdisziplin\u00e4r und denken \u00fcber den Tellerrand hinaus. Unseren Partnerunternehmen und Freelancern:Freelancerinnen k\u00f6nnen wir so umfassende Perspektiven innerhalb unserer eigenen Projekte bieten und unterst\u00fctzen als langj\u00e4hriger Rahmenvertragspartner bei der Besetzung von Projektvakanzen \u2013 zeitnah und direkt. Wir freuen uns auf Ihre Kontaktaufnahme! Ihr direkter Ansprechpartner bei Wavestone Ilhana Haskovic Mehanovic Telefon: +49 89 455 99 295 E-Mail: Find Jobs in Germany on Arbeitnow",
-      "location": "Munich",
-      "tags": [
-        "Remote",
-        "IT",
-        "remote"
-      ],
-      "published_at": "1778167854",
-      "is_remote": true,
-      "score": 5,
-      "matched_keywords": [
+        "analytics engineer",
+        "bigquery",
+        "redshift",
         "sql",
         "remote"
       ],
-      "match_percentage": 16
+      "match_percentage": 55
+    },
+    {
+      "id": "arbeitnow:staff-backend-engineer-net-munchen-118155",
+      "source": "arbeitnow",
+      "title": "Staff Backend Engineer (.NET) (f/m/d)",
+      "company": "Apaleo",
+      "url": "https://www.arbeitnow.com/jobs/companies/apaleo/staff-backend-engineer-net-munchen-118155",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/apaleo/staff-backend-engineer-net-munchen-118155",
+      "description": "Join Apaleo and Shape the Future of Hospitality Tech! Apaleo is the world's most open, API-first property management platform powering the next generation of hospitality operations. Its modular, AI-powered infrastructure enables hoteliers to customise their tech stack, automate routine work, and deliver seamless, personalised guest experiences, powered by best-in-class apps and autonomous AI agents that adapt to every stay. If you're driven by the idea of making hospitality smarter, more human, and powered by cutting-edge technology, we'd love to hear from you. What You'll Be Up To Architecting and developing scalable, reliable, and maintainable backend systems in a modern tech environment. Championing architectural decisions and leading design discussions with a clear focus on long-term impact and cross-team alignment. Mentoring engineers and driving technical excellence through collaboration. Proactively identifying opportunities for technical innovation, system evolution, and performance improvements, especially in areas where AI and automation can play a role. Building and maintaining internal tools and infrastructure (AWS, Terraform) to empower teams to deliver faster and more reliably. Ensuring high platform availability by implementing best practices for observability, logging, and operational excellence. Participating in on-call rotations and stepping in as a reliable problem solver during incidents. What You'll Bring to the Team 8+ years of experience in backend development, with several years in a staff-level or technical leadership role. Expert-level knowledge of C# (.NET 8+) and strong hands-on experience with PostgreSQL (or solid SQL chops). Proven experience designing and scaling distributed systems in cloud-native environments (preferably AWS ). Comfortable working with containerized services and infrastructure-as-code (Docker, ECS, Kubernetes, Terraform). Hands-on experience with AI-assisted development tools (e.g., GitHub Copilot , Cursor AI , ChatGPT , Amazon CodeWhisperer ) to boost productivity, solve complex bugs, or auto-generate boilerplate code and documentation. A growth mindset and constant curiosity about how AI and automation can accelerate development, improve quality, and reduce toil. Strong advocate for AI enablement across engineering you think beyond code. Excellent collaboration and communication skills, you're able to clearly articulate your ideas, especially when introducing new tech like AI to cross-functional teams. A pragmatic approach to problem-solving, you know when to build custom vs. leverage existing AI tools. Experience with event-driven systems and streaming technologies (Kafka is a plus). Fluent in English. What We Offer Culture & Growth A Diverse & International Team: Work alongside passionate professionals from over 20 nationalities, bringing unique cultural perspectives, backgrounds, and experiences to shape the future of hospitality tech. Growth & Development: As we scale, so do your opportunities. You'll benefit from 360\u00b0 feedback reviews, a dedicated learning budget, and plenty of chances to take on more responsibility. Our evolving career framework ensures you have increasing opportunities to learn new skills, advance your career, and make an impact. Autonomy & Ownership: Great ideas can come from anywhere. We empower you to take responsibility, make decisions, and contribute directly in an environment built on trust, transparency, and collaboration. Shape the Future of Hospitality Tech: Be part of a fast-growing scale-up transforming the hospitality industry. From day one, your work drives real impact and you'll have the freedom to bring your ideas to life. Competitive & Fair Compensation: We believe great work deserves great pay. Our salaries are competitive and guided by benchmarking data to ensure fairness across all roles and teams. We make sure to recognize and reward performance and contribution. Perks & Lifestyle Flexible & Remote Work Options: We focus on results, not clocking hours. You can work from home, the office or in a hybrid setup, with flexibility to adapt your schedule as long as it makes sense for your role, your team and our business. Free Public Transport: Travel across Germany with ease using our fully covered Deutschland Ticket . Team Connection: Strong connections fuel collaboration. We celebrate and connect through regular team dinners, company meetups, Oktoberfest celebrations, Christmas parties, and other offsite events. Paid Time Off: Enjoy 30 days of vacation to fully disconnect, recharge, and return inspired. Health & Wellbeing: Prioritize your health with access to hundreds of gyms, fitness studios, and wellness options through our EGYM Wellpass membership. How you make an impact joining Apaleo: Joining Apaleo means more than just taking on a role, it's about driving real change in the hospitality industry. Your contributions will directly shape our innovative platform, influence company-wide decisions, and help redefine the future of hospitality tech. At Apaleo, your voice matters, your ideas are valued, and your impact is tangible. Be part of a team where your work fuels progress, collaboration sparks innovation, and growth is a shared journey. We are proud to be an Equal Opportunity and Affirmative Action Employer, committed to fostering a diverse, inclusive, and welcoming workplace. We encourage applications from individuals of all backgrounds, regardless of race, color, religion, gender identity or expression, sex, national origin, age, marital status, disability, or any other characteristic protected by applicable law. Your personal data will be handled with the utmost care and in compliance with GDPR and relevant data protection regulations. We celebrate differences and believe that diversity enriches our team and drives innovation. Find more English Speaking Jobs in Germany on Arbeitnow",
+      "location": "M\u00fcnchen, Bavaria, Germany",
+      "tags": [],
+      "published_at": "1778247922",
+      "is_remote": true,
+      "score": 19,
+      "matched_keywords": [
+        "gdpr",
+        "data protection",
+        "compliance",
+        "sql",
+        "remote"
+      ],
+      "match_percentage": 22
+    },
+    {
+      "id": "arbeitnow:platform-data-engineer-full-time-100-remote-karlsruhe-472053",
+      "source": "arbeitnow",
+      "title": "Platform & Data Engineer Full-time \u00b7 100% Remote",
+      "company": "neoBIM GmbH",
+      "url": "https://www.arbeitnow.com/jobs/companies/neobim-gmbh/platform-data-engineer-full-time-100-remote-karlsruhe-472053",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/neobim-gmbh/platform-data-engineer-full-time-100-remote-karlsruhe-472053",
+      "description": "neoBIM is a cutting\u2011edge startup transforming the construction industry with AI\u2011powered Building Information Modeling (BIM). Co\u2011founded by industry pioneers, the company is on a mission to make BIM smarter, faster and more collaborative. With a growing team, neoBIM offers a collaborative work environment, a flexible but performance-oriented culture, and the chance to work on a project of global-scale ambition. We are currently recruiting for an experienced, hands-on Platform Engineer to help shape our infrastructure, improve system reliability, accelerate product development, and improve release cadence. Engineering Area The focus of this position is the design and operation of the data and infrastructure platform that our product and research teams build on. You will work closely with the platform team on critical infrastructure components and help scale the platform as the team and product grow. Tasks \u2022 Contribute to and evolve our cloud infrastructure across compute, storage, networking, IAM and security controls \u2022 Build and maintain CI/CD pipelines across a mixed TypeScript and Python codebase \u2022 Operate and improve our primary data stores \u2014 relational and graph databases \u2022 Design and implement data pipelines that move, transform and validate data across the platform \u2022 Implement observability \u2014 structured logging, distributed tracing and alerting \u2022 Contribute to security and compliance posture across services \u2022 Build internal developer tooling that makes iteration fast and safe \u2022 Support deployment and scaling of research workloads including GPU-based training runs Requirements Requirements Must have: \u2022 Solid hands-on experience with a major cloud provider \u2014 GCP preferred \u2022 Strong infrastructure-as-code practice \u2014 Terraform or Pulumi \u2022 Experience operating Postgres in production \u2022 Proficiency in CI/CD design and multi-environment deployments \u2022 Comfort working across TypeScript and Python codebases \u2022 Security-first mindset Nice to have: \u2022 Experience with graph databases \u2022 Familiarity with data pipeline tooling \u2022 Experience running GPU workloads on cloud infrastructure \u2022 Exposure to geospatial or domain-specific data formats Tech stack: GCP \u00b7 Postgres \u00b7 TypeScript \u00b7 Python \u00b7 Docker \u00b7 Terraform \u00b7 GitHub Actions Benefits \u2022 Work on a greenfield platform with direct research and product impact \u2022 Close collaboration with a small, senior engineering and AI team \u2022 Potential for continued growth and expanded responsibility \u2022 Flexible remote setup For any questions regarding this position, feel free to contact Felix directly via phone or messenger at +49 176 954222094. Find Jobs in Germany on Arbeitnow",
+      "location": "Karlsruhe",
+      "tags": [
+        "Remote",
+        "Software Development",
+        "remote"
+      ],
+      "published_at": "1778250643",
+      "is_remote": true,
+      "score": 10,
+      "matched_keywords": [
+        "compliance",
+        "iam",
+        "remote"
+      ],
+      "match_percentage": 19
+    },
+    {
+      "id": "arbeitnow:account-manager-managed-services-kritis-leipzig-312884",
+      "source": "arbeitnow",
+      "title": "Account Manager (m/w/d) Managed Services - KRITIS",
+      "company": "EWERK GROUP",
+      "url": "https://www.arbeitnow.com/jobs/companies/ewerk-group/account-manager-managed-services-kritis-leipzig-312884",
+      "apply_url": "https://www.arbeitnow.com/jobs/companies/ewerk-group/account-manager-managed-services-kritis-leipzig-312884",
+      "description": "Bist du ein passionierter Vertriebsexperte (m/w/d) mit einem starken Gesp\u00fcr f\u00fcr Markttrends und Kundenbed\u00fcrfnisse? Du hast Spa\u00df daran, Gesch\u00e4ftsbeziehungen aufzubauen und langfristige Erfolge zu sichern? Dann haben wir die perfekte Herausforderung f\u00fcr dich! Wir begleiteten Organisationen beim Betrieb komplexer IT\u2011Services. In diesem Umfeld \u00fcbernehmen wir Verantwortung f\u00fcr stabile, sichere und regelkonforme IT\u2011L\u00f6sungen \u2013 insbesondere dort, wo Verf\u00fcgbarkeit, Nachvollziehbarkeit und Compliance von zentraler Bedeutung sind. Zur Betreuung und Weiterentwicklung unserer Kunden im Umfeld kritischer Infrastrukturen suchen wir einen Account Manager (m/w/d) Managed Services . Was dich erwartet: Verantwortung f\u00fcr die Betreuung und Weiterentwicklung bestehender Kunden im KRITIS-Umfeld Zentrale Ansprechperson (m/w/d) f\u00fcr alle kaufm\u00e4nnischen und vertraglichen Themen im Account Weiterentwicklung von Managed\u2011Services\u2011Leistungen (Betrieb, Support, SLA\u2011basierte Services) Steuerung von Angebots\u2011, Vertrags\u2011 und Verl\u00e4ngerungsprozessen Enge Zusammenarbeit mit Service Delivery, Technik, Architektur und Projektmanagement Abstimmung von Leistungsinhalten, SLAs und Service\u2011Modellen entsprechend regulatorischer Vorgaben Aufbau langfristiger, vertrauensvoller Kundenbeziehungen auf Entscheidungs\u2011 und Managementebene Darauf freuen wir uns: Mehrj\u00e4hrige Erfahrung im Account Management oder servicenahen Vertrieb von IT\u2011Leistungen Erfahrung mit Managed Services und/oder IT\u2011Betriebsmodellen Idealerweise Ber\u00fchrungspunkte mit KRITIS\u2011relevanten Kunden oder regulierten Umfeldern Verst\u00e4ndnis f\u00fcr betriebliche IT\u2011Strukturen, Service\u2011Level\u2011Modelle und Vertragswerke Strukturierte, verl\u00e4ssliche Arbeitsweise und hohes Verantwortungsbewusstsein Sehr gute Deutsch\u2011 sowie gute Englischkenntnisse Unsere Benefits: Flexibilit\u00e4t ist unser Motto - Office, remote, Homeoffice oder Workation in der EU? Entscheide selbst! Familienfreundlich - Wir bieten flexible Arbeitszeiten f\u00fcr die optimale Work-Life-Balance und unterst\u00fctzen dich mit einem Kindergartenzuschuss. Gut versorgt am Arbeitsplatz - Bei uns erh\u00e4ltst du selbstverst\u00e4ndlich kostenlos Kaffee, Tee, Limonade, frisches Obst und die M\u00f6glichkeit, in unserer modernen Cafeteria zu kochen. Nachhaltige Mobilit\u00e4t - Mit dem JOB-Ticket sowie JobRad inkl. Fahrradgarage unterst\u00fctzen wir umweltfreundliche Mobilit\u00e4t und bieten dir die M\u00f6glichkeit, dich aktiv fortzubewegen. Deine Entwicklung im Fokus - Daf\u00fcr bieten wir dir ma\u00dfgeschneiderte Entwicklungsma\u00dfnahmen und regelm\u00e4\u00dfige Mitarbeitergespr\u00e4che Teamspirit und Spa\u00df - Freue dich auf Team- und Firmenevents, bei denen du deine Kolleginnen und Kollegen besser kennenlernen und gemeinsam Spa\u00df haben kannst. Fit und aktiv bleiben - In unserem hauseigenen PUMPWERK kannst du dich fit halten, an Kursen teilnehmen oder deinen eigenen Kurs gestalten. Und das sogar in deiner Arbeitszeit, denn eine Stunde pro Woche darfst du f\u00fcr Sport nutzen! Deine Gesundheit z\u00e4hlt - Ergonomisches Arbeiten mit h\u00f6henverstellbaren Schreibtischen, regelm\u00e4\u00dfige Gesundheitstage, unser hauseigener Fitnessraum, Karenztage und Besuche der Betriebs\u00e4rztin sorgen f\u00fcr dein gesundheitliches Wohlbefinden. Interessiert? EWERK lebt von Vielfalt. Wir freuen uns \u00fcber Bewerbungen von Menschen mit ganz verschiedenen Geschichten und Perspektiven. Alle personenbezogenen Formulierungen in der Stellenanzeige sind daher geschlechtsneutral zu betrachten. Potenzial ist bei uns willkommen, unabh\u00e4ngig von Identit\u00e4t oder Hintergrund. Find Jobs in Germany on Arbeitnow",
+      "location": "Leipzig",
+      "tags": [
+        "Management",
+        "Team Leader"
+      ],
+      "published_at": "1778286654",
+      "is_remote": true,
+      "score": 7,
+      "matched_keywords": [
+        "compliance",
+        "remote"
+      ],
+      "match_percentage": 17
     }
   ]
 }
