@@ -1,110 +1,88 @@
 {
-  "refreshed_at": "2026-05-09T04:53:14Z",
+  "refreshed_at": "2026-05-10T05:07:32Z",
   "stats": {
-    "raw_jobs": 385,
-    "filtered_jobs": 46,
-    "deduplicated_jobs": 44,
-    "ranked_jobs": 4,
-    "returned_jobs": 4,
+    "raw_jobs": 381,
+    "filtered_jobs": 43,
+    "deduplicated_jobs": 41,
+    "ranked_jobs": 3,
+    "returned_jobs": 3,
     "exclude_history": true
   },
   "jobs": [
     {
-      "id": "remoteok:1131512",
-      "source": "remoteok",
-      "title": "Analytics Engineer",
-      "company": "Civitech",
-      "url": "https://remoteOK.com/remote-jobs/remote-analytics-engineer-civitech-1131512",
-      "apply_url": "https://remoteOK.com/remote-jobs/remote-analytics-engineer-civitech-1131512",
-      "description": "Civitech is a public benefit corporation dedicated to creating a fairer and more equitable democracy by building the tools and infrastructure needed to increase civic participation, empower Democratic candidates to win, and support the success of progressive causes. Since its founding in 2019, over 500 partners -- a range of nonprofit organizations, national political committees, and individual campaigns -- have utilized Civitech\u00e2\u0080\u0099s tools to reach tens of millions of voters to help create a more equitable and progressive democracy. Civitech is a remote-first company hiring within our current footprint of 27 states (AL, AK, CA, CO, DC, DE, FL, GA, HI, IL, MA, MD, MN, NC, ND, NH, NJ, NV, NY, OH, SD, TN, TX, VA, WA, WI, WY); Civitech does have an office in Austin, TX. It is important that our team reflects the diversity of the organizations we seek to serve. We strongly encourage women, people of color, LGBTQIA+ people, and others otherwise underrepresented in the technology sector to apply. \\n This is a temporary role expected to run through November 15, 2026 . While there may be the potential for extension or conversion to a full-time role depending on business needs, candidates should apply with the understanding that the position is currently scoped as a fixed-term role, non-eligible for benefits. The Analytics Engineer will turn raw voter, district shape, and product data into clean, well-modeled, trustworthy datasets that power dashboards, pipelines, and the tools our partners rely on every day. This role ensures that decision-makers across Civitech and our partner organizations are working from clean data they can trust, ultimately contributing to our mission of increasing civic participation and supporting progressive causes. Civitech's Values We act with Integrity \u00e2\u0080\u0093 At Civitech, we hold ourselves to the highest standards and value open and transparent communications with all of our stakeholders. Our rigorous approach to product design, testing, and data science leads to accurate assessments of our outcomes and challenges us to constantly improve our tools. We are Changemakers \u00e2\u0080\u0093 As a team, Civitech seeks to make transformational change in our democracy by eliminating obstacles meant to hamper contribution from every member of the community. We are Collaborators - Buoyed by our mission, we look for opportunities to partner with everyone committed to making democracy easier to participate in. We seek to understand the challenges our partners face and use our skills and creativity to help them solve them. We are Bold \u00e2\u0080\u0093 We recognize that disruptive change won't come with doing business as usual. Civitech seeks to revolutionize civic participation by bringing innovation and creativity to politics. What You Will Do Build and maintain dbt models that transform raw data from multiple sources into clean, tested, well-documented datasets. Partner with data scientists, engineers, and product teams to translate ambiguous questions into durable data models rather than one-off queries. Improve data quality across the stack by writing tests, defining expectations for critical models, and triaging issues when something looks wrong. Document models, metrics, and lineage so engineers, analysts, and partner organizations can self-serve with confidence. Use Python where it's the right tool \u00e2\u0080\u0094 for orchestration, ad-hoc work, or transformations that don't belong in dbt. Raise the bar on analytics engineering practices, including code review, modeling conventions, CI for data, and documentation standards. Perform additional engineering and data duties as needed to support the broader team. About You 3+ years of experience in analytics engineering, data engineering, or a closely related role where modeling data was central to the job. Strong SQL skills and production experience with dbt, including tests, documentation, and a sensible approach to project structure. Comfortable in Python for data work, including pandas, scripting, and lightweight automation. Experience with a cloud data warehouse (Snowflake, BigQuery, Redshift, or similar) and an instinct for writing SQL that performs well at scale. A bias toward clarity \u00e2\u0080\u0094 you write models, tests, and documentation that other people can actually use. Comfort with ambiguity. Political and civic data is messy and timelines are real; you can move quickly without leaving a mess behind you. Familiarity with voter file data, VAN/EveryAction, or other political/civic data sources is a plus. Experience with orchestration tools (Airflow, Dagster, Prefect) or modern data ingestion (Fivetran, Airbyte) is an advantage. Committed to leveraging technology and data products to help Democratic candidates run for office and win, empower progressive causes, and increase civic participation. \\n $85,000 - $95,000 a year \\n In lieu of a cover letter, please answer the application questions enclosed (we\u00e2\u0080\u0099d like to hear from YOU, not ChatGPT\u00e2\u0080\u0094yes, we can tell!). Civitech is not able to provide visa sponsorship at this time. Civitech provides equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, religion, gender, sexual orientation, gender identity or expression, national origin, age, disability, genetic information, marital status, amnesty, or status as a covered veteran in accordance with applicable federal, state and local laws. Please be aware that Civitech utilizes E-Verify to verify an employee's eligibility to work in the United States. This step occurs after an offer has been extended and accepted, and after the employee has completed their Form I-9. Please find more information about our participation in this program here . No recruiters or agencies, please! Please mention the word **LUXURIOUS** and tag RMzQuMzAuODAuMjI2 when applying to show you read the job post completely (#RMzQuMzAuODAuMjI2). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
-      "location": "Austin, TX or Remote",
+      "id": "himalayas:https://himalayas.app/companies/sequoia-connect/jobs/data-governance-consultant",
+      "source": "himalayas",
+      "title": "Data Governance Consultant",
+      "company": "Sequoia Connect",
+      "url": "https://himalayas.app/companies/sequoia-connect/jobs/data-governance-consultant",
+      "apply_url": "https://himalayas.app/companies/sequoia-connect/jobs/data-governance-consultant",
+      "description": "Description At Sequoia Connect , we are a Talent-First Technology Ecosystem that redefines how elite professionals interact with the global digital landscape. We move beyond traditional models to act as a catalyst for the top 1% of global talent, connecting human potential with complex industrial execution. By joining our inner circle, you are not simply taking a position; you are aligning with a strategic partner dedicated to updating your \"Human OS\" and accelerating your growth through world-class, high-impact projects. We are currently partnering with a global IT powerhouse that represents the connected world through innovative, customer-centric experiences. As a USD 6 billion organization and one of the top 7 IT service providers globally, our client empowers over 1,200 global customers\u2014including several Fortune 500 companies\u2014to \"Rise\u2122.\" With a massive network of 163,000+ professionals across 90 countries, they are at the absolute forefront of digital transformation, leveraging next-generation technologies such as 5G, AI, Blockchain, and Quantum Computing. This is your chance to thrive in a workplace recognized as one of the most sustainable corporations in the world. You will join an environment that values innovation and societal impact, working on end-to-end digital transformation projects for global leaders. If you are a driven professional looking for global career opportunities and exposure to high-impact projects within an international network of expertise, this is where you belong. We are currently searching for a Data Governance Consultant: Responsibilities: Define and document data governance policies, guidelines, and standards . Implement quality management models , data dictionaries, catalogs, and lineage. Establish roles and responsibilities within the governance framework ( Data Owners, Stewards, Custodians ). Perform data maturity assessments and propose improvement plans. Coordinate initiatives regarding data quality, security, privacy, and protection . Ensure compliance with applicable regulations (e.g., privacy, security, and audits). Collaborate with IT and business teams to enable corporate data management practices. Monitor Key Performance Indicators (KPIs) regarding information quality and availability. Requirements: At least 2 years of experience within the Banking/Financial industry . Strong proficiency in SQL . In-depth knowledge of the DAMA (DMBOK) framework . Desired: Knowledge of Python . Experience with Power BI . Languages Advanced Oral English. Advanced Spanish. Note: On-site | Hybrid | Fully remote | Temporarily remote due to COVID-19 | Work-from-home flexibility. If you meet these qualifications and are pursuing new challenges, start your application on our website to join an award-winning employer. Explore all our job openings | Sequoia Career\u2019s Page : https://www.sequoia-connect.com/careers/ Requirements Requirements: At least 2 years of experience within the Banking/Financial industry . Strong proficiency in SQL . In-depth knowledge of the DAMA (DMBOK) framework . Knowledge of Python . Experience with Power BI . Originally posted on Himalayas",
+      "location": "Mexico",
       "tags": [
-        "python",
-        "support",
-        "code",
-        "cloud",
-        "analytics",
-        "engineer",
-        "engineering",
-        "full-time"
+        "Data-Governance",
+        "Data-Management",
+        "Data-Quality",
+        "Data-Governance-Consultant",
+        "Banking-Technology"
       ],
-      "published_at": "2026-05-08T00:01:48+00:00",
+      "published_at": "",
       "is_remote": true,
-      "score": 19,
+      "score": 28,
       "matched_keywords": [
+        "data governance",
         "data quality",
-        "analytics engineer",
-        "bigquery",
-        "redshift",
+        "privacy",
+        "compliance",
+        "power bi",
         "sql",
         "remote"
       ],
-      "match_percentage": 55
+      "match_percentage": 35
     },
     {
-      "id": "arbeitnow:staff-backend-engineer-net-munchen-118155",
-      "source": "arbeitnow",
-      "title": "Staff Backend Engineer (.NET) (f/m/d)",
-      "company": "Apaleo",
-      "url": "https://www.arbeitnow.com/jobs/companies/apaleo/staff-backend-engineer-net-munchen-118155",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/apaleo/staff-backend-engineer-net-munchen-118155",
-      "description": "Join Apaleo and Shape the Future of Hospitality Tech! Apaleo is the world's most open, API-first property management platform powering the next generation of hospitality operations. Its modular, AI-powered infrastructure enables hoteliers to customise their tech stack, automate routine work, and deliver seamless, personalised guest experiences, powered by best-in-class apps and autonomous AI agents that adapt to every stay. If you're driven by the idea of making hospitality smarter, more human, and powered by cutting-edge technology, we'd love to hear from you. What You'll Be Up To Architecting and developing scalable, reliable, and maintainable backend systems in a modern tech environment. Championing architectural decisions and leading design discussions with a clear focus on long-term impact and cross-team alignment. Mentoring engineers and driving technical excellence through collaboration. Proactively identifying opportunities for technical innovation, system evolution, and performance improvements, especially in areas where AI and automation can play a role. Building and maintaining internal tools and infrastructure (AWS, Terraform) to empower teams to deliver faster and more reliably. Ensuring high platform availability by implementing best practices for observability, logging, and operational excellence. Participating in on-call rotations and stepping in as a reliable problem solver during incidents. What You'll Bring to the Team 8+ years of experience in backend development, with several years in a staff-level or technical leadership role. Expert-level knowledge of C# (.NET 8+) and strong hands-on experience with PostgreSQL (or solid SQL chops). Proven experience designing and scaling distributed systems in cloud-native environments (preferably AWS ). Comfortable working with containerized services and infrastructure-as-code (Docker, ECS, Kubernetes, Terraform). Hands-on experience with AI-assisted development tools (e.g., GitHub Copilot , Cursor AI , ChatGPT , Amazon CodeWhisperer ) to boost productivity, solve complex bugs, or auto-generate boilerplate code and documentation. A growth mindset and constant curiosity about how AI and automation can accelerate development, improve quality, and reduce toil. Strong advocate for AI enablement across engineering you think beyond code. Excellent collaboration and communication skills, you're able to clearly articulate your ideas, especially when introducing new tech like AI to cross-functional teams. A pragmatic approach to problem-solving, you know when to build custom vs. leverage existing AI tools. Experience with event-driven systems and streaming technologies (Kafka is a plus). Fluent in English. What We Offer Culture & Growth A Diverse & International Team: Work alongside passionate professionals from over 20 nationalities, bringing unique cultural perspectives, backgrounds, and experiences to shape the future of hospitality tech. Growth & Development: As we scale, so do your opportunities. You'll benefit from 360\u00b0 feedback reviews, a dedicated learning budget, and plenty of chances to take on more responsibility. Our evolving career framework ensures you have increasing opportunities to learn new skills, advance your career, and make an impact. Autonomy & Ownership: Great ideas can come from anywhere. We empower you to take responsibility, make decisions, and contribute directly in an environment built on trust, transparency, and collaboration. Shape the Future of Hospitality Tech: Be part of a fast-growing scale-up transforming the hospitality industry. From day one, your work drives real impact and you'll have the freedom to bring your ideas to life. Competitive & Fair Compensation: We believe great work deserves great pay. Our salaries are competitive and guided by benchmarking data to ensure fairness across all roles and teams. We make sure to recognize and reward performance and contribution. Perks & Lifestyle Flexible & Remote Work Options: We focus on results, not clocking hours. You can work from home, the office or in a hybrid setup, with flexibility to adapt your schedule as long as it makes sense for your role, your team and our business. Free Public Transport: Travel across Germany with ease using our fully covered Deutschland Ticket . Team Connection: Strong connections fuel collaboration. We celebrate and connect through regular team dinners, company meetups, Oktoberfest celebrations, Christmas parties, and other offsite events. Paid Time Off: Enjoy 30 days of vacation to fully disconnect, recharge, and return inspired. Health & Wellbeing: Prioritize your health with access to hundreds of gyms, fitness studios, and wellness options through our EGYM Wellpass membership. How you make an impact joining Apaleo: Joining Apaleo means more than just taking on a role, it's about driving real change in the hospitality industry. Your contributions will directly shape our innovative platform, influence company-wide decisions, and help redefine the future of hospitality tech. At Apaleo, your voice matters, your ideas are valued, and your impact is tangible. Be part of a team where your work fuels progress, collaboration sparks innovation, and growth is a shared journey. We are proud to be an Equal Opportunity and Affirmative Action Employer, committed to fostering a diverse, inclusive, and welcoming workplace. We encourage applications from individuals of all backgrounds, regardless of race, color, religion, gender identity or expression, sex, national origin, age, marital status, disability, or any other characteristic protected by applicable law. Your personal data will be handled with the utmost care and in compliance with GDPR and relevant data protection regulations. We celebrate differences and believe that diversity enriches our team and drives innovation. Find more English Speaking Jobs in Germany on Arbeitnow",
-      "location": "M\u00fcnchen, Bavaria, Germany",
-      "tags": [],
-      "published_at": "1778247922",
+      "id": "himalayas:https://himalayas.app/companies/look4it/jobs/sap-mdg-master-data-consultant",
+      "source": "himalayas",
+      "title": "SAP MDG/Master Data Consultant",
+      "company": "Look4IT",
+      "url": "https://himalayas.app/companies/look4it/jobs/sap-mdg-master-data-consultant",
+      "apply_url": "https://himalayas.app/companies/look4it/jobs/sap-mdg-master-data-consultant",
+      "description": "This is a remote position. For our client we are looking for a SAP MDG/Master Data Consultant. The clients Data Management Project is a cloud-based service that provides seamless and scalable access to business-critical data for decision making. The project aims to create a unified view of data across the enterprise, regardless of where it is stored, and to enable advanced analytics and data-driven intelligence. As a Data Management Consultant, you will be responsible for: Analyzing business requirements and translating them into functional and technical specifications. Developing custom solutions and enhancements based on sprint backlogs and user feedback. Fixing bugs and ensuring quality during user acceptance tests. Supporting and executing cut-over plans and data migration activities. Ensuring stable operations and performance of the data management platform. Providing expert advice or developing solutions using SAP MDG Technical and Integration technologies for meeting customer needs. Working from grooming user stories, preparing technical specifications and test cases. Working in a DevOps culture, sharing knowledge and being responsible for both build and operations. Requirements At least 3 years of experience in SAP data management, data governance, or data integration projects. Proficiency in SAP Data Intelligence Cloud, SAP Master Data Governance, SAP Extended Enterprise Content Management, SAP Data Services, and SAP Data Quality Management. Experience in SAP Datasphere, SAP Data Warehouse Cloud, or SAP HANA Cloud. Knowledge of data modeling, data architecture, data quality, and data security best practices. Experience in agile methodologies, DevOps tools, and cloud technologies. Excellent communication, collaboration, and problem-solving skills. Fluent in English. Originally posted on Himalayas",
+      "location": "United States",
+      "tags": [
+        "SAP-Consulting",
+        "Data-Governance",
+        "Master-Data-Management",
+        "Data-Management",
+        "SAP-ERP"
+      ],
+      "published_at": "",
       "is_remote": true,
-      "score": 19,
+      "score": 20,
       "matched_keywords": [
-        "gdpr",
+        "data governance",
+        "master data",
+        "data quality",
+        "remote"
+      ],
+      "match_percentage": 29
+    },
+    {
+      "id": "weworkremotely:https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
+      "source": "weworkremotely",
+      "title": "NoGigiddy: Remote Data Entry Clerk",
+      "company": "Unknown",
+      "url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
+      "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
+      "description": "Headquarters: Atlanta, Georgia URL: https://www.nogigiddy.com/ Job Summary: We are looking for a Remote Data Entry Clerk to join our team and help us maintain accurate and up-to-date information in our databases and systems. The ideal candidate will have excellent typing skills, an eye for detail, and the ability to work independently. This role is crucial to ensuring that our data is reliable and easily accessible to our team members and clients. Key Responsibilities: \u2022 Accurately enter data into various databases and systems from source documents within time limits \u2022 Review data for deficiencies or errors, correct any incompatibilities, and check the output \u2022 Verify data by comparing it to source documents \u2022 Update existing data and retrieve data from the database as requested \u2022 Perform regular backups to ensure data preservation \u2022 Organize and maintain files and records for efficient data retrieval \u2022 Collaborate with team members to address any discrepancies or issues with data entry \u2022 Maintain confidentiality and security of sensitive information Requirements: \u2022 Proven experience as a Data Entry Clerk or similar role \u2022 Excellent typing speed and accuracy \u2022 Strong attention to detail and ability to spot errors \u2022 Proficiency in using data entry software and Microsoft Office Suite (Word, Excel, etc.) \u2022 Ability to work independently and meet deadlines \u2022 Strong organizational and time management skills \u2022 Excellent communication skills, both written and verbal \u2022 High school diploma or equivalent; additional qualifications in data management or related fields are a plus Preferred Qualifications: \u2022 Experience with remote work and virtual collaboration tools \u2022 Familiarity with data protection regulations and best practices Compensation: \u2022 Competitive pay rate of $18 to $24 per hour \u2022 Flexible working hours and remote work environment \u2022 Opportunities for professional growth and development \u2022 Supportive and collaborative team culture \u2022 Access to the latest technology and tools to perform your job efficiently To apply: https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
+      "location": "Remote",
+      "tags": [
+        "All Other Remote"
+      ],
+      "published_at": "Tue, 11 Nov 2025 00:58:24 +0000",
+      "is_remote": true,
+      "score": 8,
+      "matched_keywords": [
         "data protection",
-        "compliance",
-        "sql",
-        "remote"
-      ],
-      "match_percentage": 22
-    },
-    {
-      "id": "arbeitnow:platform-data-engineer-full-time-100-remote-karlsruhe-472053",
-      "source": "arbeitnow",
-      "title": "Platform & Data Engineer Full-time \u00b7 100% Remote",
-      "company": "neoBIM GmbH",
-      "url": "https://www.arbeitnow.com/jobs/companies/neobim-gmbh/platform-data-engineer-full-time-100-remote-karlsruhe-472053",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/neobim-gmbh/platform-data-engineer-full-time-100-remote-karlsruhe-472053",
-      "description": "neoBIM is a cutting\u2011edge startup transforming the construction industry with AI\u2011powered Building Information Modeling (BIM). Co\u2011founded by industry pioneers, the company is on a mission to make BIM smarter, faster and more collaborative. With a growing team, neoBIM offers a collaborative work environment, a flexible but performance-oriented culture, and the chance to work on a project of global-scale ambition. We are currently recruiting for an experienced, hands-on Platform Engineer to help shape our infrastructure, improve system reliability, accelerate product development, and improve release cadence. Engineering Area The focus of this position is the design and operation of the data and infrastructure platform that our product and research teams build on. You will work closely with the platform team on critical infrastructure components and help scale the platform as the team and product grow. Tasks \u2022 Contribute to and evolve our cloud infrastructure across compute, storage, networking, IAM and security controls \u2022 Build and maintain CI/CD pipelines across a mixed TypeScript and Python codebase \u2022 Operate and improve our primary data stores \u2014 relational and graph databases \u2022 Design and implement data pipelines that move, transform and validate data across the platform \u2022 Implement observability \u2014 structured logging, distributed tracing and alerting \u2022 Contribute to security and compliance posture across services \u2022 Build internal developer tooling that makes iteration fast and safe \u2022 Support deployment and scaling of research workloads including GPU-based training runs Requirements Requirements Must have: \u2022 Solid hands-on experience with a major cloud provider \u2014 GCP preferred \u2022 Strong infrastructure-as-code practice \u2014 Terraform or Pulumi \u2022 Experience operating Postgres in production \u2022 Proficiency in CI/CD design and multi-environment deployments \u2022 Comfort working across TypeScript and Python codebases \u2022 Security-first mindset Nice to have: \u2022 Experience with graph databases \u2022 Familiarity with data pipeline tooling \u2022 Experience running GPU workloads on cloud infrastructure \u2022 Exposure to geospatial or domain-specific data formats Tech stack: GCP \u00b7 Postgres \u00b7 TypeScript \u00b7 Python \u00b7 Docker \u00b7 Terraform \u00b7 GitHub Actions Benefits \u2022 Work on a greenfield platform with direct research and product impact \u2022 Close collaboration with a small, senior engineering and AI team \u2022 Potential for continued growth and expanded responsibility \u2022 Flexible remote setup For any questions regarding this position, feel free to contact Felix directly via phone or messenger at +49 176 954222094. Find Jobs in Germany on Arbeitnow",
-      "location": "Karlsruhe",
-      "tags": [
-        "Remote",
-        "Software Development",
-        "remote"
-      ],
-      "published_at": "1778250643",
-      "is_remote": true,
-      "score": 10,
-      "matched_keywords": [
-        "compliance",
-        "iam",
-        "remote"
-      ],
-      "match_percentage": 19
-    },
-    {
-      "id": "arbeitnow:account-manager-managed-services-kritis-leipzig-312884",
-      "source": "arbeitnow",
-      "title": "Account Manager (m/w/d) Managed Services - KRITIS",
-      "company": "EWERK GROUP",
-      "url": "https://www.arbeitnow.com/jobs/companies/ewerk-group/account-manager-managed-services-kritis-leipzig-312884",
-      "apply_url": "https://www.arbeitnow.com/jobs/companies/ewerk-group/account-manager-managed-services-kritis-leipzig-312884",
-      "description": "Bist du ein passionierter Vertriebsexperte (m/w/d) mit einem starken Gesp\u00fcr f\u00fcr Markttrends und Kundenbed\u00fcrfnisse? Du hast Spa\u00df daran, Gesch\u00e4ftsbeziehungen aufzubauen und langfristige Erfolge zu sichern? Dann haben wir die perfekte Herausforderung f\u00fcr dich! Wir begleiteten Organisationen beim Betrieb komplexer IT\u2011Services. In diesem Umfeld \u00fcbernehmen wir Verantwortung f\u00fcr stabile, sichere und regelkonforme IT\u2011L\u00f6sungen \u2013 insbesondere dort, wo Verf\u00fcgbarkeit, Nachvollziehbarkeit und Compliance von zentraler Bedeutung sind. Zur Betreuung und Weiterentwicklung unserer Kunden im Umfeld kritischer Infrastrukturen suchen wir einen Account Manager (m/w/d) Managed Services . Was dich erwartet: Verantwortung f\u00fcr die Betreuung und Weiterentwicklung bestehender Kunden im KRITIS-Umfeld Zentrale Ansprechperson (m/w/d) f\u00fcr alle kaufm\u00e4nnischen und vertraglichen Themen im Account Weiterentwicklung von Managed\u2011Services\u2011Leistungen (Betrieb, Support, SLA\u2011basierte Services) Steuerung von Angebots\u2011, Vertrags\u2011 und Verl\u00e4ngerungsprozessen Enge Zusammenarbeit mit Service Delivery, Technik, Architektur und Projektmanagement Abstimmung von Leistungsinhalten, SLAs und Service\u2011Modellen entsprechend regulatorischer Vorgaben Aufbau langfristiger, vertrauensvoller Kundenbeziehungen auf Entscheidungs\u2011 und Managementebene Darauf freuen wir uns: Mehrj\u00e4hrige Erfahrung im Account Management oder servicenahen Vertrieb von IT\u2011Leistungen Erfahrung mit Managed Services und/oder IT\u2011Betriebsmodellen Idealerweise Ber\u00fchrungspunkte mit KRITIS\u2011relevanten Kunden oder regulierten Umfeldern Verst\u00e4ndnis f\u00fcr betriebliche IT\u2011Strukturen, Service\u2011Level\u2011Modelle und Vertragswerke Strukturierte, verl\u00e4ssliche Arbeitsweise und hohes Verantwortungsbewusstsein Sehr gute Deutsch\u2011 sowie gute Englischkenntnisse Unsere Benefits: Flexibilit\u00e4t ist unser Motto - Office, remote, Homeoffice oder Workation in der EU? Entscheide selbst! Familienfreundlich - Wir bieten flexible Arbeitszeiten f\u00fcr die optimale Work-Life-Balance und unterst\u00fctzen dich mit einem Kindergartenzuschuss. Gut versorgt am Arbeitsplatz - Bei uns erh\u00e4ltst du selbstverst\u00e4ndlich kostenlos Kaffee, Tee, Limonade, frisches Obst und die M\u00f6glichkeit, in unserer modernen Cafeteria zu kochen. Nachhaltige Mobilit\u00e4t - Mit dem JOB-Ticket sowie JobRad inkl. Fahrradgarage unterst\u00fctzen wir umweltfreundliche Mobilit\u00e4t und bieten dir die M\u00f6glichkeit, dich aktiv fortzubewegen. Deine Entwicklung im Fokus - Daf\u00fcr bieten wir dir ma\u00dfgeschneiderte Entwicklungsma\u00dfnahmen und regelm\u00e4\u00dfige Mitarbeitergespr\u00e4che Teamspirit und Spa\u00df - Freue dich auf Team- und Firmenevents, bei denen du deine Kolleginnen und Kollegen besser kennenlernen und gemeinsam Spa\u00df haben kannst. Fit und aktiv bleiben - In unserem hauseigenen PUMPWERK kannst du dich fit halten, an Kursen teilnehmen oder deinen eigenen Kurs gestalten. Und das sogar in deiner Arbeitszeit, denn eine Stunde pro Woche darfst du f\u00fcr Sport nutzen! Deine Gesundheit z\u00e4hlt - Ergonomisches Arbeiten mit h\u00f6henverstellbaren Schreibtischen, regelm\u00e4\u00dfige Gesundheitstage, unser hauseigener Fitnessraum, Karenztage und Besuche der Betriebs\u00e4rztin sorgen f\u00fcr dein gesundheitliches Wohlbefinden. Interessiert? EWERK lebt von Vielfalt. Wir freuen uns \u00fcber Bewerbungen von Menschen mit ganz verschiedenen Geschichten und Perspektiven. Alle personenbezogenen Formulierungen in der Stellenanzeige sind daher geschlechtsneutral zu betrachten. Potenzial ist bei uns willkommen, unabh\u00e4ngig von Identit\u00e4t oder Hintergrund. Find Jobs in Germany on Arbeitnow",
-      "location": "Leipzig",
-      "tags": [
-        "Management",
-        "Team Leader"
-      ],
-      "published_at": "1778286654",
-      "is_remote": true,
-      "score": 7,
-      "matched_keywords": [
-        "compliance",
         "remote"
       ],
       "match_percentage": 17
