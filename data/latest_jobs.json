@@ -1,91 +1,60 @@
 {
-  "refreshed_at": "2026-05-10T05:07:32Z",
+  "refreshed_at": "2026-05-11T05:38:33Z",
   "stats": {
-    "raw_jobs": 381,
-    "filtered_jobs": 43,
-    "deduplicated_jobs": 41,
-    "ranked_jobs": 3,
-    "returned_jobs": 3,
+    "raw_jobs": 388,
+    "filtered_jobs": 45,
+    "deduplicated_jobs": 43,
+    "ranked_jobs": 2,
+    "returned_jobs": 2,
     "exclude_history": true
   },
   "jobs": [
     {
-      "id": "himalayas:https://himalayas.app/companies/sequoia-connect/jobs/data-governance-consultant",
-      "source": "himalayas",
-      "title": "Data Governance Consultant",
-      "company": "Sequoia Connect",
-      "url": "https://himalayas.app/companies/sequoia-connect/jobs/data-governance-consultant",
-      "apply_url": "https://himalayas.app/companies/sequoia-connect/jobs/data-governance-consultant",
-      "description": "Description At Sequoia Connect , we are a Talent-First Technology Ecosystem that redefines how elite professionals interact with the global digital landscape. We move beyond traditional models to act as a catalyst for the top 1% of global talent, connecting human potential with complex industrial execution. By joining our inner circle, you are not simply taking a position; you are aligning with a strategic partner dedicated to updating your \"Human OS\" and accelerating your growth through world-class, high-impact projects. We are currently partnering with a global IT powerhouse that represents the connected world through innovative, customer-centric experiences. As a USD 6 billion organization and one of the top 7 IT service providers globally, our client empowers over 1,200 global customers\u2014including several Fortune 500 companies\u2014to \"Rise\u2122.\" With a massive network of 163,000+ professionals across 90 countries, they are at the absolute forefront of digital transformation, leveraging next-generation technologies such as 5G, AI, Blockchain, and Quantum Computing. This is your chance to thrive in a workplace recognized as one of the most sustainable corporations in the world. You will join an environment that values innovation and societal impact, working on end-to-end digital transformation projects for global leaders. If you are a driven professional looking for global career opportunities and exposure to high-impact projects within an international network of expertise, this is where you belong. We are currently searching for a Data Governance Consultant: Responsibilities: Define and document data governance policies, guidelines, and standards . Implement quality management models , data dictionaries, catalogs, and lineage. Establish roles and responsibilities within the governance framework ( Data Owners, Stewards, Custodians ). Perform data maturity assessments and propose improvement plans. Coordinate initiatives regarding data quality, security, privacy, and protection . Ensure compliance with applicable regulations (e.g., privacy, security, and audits). Collaborate with IT and business teams to enable corporate data management practices. Monitor Key Performance Indicators (KPIs) regarding information quality and availability. Requirements: At least 2 years of experience within the Banking/Financial industry . Strong proficiency in SQL . In-depth knowledge of the DAMA (DMBOK) framework . Desired: Knowledge of Python . Experience with Power BI . Languages Advanced Oral English. Advanced Spanish. Note: On-site | Hybrid | Fully remote | Temporarily remote due to COVID-19 | Work-from-home flexibility. If you meet these qualifications and are pursuing new challenges, start your application on our website to join an award-winning employer. Explore all our job openings | Sequoia Career\u2019s Page : https://www.sequoia-connect.com/careers/ Requirements Requirements: At least 2 years of experience within the Banking/Financial industry . Strong proficiency in SQL . In-depth knowledge of the DAMA (DMBOK) framework . Knowledge of Python . Experience with Power BI . Originally posted on Himalayas",
-      "location": "Mexico",
+      "id": "remoteok:1131532",
+      "source": "remoteok",
+      "title": "CNC Machinist Milling",
+      "company": "CX2",
+      "url": "https://remoteOK.com/remote-jobs/remote-cnc-machinist-milling-cx2-1131532",
+      "apply_url": "https://remoteOK.com/remote-jobs/remote-cnc-machinist-milling-cx2-1131532",
+      "description": "CX2 is a next-generation defense technology company founded to deliver spectrum dominance for the United States and our allies. CX2\u00e2\u0080\u0099s AI-enabled hardware and software platforms detect, disrupt and defend the electromagnetic spectrum across land, air, sea and space domains. CX2 is seeking an engaged, self-starting machinist who wants to own prototyping and small volume production. As the first CNC Machinist, you will be a key player in building out our machining capabilities for prototypes, tools and fixtures, and small batch production of flight critical components. You will touch all aspects of machining from procuring machines and cutting tools, programming, tooling, to assisting with one-off components and setups while ensuring critical dimensions are met. You will mentor and provide guidance to engineers, technicians and machine operators and act as an internal expert on CNC milling. As we scale the organization you will be pivotal in creating clever methods to increase production and reduce cycle times. This is a small but fast growing manufacturing team in a new facility. This role is a good fit for those who like to build, tinker, and tackle various machining tasks. We are looking for a dedicated and resourceful machinist who possesses a strong foundation in aerospace manufacturing of metal components. This role requires an onsite presence in our El Segundo, CA HQ; a remote work environment is not considered for this opportunity. \\n Key Responsibilities Operate 3 axis CNC mills Responsible for CAM and setup of CNC Mills and routers Help spec and purchase new machines and tools Interpret engineering blueprints, ensuring all components are machined to exact aerospace specifications Work with the tightest tolerances in a prototype-heavy, low-volume production environment Ability to work independently to solve machining challenges and provide feedback and process improvements to the engineering team Willingness to manage production data like CAM files Required Qualifications A minimum of 5 years of experience in CNC machining, with a strong background in prototyping and one-off production Minimum 2 years of experience with CAM software and ability to program 3 axis mills Ability to program and setup jobs for CNC mills with minimal assistance Experience working to aerospace manufacturing requirements such as AS9100D or ISO 9001 Experience interpreting blueprints and recommending machinability improvements Understanding of Geometric Dimensioning and Tolerancing (GD&T) principles Strong communication skills and ability to effectively interface with engineering, manufacturing, and production personnel ITAR Regulations To conform to U.S. Government export regulations, applicant must be a US Citizen, Green Card holder, or be eligible to obtain the required authorizations from the U.S. Department of State. Learn more about the ITAR here . Bonus Points Experience with aerospace flight hardware or drone manufacturing CNC Lathe setup, programming, and operation Conventional Mill and lathe operation Hand fabrication and prototyping experience Strong GD&T skills CAD experience (SolidWorks preferred) designing fixturing or workholding Physical Demands Lifting or carrying requirements (e.g., lift up to 50lbs) Standing or walking for long periods Repetitive motions (typing, assembly work) Bending, kneeling, climbing, or crouching Exposure to environmental conditions (noise, heat, hazardous materials) Use of equipment or manual dexterity requirements What We Offer Competitive rates, stock options and benefits, including health, vision and dental. 401K enrollment at 90 days Generous PTO + most Federal Holidays observed Collaborative and inclusive work environment Access to the latest tools and technologies High levels of responsibility and autonomy Professional growth and development opportunities Access to the hardest problems in electronic warfare \\n $40 - $60 an hour This position is non-exempt (hourly). Rates will be determined by experience level \\n CX2 is a next-generation defense technology company securing spectrum dominance for the United States and its allies. We build AI-enabled hardware and software platforms to detect, disrupt, and defend the electromagnetic spectrum across land, air, sea, and space. Our systems are deployed in the most contested operational environments in the world. We\u00e2\u0080\u0099re backed by leading venture investors in the defense ecosystem and led by founders with track records at Meta, SpaceX, Epirus, and the U.S. Department of Defense. Equal Opportunity Employer CX2 is committed to equal employment opportunity. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, gender identity, sexual orientation, national origin, disability, veteran status, or any other protected characteristic under federal, state, or local law, including those with a criminal history, in compliance with the CA Fair Chance Initiative for Hiring Ordinance. To view CX2's privacy policy, please visit: https://www.cx2.com/privacy Please mention the word **PLEASURABLY** and tag RMjYwNTo0YzQwOjQwOjU0YTY6MDozODk3OjI1Nzc6MQ== when applying to show you read the job post completely (#RMjYwNTo0YzQwOjQwOjU0YTY6MDozODk3OjI1Nzc6MQ==). This is a beta feature to avoid spam applicants. Companies can search these words to find applicants that read this and see they're human.",
+      "location": "El Segundo, CA",
       "tags": [
-        "Data-Governance",
-        "Data-Management",
-        "Data-Quality",
-        "Data-Governance-Consultant",
-        "Banking-Technology"
+        "software",
+        "growth",
+        "assembly",
+        "operational",
+        "engineering"
       ],
-      "published_at": "",
+      "published_at": "2026-05-09T16:00:33+00:00",
       "is_remote": true,
-      "score": 28,
+      "score": 12,
       "matched_keywords": [
-        "data governance",
-        "data quality",
         "privacy",
         "compliance",
-        "power bi",
-        "sql",
         "remote"
       ],
-      "match_percentage": 35
+      "match_percentage": 20
     },
     {
-      "id": "himalayas:https://himalayas.app/companies/look4it/jobs/sap-mdg-master-data-consultant",
-      "source": "himalayas",
-      "title": "SAP MDG/Master Data Consultant",
-      "company": "Look4IT",
-      "url": "https://himalayas.app/companies/look4it/jobs/sap-mdg-master-data-consultant",
-      "apply_url": "https://himalayas.app/companies/look4it/jobs/sap-mdg-master-data-consultant",
-      "description": "This is a remote position. For our client we are looking for a SAP MDG/Master Data Consultant. The clients Data Management Project is a cloud-based service that provides seamless and scalable access to business-critical data for decision making. The project aims to create a unified view of data across the enterprise, regardless of where it is stored, and to enable advanced analytics and data-driven intelligence. As a Data Management Consultant, you will be responsible for: Analyzing business requirements and translating them into functional and technical specifications. Developing custom solutions and enhancements based on sprint backlogs and user feedback. Fixing bugs and ensuring quality during user acceptance tests. Supporting and executing cut-over plans and data migration activities. Ensuring stable operations and performance of the data management platform. Providing expert advice or developing solutions using SAP MDG Technical and Integration technologies for meeting customer needs. Working from grooming user stories, preparing technical specifications and test cases. Working in a DevOps culture, sharing knowledge and being responsible for both build and operations. Requirements At least 3 years of experience in SAP data management, data governance, or data integration projects. Proficiency in SAP Data Intelligence Cloud, SAP Master Data Governance, SAP Extended Enterprise Content Management, SAP Data Services, and SAP Data Quality Management. Experience in SAP Datasphere, SAP Data Warehouse Cloud, or SAP HANA Cloud. Knowledge of data modeling, data architecture, data quality, and data security best practices. Experience in agile methodologies, DevOps tools, and cloud technologies. Excellent communication, collaboration, and problem-solving skills. Fluent in English. Originally posted on Himalayas",
-      "location": "United States",
-      "tags": [
-        "SAP-Consulting",
-        "Data-Governance",
-        "Master-Data-Management",
-        "Data-Management",
-        "SAP-ERP"
-      ],
-      "published_at": "",
-      "is_remote": true,
-      "score": 20,
-      "matched_keywords": [
-        "data governance",
-        "master data",
-        "data quality",
-        "remote"
-      ],
-      "match_percentage": 29
-    },
-    {
-      "id": "weworkremotely:https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
+      "id": "weworkremotely:https://weworkremotely.com/remote-jobs/flag-theory-multi-jurisdiction-accountant-for-an-international-client-portfolio-europe",
       "source": "weworkremotely",
-      "title": "NoGigiddy: Remote Data Entry Clerk",
+      "title": "Flag Theory: Multi-Jurisdiction Accountant for an International Client Portfolio (Europe)",
       "company": "Unknown",
-      "url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
-      "apply_url": "https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
-      "description": "Headquarters: Atlanta, Georgia URL: https://www.nogigiddy.com/ Job Summary: We are looking for a Remote Data Entry Clerk to join our team and help us maintain accurate and up-to-date information in our databases and systems. The ideal candidate will have excellent typing skills, an eye for detail, and the ability to work independently. This role is crucial to ensuring that our data is reliable and easily accessible to our team members and clients. Key Responsibilities: \u2022 Accurately enter data into various databases and systems from source documents within time limits \u2022 Review data for deficiencies or errors, correct any incompatibilities, and check the output \u2022 Verify data by comparing it to source documents \u2022 Update existing data and retrieve data from the database as requested \u2022 Perform regular backups to ensure data preservation \u2022 Organize and maintain files and records for efficient data retrieval \u2022 Collaborate with team members to address any discrepancies or issues with data entry \u2022 Maintain confidentiality and security of sensitive information Requirements: \u2022 Proven experience as a Data Entry Clerk or similar role \u2022 Excellent typing speed and accuracy \u2022 Strong attention to detail and ability to spot errors \u2022 Proficiency in using data entry software and Microsoft Office Suite (Word, Excel, etc.) \u2022 Ability to work independently and meet deadlines \u2022 Strong organizational and time management skills \u2022 Excellent communication skills, both written and verbal \u2022 High school diploma or equivalent; additional qualifications in data management or related fields are a plus Preferred Qualifications: \u2022 Experience with remote work and virtual collaboration tools \u2022 Familiarity with data protection regulations and best practices Compensation: \u2022 Competitive pay rate of $18 to $24 per hour \u2022 Flexible working hours and remote work environment \u2022 Opportunities for professional growth and development \u2022 Supportive and collaborative team culture \u2022 Access to the latest technology and tools to perform your job efficiently To apply: https://weworkremotely.com/remote-jobs/nogigiddy-remote-data-entry-clerk-7",
+      "url": "https://weworkremotely.com/remote-jobs/flag-theory-multi-jurisdiction-accountant-for-an-international-client-portfolio-europe",
+      "apply_url": "https://weworkremotely.com/remote-jobs/flag-theory-multi-jurisdiction-accountant-for-an-international-client-portfolio-europe",
+      "description": "Headquarters: Remote URL: https://flagtheory.com/ Remote in Europe I Contractor I Full Time We are seeking an experienced Multi-jurisdiction accounting professional to oversee accounting operations and financial reporting for a portfolio of client entities while managing a small accounting team. The successful candidate will be responsible for ensuring accurate financial reporting, regulatory compliance and efficient workflow allocation. Accounting Oversight & Team Management Manage and supervise a small team of accounting professionals, including allocation and review of work assignments Preparation of financial statements for client entities Ensure accounting entries, allocations, and supporting documentation are accurate and properly maintained Maintain organised accounting records and documentation for audit and regulatory review Financial Reporting & Client Deliverables Prepare and review periodic clients\u2019 financial statements, balance sheets, cash flow reports, and management accounts Support month-end and year-end closing processes Deliver timely financial reporting to clients Tax & Regulatory Coordination Prepare or oversee preparation of client tax returns and regulatory reporting Coordinate with external tax advisors, auditors, and regulatory professionals Ensure compliance with applicable accounting and reporting standards Qualifications & Experience Proven experience in an accounting or finance management role, preferably within a professional services or multi-entity environment Minimum 5 years of combined accounting, bookkeeping, and financial reporting experience, including supervision or review responsibilities Demonstrated experience preparing and reviewing financial statements and coordinating tax reporting obligations Experience managing accounting matters involving multi-jurisdictional or cross-border corporate structures Strong organisational, prioritisation, and team coordination skills, with the ability to allocate and review work effectively Experience in a client-facing finance or accounting role, managing multiple stakeholders and deadlines Thorough knowledge of accounting principles, financial reporting standards, and accounting procedures Practical experience with general ledger management and month-end and year-end close processes Advanced proficiency in spreadsheet modelling and financial systems Strong working knowledge and administrative experience with accounting software (e.g. Xero or similar platforms) Working Environment & Requirements Availability overlapping with Asian afternoon and European business hours Ideally located within the GMT+4 to GMT time zone range Ability to operate effectively in a low-ego, highly collaborative, and cross-functional environment, while maintaining a high degree of autonomy Adaptability to internal workflows, methodologies, and operational processes Reliable internet connection and professional, distraction-free remote working environment (home office or co-working space) Fluent written and spoken English Nice to have Prior experience working in a fully remote or distributed team environment Familiarity with digital assets, blockchain, or cryptocurrency-related businesses Experience working with technology-driven, startup, or high-growth organisations What we offer Flexible, remote work environment Long-term commitment and professional growth opportunities Compensation based on experience 20 paid vacation days per year Location: Remote in Europe, Contractor, Full time Please apply using this link: https://forms.gle/fJkQLcGqiNne6drB8 To apply: https://weworkremotely.com/remote-jobs/flag-theory-multi-jurisdiction-accountant-for-an-international-client-portfolio-europe",
       "location": "Remote",
       "tags": [
-        "All Other Remote"
+        "Management and Finance"
       ],
-      "published_at": "Tue, 11 Nov 2025 00:58:24 +0000",
+      "published_at": "Fri, 10 Apr 2026 11:58:37 +0000",
       "is_remote": true,
-      "score": 8,
+      "score": 7,
       "matched_keywords": [
-        "data protection",
+        "compliance",
         "remote"
       ],
-      "match_percentage": 17
+      "match_percentage": 18
     }
   ]
 }
